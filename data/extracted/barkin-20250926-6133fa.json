@@ -1,0 +1,83 @@
+{
+  "speech_id": "barkin-20250926-6133fa",
+  "title": "Staying Sanguine About the Horizon",
+  "date": "2025-09-26",
+  "non_policy": false,
+  "summary": "Barkin acknowledges the ground looks shaky on both mandate sides but argues the horizon is more stable. He details downward pressure on employment (three-month job growth just 29,000, unemployment up to 4.3 percent, a 'wobbly' labor market) yet sees limited downside given shrinking labor supply, solid demand, and lean staffing. On inflation, above target at 2.7 percent (core 2.9 percent) for 4.5 years with tariff passthrough still coming, he is again sanguine, citing reluctant price-setters, productivity gains, and consumer pushback. He explains the FOMC's recent 25 bps cut to just over 4 percent as moving toward a more neutral stance to support the labor market while still maintaining pressure on inflation.",
+  "key_quotes": [
+    {
+      "quote": "Now, with inflation risks still elevated but the downside risks to employment rising, we face a more challenging situation. We are at the top of the telephone pole, if you will. With our two mandate goals in tension, our focus is more about balance.",
+      "context": "His shift from inflation-focus to balanced mandate.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "At our last meeting, we cut the federal funds rate by 25 basis points to just over 4 percent, moving toward a more neutral policy stance.",
+      "context": "Supporting the September cut toward neutral.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "This should help support the labor market while maintaining pressure on inflation, in the interest of keeping the economy on path to that more stable horizon.",
+      "context": "Rationale balancing the cut against still-restrictive intent.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "If they can be replaced with short notice, that’s a sign that the labor market has started to seem a little wobbly.",
+      "context": "Evidence the labor market is softening.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -0.5,
+    "mandate_weight": 0,
+    "inflation_conviction": 3,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250926",
+  "tone_score": {
+    "net_tone": -0.1762,
+    "hawk_hits": 2,
+    "dove_hits": 7,
+    "tokens": 1578
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "dovish"
+    }
+  }
+}

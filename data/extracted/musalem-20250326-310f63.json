@@ -1,0 +1,65 @@
+{
+  "speech_id": "musalem-20250326-310f63",
+  "member_id": "musalem",
+  "title": "Remarks on the U.S. Economic Outlook and Monetary Policy",
+  "date": "2025-03-26",
+  "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/remarks-on-us-economic-outlook-and-monetary-policy",
+  "source": "stlouis",
+  "non_policy": false,
+  "summary": "Musalem judges that the economy is still expanding but at a moderated pace, with a healthy full-employment labor market, while inflation remains elevated and has made limited progress toward 2% since mid-2024. He sees risks skewed toward inflation stalling above or rising near target, driven largely by tariffs whose indirect second-round effects he would 'lean against' even as he might 'look through' one-time direct price-level effects. He supported holding the funds rate unchanged and characterizes current policy as 'modestly restrictive,' arguing it should stay appropriate (or possibly tighten) if inflation persists, and could ease only if the labor market deteriorates with expectations anchored. He stresses keeping medium- to longer-term inflation expectations anchored as central to policy and advocates a patient, vigilant, data-dependent approach.",
+  "key_quotes": [
+    {
+      "quote": "There is more work to do to bring inflation down to our 2% target.",
+      "context": "Second of his three main observations, framing inflation as the binding concern.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "If the economy remains strong and inflation remains above our target, then I believe the current, modestly restrictive policy will remain appropriate until there is confidence inflation is converging to 2%.",
+      "context": "Reaction function in the Monetary Policy framing; characterizes current stance and conditions for holding.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I would be especially vigilant about indirect, second-round effects on inflation. I would also be uncomfortable if medium- to longer-term inflation expectations begin to rise.",
+      "context": "On tariffs; signals leaning against persistent inflation rather than full look-through.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "If labor market conditions were to deteriorate, with inflation stable or declining toward target and inflation expectations anchored at a level consistent with 2% inflation, policy could be eased further.",
+      "context": "Acknowledges the conditional dovish path; supports a hold with patient bias.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "balance_sheet_qt"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 1, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 1, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0791,
+    "hawk_hits": 14,
+    "dove_hits": 13,
+    "tokens": 2557
+  }
+}

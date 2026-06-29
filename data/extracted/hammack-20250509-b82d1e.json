@@ -1,0 +1,66 @@
+{
+  "speech_id": "hammack-20250509-b82d1e",
+  "member_id": "hammack",
+  "title": "The Outlook for the Economy and Monetary Policy",
+  "date": "2025-05-09",
+  "url": "https://www.clevelandfed.org/collections/speeches/2025/sp-20250509-the-outlook-for-the-economy-and-monetary-policy",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "An outlook speech stressing two-sided risks amid tariff uncertainty. Hammack makes a 'strong case to hold monetary policy steady at its current modestly restrictive setting,' saying that although she is usually inclined to act, inaction may best balance risks of further elevated inflation against a slowing labor market. She sees a healthy labor market (4.2 percent unemployment) and above-target trend inflation (headline PCE 2.3 percent), with tariffs a substantive trade-policy change whose effects will take time to show. She is open in both directions\u2014possibly quick cuts if the economy falters, or a more restrictive path if inflation persists\u2014and closes with structural musings on r-star, the balance sheet, and private-credit financial-stability risks.",
+  "key_quotes": [
+    {
+      "quote": "Given the economy\u2019s starting point, with inflation still elevated and with both sides of our mandate expected to be under pressure, there is a strong case to hold monetary policy steady at its current modestly restrictive setting.",
+      "context": "Her central policy recommendation",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "I am usually inclined to take action; but in this case, taking no action may be the best choice to balance the risks coming from further elevated inflation and a slowing labor market.",
+      "context": "Balanced, on-hold framing of the dual mandate",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "My view that monetary policy is only modestly restrictive is based on my assessment that the economy has been resilient, the labor market has been healthy, and inflation has come down only slowly under the current setting.",
+      "context": "Her policy-stance read",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "If the economy should falter and inflation decline, then it may be appropriate to ease policy by lowering the federal funds rate from its current level, perhaps even quickly.",
+      "context": "Conditional dovish scenario showing two-sided openness",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "r_star",
+      "balance_sheet_qt",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1175,
+    "hawk_hits": 10,
+    "dove_hits": 5,
+    "tokens": 1811
+  }
+}

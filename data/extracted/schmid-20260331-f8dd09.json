@@ -1,0 +1,83 @@
+{
+  "speech_id": "schmid-20260331-f8dd09",
+  "member_id": "schmid",
+  "title": "The Economic Outlook and Monetary Policy",
+  "date": "2026-03-31",
+  "url": "https://www.kansascityfed.org/speeches/the-economic-outlook-and-monetary-policy-march-2026-oklahoma-city/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "To the Oklahoma City Rotary Club, Schmid lays out economic tailwinds (solid demand, strong productivity, low unemployment near 4.4%) and headwinds (slowing workforce growth and a fresh oil-price shock tied to the Iran conflict). He judges the labor market broadly in balance despite near-zero job growth, since the working-age population is barely growing. His central message is that he is more focused on inflation risk than employment risk: inflation has run above target for five years and progress has stalled near 3%, and the oil shock arrives when inflation is already too high for too long. He explicitly rejects treating the energy-driven price rise as transitory and warns inflation could get stuck closer to 3% than 2%.",
+  "key_quotes": [
+    {
+      "quote": "As I weigh those tradeoffs, I'm more focused on the risks to inflation at this time.",
+      "context": "Stating how he balances the dual mandate amid cross-currents.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "However, this oil shock comes at a time when inflation already has been too high for too long.",
+      "context": "On why he will not look through the energy price increase.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Notwithstanding some risks to employment during this period of structural change—stemming from both aging and slower labor force growth—it seems that the labor market is adjusting and remains broadly in balance.",
+      "context": "His assessment of the labor market despite near-zero hiring.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "We must remain focused on our headline inflation objective, otherwise I believe there is a real risk that inflation will get stuck closer to 3 percent than 2 percent in the long run.",
+      "context": "Closing argument on the importance of keeping policy focused on inflation.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1.5,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "fiscal",
+      "ai_productivity",
+      "immigration"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0387,
+    "hawk_hits": 0,
+    "dove_hits": 2,
+    "tokens": 2673
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "hawkish"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "speech_id": "collins-20250625-650049",
+  "member_id": "collins",
+  "title": "Perspectives on the Economy from Susan M. Collins",
+  "date": "2025-06-25",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2025/economic-perspectives-in-ma.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "Collins describes a still-solid economy and supports the June FOMC decision to hold the funds rate at 4.25-4.5%, calling policy modestly restrictive and well positioned. She expects an effective tariff rate near 15% to add about a percentage point to inflation, pushing core PCE somewhat above 3% by year-end, and sees upside risks to inflation alongside downside risks to growth and the labor market. She endorses an actively patient approach and still expects gradual normalization to resume later in the year, conditional on tariff price pressures not destabilizing inflation expectations.",
+  "key_quotes": [
+    {
+      "quote": "I see monetary policy as currently well positioned, and I supported last week\u2019s FOMC decision to maintain the target range for the federal funds rate at 4\u00bc to 4\u00bd percent.",
+      "context": "Supported holding rates steady in June",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "I continue to see upside risks to my outlook for inflation and downside risks to my outlook for economic growth and the labor market.",
+      "context": "Balance-of-risks framing tilted to inflation upside",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "an effective tariff rate around 15 percent is still significant, and is likely to boost inflation by about one percentage point, pushing core PCE inflation somewhat above 3 percent by the end of this year.",
+      "context": "Quantified tariff-driven inflation upside",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "For now, however, I see the current monetary policy stance as modestly restrictive, and well positioned to address a range of possible outcomes.",
+      "context": "Read of the current stance",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 2,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "fiscal",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0138,
+    "hawk_hits": 7,
+    "dove_hits": 5,
+    "tokens": 1306
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 1, "push": "neutral"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "neutral"}
+  }
+}

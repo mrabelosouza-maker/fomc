@@ -1,0 +1,65 @@
+{
+  "speech_id": "waller-20260223-bc12bb",
+  "member_id": "waller",
+  "title": "Labor Market Data: Signal or Noise?",
+  "date": "2026-02-23",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller revisits his January dissent in favor of a cut and weighs a surprisingly strong January jobs report against a very weak 2025 labor market, treating the question of whether the rebound is 'signal or noise' as roughly a coin flip. He continues to view underlying inflation (ex-tariffs) as close to 2 percent and reaffirms that policy should look through tariffs, so inflation is not his binding concern. He says that if the February data confirm a labor-market turnaround his view could tilt toward a pause/hold, but if the January strength is revised away or evaporates, a 25bp cut at the March meeting would be warranted. The speech is genuinely two-sided and data-dependent, less unambiguously dovish than his prior statements while still carrying a lingering bias toward easing if the labor data disappoint.",
+  "key_quotes": [
+    {
+      "quote": "Underlying inflation was running close to 2 percent while the labor market remained at risk, and these circumstances led me to favor another cut in January, and to dissent against the Committee's decision.",
+      "context": "Restates his dovish January dissent and the reasoning behind it.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "As things stand today, I rate these two possible outcomes as close to a coin flip.",
+      "context": "Frames hold-vs-cut as evenly balanced pending February data \u2014 the crux of his data-dependent stance.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Even so, I continue to believe that close to zero net job creation over 2025 indicates a weak, and fragile job market, and this is some important context for the data we received in January.",
+      "context": "Persistent concern about labor-market fragility despite the strong January print.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "So, I estimate that what I call underlying inflation\u2014inflation without the effects of tariffs\u2014is close to the FOMC's 2 percent goal.",
+      "context": "Low inflation conviction: he sees underlying inflation essentially on target.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1.5,
+    "mandate_weight": -2,
+    "inflation_conviction": 1.5,
+    "labor_concern": 3.5,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 1, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.26,
+    "hawk_hits": 2,
+    "dove_hits": 12,
+    "tokens": 2695
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "speech_id": "musalem-20250220-c5b7ea",
+  "member_id": "musalem",
+  "title": "Remarks on the Economic Outlook and Alternative Scenarios",
+  "date": "2025-02-20",
+  "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/remarks-on-economic-outlook-and-alternative-scenarios",
+  "source": "stlouis",
+  "non_policy": false,
+  "summary": "Musalem judges the economy and monetary policy to be in a good place and argues for patience, supporting the FOMC's January hold at 4.25%-4.50% because growth is robust, the labor market solid, and inflation still above target. He views policy as only modestly restrictive after the fall's 100bps of cuts, and would keep it there until there is confidence inflation is converging to 2%, easing further only if the labor market deteriorates with expectations anchored. His risk assessment is asymmetric: he sees the risk that disinflation stalls or reverses as greater than the risk of substantial labor-market weakening, with inflation risks skewed to the upside amid recently rising inflation expectations. He flags an alternative scenario where tariffs/immigration lift prices while cooling demand, in which a more restrictive path than baseline could be warranted, and places a high priority on keeping longer-term inflation expectations anchored.",
+  "key_quotes": [
+    {
+      "quote": "I perceive the risk that progress on inflation could stall as being greater than the risk of substantial labor market weakening.",
+      "context": "Conclusion; states his asymmetric risk assessment tilting toward inflation.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Around this baseline scenario, the risks of inflation stalling above 2% or moving higher seem skewed to the upside.",
+      "context": "Alternative scenarios section; characterizing inflation risk distribution.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "After 100 basis points of interest rate cuts in the fall, I judge that monetary policy is modestly restrictive, and meaningfully less restrictive than it was six months ago.",
+      "context": "Opening; his read of the current policy stance.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "If the economy remains strong and inflation remains above target, then I believe that modestly restrictive policy will remain appropriate until there is confidence that inflation is converging to the FOMC's 2% target.",
+      "context": "States his near-term bias to hold policy steady pending inflation convergence.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "r_star",
+      "fiscal"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 1, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0719,
+    "hawk_hits": 14,
+    "dove_hits": 9,
+    "tokens": 1741
+  }
+}

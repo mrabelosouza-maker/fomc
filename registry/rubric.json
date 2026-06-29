@@ -1,0 +1,70 @@
+{
+  "rubric_version": "1.0",
+  "scale_note": "Score each speech ONLY from its own text. Use coarse values (integers or .5), never false precision. If the speech does not speak to a dimension, use null for that dimension (do NOT guess 0). Hawkish = leans toward tighter policy / more worried about inflation; dovish = leans toward easier policy / more worried about employment.",
+  "dimensions": [
+    {
+      "id": "composite_hawk_dove",
+      "label": "Hawk-dove composite",
+      "scale": [-5, 5],
+      "anchors": {"-5": "strongly dovish (wants cuts now / very worried about labor)", "0": "balanced / on hold", "5": "strongly hawkish (wants holds-or-hikes / very worried about inflation)"},
+      "guide": "Overall lean of THIS speech's monetary-policy message. The headline number."
+    },
+    {
+      "id": "mandate_weight",
+      "label": "Mandate weighting",
+      "scale": [-5, 5],
+      "anchors": {"-5": "almost all weight on employment / max-employment side", "0": "balanced dual mandate", "5": "almost all weight on price stability / inflation"},
+      "guide": "Which side of the dual mandate the speaker emphasizes as the binding concern."
+    },
+    {
+      "id": "inflation_conviction",
+      "label": "Inflation conviction",
+      "scale": [0, 5],
+      "anchors": {"0": "confident disinflation is essentially done / on track", "5": "worried inflation is persistent / re-accelerating / tariff-driven upside"},
+      "guide": "How worried the speaker is that inflation will NOT return to 2% on its own."
+    },
+    {
+      "id": "labor_concern",
+      "label": "Labor-market concern",
+      "scale": [0, 5],
+      "anchors": {"0": "relaxed, labor market solid/strong", "5": "alarmed about labor-market deterioration / downside risk to jobs"},
+      "guide": "How worried the speaker is about a weakening labor market."
+    },
+    {
+      "id": "policy_stance_read",
+      "label": "Policy-stance read",
+      "scale": [0, 5],
+      "anchors": {"0": "policy is at/near neutral or even loose; little room/need to keep it tight", "5": "policy is clearly restrictive and should stay restrictive"},
+      "guide": "How restrictive the speaker judges the CURRENT stance to be (and implicitly how much room to cut)."
+    }
+  ],
+  "near_term_bias": {
+    "id": "near_term_bias",
+    "label": "Near-term policy bias",
+    "direction_enum": ["cut", "hold", "hike", "unclear"],
+    "pace_enum": ["urgent", "gradual", "patient", "data-dependent", "n/a"],
+    "guide": "The speaker's near-term inclination for the next move(s) and the pace they signal."
+  },
+  "theme_flags": {
+    "id": "theme_flags",
+    "label": "Idiosyncratic themes",
+    "allowed": ["tariffs", "ai_productivity", "financial_stability", "fed_independence", "balance_sheet_qt", "immigration", "fiscal", "housing", "dollar", "r_star"],
+    "guide": "Tag the policy-relevant themes the speaker leans on. Empty list if none stand out."
+  },
+  "drivers": {
+    "id": "drivers",
+    "label": "Drivers of the policy stance",
+    "guide": "Decompose WHY the speaker holds the stance they do IN THIS SPEECH. For each driver give an `intensity` 0-3 (0 = not a factor / not mentioned; 1 = mentioned; 2 = important; 3 = central to their policy argument) and a `push` in {hawkish, dovish, neutral} = which way this factor pushes THEIR policy lean. Example: an oil/war supply shock a speaker fears will raise inflation persistently -> oil_war intensity 3, push hawkish; a labor market they see as stable-but-not-booming and no longer a reason to cut -> labor_market intensity 2, push neutral. This is the heart of the 'why are they turning hawkish/dovish' decomposition, so be precise and ground each in the text.",
+    "items": [
+      {"id": "oil_war", "label": "Oil / war (supply shock)", "covers": "energy/oil prices, the Middle East conflict, geopolitical or other supply-side cost shocks, input-cost pressure from energy"},
+      {"id": "underlying_inflation", "label": "Underlying inflation / broadening", "covers": "core/underlying inflation persistence and stickiness, BROADENING/diffusion across categories, services ex-housing, inflation expectations becoming unanchored, the cumulative >2% overshoot"},
+      {"id": "tariffs", "label": "Tariffs", "covers": "tariff-driven goods-price pressure, whether to look through it, pass-through"},
+      {"id": "labor_market", "label": "Labor market", "covers": "labor tightness/looseness; weakening jobs (dovish push) vs solid/tight labor or low unemployment removing the case to ease (hawkish/neutral push)"},
+      {"id": "growth_demand", "label": "Activity / demand", "covers": "GDP/consumer-spending strength (hawkish) or weakness/recession risk (dovish), AI investment boom"},
+      {"id": "other", "label": "Other (FCI, fiscal, r*, independence)", "covers": "financial conditions/stability, fiscal/debt, the level of r*, productivity as a rate driver, Fed-independence considerations, the current restrictive policy setting itself"}
+    ]
+  },
+  "non_policy_rule": "Set non_policy=true when the speech is essentially about bank regulation, payments/stablecoins, community development, ceremonial/acceptance remarks, or operations, with no substantive read on the macro outlook or the stance of monetary policy. Such speeches are kept in the corpus but down-weighted in the reaction-function aggregation.",
+  "summary_rule": "summary = one tight paragraph (3-5 sentences), plain English, focused on the speaker's MONETARY-POLICY message (their read of inflation, labor, the stance, and where they lean). Not a generic abstract.",
+  "quotes_rule": "key_quotes = 2-4 VERBATIM sentences from the speech that best reveal the reaction function, each tagged with the dimension it speaks to and a short surrounding-context note so it is auditable. Do not paraphrase inside quote text."
+}

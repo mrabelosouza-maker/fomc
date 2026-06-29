@@ -1,0 +1,81 @@
+{
+  "speech_id": "schmid-20251212-de32a8",
+  "member_id": "schmid",
+  "title": "Dissent Statement by Jeff Schmid",
+  "date": "2025-12-12",
+  "url": "https://www.kansascityfed.org/speeches/dissent-statement-by-jeff-schmid-december-2025/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "In his statement on the December 9-10, 2025 FOMC meeting, Schmid explains his preference to leave the target range unchanged (a dissent from the cut). He says little has changed since October: inflation remains too high, the economy shows continued momentum, and the labor market though cooling remains largely in balance, while policy is only modestly, if at all, restrictive. He stresses district contacts' persistent inflation concerns and warns that rising inflation uncertainty could reverse decades of gains in inflation credibility and push up long-term interest rates. He judges policy is not overly restrictive given economic momentum and hot inflation.",
+  "key_quotes": [
+    {
+      "quote": "Inflation remains too high, the economy shows continued momentum, and the labor market—though cooling—remains largely in balance.",
+      "context": "His summary assessment justifying a hold rather than a cut.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "With this assessment, my preference was to leave the target range for the policy rate unchanged at this week's meeting.",
+      "context": "His dissenting preference at the December meeting.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "I view the current stance of monetary policy as being only modestly, if at all, restrictive.",
+      "context": "His read of how restrictive current policy is.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Right now, I see an economy that is showing momentum and inflation that is too hot, suggesting that policy is not overly restrictive.",
+      "context": "Closing judgment tying momentum and hot inflation to a non-restrictive stance.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1.5,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1376,
+    "hawk_hits": 5,
+    "dove_hits": 0,
+    "tokens": 475
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  }
+}

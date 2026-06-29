@@ -1,0 +1,81 @@
+{
+  "speech_id": "schmid-20250624-2434b7",
+  "member_id": "schmid",
+  "title": "Remarks on the Outlook and Monetary Policy",
+  "date": "2025-06-24",
+  "url": "https://www.kansascityfed.org/speeches/remarks-on-the-outlook-and-monetary-policy/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "At the KC Fed Agricultural Summit in Omaha, Schmid spends much of the speech on agriculture and a proposal to redefine core inflation to exclude only energy (not food), but he also gives a clear policy read. He judges the Fed very near both sides of its mandate, with May inflation just above 2% and unemployment at 4.2% near equilibrium. Given high tariff-related uncertainty and the long lags of policy, he endorses the FOMC's current 'wait-and-see' posture as appropriate, saying the economy's resilience buys time to watch how prices develop. His tone is more balanced and patient than his later 2025 speeches, with inflation vigilance but no push to either cut or hike.",
+  "key_quotes": [
+    {
+      "quote": "Currently we are as close to meeting our mandate as we have been in quite some time.",
+      "context": "His overall assessment of progress on the dual mandate in June.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "With all this uncertainty, the current posture of monetary policy, which has been characterized as \"wait-and-see,\" is appropriate.",
+      "context": "Endorsing the FOMC's patient hold given tariff uncertainty.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Certainly, with the inflation of the past couple of years still in people's minds, I will be carefully watching the monthly price data for signs of broad-based price increases that might further challenge an already fragile price-setting psychology.",
+      "context": "His continuing inflation vigilance despite progress.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "All in all, the labor market now appears to be in a good place, with the unemployment rate at 4.2 percent, very close to many estimates of an equilibrium rate where labor market conditions are neither contributing to nor subtracting from inflation.",
+      "context": "His read on the labor market being near equilibrium.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": 1,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1166,
+    "hawk_hits": 1,
+    "dove_hits": 6,
+    "tokens": 2225
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  }
+}

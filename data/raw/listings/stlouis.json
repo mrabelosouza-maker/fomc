@@ -1,0 +1,16 @@
+{
+  "source": "stlouis",
+  "collected_at": "2026-06-20",
+  "note": "President Alberto G. Musalem (member_id=musalem), St. Louis Fed, non-voter 2026. stlouisfed.org blocks direct fetch (HTTP 403) in this environment; listing assembled via WebSearch over site:stlouisfed.org/from-the-president/remarks and confirmed against fedinprint/host-institution mirrors. Prepared monetary-policy/outlook remarks since 2025-01-01 (media interviews and informal Q&A-only items excluded as non-speech).",
+  "speeches": [
+    {"member_id": "musalem", "speech_id": "musalem-20260528-c3d097", "date": "2026-05-28", "title": "How Should the Promise of Higher Productivity Growth Change the Reality of Monetary Policy Today?", "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/productivity-growth-and-monetary-policy-iceland", "source": "stlouis"},
+    {"member_id": "musalem", "speech_id": "musalem-20260401-f8dd09", "date": "2026-04-01", "title": "The Economic Outlook and Monetary Policy", "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/economic-outlook-monetary-policy-aei", "source": "stlouis"},
+    {"member_id": "musalem", "speech_id": "musalem-20260130-b9004b", "date": "2026-01-30", "title": "U.S. Economic Outlook and Monetary Policy", "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/us-economic-outlook-monetary-policy-university-arkansas", "source": "stlouis"},
+    {"member_id": "musalem", "speech_id": "musalem-20250922-1d0610", "date": "2025-09-22", "title": "Remarks on the Economic Outlook, the Balance of Risks and Monetary Policy", "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/brookings-institution-economic-outlook-balance-risks-monetary-policy", "source": "stlouis"},
+    {"member_id": "musalem", "speech_id": "musalem-20250903-f7091c", "date": "2025-09-03", "title": "Economic Conditions, Risks and Monetary Policy", "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/economic-conditions-risks-monetary-policy-remarks-peterson-institute", "source": "stlouis"},
+    {"member_id": "musalem", "speech_id": "musalem-20250520-5e8074", "date": "2025-05-20", "title": "Economic Conditions and Monetary Policy", "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/economic-conditions-and-monetary-policy-remarks-economic-club-of-minnesota", "source": "stlouis"},
+    {"member_id": "musalem", "speech_id": "musalem-20250326-310f63", "date": "2025-03-26", "title": "Remarks on the U.S. Economic Outlook and Monetary Policy", "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/remarks-on-us-economic-outlook-and-monetary-policy", "source": "stlouis"},
+    {"member_id": "musalem", "speech_id": "musalem-20250303-1febe0", "date": "2025-03-03", "title": "Remarks on the Economic Outlook and Monetary Policy", "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/remarks-on-economic-outlook-and-monetary-policy", "source": "stlouis"},
+    {"member_id": "musalem", "speech_id": "musalem-20250220-c5b7ea", "date": "2025-02-20", "title": "Remarks on the Economic Outlook and Alternative Scenarios", "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/remarks-on-economic-outlook-and-alternative-scenarios", "source": "stlouis"}
+  ]
+}

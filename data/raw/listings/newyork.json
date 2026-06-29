@@ -1,0 +1,126 @@
+{
+  "source": "newyork",
+  "collected_at": "2026-06-20",
+  "speeches": [
+    {
+      "member_id": "williams",
+      "date": "2026-06-25",
+      "title": "The Strategy and the Goals",
+      "url": "https://tellerwindow.newyorkfed.org/2026/06/25/the-strategy-and-the-goals/",
+      "source": "newyork",
+      "speech_id": "williams-20260625-319d97"
+    },
+    {
+      "member_id": "williams",
+      "date": "2026-05-28",
+      "title": "Productivity Growth and the Challenge of Real-Time Policymaking",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260528",
+      "source": "newyork",
+      "speech_id": "williams-20260528-c792a0"
+    },
+    {
+      "member_id": "williams",
+      "date": "2026-05-04",
+      "title": "There Is No Try",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260504",
+      "source": "newyork",
+      "speech_id": "williams-20260504-134503"
+    },
+    {
+      "member_id": "williams",
+      "date": "2026-04-16",
+      "title": "The Cosmos",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260416",
+      "source": "newyork",
+      "speech_id": "williams-20260416-cbd36b"
+    },
+    {
+      "member_id": "williams",
+      "date": "2026-03-30",
+      "title": "Ferrying Through the Crosscurrents",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260330",
+      "source": "newyork",
+      "speech_id": "williams-20260330-b5e9ad"
+    },
+    {
+      "member_id": "williams",
+      "date": "2026-03-03",
+      "title": "Two Sides of a Coin",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260303",
+      "source": "newyork",
+      "speech_id": "williams-20260303-fcfa50"
+    },
+    {
+      "member_id": "williams",
+      "date": "2026-01-12",
+      "title": "A Few Words for the New Year",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260112",
+      "source": "newyork",
+      "speech_id": "williams-20260112-591c6c"
+    },
+    {
+      "member_id": "williams",
+      "date": "2025-12-15",
+      "title": "Resilience",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil251215",
+      "source": "newyork",
+      "speech_id": "williams-20251215-d5e7b9"
+    },
+    {
+      "member_id": "williams",
+      "date": "2025-11-21",
+      "title": "Navigating Unpredictable Terrain",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil251121",
+      "source": "newyork",
+      "speech_id": "williams-20251121-57b569"
+    },
+    {
+      "member_id": "williams",
+      "date": "2025-11-12",
+      "title": "Next Level Unlocked",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil251112",
+      "source": "newyork",
+      "speech_id": "williams-20251112-d89aef"
+    },
+    {
+      "member_id": "williams",
+      "date": "2025-11-07",
+      "title": "Theory and Practice of Monetary Policy Implementation",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil251107",
+      "source": "newyork",
+      "speech_id": "williams-20251107-a471e0"
+    },
+    {
+      "member_id": "williams",
+      "date": "2025-10-03",
+      "title": "Prepare for the Unexpected",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil251003",
+      "source": "newyork",
+      "speech_id": "williams-20251003-9543a4"
+    },
+    {
+      "member_id": "williams",
+      "date": "2025-07-16",
+      "title": "Summer of ’25: The Data",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil250716",
+      "source": "newyork",
+      "speech_id": "williams-20250716-692a40"
+    },
+    {
+      "member_id": "williams",
+      "date": "2025-03-07",
+      "title": "Discussion of \"Monetary Policy Transmission to Real Activity\"",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil250307",
+      "source": "newyork",
+      "speech_id": "williams-20250307-ae9f1f"
+    },
+    {
+      "member_id": "williams",
+      "date": "2025-02-11",
+      "title": "From Where We Are Now",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil250211",
+      "source": "newyork",
+      "speech_id": "williams-20250211-f034d1"
+    }
+  ]
+}

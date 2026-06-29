@@ -1,0 +1,65 @@
+{
+  "speech_id": "cook-20260527-3ed0de",
+  "member_id": "cook",
+  "title": "The Opportunities and Risks AI Presents for the Economy and Financial System",
+  "date": "2026-05-27",
+  "url": "https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Despite the AI-and-financial-stability framing, Cook delivers a substantive monetary-policy read. She flags that inflation is 'clearly moving in the wrong direction' with PCE at 3.8 percent and core PCE at 3.3 percent (the highest since 2023), driven by gasoline (Iran conflict) and tariffs, while the labor market is largely stable at 4.3 percent unemployment but with elevated downside risk. From a risk-management standpoint she favors holding rates steady, but explicitly tilts the risks toward higher inflation, saying she is prepared to raise rates if expected disinflation does not materialize and to cut only if the labor market deteriorates. The net message is hawkish-leaning hold, anchored by concern that five years of above-target inflation could embed into price- and wage-setting.",
+  "key_quotes": [
+    {
+      "quote": "Inflation is clearly moving in the wrong direction.",
+      "context": "Opening of her inflation assessment, citing PCE at 3.8% and core PCE at 3.3%",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I see elevated risks to both sides of our mandate, and from a risk-management perspective, I currently believe that the right course of action is to hold rates steady.",
+      "context": "Her bottom-line policy recommendation",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "After five years of above-target inflation, I am particularly attuned to the risk that elevated inflation will become embedded in price- and wage-setting behavior. As such, I am prepared to raise rates, if the expected disinflation does not appear in a timely manner.",
+      "context": "Stating her asymmetric bias toward tightening",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "However, I view the downside risks to the labor market as being elevated.",
+      "context": "On the labor market, which she calls largely stable but at risk",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2,
+    "inflation_conviction": 4,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 1, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1652,
+    "hawk_hits": 2,
+    "dove_hits": 9,
+    "tokens": 3307
+  }
+}

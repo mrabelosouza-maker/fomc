@@ -1,0 +1,17 @@
+{
+  "source": "Bloomberg",
+  "as_of": "2026-06-21",
+  "note": "Upcoming Fed speakers and events. member_id links speaker events to the roster for voter tagging.",
+  "events": [
+    {"date": "2026-06-22", "time": "10:00", "member_id": "waller", "title": "Delivers Opening Remarks", "kind": "speech"},
+    {"date": "2026-06-25", "time": "16:40", "member_id": "williams", "title": "Gives Keynote Remarks", "kind": "speech"},
+    {"date": "2026-06-25", "time": "19:30", "member_id": "goolsbee", "title": "in Moderated Discussion", "kind": "speech"},
+    {"date": "2026-06-26", "time": "12:30", "member_id": "kashkari", "title": "at Aspen Ideas Panel", "kind": "speech"},
+    {"date": "2026-06-28", "time": "13:35", "member_id": "barkin", "title": "at Aspen Ideas Panel", "kind": "speech"},
+    {"date": "2026-07-01", "time": "10:30", "member_id": "warsh", "title": "Appears on Panel at ECB Forum", "kind": "speech"},
+    {"date": "2026-07-08", "time": "15:00", "title": "FOMC Meeting Minutes (Jun 17)", "kind": "key"},
+    {"date": "2026-07-14", "time": "14:00", "member_id": "goolsbee", "title": "in Fireside Chat", "kind": "speech"},
+    {"date": "2026-07-15", "time": "15:00", "title": "Fed Releases Beige Book", "kind": "key"},
+    {"date": "2026-07-18", "date_end": "2026-07-30", "title": "FOMC External Communications Blackout", "kind": "blackout"}
+  ]
+}

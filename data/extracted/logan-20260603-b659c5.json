@@ -1,0 +1,65 @@
+{
+  "speech_id": "logan-20260603-b659c5",
+  "member_id": "logan",
+  "title": "Opening remarks for moderated conversation at The University of Texas at El Paso",
+  "date": "2026-06-03",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260603",
+  "source": "dallas",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 2, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 1, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 3, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "summary": "Logan delivers her most hawkish read yet, arguing inflation is taking too long to return to 2 percent (PCE near 4 percent over the past year, core PCE 3.3 percent) and that even cleaner measures point to inflation settling in the mid-2s rather than at target. With economic activity strong, financial conditions accommodative, an AI investment boom, and a labor market she judges stable and broadly balanced, she concludes monetary policy is not restraining the economy. She is 'increasingly concerned that higher interest rates could be necessary later this year' to fully restore price stability and balance the dual mandate. Net: a clear lean toward holding or even hiking, with inflation as the binding concern.",
+  "key_quotes": [
+    {
+      "quote": "Inflation is taking too long to return to the FOMC\u2019s 2 percent target.",
+      "context": "Opening of her inflation assessment; PCE still near 4 percent over the past 12 months.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "These conditions indicate that monetary policy is not restraining the economy.",
+      "context": "Summarizing strong activity, accommodative financial conditions and a balanced labor market.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I am increasingly concerned that higher interest rates could be necessary later this year to fully restore price stability and appropriately balance both sides of the Fed\u2019s dual mandate.",
+      "context": "Her forward-looking policy bias, explicitly floating hikes.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "The labor market appears stable and broadly balanced.",
+      "context": "Assessment of jobs with unemployment around 4.3 percent and ~50,000 monthly job gains in line with slow labor-force growth.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.027,
+    "hawk_hits": 0,
+    "dove_hits": 1,
+    "tokens": 1368
+  }
+}

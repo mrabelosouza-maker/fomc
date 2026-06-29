@@ -1,0 +1,63 @@
+{
+  "speech_id": "hammack-20250416-b66fc7",
+  "member_id": "hammack",
+  "title": "Fed 101: Approaching Monetary Policy with Heart, Brains, and Courage",
+  "date": "2025-04-16",
+  "url": "https://www.clevelandfed.org/collections/speeches/2025/sp-20250416-approaching-monetary-policy-with-heart-brains-and-courage",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "A largely educational 'Fed 101' talk that nonetheless lays out Hammack\u2019s outlook. She sees a healthy labor market (4.2 percent unemployment) and above-target inflation (headline PCE 2.5 percent), with new tariffs a substantive trade-policy change creating two-sided risks. She makes 'a strong case to hold monetary policy steady,' judging the current stance 'modestly restrictive' and appropriate to keep downward pressure on inflation, while remaining open to quick cuts if the economy falters or a more restrictive path if inflation persists. The lean is balanced/on-hold, favoring patience until uncertainty clears.",
+  "key_quotes": [
+    {
+      "quote": "Given the economy\u2019s starting point, and with both sides of our mandate expected to be under pressure, there is a strong case to hold monetary policy steady in order to balance the risks coming from further elevated inflation and a slowing labor market.",
+      "context": "Her central policy recommendation",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "With inflation elevated, the current modestly restrictive stance for monetary policy is appropriate to continue the downward pressure on inflation so that it returns to our goal in a timely fashion.",
+      "context": "Her policy-stance read and inflation focus",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "However, on our inflation objective, there is still more work to do to return the economy to price stability, which the FOMC defines as 2 percent inflation in the Personal Consumption Expenditures price index, or PCE inflation.",
+      "context": "Her read on still-elevated inflation",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The unemployment rate was 4.2 percent in March, a relatively low level and similar to its readings over the last 12 months, with solid job gains through the first three months of this year.",
+      "context": "Her read of a healthy labor market",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 1, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1438,
+    "hawk_hits": 7,
+    "dove_hits": 1,
+    "tokens": 2368
+  }
+}

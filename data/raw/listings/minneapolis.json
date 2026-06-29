@@ -1,0 +1,167 @@
+{
+  "source": "minneapolis",
+  "collected_at": "2026-06-20",
+  "note": "Listing built via WebSearch + curl (site returns 403 to WebFetch; listing page is JS-only). Kashkari long-form policy essays under /article/ are included as speeches per source instructions.",
+  "speeches": [
+    {
+      "member_id": "kashkari",
+      "date": "2026-06-02",
+      "title": "Neel Kashkari at 2026 Bank of Korea International Conference",
+      "url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-at-2026-bank-of-korea-international-conference",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20260602-89a983"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2026-05-13",
+      "title": "Q&A with Neel Kashkari at the St. Paul Area Chamber",
+      "url": "https://www.minneapolisfed.org/speeches/2026/qa-with-neel-kashkari-at-the-st-paul-area-chamber",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20260513-f9dc65"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2026-05-07",
+      "title": "Neel Kashkari Q&A at the 2026 InvestUP CEO Summit",
+      "url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-qa-at-the-2026-investup-ceo-summit",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20260507-0bd64b"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2026-05-01",
+      "title": "Why I Dissented",
+      "url": "https://www.minneapolisfed.org/article/2026/why-i-dissented",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20260501-bdf11b"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2026-03-03",
+      "title": "Conversation with Neel Kashkari at the 2026 Bloomberg Invest conference",
+      "url": "https://www.minneapolisfed.org/speeches/2026/conversation-with-neel-kashkari-at-the-2026-bloomberg-invest-conference",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20260303-ee3751"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2026-02-19",
+      "title": "Q&A with Neel Kashkari at the Midwest Economic Outlook Summit",
+      "url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-at-the-midwest-economic-outlook-summit",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20260219-1b070e"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2026-01-14",
+      "title": "Neel Kashkari participates in a virtual town hall with the Wisconsin Bankers Association",
+      "url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-participates-in-a-virtual-town-hall-with-the-wisconsin-bankers-association",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20260114-2f4740"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2026-01-04",
+      "title": "Neel Kashkari participates in 2026 ASSA session “Lessons from Bill Spriggs' Contributions to Economics and Economic Policy”",
+      "url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-participates-in-2026-assa-session-lessons-from-bill-spriggs-contributions-to-economics-and-economic-policy",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20260104-df51d7"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-11-17",
+      "title": "Neel Kashkari in conversation with Christophe Beck at the Economic Club of Minnesota",
+      "url": "https://www.minneapolisfed.org/speeches/2025/neel-kashkari-at-economic-club-of-minnesota",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20251117-a14d22"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-10-16",
+      "title": "Q&A with Neel Kashkari in Rapid City, South Dakota",
+      "url": "https://www.minneapolisfed.org/speeches/2025/qa-with-neel-kashkari-in-rapid-city-south-dakota",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20251016-26faca"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-10-09",
+      "title": "Neel Kashkari in conversation with Federal Reserve Governor Michael Barr at the Economic Club of Minnesota",
+      "url": "https://www.minneapolisfed.org/speeches/2025/neel-kashkari-michael-barr-economic-club-of-minnesota",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20251009-d155e1"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-10-07",
+      "title": "Neel Kashkari in Discussion at Star Tribune's North Star Summit 2025",
+      "url": "https://www.minneapolisfed.org/speeches/2025/neel-kashkari-in-discussion-at-star-tribunes-north-star-summit-2025",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20251007-09b2db"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-09-19",
+      "title": "Three Questions",
+      "url": "https://www.minneapolisfed.org/article/2025/three-questions",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20250919-c6b38e"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-09-03",
+      "title": "Q&A with Neel Kashkari at Minnesota Women's Economic Roundtable event",
+      "url": "https://www.minneapolisfed.org/speeches/2025/qa-with-neel-kashkari-at-minnesota-womens-economic-roundtable-event",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20250903-c794c4"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-05-28",
+      "title": "Town hall with Neel Kashkari at Keio University in Tokyo",
+      "url": "https://www.minneapolisfed.org/speeches/2025/town-hall-with-neel-kashkari-at-keio-university-in-tokyo",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20250528-3a26ca"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-05-27",
+      "title": "Neel Kashkari remarks at the Bank of Japan's Institute for Monetary and Economic Studies conference",
+      "url": "https://www.minneapolisfed.org/speeches/2025/neel-kashkari-remarks-at-the-bank-of-japans-institute-for-monetary-and-economic-studies-conference",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20250527-96192b"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-05-19",
+      "title": "A fireside chat with Neel Kashkari at the Minnesota Young American Leaders Program",
+      "url": "https://www.minneapolisfed.org/speeches/2025/Neel-Kashkari-at-Minnesota-Young-American-Leaders-Program",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20250519-0151f2"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-04-24",
+      "title": "A conversation with Neel Kashkari at the University of Minnesota's College of Science and Engineering",
+      "url": "https://www.minneapolisfed.org/speeches/2025/Neel-Kashkari-at-the-University-of-Minnesotas-College-of-Science-and-Engineering",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20250424-712afe"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-04-22",
+      "title": "Neel Kashkari Q&A at the U.S. Chamber of Commerce Global Summit",
+      "url": "https://www.minneapolisfed.org/speeches/2025/neel-kashkari-qa-at-the-us-chamber-of-commerce-global-summit",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20250422-38cb7e"
+    },
+    {
+      "member_id": "kashkari",
+      "date": "2025-04-09",
+      "title": "Potential Implications of Announced Tariffs for Monetary Policy",
+      "url": "https://www.minneapolisfed.org/article/2025/potential-implications-of-announced-tariffs-for-monetary-policy",
+      "source": "minneapolis",
+      "speech_id": "kashkari-20250409-1b2a56"
+    }
+  ]
+}

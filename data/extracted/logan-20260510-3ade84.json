@@ -1,0 +1,45 @@
+{
+  "speech_id": "logan-20260510-3ade84",
+  "member_id": "logan",
+  "title": "Look Up: Remarks at Duke University Economics Department Commencement",
+  "date": "2026-05-10",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260510",
+  "source": "dallas",
+  "non_policy": true,
+  "summary": "A commencement address built around the theme of 'look up' with admiration, curiosity, optimism and teamwork, drawing on Logan's career at the New York Fed (9/11, the 2008 crisis, the March 2020 pandemic turmoil). It is inspirational and ceremonial. Only a single closing paragraph touches the macro backdrop, noting a Middle East energy shock, AI transforming jobs, a balanced-but-slow-to-hire labor market and inflation 'still too high,' but it offers no stance read or policy-path signal, so it is non-policy for reaction-function purposes.",
+  "key_quotes": [
+    {
+      "quote": "Although the labor market is in balance, many employers are slow to hire.",
+      "context": "The one macro aside in an otherwise ceremonial commencement speech.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "Inflation is still too high.",
+      "context": "Brief backdrop comment to graduates, not tied to any policy recommendation.",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0352,
+    "hawk_hits": 0,
+    "dove_hits": 1,
+    "tokens": 1812
+  }
+}

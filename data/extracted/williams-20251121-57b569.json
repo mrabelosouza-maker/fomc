@@ -1,0 +1,65 @@
+{
+  "speech_id": "williams-20251121-57b569",
+  "member_id": "williams",
+  "title": "Navigating Unpredictable Terrain",
+  "date": "2025-11-21",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil251121",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "Mostly a framework speech on inflation targeting at the Central Bank of Chile's centennial, but it closes with a substantive read on current U.S. policy. Williams says progress toward 2 percent has temporarily stalled (inflation ~2-3/4 percent, tariffs adding one-half to three-quarters of a point) but sees no second-round effects and well-anchored expectations, expecting a return to 2 percent in 2027. He judges that downside risks to employment have risen as the labor market cooled while upside inflation risks have lessened, says he fully supported the FOMC's two recent 25 bps cuts, and views policy as still modestly restrictive\u2014seeing room for a further near-term cut toward neutral. The current-policy section leans dovish with an explicit bias toward another cut.",
+  "key_quotes": [
+    {
+      "quote": "Therefore, I still see room for a further adjustment in the near term to the target range for the federal funds rate to move the stance of policy closer to the range of neutral, thereby maintaining the balance between the achievement of our two goals.",
+      "context": "Explicit signal of room for another near-term rate cut",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "I view monetary policy as being modestly restrictive, although somewhat less so than before our recent actions.",
+      "context": "Reading the current stance as still restrictive after recent cuts",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "My assessment is that the downside risks to employment have increased as the labor market has cooled, while the upside risks to inflation have lessened somewhat.",
+      "context": "Balance-of-risks assessment tilting toward employment",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Underlying inflation continues to trend downward, absent any evidence of second-round effects emanating from tariffs.",
+      "context": "Conviction that disinflation remains on track",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -2,
+    "mandate_weight": -1,
+    "inflation_conviction": 1.5,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "fed_independence",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "tone_score": {
+    "net_tone": -0.0347,
+    "hawk_hits": 12,
+    "dove_hits": 9,
+    "tokens": 1869
+  }
+}

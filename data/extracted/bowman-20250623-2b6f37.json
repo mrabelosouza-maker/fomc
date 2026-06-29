@@ -1,0 +1,65 @@
+{
+  "speech_id": "bowman-20250623-2b6f37",
+  "member_id": "bowman",
+  "title": "Unintended Policy Shifts and Unexpected Consequences",
+  "date": "2025-06-23",
+  "url": "https://www.federalreserve.gov/newsevents/speech/bowman20250623a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Though the bulk of this speech is on bank capital and the supplementary leverage ratio's distortion of Treasury market intermediation, it opens with a substantive monetary-policy section that marks Bowman's pivot toward easing. She supported June's hold but states this is the speech where she begins to lean dovish: she sees inflation on a sustained path to 2 percent (core PCE 2.6 percent, tariff effects likely small, delayed, and one-off) and growing downside risks to employment from softer demand and emerging labor-market fragility, even as she still describes the labor market as solid. She explicitly signals she would support a cut as soon as the July meeting if inflation pressures stay contained. The read is a mildly dovish shift from a still-restrictive stance.",
+  "key_quotes": [
+    {
+      "quote": "Should inflation pressures remain contained, I would support lowering the policy rate as soon as our next meeting in July in order to bring it closer to its neutral setting and to sustain a healthy labor market.",
+      "context": "Path forward in the monetary-policy section; first explicit signal she is ready to cut.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "With inflation on a sustained trajectory toward 2 percent, softness in aggregate demand, and signs of fragility in the labor market, I think that we should put more weight on downside risks to our employment mandate going forward.",
+      "context": "Shifting the balance of risks toward employment.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "The labor market appears to be stable near estimates of full employment, with layoffs remaining low.",
+      "context": "Current labor market description, still characterized as solid in June.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "I think it is likely that the impact of tariffs on inflation may take longer, be more delayed, and have a smaller effect than initially expected, especially because many firms front-loaded their stocks of inventories.",
+      "context": "On inflation risks from tariffs.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -2,
+    "mandate_weight": -2,
+    "inflation_conviction": 1.5,
+    "labor_concern": 2,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "financial_stability",
+      "balance_sheet_qt"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 1, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1513,
+    "hawk_hits": 5,
+    "dove_hits": 10,
+    "tokens": 4367
+  }
+}

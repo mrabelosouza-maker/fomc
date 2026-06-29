@@ -1,0 +1,81 @@
+{
+  "speech_id": "schmid-20250812-1ecc45",
+  "member_id": "schmid",
+  "title": "The Federal Reserve and Outlook for the Economy and Monetary Policy",
+  "date": "2025-08-12",
+  "url": "https://www.kansascityfed.org/speeches/the-federal-reserve-and-outlook-for-the-economy-and-monetary-policy/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "In Oklahoma City, Schmid argues the Fed is as close to its dual mandate as it has been in some time, with unemployment at 4.2% and a labor market in balance though cooling, and inflation at 2.6% still above target. He favors retaining a modestly restrictive stance and a patient approach to rate changes, reasoning that policy is only modestly restrictive and that with demand growth moderate this is exactly where it should be. He frames tariffs through a supply-demand-balance lens: keeping demand growth in check limits tariff passthrough, so the muted tariff effect is a sign policy is well calibrated rather than a reason to cut. He stresses he will remain data dependent and would adjust if demand weakens significantly.",
+  "key_quotes": [
+    {
+      "quote": "My own view, guided by the dual mandate, is that with the economy still showing momentum, growing business optimism, and inflation still stuck above our objective, retaining a modestly restrictive monetary policy stance remains appropriate for the time being.",
+      "context": "His baseline policy recommendation in August.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "First, while monetary policy might currently be restrictive, it is not very restrictive. And second, given recent price pressures, a modestly restrictive stance is exactly where we want to be.",
+      "context": "The two arguments behind his patient approach.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Overall, I am anticipating a relatively muted effect of tariffs on inflation, but I view that as a sign that policy is appropriately calibrated rather than a sign that the policy rate should be cut.",
+      "context": "On why muted tariff passthrough is not a reason to ease.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "By this comprehensive measure, the labor market, while cooling, remains in good health.",
+      "context": "His read on the labor market using the KC Fed indicator.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 2,
+    "inflation_conviction": 3,
+    "labor_concern": 1,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0207,
+    "hawk_hits": 9,
+    "dove_hits": 5,
+    "tokens": 2338
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "speech_id": "barkin-20250626-f70647",
+  "title": "Forecasting Beyond Today's Data",
+  "date": "2025-06-26",
+  "non_policy": false,
+  "summary": "With solid data but poor sentiment, Barkin keeps describing businesses as 'driving through fog' and on pause. He expects tariffs to put upward pressure on prices (average tariff up from ~2.5 to over 15 percent), with passthrough lagged but coming, though less severe than 2022 because today's stretched consumer resists price hikes. That same resistance could squeeze margins and pressure employment, partly offset by sharply lower immigration. He highlights both-sided and short- vs long-term risks, and worries about elevated inflation feeding expectations. On policy he supports the recent hold, saying the fog is dense, there is little upside in moving quickly, and the Fed can be patient given economic strength.",
+  "key_quotes": [
+    {
+      "quote": "Let me close with a brief note on monetary policy. At our last meeting, the FOMC held the federal funds rate steady. The fog is dense for us too, and there is little upside in heading too quickly in any one direction.",
+      "context": "Supporting the hold; patience under uncertainty.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Given the strength in today’s economy, we have time to track developments patiently and allow the visibility to improve.",
+      "context": "His read that strength affords patience, policy not urgent.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I do believe we will see pressure on prices.",
+      "context": "Conviction that tariff-driven price pressure is coming.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I am keeping a close eye on the cumulative impact of elevated actual inflation on inflation expectations.",
+      "context": "Worry about de-anchoring of expectations.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 3.5,
+    "labor_concern": 2,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "fiscal"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250626",
+  "tone_score": {
+    "net_tone": 0.0254,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 1556
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  }
+}

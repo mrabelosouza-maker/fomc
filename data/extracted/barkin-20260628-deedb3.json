@@ -1,0 +1,77 @@
+{
+  "speech_id": "barkin-20260628-deedb3",
+  "title": "Bloomberg Interview at the Aspen Ideas Festival",
+  "date": "2026-06-28",
+  "non_policy": false,
+  "summary": "In a Bloomberg interview on the sidelines of the Aspen Ideas Festival, Barkin flags that inflation is 'too high' after headline PCE hit 4.1 percent year-over-year through May, the most since April 2023, and stresses the pickup is broader than just the Iran-driven oil spike. He doubts inflation returns to 2 percent without more help from the funds rate, the labor market, or some other disinflationary force, and worries that businesses now bake today's inflation into their pricing, building in persistence. He is encouraged by falling gasoline prices after the US-Iran ceasefire and expects tariff and oil pressures to wane, but warns resilient consumer spending and the AI build-out remain upside risks. He explicitly endorses keeping policy 'modestly restrictive' while waiting to see how the economy evolves, and is not (yet) joining colleagues calling for hikes this year.",
+  "key_quotes": [
+    {
+      "quote": "Those numbers are too high.",
+      "context": "On the 4.1% year-over-year PCE print through May, the highest since April 2023.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "It\u2019s hard to have confidence that you\u2019re headed back to 2% without any more influence from the fed funds rate or the labor market or some other feature that creates disinflation the other way.",
+      "context": "Doubting that inflation returns to target on its own without additional policy or labor-market help.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Businesses, when they set prices, take today\u2019s inflation as a factor, and so I think there\u2019s some persistence to inflation. I do worry about that, and that\u2019s part of why I think being modestly restrictive is a reasonable place to be.",
+      "context": "Linking business pricing behavior / persistence to his endorsement of a restrictive stance.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "bloomberg",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-29T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "",
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "tone_score": {
+    "net_tone": 0.0214,
+    "hawk_hits": 2,
+    "dove_hits": 1,
+    "tokens": 544
+  }
+}

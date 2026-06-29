@@ -1,0 +1,66 @@
+{
+  "speech_id": "hammack-20260210-c46580",
+  "member_id": "hammack",
+  "title": "Recipe for a Thriving US Economy: Strong Banks, Patient Policy, and an Independent yet Accountable Central Bank",
+  "date": "2026-02-10",
+  "url": "https://www.clevelandfed.org/collections/speeches/2026/sp-20260210-recipe-for-a-thriving-us-economy",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "A two-part speech on banking and monetary policy. On policy, Hammack is cautiously optimistic but patient: the FOMC held the funds rate at 3-1/2 to 3-3/4 percent (a vote she supported), and with the rate now near neutral she wants to stay on hold 'for quite some time.' She sees the labor market as roughly balanced (4.4 percent unemployment, 'low-hire, low-fire') and inflation 'still too high' at 2.8 percent and stuck sideways for two years, with tariffs, health insurance and electricity adding cost pressures. She errs on the side of patience, sees balanced risks to the rate path, and stresses Fed independence as key to low inflation.",
+  "key_quotes": [
+    {
+      "quote": "At this point, I believe monetary policy is in a good place to stay on hold as we assess the incoming data and weigh if, and how, policy may need to adjust further.",
+      "context": "Her central near-term policy stance",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Rather than trying to fine tune the funds rate, I\u2019d prefer to err on the side of patience as we assess the impact of recent rate reductions and monitor how the economy performs. Based on my forecast, we could be on hold for quite some time.",
+      "context": "Preference for patience and an extended hold",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "By many estimates, including my own, the funds rate is now in the vicinity of neutral, meaning it\u2019s not meaningfully restraining the economy.",
+      "context": "Her read that the stance is near neutral, not restrictive",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Turning to the other side of the Fed\u2019s dual mandate, inflation is still too high. ... But inflation has largely moved sideways for more than two years.",
+      "context": "Her read on sticky, above-target inflation",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 2,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "financial_stability",
+      "fed_independence",
+      "immigration"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1354,
+    "hawk_hits": 3,
+    "dove_hits": 10,
+    "tokens": 3490
+  }
+}

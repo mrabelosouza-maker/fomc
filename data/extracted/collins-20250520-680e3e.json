@@ -1,0 +1,43 @@
+{
+  "speech_id": "collins-20250520-680e3e",
+  "member_id": "collins",
+  "title": "Brief Remarks at Fed Listens 2025: A conversation with New England Stakeholders",
+  "date": "2025-05-20",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2025/fedlistens-remarks.aspx",
+  "source": "boston",
+  "non_policy": true,
+  "summary": "These are brief welcoming and closing remarks for a Fed Listens listening session tied to the Fed's monetary-policy framework review. Collins explains the purpose of Fed Listens and the framework review and emphasizes the value of hearing from regional stakeholders, but offers no assessment of current economic conditions, the inflation or labor outlook, the stance of policy, or any near-term policy inclination. There is no substantive reaction-function content.",
+  "key_quotes": [
+    {
+      "quote": "My comments will be brief, since we\u2019re here to listen \u2013 not the other way around",
+      "context": "Sets up the session as a listening event, not a policy speech",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "The Fed regularly reviews its monetary policy framework. These are the guiding principles we use to achieve our two goals from Congress: price stability and maximum employment.",
+      "context": "Describes the framework review that the session feeds into",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": []
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 1016
+  }
+}

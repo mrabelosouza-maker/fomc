@@ -1,0 +1,56 @@
+{
+  "speech_id": "daly-20250622-bc03a8",
+  "member_id": "daly",
+  "title": "Dynamic Central Bank Communication",
+  "date": "2025-06-22",
+  "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/06/dynamic-central-bank-communication/",
+  "source": "sanfrancisco",
+  "non_policy": false,
+  "summary": "This is a methodological speech on FOMC communication, not a current-stance read; Daly explicitly says it is not about the framework review and offers no near-term rate signal. Its reaction-function relevance is her lesson that strong, definitive forward guidance carries costs in uncertain times because words are harder to reverse than the interest rate\u2014a caution that informs how she would communicate policy intentions. She notes inflation 'is now near our 2 percent goal' after a successful tightening campaign, which lightly signals confidence on the inflation side, but she does not address the labor market, the current stance, or where she leans on the next move.",
+  "key_quotes": [
+    {
+      "quote": "We raised rates aggressively and communicated strongly that we were resolute to restore price stability. These efforts have been successful and inflation is now near our 2 percent goal.",
+      "context": "Her read that the disinflation campaign has largely succeeded.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The lesson for me from that period is that being definitive in highly uncertain times comes with a price.",
+      "context": "Her reaction-function caution against strong forward guidance under uncertainty.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Words have power, which is a great tool. But words can be harder to reverse than the interest rate.",
+      "context": "Why she favors flexible rather than committal communication.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": null,
+    "inflation_conviction": 1.5,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "data-dependent"
+    },
+    "theme_flags": []
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 1, "push": "dovish"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 0, "push": "neutral"},
+    "other": {"intensity": 0, "push": "neutral"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0782,
+    "hawk_hits": 0,
+    "dove_hits": 3,
+    "tokens": 1470
+  }
+}

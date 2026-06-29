@@ -1,0 +1,51 @@
+{
+  "speech_id": "cook-20260326-30370b",
+  "member_id": "cook",
+  "title": "Reflections on Financial Stability",
+  "date": "2026-03-26",
+  "url": "https://www.federalreserve.gov/newsevents/speech/cook20260326a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "This is a financial-stability methodology speech with essentially no read on the macro outlook or the near-term stance of monetary policy. Cook reflects on her four years chairing the Board's Committee on Financial Stability, walking through the Financial Stability Report's four vulnerability channels, scenario analysis versus supervisory stress tests, and lessons on data gaps, the financial system as an interconnected ecosystem, G-SIB resilience, and crisis-time policymaking. She touches monetary policy only indirectly, noting that financial crises produce job losses and that financial stability ultimately supports the dual mandate. No signal on inflation, labor, or rate direction is offered, so it is treated as non-policy.",
+  "key_quotes": [
+    {
+      "quote": "One way to see the work of financial stability is as the quest to understand how much, or how rapidly, that tightening would occur.",
+      "context": "Framing the financial-stability mission around how shocks tighten financial conditions",
+      "dimension": "financial_stability"
+    },
+    {
+      "quote": "While I take comfort in the very high levels of resilience of the U.S. G-SIBs, vigilance in ensuring their continued resilience is critical.",
+      "context": "Assessment of the largest banks as a source of system stability",
+      "dimension": "financial_stability"
+    },
+    {
+      "quote": "We should embrace responsible changes that strengthen our financial system, not hinder them.",
+      "context": "On monitoring digital assets and AI innovation in the financial system",
+      "dimension": "financial_stability"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "financial_stability",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0938,
+    "hawk_hits": 5,
+    "dove_hits": 1,
+    "tokens": 3435
+  }
+}

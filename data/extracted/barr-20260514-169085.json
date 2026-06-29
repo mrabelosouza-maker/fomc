@@ -1,0 +1,51 @@
+{
+  "speech_id": "barr-20260514-169085",
+  "member_id": "barr",
+  "title": "Efficient and Effective Central Banking: Beyond the Balance Sheet",
+  "date": "2026-05-14",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "An operations / balance-sheet speech that addresses monetary-policy implementation but gives no read on the stance of policy (the level of rates) or the macro outlook. Barr argues that shrinking the Fed's balance sheet is the wrong objective and that the size of the balance sheet is the wrong measure of the Fed's 'footprint.' He defends the ample-reserves regime, says current implementation is both effective (funds rate trades near IORB) and efficient (Friedman principle), and warns that proposals to cut liquidity requirements, run minimally ample reserves, or sterilize the TGA would reduce bank resilience, raise money-market volatility, and ironically increase the Fed's footprint. He notes the Fed is now slowly growing the balance sheet via T-bill purchases to keep up with liability demand and avoided a 2019-style repo spike by acting in advance in late 2025.",
+  "key_quotes": [
+    {
+      "quote": "I think shrinking the balance sheet is the wrong objective, and many of the proposals to meet this objective would undermine bank resilience, impede money market functioning, and, ultimately, threaten financial stability.",
+      "context": "Central thesis on balance-sheet 'footprint' debate",
+      "dimension": "balance_sheet_qt"
+    },
+    {
+      "quote": "after substantially shrinking the balance sheet for a couple of years, the Fed is now slowly growing our balance sheet to keep up with demand for our liabilities",
+      "context": "Describing current reserve-management posture",
+      "dimension": "balance_sheet_qt"
+    },
+    {
+      "quote": "the bank stresses of 2023 suggest that liquidity requirements should go up and not down",
+      "context": "Opposing proposals to weaken liquidity rules to shrink reserve demand",
+      "dimension": "financial_stability"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "balance_sheet_qt",
+      "financial_stability"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0685,
+    "hawk_hits": 0,
+    "dove_hits": 4,
+    "tokens": 3405
+  }
+}

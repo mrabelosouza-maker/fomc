@@ -1,0 +1,24 @@
+{
+  "member_id": "paulson",
+  "as_of": {
+    "date": "2026-05-19",
+    "title": "Navigating Uncertainty: Inflation, Labor Markets, and the Stance of Monetary Policy",
+    "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/260519-2026-financial-markets-conference",
+    "speech_id": "paulson-20260519-86a37f"
+  },
+  "inflation": {
+    "label": "oil + tariffs",
+    "note": "She frames elevated inflation as driven by classic supply shocks from tariffs and the Middle East energy/commodity spike, with long-run expectations still anchored.",
+    "quote": "Most recently, tariffs and the spike in energy and commodity prices associated with the conflict in the Middle East are pushing inflation higher."
+  },
+  "labor": {
+    "label": "stable / balanced",
+    "note": "Hard data show a labor market stable and consistent with full employment near 4.3 percent, despite softer survey sentiment.",
+    "quote": "the hard data suggest a labor market that is stable and consistent with full employment."
+  },
+  "stance": {
+    "label": "somewhat/modestly restrictive",
+    "note": "She views the current stance as appropriate and well-positioned, with that restrictiveness helping keep supply-shock inflation in check.",
+    "quote": "Policy is mildly restrictive and that restrictiveness is helping to keep inflation pressures in check while the labor market remains stable."
+  }
+}

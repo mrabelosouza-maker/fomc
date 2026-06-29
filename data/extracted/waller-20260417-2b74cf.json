@@ -1,0 +1,65 @@
+{
+  "speech_id": "waller-20260417-2b74cf",
+  "member_id": "waller",
+  "title": "One Transitory Shock After Another",
+  "date": "2026-04-17",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20260417a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller frames policy around a new oil-supply shock from the Iran conflict layered on top of earlier tariffs, warning that a sequence of 'transitory' shocks can keep inflation elevated and risk unanchoring expectations, so he will be more vigilant than usual about looking through them. He still sees a weak, vulnerable labor market in a no-hire, no-fire equilibrium, but stresses that near-zero labor-force growth makes even negative payrolls less alarming. He lays out two scenarios: if the Strait of Hormuz reopens he would look through the energy spike and lean toward cuts later in the year to support jobs; if it stays closed and high energy bleeds into other prices, he may have to hold the rate steady because inflation risks would outweigh labor risks. The speech is balanced and conditional, a step back from outright cut advocacy toward caution about cutting now.",
+  "key_quotes": [
+    {
+      "quote": "Learning from that experience, I will be cautious when faced with a sequence of transitory shocks.",
+      "context": "Core hawkish-leaning caveat: a sequence of shocks warrants more vigilance than looking through one.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Nevertheless, I want to explain why I continue to see weakness in the labor market that leaves it vulnerable, starting with data showing low numbers of both hires and people losing their jobs.",
+      "context": "Maintains his standing concern about labor-market fragility.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Here, abstracting from the effects of tariffs and energy, I see a forecast in which underlying inflation would continue to move toward 2 percent, leaving me cautious about rate cuts now and more inclined toward cuts to support the labor market later this year when the outlook is more steady.",
+      "context": "Best-case scenario: cautious about cutting now, inclined to cut later \u2014 the near-term bias.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "If I face this situation, I'll have to balance the risks to the two sides of the Fed's dual mandate to determine the appropriate path of policy, and that may mean maintaining the policy rate at the current target range if the risks to inflation outweigh those to the labor market.",
+      "context": "Adverse scenario in which he would hold rather than cut, weighing inflation risk as potentially binding.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -0.5,
+    "mandate_weight": 0,
+    "inflation_conviction": 2.5,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 1, "push": "neutral"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1343,
+    "hawk_hits": 2,
+    "dove_hits": 7,
+    "tokens": 3120
+  }
+}

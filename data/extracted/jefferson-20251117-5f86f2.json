@@ -1,0 +1,82 @@
+{
+  "speech_id": "jefferson-20251117-5f86f2",
+  "member_id": "jefferson",
+  "title": "Economic Outlook and Monetary Policy",
+  "date": "2025-11-17",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20251117a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "This is Jefferson's most dovish-leaning of the set: he judges the balance of risks to have shifted, with increased downside risks to employment and inflation upside risks having declined somewhat, and he explicitly endorsed the prior month's 25 bp cut. He sees inflation stalled a bit below 3 percent but attributes the stall to tariffs and treats it as a likely one-time price-level shift with anchored expectations, while flagging the labor market's downside-skewed risk. He calls the stance 'still somewhat restrictive' but moved closer to neutral, and cautions about proceeding slowly as the rate approaches neutral. He also backs ending balance-sheet runoff as of December 1 and keeps a meeting-by-meeting, data-dependent posture.",
+  "key_quotes": [
+    {
+      "quote": "I see the balance of risks in the economy as having shifted in recent months with increased downside risks to employment compared to the upside risks to inflation, which have likely declined somewhat recently.",
+      "context": "Shifted balance of risks toward employment",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Given that outlook, I supported last month's decision to reduce our policy rate by 1/4 percentage point.",
+      "context": "Endorsing the October rate cut",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "The current policy stance is still somewhat restrictive, but we have moved it closer to its neutral level that neither restricts nor stimulates the economy. The evolving balance of risks underscores the need to proceed slowly as we approach the neutral rate.",
+      "context": "Stance read and pace guidance",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "A reasonable base case is that tariffs result in a one-time shift in the price level, not an ongoing inflation problem.",
+      "context": "Inflation conviction on tariffs",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1.5,
+    "mandate_weight": -1,
+    "inflation_conviction": 1.5,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "balance_sheet_qt"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0414,
+    "hawk_hits": 4,
+    "dove_hits": 4,
+    "tokens": 1313
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "dovish"
+    }
+  }
+}

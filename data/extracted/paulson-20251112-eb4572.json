@@ -1,0 +1,45 @@
+{
+  "speech_id": "paulson-20251112-eb4572",
+  "member_id": "paulson",
+  "title": "Harnessing the Benefits, Minding the Risks of Fintech Innovations",
+  "date": "2025-11-12",
+  "url": "https://www.philadelphiafed.org/the-economy/banking-and-financial-markets/251112-harnessing-the-benefits-minding-the-risks-of-fintech-innovations",
+  "source": "philadelphia",
+  "non_policy": true,
+  "summary": "Welcome remarks at the Philadelphia Fed's Ninth Annual Fintech Conference, framed around Schumpeterian creative destruction and how to harness the benefits while minding the risks of fintech, crypto, AI in finance, and digital payments. Paulson argues fintech can broaden financial inclusion and create win-win outcomes for banks, fintechs, and consumers, and that regulatory frameworks should build on what has worked. The speech is about financial innovation, supervision, and the payments system, with no read on the macro outlook or the stance of monetary policy, so it is non-policy and down-weighted for the reaction-function aggregation.",
+  "key_quotes": [
+    {
+      "quote": "Creative destruction is the essential fact about capitalism.",
+      "context": "Schumpeter quote framing her view of fintech innovation; not a policy-stance signal.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Success will mean regulatory structures that recognize that traditional finance and fintech need to coexist in one financial system and that the boundaries between them are likely to be fluid.",
+      "context": "Her standard for evaluating fintech regulation; financial-stability/regulatory theme.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "financial_stability"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 2016
+  }
+}

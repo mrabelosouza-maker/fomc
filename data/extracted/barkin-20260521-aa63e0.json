@@ -1,0 +1,76 @@
+{
+  "speech_id": "barkin-20260521-aa63e0",
+  "title": "Navigating Supply Shocks",
+  "date": "2026-05-21",
+  "non_policy": false,
+  "summary": "Barkin frames a Middle East oil shock as the latest in a string of supply shocks and asks whether the Fed can keep 'looking through' them. He notes headline PCE jumped to 3.5 percent and core to 3.2 percent while demand stays resilient, and stresses that the answer hinges on how much businesses, consumers, and—critically—inflation expectations can absorb before the anchor loosens. With inflation above 2 percent for over five years, he flags upside-inflation risk but also rising risk to employment, casting the situation as two-sided. He explains the FOMC held rates steady at the last meeting given little clarity on the shock's duration and says the Fed is well positioned to respond to pressure on either or both sides of the mandate.",
+  "key_quotes": [
+    {
+      "quote": "With inflation above our 2 percent target for over five years now, it’s worth asking whether the cumulative impact of so many waves risks loosening the anchor.",
+      "context": "Barkin's central worry that repeated supply shocks could de-anchor long-run inflation expectations.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "At our last meeting, we held rates steady; with little clarity on the duration and impact of this latest supply shock, it made sense to give ourselves some time before setting sail.",
+      "context": "Explaining the decision to hold at the most recent FOMC meeting.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Going forward, I wouldn’t be surprised if we continue to see rough seas that pressure the employment side of our mandate, the inflation side of our mandate, or conceivably both.",
+      "context": "Characterizing risks as two-sided.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 1,
+    "inflation_conviction": 3.5,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260521",
+  "tone_score": {
+    "net_tone": 0.2013,
+    "hawk_hits": 7,
+    "dove_hits": 1,
+    "tokens": 1388
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  }
+}

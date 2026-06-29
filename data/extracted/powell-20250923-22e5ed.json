@@ -1,0 +1,64 @@
+{
+  "speech_id": "powell-20250923-22e5ed",
+  "member_id": "powell",
+  "title": "Economic Outlook",
+  "date": "2025-09-23",
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20250923a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Delivered just after a September rate cut, Powell describes a labor market where downside risks to employment have risen even as inflation remains elevated at 2.9 percent core PCE, with goods prices driven up by tariffs. He frames the situation as two-sided risk with no risk-free path, and justifies the 25bp cut to 4 to 4-1/4 percent as a move toward neutral while still characterizing policy as modestly restrictive. His lean is balanced: he stresses not easing too aggressively (which would leave the inflation job unfinished) against not holding too long (which would soften the labor market unnecessarily). The base case is that tariff effects are a one-time price-level shift that must not become ongoing inflation.",
+  "key_quotes": [
+    {
+      "quote": "In recent months, it has become clear that the balance of risks has shifted, prompting us to move our policy stance closer to neutral at our meeting last week.",
+      "context": "Justifying the September rate cut as a shift toward neutral",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "In this less dynamic and somewhat softer labor market, the downside risks to employment have risen.",
+      "context": "His read on the labor market after job gains slowed to 29,000/month",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "This policy stance, which I see as still modestly restrictive, leaves us well positioned to respond to potential economic developments.",
+      "context": "Characterizing the current stance after the cut",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "If we ease too aggressively, we could leave the inflation job unfinished and need to reverse course later to fully restore 2 percent inflation.",
+      "context": "Balancing the two-sided risk against over-easing",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 0,
+    "inflation_conviction": 3,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.3482,
+    "hawk_hits": 3,
+    "dove_hits": 12,
+    "tokens": 1188
+  }
+}

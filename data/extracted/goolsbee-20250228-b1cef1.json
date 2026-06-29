@@ -1,0 +1,59 @@
+{
+  "speech_id": "goolsbee-20250228-b1cef1",
+  "member_id": "goolsbee",
+  "title": "Remarks on Productivity Growth and Monetary Policy",
+  "date": "2025-02-28",
+  "url": "https://www.chicagofed.org/publications/speeches/2025/feb-28-siepr-economic-summit",
+  "source": "chicago",
+  "non_policy": false,
+  "summary": "Goolsbee makes the case that the post-2022 acceleration in productivity growth may be tech/AI-driven and therefore potentially sustained rather than a one-time level shift, citing industry-level evidence that the biggest gains are concentrated in tech-intensive sectors. He frames sustained productivity as 'the positive supply shock of our dreams' that lets the economy grow and wages rise without triggering inflation, giving the Fed more room to maneuver, much as in the late-1990s Greenspan era. But he cautions that because actors are forward-looking, excessive anticipation of future gains could drive an investment and asset-price boom that overheats the economy in the short run before the gains materialize, risking a 2001-style bust. The monetary-policy lean is balanced and analytical\u2014optimistic on supply but explicitly wary of overheating from getting ahead of reality\u2014rather than a directional call on near-term rates.",
+  "key_quotes": [
+    {
+      "quote": "On the one hand, higher productivity is fantastic for the economy\u2014and for central banks. It\u2019s effectively the positive supply-shock of our dreams. It allows the economy to grow and wages to rise more without triggering inflation.",
+      "context": "Sustained productivity gives the Fed more room and eases the inflation constraint",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "If investment demand heats up too quickly, it can overheat the economy.",
+      "context": "Warning that anticipatory booms can overheat before gains arrive",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "If anticipation gets too far ahead of reality, we risk relearning the lessons of 2001.",
+      "context": "Financial-stability/overheating risk from getting ahead of reality",
+      "dimension": "financial_stability"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 1.5,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 1, "push": "dovish"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 3, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0125,
+    "hawk_hits": 1,
+    "dove_hits": 1,
+    "tokens": 1601
+  }
+}

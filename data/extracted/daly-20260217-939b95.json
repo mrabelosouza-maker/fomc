@@ -1,0 +1,59 @@
+{
+  "speech_id": "daly-20260217-939b95",
+  "member_id": "daly",
+  "title": "The AI Moment? Possibilities, Productivity, and Policy",
+  "date": "2026-02-17",
+  "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2026/02/the-ai-moment-possibilities-productivity-and-policy/",
+  "source": "sanfrancisco",
+  "non_policy": false,
+  "summary": "Daly explores how AI may (or may not yet) transform productivity and what that means for monetary policy. Drawing an analogy to electrification and to the 1990s computer revolution, she argues transformative productivity gains take time and that aggregate data so far show limited AI effect. The monetary-policy content is methodological rather than a current-stance read: she invokes the Greenspan 1990s episode\u2014where the FOMC stayed patient on rates because faster productivity growth let the economy grow without inflation pressure\u2014to argue policymakers must look at disaggregated data and listen to businesses rather than wait for aggregate confirmation. She offers no explicit signal on the near-term rate path or the present level of inflation or labor risk, so most stance dimensions are not addressed.",
+  "key_quotes": [
+    {
+      "quote": "In the end, the FOMC remained patient on policy and the roaring '90s followed, with a strong labor market and sustained growth.",
+      "context": "Citing the 1990s as a template for keeping policy patient when productivity is rising; methodological, not a current-stance call.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "He posited that the burgeoning computer revolution would spur sustained productivity growth, allowing the economy to grow faster without putting upward pressure on prices.",
+      "context": "Greenspan analogy: higher productivity can mute inflation pressure, implying patience on rates.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "It is a reminder that monetary policy is a forward-looking business. To get it right, we must be grounded in what we see and open-minded to what's possible.",
+      "context": "Her framing of how policy should be conducted under transformative uncertainty.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": null,
+    "inflation_conviction": 1.5,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 1, "push": "dovish"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 3, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.121,
+    "hawk_hits": 4,
+    "dove_hits": 0,
+    "tokens": 1708
+  }
+}

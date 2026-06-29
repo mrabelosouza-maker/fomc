@@ -1,0 +1,65 @@
+{
+  "speech_id": "paulson-20251120-22e5ed",
+  "member_id": "paulson",
+  "title": "Economic Outlook",
+  "date": "2025-11-20",
+  "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Institutional/speeches/paulson/2025/251120-Field-Meeting-Capstone-Speech.pdf",
+  "source": "philadelphia",
+  "non_policy": false,
+  "summary": "After a long ceremonial opening on community banks and field meetings, Paulson delivers a monetary-policy outlook describing an economy that is doing 'okay': resilient but bifurcated consumption, a labor market roughly in balance but with risks tilted to the downside, and CPI inflation at 3 percent with tariffs pushing goods prices up. Her base case remains that tariffs raise prices without an ongoing inflation problem, though she views inflation risks as tilted to the upside. She judges the September and October 25-bp cuts as appropriate but stresses that 'each rate cut raises the bar for the next cut' as policy nears neutral, so she is approaching the December meeting cautiously. On balance she remains 'a little more worried about the labor market than I am about inflation,' a modestly dovish but increasingly cautious lean.",
+  "key_quotes": [
+    {
+      "quote": "Historically, when job gains are concentrated in acyclical sectors like healthcare, that is a precursor to a slowdown. So, I continue to see labor market risks as tilted to the downside.",
+      "context": "Her labor-market concern despite a near-full-employment unemployment rate.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "That said, I do view risks to inflation as tilted to the upside, particularly as we are on track for five years of inflation above 2 percent.",
+      "context": "Acknowledging two-sided risks; upside inflation risk.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "In my judgement, the 25-basis-point rate cuts at the September and October meetings were appropriate and have helped to keep policy on that line. But each rate cut raises the bar for the next cut.",
+      "context": "Endorses recent cuts but signals a higher hurdle for further easing as policy nears neutral.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "On the margin, I'm still a little more worried about the labor market than I am about inflation, but I expect to learn a lot between now and the next meeting.",
+      "context": "Net mandate lean ahead of the December FOMC; data-dependent.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1,
+    "mandate_weight": -1,
+    "inflation_conviction": 2.5,
+    "labor_concern": 3,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "financial_stability"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0197,
+    "hawk_hits": 2,
+    "dove_hits": 3,
+    "tokens": 2570
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "neutral"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "neutral"}
+  }
+}

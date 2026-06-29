@@ -1,0 +1,66 @@
+{
+  "speech_id": "paulson-20260114-51bc5b",
+  "member_id": "paulson",
+  "title": "Economic Trends and Opportunities for Philadelphia",
+  "date": "2026-01-14",
+  "url": "https://www.philadelphiafed.org/the-economy/regional-economics/260114-economic-trends-and-opportunities-for-philadelphia",
+  "source": "philadelphia",
+  "non_policy": false,
+  "summary": "Delivered to a regional chamber, this speech pairs a full national monetary-policy outlook with Philadelphia-specific labor-market material. The outlook section largely repeats her January themes: 'cautious optimism' on inflation, with tariff-driven goods inflation expected to fade, services ex-housing easing, and housing inflation improving; the funds rate still 'a little restrictive'; and a labor market that is 'bending, but not breaking' with risks somewhat elevated. She states that current trends 'argue against tighter monetary policy,' credits the 75 bp of 2025 cuts to rising labor risks, and expects 'modest further adjustments to the funds rate' later in 2026 if her benign baseline holds. The second half on local job creation and economic mobility is community-development material that does not change the policy read. Net: a dovish-leaning, gradualist outlook.",
+  "key_quotes": [
+    {
+      "quote": "These trends, especially given labor market developments, argue against tighter monetary policy.",
+      "context": "Leaning against tightening given disinflation and labor softness.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I view the current level of the federal funds rate as still a little restrictive.",
+      "context": "Her read of the current stance.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "While the labor market is clearly bending, it is not breaking.",
+      "context": "Characterizing labor-market risk as elevated but not acute.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "If all of that happens, then some modest further adjustments to the funds rate would likely be appropriate later in the year.",
+      "context": "Near-term bias toward modest further cuts later in 2026.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1.5,
+    "mandate_weight": -1,
+    "inflation_conviction": 2,
+    "labor_concern": 3,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0914,
+    "hawk_hits": 10,
+    "dove_hits": 2,
+    "tokens": 2993
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 2, "push": "neutral"}
+  }
+}

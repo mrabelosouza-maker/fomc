@@ -1,0 +1,65 @@
+{
+  "speech_id": "kashkari-20260501-bdf11b",
+  "member_id": "kashkari",
+  "title": "Why I Dissented",
+  "date": "2026-05-01",
+  "url": "https://www.minneapolisfed.org/article/2026/why-i-dissented",
+  "source": "minneapolis",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "summary": "Kashkari explains his dissent at the latest FOMC meeting: he backed holding the funds rate but objected to keeping the 'additional adjustments' language, which markets read as a signal the next move is a cut. Going into the Iran/Middle East conflict he had felt fairly confident core inflation was headed back to 2 percent (tariff goods inflation waning, housing services cooling, expectations anchored) and viewed policy as only mildly restrictive, so his March SEP penciled in one more 25bp cut in 2026. The oil shock from the conflict changed the balance: he now sees two-sided risk, with a benign scenario implying core PCE stuck near 3 percent for a third straight year (hold then ease only gradually) and an adverse Strait-of-Hormuz scenario that could require a series of rate hikes to defend the inflation anchor even at the cost of jobs. He therefore wants forward guidance that the next move could be a cut OR a hike, which would tighten financial conditions modestly today and lean against the high-inflation tail.",
+  "key_quotes": [
+    {
+      "quote": "Instead, the FOMC should offer a policy outlook that signals that the next rate change could be either a cut or a hike, depending on how the economy evolves.",
+      "context": "Core of his dissent: removing the implicit cut-bias guidance in favor of a symmetric, two-sided outlook",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "With inflation having been elevated for almost six years and counting, I believe the FOMC would have to take very seriously the risk of an unanchoring of long-run inflation expectations.",
+      "context": "On the adverse oil-shock scenario and his overriding concern with the inflation anchor",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Federal funds rate increases, potentially a series of them, could be warranted, even at the risk of further weakness to the labor market.",
+      "context": "Willingness to hike into an extended Strait of Hormuz closure despite labor-market costs",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Given that I viewed policy as mildly restrictive, some further cuts to the federal funds rate would likely be appropriate over time.",
+      "context": "His pre-conflict read of the stance as only modestly tight",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 2,
+    "inflation_conviction": 4,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "r_star",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0797,
+    "hawk_hits": 7,
+    "dove_hits": 3,
+    "tokens": 1417
+  }
+}

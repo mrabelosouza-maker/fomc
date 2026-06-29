@@ -1,0 +1,64 @@
+{
+  "speech_id": "kashkari-20250527-96192b",
+  "member_id": "kashkari",
+  "title": "Neel Kashkari remarks at the Bank of Japan's Institute for Monetary and Economic Studies conference",
+  "date": "2025-05-27",
+  "url": "https://www.minneapolisfed.org/speeches/2025/neel-kashkari-remarks-at-the-bank-of-japans-institute-for-monetary-and-economic-studies-conference",
+  "source": "minneapolis",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "summary": "Speaking on conducting policy under uncertainty, Kashkari draws lessons from the 2008 crisis, COVID, the post-pandemic inflation, and now tariff/trade-policy uncertainty. On current policy he sides with NOT looking through tariff inflation: because trade negotiations may drag on, tariffs hit intermediate goods, and US inflation has run above 2 percent for four years, he favors holding the policy rate\u2014which he characterizes as likely only modestly restrictive\u2014until there is more clarity, reflecting the paramount weight he places on defending long-run inflation expectations. He argues that in massive-shock environments moving slowly to gather information is often the least-bad option, and he criticizes mechanical reliance on policy rules like the Taylor rule, which would now call for hiking and cannot distinguish tariff-driven from demand-driven inflation.",
+  "key_quotes": [
+    {
+      "quote": "These arguments support a stance of maintaining the policy rate, which is likely only modestly restrictive now, until there is more clarity on the path for tariffs and their impact on prices and economic activity.",
+      "context": "His preferred stance \u2014 hold a 'modestly restrictive' rate pending clarity",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Personally, I find these arguments more compelling given the paramount importance I place on defending long-run inflation expectations.",
+      "context": "Comes down on the anti-look-through (hawkish) side of the internal Fed debate",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "How many years of elevated inflation can occur before long-run inflation expectations lose their anchor?",
+      "context": "Concern that prolonged above-target inflation threatens the anchor",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Policymakers\u2019 collective judgments are of course imperfect, and when the proper policy response is unclear, moving more slowly can be warranted, even if it means, in hindsight, the response may be viewed as having been somewhat delayed.",
+      "context": "Patience/gradualism as the operating lesson under deep uncertainty",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.057,
+    "hawk_hits": 5,
+    "dove_hits": 2,
+    "tokens": 1230
+  }
+}

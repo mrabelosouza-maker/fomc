@@ -1,0 +1,45 @@
+{
+  "speech_id": "barr-20260520-202b9f",
+  "member_id": "barr",
+  "title": "Measuring Financial Health",
+  "date": "2026-05-20",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20260520a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "A community-development / consumer-finance speech with no monetary-policy content. Barr traces how the goal of financial inclusion has evolved from simple account access toward measurable financial-health outcomes, noting that while ~96 percent of adults have a bank account, only ~31 percent feel financially healthy and 37 percent could not comfortably cover an unexpected $400 expense. He highlights Fed survey tools (SCF, SHED, the '$400 test') and argues that better data, behavioral science, and AI now let firms measure and improve customer financial health, which can be good for both consumers and the bottom line. He flags challenges around measurement standards, data privacy, methodological rigor, and consumer protection.",
+  "key_quotes": [
+    {
+      "quote": "Financial health begins with access, but it does not end there.",
+      "context": "Reframing financial inclusion around outcomes rather than access",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "Technological advances in artificial intelligence (AI) have made it easier and cheaper to gather, analyze, and deploy financial data at scale.",
+      "context": "On AI's role in measuring household financial health",
+      "dimension": "ai_productivity"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0321,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 2184
+  }
+}

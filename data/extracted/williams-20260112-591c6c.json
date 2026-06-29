@@ -1,0 +1,67 @@
+{
+  "speech_id": "williams-20260112-591c6c",
+  "member_id": "williams",
+  "title": "A Few Words for the New Year",
+  "date": "2026-01-12",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260112",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "In a New Year outlook at the Council on Foreign Relations, Williams describes a favorable economic picture: growth somewhat above 2 percent set to pick up, inflation around 2-3/4 percent (tariffs adding about a half point) poised to peak in the first half of 2026 and then fall toward 2 percent, and a labor market that cooled over the past two years but is expected to stabilize and then strengthen. He emphasizes well-anchored expectations, declining shelter inflation, and the absence of second-round effects. He notes the FOMC's 75 bps of cuts in late 2025 moved the modestly restrictive stance closer to neutral and judges policy now well positioned, pledging to remain data dependent. The lean is broadly balanced with a mild dovish tilt, and a data-dependent near-term hold.",
+  "key_quotes": [
+    {
+      "quote": "By reducing the target range for the federal funds rate by a cumulative 75 basis points last year, the FOMC has moved the modestly restrictive stance of monetary policy closer to neutral.",
+      "context": "Characterizing the current stance after late-2025 cuts",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "In recent months, the downside risks to employment have increased as the labor market cooled, while the upside risks to inflation have lessened somewhat for the reasons that I have already discussed.",
+      "context": "Assessment of the balance of risks tilting toward employment",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Looking ahead, I expect tariffs will have a largely one-off effect on prices that will be fully realized this year.",
+      "context": "Conviction that tariff inflation is transitory",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Many of these labor market indicators are now at levels we saw in the years prior to the pandemic, a time when the labor market was not overheated and inflation was quite low.",
+      "context": "Framing labor-market cooling as a normalization, not deterioration",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -0.5,
+    "mandate_weight": -0.5,
+    "inflation_conviction": 1.5,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "fiscal",
+      "housing",
+      "balance_sheet_qt"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 2, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 1, "push": "dovish"}
+  },
+  "tone_score": {
+    "net_tone": -0.1418,
+    "hawk_hits": 5,
+    "dove_hits": 7,
+    "tokens": 1504
+  }
+}

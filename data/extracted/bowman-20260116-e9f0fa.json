@@ -1,0 +1,67 @@
+{
+  "speech_id": "bowman-20260116-e9f0fa",
+  "member_id": "bowman",
+  "title": "Outlook for the Economy and Monetary Policy",
+  "date": "2026-01-16",
+  "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260116a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "In this fuller January outlook, Bowman traces how her views shifted over 2025 from inflation-attentive to employment-focused, recounting her June balance-of-risks shift and July dissent for a cut. She supported all three of 2025's 25bp cuts (75bp total) and judges underlying inflation, excluding one-off tariff effects, to be close to 2 percent with core services already at target. Her dominant concern is a labor market she repeatedly calls increasingly fragile, with low hiring meaning even a small demand decline could spike unemployment. She argues for a proactive, forward-looking approach over backward-looking data dependence, sees policy as still moderately restrictive, and wants to remain ready to keep cutting toward neutral while avoiding any signal of an unconditioned pause. The lean is clearly dovish.",
+  "key_quotes": [
+    {
+      "quote": "These developments led me to place increasing weight on risks to employment and to signal a shift in my balance of risks in June, after which I dissented at the July meeting favoring a 25-basis point reduction to reflect this shift.",
+      "context": "Recounting how her views evolved over 2025 toward the employment side.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Although the labor market is still near full employment, it has become increasingly more fragile and could continue to deteriorate in the coming months.",
+      "context": "Current labor market assessment.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Absent a clear and sustained improvement in labor market conditions, we should remain ready to adjust policy to bring it closer to neutral. We should also avoid signaling that we will pause without identifying that conditions have changed.",
+      "context": "The path forward for monetary policy.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "When those effects are taken into account, core PCE inflation appears to be much closer to 2 percent.",
+      "context": "On inflation developments, treating tariff effects as one-off.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -3,
+    "mandate_weight": -3.5,
+    "inflation_conviction": 1.5,
+    "labor_concern": 4,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.4942,
+    "hawk_hits": 10,
+    "dove_hits": 26,
+    "tokens": 3443
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "speech_id": "logan-20260527-a2ac80",
+  "member_id": "logan",
+  "title": "Opening remarks for 'Monetary policy and imbalances' panel",
+  "date": "2026-05-27",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260527",
+  "source": "dallas",
+  "non_policy": true,
+  "summary": "A conference panel talk on global imbalances rather than the near-term U.S. policy stance. Logan surveys a constrained global oil market following the closure of the Strait of Hormuz, the post-2020 fragility of the Treasury market and steps to bolster its resilience (central clearing, standing repo, distinguishing liquidity support from accommodation), and the long-run macro consequences of declining global fertility for growth, fiscal positions and the neutral rate. It is thematic and structural, offering no read on current inflation, the labor market or the appropriate near-term policy path, so it is non-policy for reaction-function purposes.",
+  "key_quotes": [
+    {
+      "quote": "The closure of the Strait of Hormuz has reduced global oil supply on net by nearly 13 million barrels per day , or more than 10 percent.",
+      "context": "Describing the global energy shock from his Texas vantage point; a structural/supply theme, not a stance signal.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "Shifts in growth rates and fiscal positions could also affect the neutral interest rate.",
+      "context": "Long-run demographic discussion of how the neutral rate might evolve, not a current-stance read.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "Monetary policymakers will need a new understanding of what the data look like when the economy is in balance.",
+      "context": "On adapting policy frameworks to a shrinking-population world over coming decades.",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "financial_stability",
+      "fiscal",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 1,
+    "dove_hits": 1,
+    "tokens": 1229
+  }
+}

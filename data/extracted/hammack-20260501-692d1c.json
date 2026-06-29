@@ -1,0 +1,61 @@
+{
+  "speech_id": "hammack-20260501-692d1c",
+  "member_id": "hammack",
+  "title": "Statement from Federal Reserve Bank of Cleveland President Beth Hammack regarding her vote at the Federal Open Market Committee\u2019s April 28\u201329, 2026 meeting",
+  "date": "2026-05-01",
+  "url": "https://www.clevelandfed.org/collections/speeches/2026/sp-20260501-statement-regarding-april-fomc-meeting-vote",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "In this statement explaining her April 2026 FOMC vote, Hammack supported holding the funds rate steady but dissented from the post-meeting statement, objecting to its easing bias ('additional adjustments'). She views a clear easing bias as no longer appropriate given an outlook of broad-based inflation pressures and rising oil prices, even as she acknowledges two-sided risks (upside to inflation, downside to growth and employment). The dissent is hawkish: she wants forward guidance stripped of any signal of further cuts.",
+  "key_quotes": [
+    {
+      "quote": "I dissented from the post-meeting statement because I did not believe it was appropriate to include an easing bias around the future path for monetary policy.",
+      "context": "Her hawkish dissent against forward guidance signaling further cuts",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I see this clear easing bias as no longer appropriate given the outlook.",
+      "context": "Reasoning for opposing additional easing signals",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Inflation pressures continue to be broad based, and rising oil prices present an additional source of inflationary pressure.",
+      "context": "Her read on inflation persistence and oil-driven upside",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Uncertainty around the economic outlook is elevated, with upside risks to inflation and downside risks to growth and employment.",
+      "context": "Two-sided risk framing balancing the mandate",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 2,
+    "inflation_conviction": 4,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": []
+  },
+  "drivers": {
+    "oil_war": {"intensity": 2, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1991,
+    "hawk_hits": 2,
+    "dove_hits": 5,
+    "tokens": 227
+  }
+}

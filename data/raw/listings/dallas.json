@@ -1,0 +1,22 @@
+{
+  "source": "dallas",
+  "collected_at": "2026-06-20",
+  "note": "dallasfed.org returns HTTP 403 to WebFetch; listing assembled via WebSearch fallback (site:dallasfed.org speeches Logan 2025/2026). Dates verified from URL slug pattern lkl<YYMMDD>. Only Lorie K. Logan (current Dallas president, member_id=logan) since 2025-01-01.",
+  "speeches": [
+    {"member_id": "logan", "date": "2026-06-03", "title": "Opening remarks for moderated conversation at The University of Texas at El Paso", "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260603", "source": "dallas", "speech_id": "logan-20260603-b659c5"},
+    {"member_id": "logan", "date": "2026-05-27", "title": "Opening remarks for 'Monetary policy and imbalances' panel", "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260527", "source": "dallas", "speech_id": "logan-20260527-a2ac80"},
+    {"member_id": "logan", "date": "2026-05-10", "title": "Look Up: Remarks at Duke University Economics Department Commencement", "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260510", "source": "dallas", "speech_id": "logan-20260510-3ade84"},
+    {"member_id": "logan", "date": "2026-04-02", "title": "The banking system and the demand for reserves", "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260402", "source": "dallas", "speech_id": "logan-20260402-b72e8e"},
+    {"member_id": "logan", "date": "2026-02-10", "title": "Outlook for the economy and monetary policy", "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260210", "source": "dallas", "speech_id": "logan-20260210-e9f0fa"},
+    {"member_id": "logan", "date": "2026-01-29", "title": "President Logan introduces FDIC Chairman Travis Hill at payments conference", "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260129", "source": "dallas", "speech_id": "logan-20260129-012586"},
+    {"member_id": "logan", "date": "2025-11-21", "title": "Opening remarks for panel titled 'Economic uncertainty and the design and conduct of monetary policy'", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl251121", "source": "dallas", "speech_id": "logan-20251121-f977b2"},
+    {"member_id": "logan", "date": "2025-10-31", "title": "Ample liquidity for a safe and efficient banking system", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl251031", "source": "dallas", "speech_id": "logan-20251031-b19af7"},
+    {"member_id": "logan", "date": "2025-10-30", "title": "Welcome remarks for 'The Evolving Landscape of Bank Funding'", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl251030", "source": "dallas", "speech_id": "logan-20251030-c05d72"},
+    {"member_id": "logan", "date": "2025-09-30", "title": "Why I'll be cautious about further rate cuts", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl250930", "source": "dallas", "speech_id": "logan-20250930-5292d7"},
+    {"member_id": "logan", "date": "2025-09-25", "title": "The case for modernizing the FOMC's operating target rate", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl250925", "source": "dallas", "speech_id": "logan-20250925-f74367"},
+    {"member_id": "logan", "date": "2025-08-25", "title": "Opening remarks for panel titled 'Post-Pandemic Challenges for Monetary Policy Implementation'", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl250825", "source": "dallas", "speech_id": "logan-20250825-50c7ec"},
+    {"member_id": "logan", "date": "2025-06-03", "title": "Opening remarks for Fed Listens", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl250603", "source": "dallas", "speech_id": "logan-20250603-86280c"},
+    {"member_id": "logan", "date": "2025-04-10", "title": "Welcome remarks for the Outlook for North American Trade and Immigration conference", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl250410", "source": "dallas", "speech_id": "logan-20250410-6b1781"},
+    {"member_id": "logan", "date": "2025-02-06", "title": "Opening remarks for panel on 'Future challenges for monetary policy in the Americas'", "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl250206", "source": "dallas", "speech_id": "logan-20250206-517fdf"}
+  ]
+}

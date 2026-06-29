@@ -1,0 +1,82 @@
+{
+  "speech_id": "goolsbee-20260622-b824f9",
+  "member_id": "goolsbee",
+  "title": "Marketplace radio interview with Kai Ryssdal",
+  "date": "2026-06-22",
+  "url": "https://www.marketplace.org/",
+  "source": "chicago",
+  "non_policy": false,
+  "summary": "In a Marketplace interview, Goolsbee keeps the hawkish-leaning through line he has held for a year: inflation is 'well above the target and has been going the wrong way,' with a 3- or 4-handle, and his central question is whether that proves persistent or fades for natural reasons. He is encouraged that part of the inflation is tariff-driven (one-and-done) and that a Middle East resolution could unwind energy pressure, but flags that the strength showing up in services\u2014historically persistent\u2014is 'more disturbing.' He stresses this has been an inflationary, not stagflationary, shock because the labor market has stayed stable, so jobs are not his worry. Recalling his end-of-year dissent against front-loading too many rate cuts (he was a voter last year, not this year), he wants more evidence inflation is returning to 2% before easing, and welcomes Chair Warsh's move to cut back forward guidance as protecting Fed credibility (a 'caffeine cleanse').",
+  "key_quotes": [
+    {
+      "quote": "we've been dealing with an inflation problem that's well above the target and has been going the wrong way",
+      "context": "his summary of the macro backdrop",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The fact that we've seen it in services, which historically is pretty persistent, is a little more disturbing.",
+      "context": "what worries him beyond tariffs/oil that could fade",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I wanted to get some more information to make me feel better about inflation before front-loading too many rate cuts. I don't regret that dissent.",
+      "context": "explaining his end-of-year dissent against cuts",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "this hasn't actually been a stagflationary shock, in the sense that the job market has been pretty stable. This has mostly just been an inflationary shock.",
+      "context": "why the labor market is not his concern",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "fed_independence"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-22T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0252,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 1575
+  }
+}

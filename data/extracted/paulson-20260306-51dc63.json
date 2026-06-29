@@ -1,0 +1,43 @@
+{
+  "speech_id": "paulson-20260306-51dc63",
+  "member_id": "paulson",
+  "title": "Discussion Points on \"Private Canaries: The Value of Private-Sector Data for U.S. Monetary Policy Making\"",
+  "date": "2026-03-06",
+  "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/260306-2026-us-monetary-policy-forum",
+  "source": "philadelphia",
+  "non_policy": true,
+  "summary": "Slide-based discussant remarks at the U.S. Monetary Policy Forum on the use of private-sector data in policymaking. Paulson uses a mosaic metaphor: policymakers observe only fragments of a complex economy and must assemble public and private data, with judgment, to gauge conditions and turning points. She argues private and public data are complements not substitutes, warns against 'shiny objects,' stresses the value of long, benchmarked public series for spotting turning points, and suggests policymakers can improve communication about which data drive the outlook. The remarks are methodological -- about data and communication -- with no read on the current inflation/labor outlook or the stance of policy, so they are non-policy and down-weighted for the reaction-function aggregation.",
+  "key_quotes": [
+    {
+      "quote": "Private data and public data are complements, not substitutes.",
+      "context": "Her central methodological point on data sources; not a policy-stance signal.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Policymakers have an opportunity to improve monetary policy communications by describing which data are important and why.",
+      "context": "On communication, not on the current stance or path of policy.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": []
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0885,
+    "hawk_hits": 0,
+    "dove_hits": 2,
+    "tokens": 511
+  }
+}

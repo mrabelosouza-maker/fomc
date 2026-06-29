@@ -1,0 +1,63 @@
+{
+  "speech_id": "hammack-20260602-136e16",
+  "member_id": "hammack",
+  "title": "It Takes Two to Make an Economy Go Right",
+  "date": "2026-06-02",
+  "url": "https://www.clevelandfed.org/collections/speeches/2026/sp-20260602-it-takes-two-to-make-an-economy-go-right",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "Hammack delivers a firmly hawkish message: with headline PCE at 3.8 percent and core at 3.3 percent in April, she sees broad-based price pressures and inflation 'too high and moving higher,' worsened by an oil-price surge tied to conflict with Iran. She judges the labor market resilient near full employment (4.3 percent unemployment) and argues policy may not be sufficiently restrictive, noting the real funds rate has fallen as inflation rose. While she would keep rates steady for now given uncertainty, she warns that if recent trends continue it may soon be appropriate to act, and that she is more concerned about persistently elevated inflation than about risks to employment.",
+  "key_quotes": [
+    {
+      "quote": "For today, it\u2019s reasonable to keep rates steady given the uncertainties around the economic outlook. But if recent trends continue, it may soon be appropriate to act.",
+      "context": "Her near-term policy conclusion, signaling a hawkish lean toward action",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Based on the data, I\u2019m more concerned about the growing risks of persistently elevated inflation than the risks to full employment and also that monetary policy may not be sufficiently restrictive to bring inflation down to 2 percent.",
+      "context": "Explicit statement of mandate weighting and policy-stance read",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "By contrast, the picture for inflation is not encouraging. Inflation is too high and is moving higher.",
+      "context": "Her read on inflation conditions in April",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "In the labor market, the incoming data point to resilience and stability. The unemployment rate was 4.3 percent in April, similar to where it was last summer.",
+      "context": "Her relatively relaxed read of the labor market",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3,
+    "mandate_weight": 3,
+    "inflation_conviction": 4.5,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 1, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0463,
+    "hawk_hits": 13,
+    "dove_hits": 7,
+    "tokens": 2919
+  }
+}

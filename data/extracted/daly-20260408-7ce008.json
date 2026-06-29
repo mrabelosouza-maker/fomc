@@ -1,0 +1,45 @@
+{
+  "speech_id": "daly-20260408-7ce008",
+  "member_id": "daly",
+  "title": "Regionalism at the Federal Reserve: Many Voices, One Purpose",
+  "date": "2026-04-08",
+  "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2026/04/many-voices-one-purpose/",
+  "source": "sanfrancisco",
+  "non_policy": true,
+  "summary": "A civics-and-institutions speech defending the structure of the Federal Reserve\u2014regionalism, independence, and accountability\u2014amid public debate over Fed independence and the System's structure. Daly describes the Fed's core functions (payments, supervision, monetary policy) and argues the 12-Bank structure guards against groupthink and keeps the Fed accountable to the public. It contains no read on the inflation or labor outlook and no signal on the policy stance or the near-term rate path. Its policy relevance is its defense of Fed independence; it is otherwise non-policy and down-weighted for the reaction-function aggregation.",
+  "key_quotes": [
+    {
+      "quote": "They also recognized that, to be effective, the central bank had to be independent.",
+      "context": "Defending Fed independence amid public debate over the institution's structure.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "This helps guard against groupthink and ensures that the system is debating and challenging institutional norms and perspectives.",
+      "context": "Arguing the regional structure improves policymaking quality.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "fed_independence"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0318,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 987
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "speech_id": "collins-20250715-2d5dba",
+  "member_id": "collins",
+  "title": "Using Data in Monetary Policymaking: A View from the Fed",
+  "date": "2025-07-15",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2025/using-data-in-monetary-policymaking.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "Framed as a methodological talk on how she uses data, the speech nonetheless delivers a clear policy read: the economy is in a good place close to both mandates, with wage growth no longer a significant source of inflation. Looking ahead she expects tariffs to push core PCE toward roughly 3% by year-end before resuming its decline, with some downward pressure on jobs and growth - upside inflation risk, downside activity risk. Given still-solid conditions she judges an actively patient approach to policy as appropriate, i.e., a data-dependent hold.",
+  "key_quotes": [
+    {
+      "quote": "Thus, in my view, an \u201cactively patient\u201d approach to monetary policy remains appropriate at this time.",
+      "context": "Her policy recommendation: patient hold",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "it seems likely that core PCE in\ufb02ation will be in the vicinity of 3 percent by year\u2019s end, before resuming its decline.",
+      "context": "Tariff-driven upside to inflation in the near term",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Broadly speaking, both wage measures suggest that the labor market is no longer a signi\ufb01cant source of price pressures (in\ufb02ation).",
+      "context": "Labor market not driving inflation; relatively relaxed on jobs",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "the economy continues to be in a good place overall, close to the Congressionally mandated objectives of price stability and full employment.",
+      "context": "Balanced assessment of current conditions",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0999,
+    "hawk_hits": 1,
+    "dove_hits": 7,
+    "tokens": 3605
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 1, "push": "neutral"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "neutral"}
+  }
+}

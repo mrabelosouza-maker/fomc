@@ -1,0 +1,24 @@
+{
+  "member_id": "jefferson",
+  "as_of": {
+    "date": "2026-05-27",
+    "title": "Global Economic Developments and the U.S. Economy",
+    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
+    "speech_id": "jefferson-20260527-598e44"
+  },
+  "inflation": {
+    "label": "oil + tariffs",
+    "note": "Disinflation stalled on tariffs and inflation then moved notably higher on energy costs; expects both to wane but risks tilted up.",
+    "quote": "Disinflation in the U.S. stalled over the preceding year, largely because of increased tariffs. In recent months, inflation moved notably higher because of higher energy costs."
+  },
+  "labor": {
+    "label": "downside risks",
+    "note": "Labor market broadly stable with low hiring and firing, but risks skewed to the downside.",
+    "quote": "The U.S. labor market is broadly stable, with both hiring and firing at relatively low levels. I see risks to the labor market as somewhat skewed to the downside."
+  },
+  "stance": {
+    "label": "appropriate / well positioned",
+    "note": "Backs holding the funds rate at 3-1/2 to 3-3/4 percent, viewing the stance as well positioned and data-dependent.",
+    "quote": "I believe this policy stance leaves us well positioned to respond to economic developments based on the incoming data, the evolving outlook, and the balance of risks."
+  }
+}

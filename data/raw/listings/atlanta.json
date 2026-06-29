@@ -1,0 +1,8 @@
+{
+  "source": "atlanta",
+  "collected_at": "2026-06-20",
+  "note": "Interim president Cheryl Venable (member_id=venable) took the Atlanta seat effective 2026-03-01; Raphael Bostic retired 2026-02-28. Only Venable's own monetary-policy/outlook publications since 2025-01-01 are kept. Bostic's 2025/2026 quarterly essays (through 'Farewell to the Best Job...' 2026-02-25), his Brookings 2026-03-26 speech, and his Feb 2026 FOMC commentary/podcast are EXCLUDED. Venable has one qualifying quarterly president's essay; her 2026 Financial Markets Conference closing remarks ('Technology's Transformative Role in Finance and Central Banking') were operational/ceremonial and not published as a standalone monetary-policy speech.",
+  "speeches": [
+    {"member_id": "venable", "speech_id": "venable-20260512-f9d27a", "date": "2026-05-12", "title": "Welcome to the Whirlwind", "url": "https://www.atlantafed.org/news-and-events/messages-from-president/2026/05/12/welcome-to-the-whirlwind", "source": "atlanta"}
+  ]
+}

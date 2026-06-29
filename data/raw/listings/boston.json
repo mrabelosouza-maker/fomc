@@ -1,0 +1,18 @@
+{
+  "source": "boston",
+  "collected_at": "2026-06-20",
+  "speeches": [
+    {"member_id": "collins", "speech_id": "collins-20260513-13587b", "date": "2026-05-13", "title": "The U.S. Economy: Resilience Amid Risks and Uncertainty", "url": "https://www.bostonfed.org/news-and-events/speeches/2026/boston-economic-club-remarks.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20260306-7ec5d7", "date": "2026-03-06", "title": "Observations on the Economic Outlook, and Small Business", "url": "https://www.bostonfed.org/news-and-events/speeches/2026/economic-outlook-small-business.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20260224-9d060a", "date": "2026-02-24", "title": "Welcoming Remarks at the \"2026 Technology-Enabled Disruption Conference: Shaping the Future of Finance and Payments\"", "url": "https://www.bostonfed.org/news-and-events/speeches/2026/remarks-at-2026-tech-enabled-disruption-conference.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20260116-5d72da", "date": "2026-01-16", "title": "Brief Introductory Remarks: Outlook 26: The New England Economic Forum", "url": "https://www.bostonfed.org/news-and-events/speeches/2026/new-england-economic-forum-remarks.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20251121-6d4092", "date": "2025-11-21", "title": "Observations on the U.S. Economy in a Changing Global Landscape", "url": "https://www.bostonfed.org/news-and-events/speeches/2025/us-economy-in-a-changing-global-landscape-remarks.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20251112-64ea71", "date": "2025-11-12", "title": "Perspectives on the Economy and Financial Landscape", "url": "https://www.bostonfed.org/news-and-events/speeches/2025/perspectives-on-economy-financial-landscape.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20250930-2a3ea4", "date": "2025-09-30", "title": "Views on Current Economic Conditions and Monetary Policy", "url": "https://www.bostonfed.org/news-and-events/speeches/2025/views-on-current-economic-conditions.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20250715-2d5dba", "date": "2025-07-15", "title": "Using Data in Monetary Policymaking: A View from the Fed", "url": "https://www.bostonfed.org/news-and-events/speeches/2025/using-data-in-monetary-policymaking.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20250625-650049", "date": "2025-06-25", "title": "Perspectives on the Economy from Susan M. Collins", "url": "https://www.bostonfed.org/news-and-events/speeches/2025/economic-perspectives-in-ma.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20250520-680e3e", "date": "2025-05-20", "title": "Brief Remarks at Fed Listens 2025: A conversation with New England Stakeholders", "url": "https://www.bostonfed.org/news-and-events/speeches/2025/fedlistens-remarks.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20250410-2f3009", "date": "2025-04-10", "title": "Supply Factors and the Evolution of the Economy", "url": "https://www.bostonfed.org/news-and-events/speeches/2025/georgetown-razin-lecture.aspx", "source": "boston"},
+    {"member_id": "collins", "speech_id": "collins-20250109-1fbbef", "date": "2025-01-09", "title": "Assessing the Economy as a New Year Begins", "url": "https://www.bostonfed.org/news-and-events/speeches/2025/naiop-massachusetts-remarks.aspx", "source": "boston"}
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "speech_id": "bowman-20260130-e9f0fa",
+  "member_id": "bowman",
+  "title": "Outlook for the Economy and Monetary Policy",
+  "date": "2026-01-30",
+  "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260130a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Bowman explains her vote to hold the funds rate at 3-1/2 to 3-3/4 percent in January, framing it as a question of the timeline for delivering the three 2026 cuts already in her SEP rather than whether to cut. She sees policy as still moderately restrictive and views a fragile labor market as the greater risk, but, having already delivered 75bp of cuts and facing data distorted by the government shutdown, she was willing to wait and 'keep policy powder dry' for clearer signals by March. She judges underlying inflation (ex one-off tariff effects) to be close to 2 percent and expects tariff effects on goods to fade. Her overall lean remains dovish: she wants to keep cutting toward neutral, warns against signaling an extended pause, and stresses acting early to protect employment.",
+  "key_quotes": [
+    {
+      "quote": "I continue to see policy as moderately restrictive, and, looking ahead to 2026, my Summary of Economic Projections includes three cuts for this year.",
+      "context": "Explaining the rationale behind supporting the January hold while still expecting cuts.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I do not consider downside risks to the employment side of our mandate to have diminished, and I see several indications that the labor market remains vulnerable.",
+      "context": "Assessing the balance of risks after the hold decision.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "absent a clear and sustained improvement in labor market conditions, we should be ready to adjust policy to bring it closer to neutral. We should also not imply that we expect to maintain the current stance of policy for an extended period of time because it would signal that we are not attentive to the risk that labor market conditions could deteriorate.",
+      "context": "Outlook for the path forward; pushing back against signaling an extended pause.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -2.5,
+    "mandate_weight": -3,
+    "inflation_conviction": 1.5,
+    "labor_concern": 4,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 2, "push": "neutral"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.4981,
+    "hawk_hits": 7,
+    "dove_hits": 18,
+    "tokens": 1694
+  }
+}

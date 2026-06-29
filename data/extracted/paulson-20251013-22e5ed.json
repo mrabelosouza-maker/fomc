@@ -1,0 +1,64 @@
+{
+  "speech_id": "paulson-20251013-22e5ed",
+  "member_id": "paulson",
+  "title": "Economic Outlook",
+  "date": "2025-10-13",
+  "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/251013-economic-outlook",
+  "source": "philadelphia",
+  "non_policy": false,
+  "summary": "In her first economic-outlook address as Philadelphia Fed president, Paulson reads the economy as doing pretty well with inflation still elevated (core PCE 2.9 percent) and judges policy to be modestly restrictive at a 4 to 4-1/4 percent funds rate. Her base case is that tariffs raise the price level but do not leave a lasting imprint on inflation, so policy should look through tariff effects. With labor-market risks 'increasing -- not outrageously, but noticeably' and momentum to the downside, she endorses the September rate cut and views continued easing along the median SEP path as appropriate, i.e., moving policy toward a more neutral stance. For 2026 she flags two open questions -- where neutral is and how fast to get there -- and answers 'I don't know, and because I don't know, we should proceed cautiously.' Overall a dovish-leaning, risk-balancing message tempered by attention to a narrow base of growth and the value of inflation-fighting credibility.",
+  "key_quotes": [
+    {
+      "quote": "With the federal funds rate currently at 4 to 4-and-a-quarter percent, I see policy as modestly restrictive now.",
+      "context": "Her read of the current stance of policy.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "My base case is that tariffs will increase the price level, but they won't leave a lasting imprint on inflation.",
+      "context": "Why she would look through tariff-driven price increases.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Given my views on tariffs and inflation, monetary policy should be focused on balancing risks to maximum employment and price stability which means moving policy towards a more neutral stance.",
+      "context": "Her near-term policy inclination after the September cut.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "The first question is: What is the neutral policy rate? And the second question is: How quickly should policy move to neutral? My short answer to these questions is: I don't know, and because I don't know, we should proceed cautiously.",
+      "context": "Framing for 2026 policy; argues for a cautious, gradual pace toward neutral.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1.5,
+    "mandate_weight": -1,
+    "inflation_conviction": 2,
+    "labor_concern": 2.5,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0632,
+    "hawk_hits": 6,
+    "dove_hits": 2,
+    "tokens": 2252
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 3, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  }
+}

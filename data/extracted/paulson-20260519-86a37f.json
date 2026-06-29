@@ -1,0 +1,64 @@
+{
+  "speech_id": "paulson-20260519-86a37f",
+  "member_id": "paulson",
+  "title": "Navigating Uncertainty: Inflation, Labor Markets, and the Stance of Monetary Policy",
+  "date": "2026-05-19",
+  "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/260519-2026-financial-markets-conference",
+  "source": "philadelphia",
+  "non_policy": false,
+  "summary": "Paulson's most hawkish-leaning speech: with the Middle East conflict and a more-than-50-percent rise in gas prices pushing headline PCE to 3.5 percent and core to 3.2 percent, she stresses that 'inflation is too high' and that risks to inflation have increased. She judges monetary policy to be mildly restrictive and 'appropriately positioned,' arguing that this restrictiveness, balanced economic activity, and still-anchored long-run expectations are keeping the tariff and energy supply shocks from becoming a lasting inflation problem. She favors keeping rates steady, says rate cuts would only become appropriate 'once we have seen sustained progress on inflation,' and explicitly welcomes that markets now price scenarios of rates on hold for an extended period or even 'a modest tightening.' The labor market she views as stable near full employment. Net: a hold-biased, inflation-focused, hawkish-leaning message.",
+  "key_quotes": [
+    {
+      "quote": "Let me start with the obvious. Inflation is too high.",
+      "context": "Headline framing; inflation as the binding concern amid an energy supply shock.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Policy is mildly restrictive and that restrictiveness is helping to keep inflation pressures in check while the labor market remains stable.",
+      "context": "Her read of the current stance as appropriate.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Assuming the labor market remains in balance, rate cuts would only become appropriate once we have seen sustained progress on inflation.",
+      "context": "Conditions for further easing -- a high bar.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "More recently, expectations have shifted to incorporate the possibility of steady rates or even a modest tightening.",
+      "context": "She endorses market pricing that includes a hold-or-hike, signaling a hawkish tilt.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0521,
+    "hawk_hits": 11,
+    "dove_hits": 9,
+    "tokens": 2301
+  },
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 3, "push": "hawkish"}
+  }
+}

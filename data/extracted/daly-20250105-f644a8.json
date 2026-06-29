@@ -1,0 +1,45 @@
+{
+  "speech_id": "daly-20250105-f644a8",
+  "member_id": "daly",
+  "title": "Ben Bernanke: Solving a Crisis, Changing the Fed",
+  "date": "2025-01-05",
+  "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/01/ben-bernanke-solving-a-crisis-changing-the-fed/",
+  "source": "sanfrancisco",
+  "non_policy": true,
+  "summary": "A tribute/retrospective on Ben Bernanke's tenure as Fed Chair, delivered on an academic panel. Daly recounts Bernanke's GFC-era tools\u2014emergency 13(3) facilities, quantitative easing, and forward guidance\u2014and his institutional legacy of transparency (the 2 percent target, press conferences, the dot plot). It is historical and ceremonial, with no read on the current inflation or labor outlook and no signal on the present stance or rate path. Non-policy for reaction-function purposes.",
+  "key_quotes": [
+    {
+      "quote": "Ben took extraordinary actions to prevent the crisis from turning into another Great Depression.",
+      "context": "Historical assessment of Bernanke's GFC response; not a current-stance statement.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "In January 2012, the Fed formalized its 2 percent inflation goal.",
+      "context": "Recounting Bernanke's transparency legacy, including the inflation target.",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "balance_sheet_qt"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.2013,
+    "hawk_hits": 0,
+    "dove_hits": 8,
+    "tokens": 1783
+  }
+}

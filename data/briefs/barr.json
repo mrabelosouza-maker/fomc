@@ -1,0 +1,24 @@
+{
+  "member_id": "barr",
+  "as_of": {
+    "date": "2026-03-26",
+    "title": "Brief Remarks on the Economic Outlook and Monetary Policy",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm",
+    "speech_id": "barr-20260326-b17119"
+  },
+  "inflation": {
+    "label": "broadening / underlying",
+    "note": "Beyond Middle East energy and tariffs, core stuck at 3 percent and nonhousing services still elevated, with risk to long-term expectations.",
+    "quote": "Core inflation, which excludes volatile food and energy prices and is a good guide to future inflation, likely was 3 percent in February, about where it was a year ago. Nonhousing services inflation has remained elevated."
+  },
+  "labor": {
+    "label": "downside risks",
+    "note": "Job creation near zero for the past year in a 'low hire, low fire' environment, unusual outside a recession.",
+    "quote": "Job creation has also been close to zero for the past year, a highly unusual experience outside of a recession. We are in a \"low hire, low fire\" environment."
+  },
+  "stance": {
+    "label": "appropriate / well positioned",
+    "note": "Supported the FOMC decision to maintain the current policy setting amid sticky inflation and a fragile labor market.",
+    "quote": "The Federal Open Market Committee (FOMC) met last week and chose to maintain the current setting of monetary policy—a decision I supported."
+  }
+}

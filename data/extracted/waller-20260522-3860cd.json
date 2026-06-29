@@ -1,0 +1,66 @@
+{
+  "speech_id": "waller-20260522-3860cd",
+  "member_id": "waller",
+  "title": "Policy Risks Have Changed",
+  "date": "2026-05-22",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller signals a marked hawkish pivot from his prior dovish stance: a Middle East energy shock has pushed headline PCE to ~3.8 percent and core to ~3.3 percent, with broad price increases and rising near-term inflation expectations, so inflation rather than labor is now his driving concern. He judges the labor market to have stabilized (unemployment 4.3 percent, near-zero breakeven job growth) and no longer a dominant policy factor. He favors removing the easing-bias language and holding rates steady, explicitly stating the next move could be a hike or a cut depending on data, and says he would not hesitate to hike if inflation expectations begin to unanchor. He frames the risk through 'too Bayesian' / sequence-of-transitory-shocks reasoning, arguing a series of shocks (tariffs then oil) may force a policy response even if each is transitory.",
+  "key_quotes": [
+    {
+      "quote": "Based on this recent data, I would support removing the \"easing bias\" language in our policy statement to make it clear that a rate cut is no more likely in the future than a rate increase.",
+      "context": "Waller signaling a shift to a neutral, balanced-risk policy posture after prior easing.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "But I can no longer rule out rate hikes further down the road if inflation does not abate soon, and that is especially true if measures of inflation expectations, some of which have risen lately, show signs of becoming unanchored.",
+      "context": "Hawkish conditional threat to hike, a departure from his 2025 rate-cut advocacy.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Instead, my focus is on inflation and the effects of the energy price shock caused by the Middle East conflict.",
+      "context": "Mandate emphasis shifting decisively from employment to price stability.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "I am prepared to be patient in holding policy at its current restrictive setting as we watch how the conflict evolves and what impact there is on inflation and inflation expectations.",
+      "context": "Holding at a restrictive stance with patience; near-term bias is hold.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "fiscal"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 1, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 6,
+    "dove_hits": 7,
+    "tokens": 3035
+  }
+}

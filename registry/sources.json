@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "note": "Per-source registry for speech-listing collection. Agents read this; deterministic code does NOT. listing_urls use a {year} slot. If a listing page is JS-only or has no clean per-year view, agents fall back to search_fallback (a `site:` WebSearch). president_hint is a STARTING guess only — the authoritative roster is registry/roster.json (verified at build).",
+  "sources": [
+    {
+      "id": "board",
+      "name": "Federal Reserve Board of Governors",
+      "kind": "board",
+      "domain": "federalreserve.gov",
+      "listing_urls": ["https://www.federalreserve.gov/newsevents/speech/{year}-speeches.htm"],
+      "listing_hint": "Table/list of entries, each with date (M/D/YYYY), speaker (e.g. 'Gov. Christopher J. Waller', 'Chair ...', 'Vice Chair ...'), and a linked title. Covers ALL Board members on one page per year. KEEP ONLY speakers whose member_id is in roster.json (the 7 current governors: warsh, jefferson, bowman, barr, cook, powell, waller). SKIP departed governors such as Stephen Miran. Speech URL pattern: /newsevents/speech/<lastname><YYYYMMDD>a.htm.",
+      "search_fallback": "site:federalreserve.gov/newsevents/speech 2025",
+      "president_hint": null
+    },
+    {
+      "id": "newyork",
+      "name": "Federal Reserve Bank of New York",
+      "kind": "regional",
+      "domain": "newyorkfed.org",
+      "listing_urls": ["https://www.newyorkfed.org/newsevents/speeches/{year}"],
+      "listing_hint": "List of president/EVP speeches by year. Keep only speeches by the BANK PRESIDENT (FOMC participant), not other officers.",
+      "search_fallback": "site:newyorkfed.org/newsevents/speeches 2025",
+      "president_hint": "John C. Williams"
+    },
+    {
+      "id": "boston",
+      "name": "Federal Reserve Bank of Boston",
+      "kind": "regional",
+      "domain": "bostonfed.org",
+      "listing_urls": ["https://www.bostonfed.org/news-and-events/speeches.aspx"],
+      "listing_hint": "Speeches landing page; filter to the president's remarks since 2025-01-01.",
+      "search_fallback": "site:bostonfed.org speeches 2025 president",
+      "president_hint": "Susan M. Collins"
+    },
+    {
+      "id": "philadelphia",
+      "name": "Federal Reserve Bank of Philadelphia",
+      "kind": "regional",
+      "domain": "philadelphiafed.org",
+      "listing_urls": ["https://www.philadelphiafed.org/search-results?searchtype=speeches"],
+      "listing_hint": "Speeches search view. Current president is Anna Paulson (Patrick Harker retired mid-2025). Keep only Paulson's speeches as the current seat-holder; do not attribute Harker's earlier 2025 speeches to the current seat.",
+      "search_fallback": "site:philadelphiafed.org speech 2025 Paulson",
+      "president_hint": "Anna Paulson"
+    },
+    {
+      "id": "cleveland",
+      "name": "Federal Reserve Bank of Cleveland",
+      "kind": "regional",
+      "domain": "clevelandfed.org",
+      "listing_urls": ["https://www.clevelandfed.org/collections/speeches"],
+      "listing_hint": "Speeches collection; keep only the president's speeches.",
+      "search_fallback": "site:clevelandfed.org speeches 2025 president",
+      "president_hint": "Beth M. Hammack"
+    },
+    {
+      "id": "richmond",
+      "name": "Federal Reserve Bank of Richmond",
+      "kind": "regional",
+      "domain": "richmondfed.org",
+      "listing_urls": ["https://www.richmondfed.org/press_room/speeches"],
+      "listing_hint": "Speeches index, often grouped by president and year.",
+      "search_fallback": "site:richmondfed.org speeches 2025 Barkin",
+      "president_hint": "Thomas I. Barkin"
+    },
+    {
+      "id": "atlanta",
+      "name": "Federal Reserve Bank of Atlanta",
+      "kind": "regional",
+      "domain": "atlantafed.org",
+      "listing_urls": ["https://www.atlantafed.org/news/speeches"],
+      "listing_hint": "News/speeches listing. The CURRENT Atlanta participant is interim president Cheryl Venable; Raphael Bostic departed. Keep only the current seat-holder's (Venable) speeches; do NOT attribute Bostic's 2025 speeches to the current seat. Atlanta may have few/no 2025+ speeches by the current participant.",
+      "search_fallback": "site:atlantafed.org speeches 2026 Venable",
+      "president_hint": "Cheryl Venable (interim)"
+    },
+    {
+      "id": "chicago",
+      "name": "Federal Reserve Bank of Chicago",
+      "kind": "regional",
+      "domain": "chicagofed.org",
+      "listing_urls": ["https://www.chicagofed.org/publications/speeches/index"],
+      "listing_hint": "Speeches index by year; keep only the president's speeches.",
+      "search_fallback": "site:chicagofed.org speeches 2025 Goolsbee",
+      "president_hint": "Austan D. Goolsbee"
+    },
+    {
+      "id": "stlouis",
+      "name": "Federal Reserve Bank of St. Louis",
+      "kind": "regional",
+      "domain": "stlouisfed.org",
+      "listing_urls": ["https://www.stlouisfed.org/from-the-president/remarks"],
+      "listing_hint": "'From the President' remarks/speeches; keep only the president's speeches.",
+      "search_fallback": "site:stlouisfed.org from-the-president remarks 2025",
+      "president_hint": "Alberto G. Musalem"
+    },
+    {
+      "id": "minneapolis",
+      "name": "Federal Reserve Bank of Minneapolis",
+      "kind": "regional",
+      "domain": "minneapolisfed.org",
+      "listing_urls": ["https://www.minneapolisfed.org/news-and-events/messages-and-speeches"],
+      "listing_hint": "Messages & speeches; the president also publishes long-form essays — include policy essays as speeches.",
+      "search_fallback": "site:minneapolisfed.org speeches essay 2025 Kashkari",
+      "president_hint": "Neel Kashkari"
+    },
+    {
+      "id": "kansascity",
+      "name": "Federal Reserve Bank of Kansas City",
+      "kind": "regional",
+      "domain": "kansascityfed.org",
+      "listing_urls": ["https://www.kansascityfed.org/research/research-staff/"],
+      "listing_hint": "President's speeches are linked from the leadership/president page and the newsroom. Use search fallback if no clean listing.",
+      "search_fallback": "site:kansascityfed.org speech 2025 Schmid",
+      "president_hint": "Jeffrey R. Schmid"
+    },
+    {
+      "id": "dallas",
+      "name": "Federal Reserve Bank of Dallas",
+      "kind": "regional",
+      "domain": "dallasfed.org",
+      "listing_urls": ["https://www.dallasfed.org/news/speeches"],
+      "listing_hint": "News/speeches listing; keep only the president's speeches.",
+      "search_fallback": "site:dallasfed.org speeches 2025 Logan",
+      "president_hint": "Lorie K. Logan"
+    },
+    {
+      "id": "sanfrancisco",
+      "name": "Federal Reserve Bank of San Francisco",
+      "kind": "regional",
+      "domain": "frbsf.org",
+      "listing_urls": ["https://www.frbsf.org/news-and-media/speeches/"],
+      "listing_hint": "Speeches listing; keep only the president's speeches.",
+      "search_fallback": "site:frbsf.org speeches 2025 Daly",
+      "president_hint": "Mary C. Daly"
+    }
+  ]
+}

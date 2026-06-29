@@ -1,0 +1,83 @@
+{
+  "speech_id": "jefferson-20260407-386257",
+  "member_id": "jefferson",
+  "title": "Economic Outlook and the Labor Market",
+  "date": "2026-04-07",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260407a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Jefferson describes a balanced two-sided risk picture: downside risk to a labor market that is 'roughly in balance' but susceptible to shocks, and upside risk to inflation that has stalled near 3 percent core on tariffs and a new energy shock. He sees the economy growing around potential and the labor market showing signs of stabilization, though he stays cautious. He expects disinflation to resume once tariff pass-through completes and energy effects fade. He endorses the recent hold, characterizes the funds rate as broadly neutral after 175 bp of cuts, and frames future moves as fully data-dependent with no clear directional lean.",
+  "key_quotes": [
+    {
+      "quote": "In the current environment, I confront an outlook in which there is downside risk to the labor market and upside risk to inflation.",
+      "context": "Framing the two-sided mandate challenge",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "I am highly attentive to the fact that inflation has remained above the Fed's 2 percent target for five years.",
+      "context": "On persistence of above-target inflation",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Still, overall, I see the labor market as roughly in balance, and my baseline forecast is for the unemployment rate to remain roughly steady this year.",
+      "context": "Labor market baseline assessment",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "This adjustment put the rate broadly in the range of neutral, or a rate that neither stimulates nor constrains the economy.",
+      "context": "Characterizing the current policy stance after 175 bp of cuts",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0649,
+    "hawk_hits": 4,
+    "dove_hits": 7,
+    "tokens": 2140
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  }
+}

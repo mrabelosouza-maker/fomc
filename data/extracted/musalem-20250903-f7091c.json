@@ -1,0 +1,67 @@
+{
+  "speech_id": "musalem-20250903-f7091c",
+  "member_id": "musalem",
+  "title": "Economic Conditions, Risks and Monetary Policy",
+  "date": "2025-09-03",
+  "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/economic-conditions-risks-monetary-policy-remarks-peterson-institute",
+  "source": "stlouis",
+  "non_policy": false,
+  "summary": "Musalem judges current policy as modestly restrictive and roughly appropriate, noting multiple Taylor-rule specifications prescribe a rate around today's funds level and above neutral. He sees the labor market near full employment but with downside risks that have recently risen, while core inflation runs closer to 3% than 2% on tariff effects he expects to fade over the next two to three quarters. He stresses a balanced approach: warning that putting too much weight on the labor goal risks excessive easing, a steeper yield curve, higher term premium and un-anchored inflation expectations, while too much weight on inflation risks under-supporting employment. The net message is cautious and balanced, leaning hold, with concern that the public and markets remain sensitive to inflation upside.",
+  "key_quotes": [
+    {
+      "quote": "The current modestly restrictive setting of the policy rate is consistent with today's full employment labor market and core inflation nearly one percentage point above the Fed's 2% target.",
+      "context": "Monetary Policy section, his read of the current stance",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Multiple Taylor rule specifications currently prescribe a policy rate around today's level of the federal funds rate and above estimates of the long-run neutral rate.",
+      "context": "Monetary Policy section, justifying holding near current rate",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "putting most of the weight on the labor market goal runs a risk of unwarranted or excessive policy easing, causing a further steepening of the yield curve, a rise in the term premium or an increase in inflation expectations.",
+      "context": "Monetary Policy section, cautioning against aggressive cuts",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Recent data have further increased my perception of downside risks to the labor market.",
+      "context": "Labor Market section, listing longer-term unemployment, cyclically sensitive groups, payroll revisions",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "fiscal",
+      "housing",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.3024,
+    "hawk_hits": 3,
+    "dove_hits": 9,
+    "tokens": 1206
+  }
+}

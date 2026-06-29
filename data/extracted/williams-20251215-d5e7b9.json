@@ -1,0 +1,66 @@
+{
+  "speech_id": "williams-20251215-d5e7b9",
+  "member_id": "williams",
+  "title": "Resilience",
+  "date": "2025-12-15",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil251215",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "Delivered just after the December FOMC cut, Williams emphasizes a resilient economy that is 'turning the corner' despite a year defined by uncertainty. He sees progress toward 2 percent inflation temporarily stalled by tariffs (which added about a half point to ~2-3/4 percent inflation) but with no second-round effects, declining shelter inflation, and well-anchored expectations. The labor market has continued to cool gradually\u2014job growth anemic, unemployment drifting up\u2014prompting him to judge downside employment risks as having increased and upside inflation risks as lessened. He frames the FOMC's 25 bps December cut as moving the modestly restrictive stance toward neutral, leaving policy well positioned. The lean is mildly dovish, supporting the recent cut with a data-dependent stance.",
+  "key_quotes": [
+    {
+      "quote": "My assessment is that in recent months, the downside risks to employment have increased as the labor market has cooled, while the upside risks to inflation have lessened somewhat.",
+      "context": "Balance-of-risks assessment underpinning support for the December cut",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "At its meeting last week, the FOMC decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3-3/4 percent.",
+      "context": "Describing and endorsing the December rate cut toward neutral",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Turning to the employment side of our mandate, the data show that the labor market has continued to cool, with labor demand softening more than supply.",
+      "context": "On the ongoing, gradual cooling of the labor market",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Looking ahead, I expect tariffs will have a largely one-off price level effect that will be fully realized in 2026.",
+      "context": "Conviction that tariff-driven inflation is transitory",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1,
+    "mandate_weight": -1,
+    "inflation_conviction": 1.5,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "fiscal",
+      "balance_sheet_qt"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "hawkish"},
+    "other": {"intensity": 1, "push": "dovish"}
+  },
+  "tone_score": {
+    "net_tone": -0.1171,
+    "hawk_hits": 5,
+    "dove_hits": 7,
+    "tokens": 1478
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "speech_id": "jefferson-20260326-827c3b",
+  "member_id": "jefferson",
+  "title": "Economic Outlook and Energy Effects",
+  "date": "2026-03-26",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260326a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Jefferson presents a two-sided outlook in which a new Middle East energy shock and ongoing tariff uncertainty complicate both mandate sides, with inflation stalled near 3 percent core and now facing fresh near-term upside from gasoline. He sees the labor market as roughly in balance but with risks skewed to the downside amid low job growth. He endorses the FOMC's recent hold, calls the rate broadly neutral after 175 bp of cuts, and frames further moves as data-dependent. A long energy section stresses oil pass-through risk but concludes the inflation effect to date is modest and the U.S. is buffered as a net energy exporter, so the speech is genuinely about the macro outlook and stance.",
+  "key_quotes": [
+    {
+      "quote": "At least in the short term I expect overall inflation to move higher, reflecting a rise in energy prices stemming from the conflict in the Middle East.",
+      "context": "Near-term inflation now seen rising on energy",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I see the labor market as roughly in balance and expect the unemployment rate to remain near its current level throughout this year. The risks to my labor market forecast, however, are skewed to the downside.",
+      "context": "Labor market assessment with downside tilt",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Last week, I supported the FOMC's decision to hold the target range for the federal funds rate steady.",
+      "context": "Endorsing the hold one week after the March meeting",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "An extended bout of elevated energy prices could put upward price pressure on a variety of other products. As a policymaker, I will monitor to see if these higher costs become embedded in prices throughout the economy.",
+      "context": "Energy cost pass-through as an inflation risk to watch",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0112,
+    "hawk_hits": 3,
+    "dove_hits": 4,
+    "tokens": 2007
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "speech_id": "collins-20250930-2a3ea4",
+  "member_id": "collins",
+  "title": "Views on Current Economic Conditions and Monetary Policy",
+  "date": "2025-09-30",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2025/views-on-current-economic-conditions.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "Collins explains her support for the September 25bp cut as appropriate insurance against a shift in the balance of risks toward a softening labor market, while still describing the stance as modestly restrictive. She flags increased risk that labor demand could fall significantly short of supply, pushing unemployment up unwelcomely, and notes that with less scope for labor-market-driven inflation, the upside inflation risks she worried about a few months earlier are now more limited. She signals it may be appropriate to ease a bit further this year if the data support it - her most dovish-leaning message of the set.",
+  "key_quotes": [
+    {
+      "quote": "At the September meeting of the Federal Open Market Committee (FOMC), I supported the 25- basis point policy rate reduction.",
+      "context": "Supported a rate cut due to shifting balance of risks",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "In particular, I see some increased risk that labor demand may fall significantly short of supply, leading to a more meaningful and unwelcome increase in the unemployment rate.",
+      "context": "Rising concern about the labor-market downside",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "In this context, it may be appropriate to ease the policy rate a bit further this year \u2013 but the data will have to show that.",
+      "context": "Near-term inclination toward a further, data-dependent cut",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Still, with less scope for inflationary pressures from the labor market, the upside inflation risks I was concerned about a few months ago are more limited.",
+      "context": "Softer inflation conviction than earlier in the year",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1,
+    "mandate_weight": -1,
+    "inflation_conviction": 2.5,
+    "labor_concern": 3,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1075,
+    "hawk_hits": 2,
+    "dove_hits": 5,
+    "tokens": 1060
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "neutral"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 1, "push": "neutral"}
+  }
+}

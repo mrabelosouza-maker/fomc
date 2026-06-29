@@ -1,0 +1,67 @@
+{
+  "speech_id": "paulson-20260103-9da7ad",
+  "member_id": "paulson",
+  "title": "Thoughts on the U.S. Economy and the Year Ahead",
+  "date": "2026-01-03",
+  "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/260103-thoughts-on-the-us-economy-and-the-year-ahead",
+  "source": "philadelphia",
+  "non_policy": false,
+  "summary": "Paulson sets two themes for 2026: 'cautious optimism' on inflation and 'waiting for clarity' on growth versus the labor market. She sees underlying disinflation continuing -- tariff-driven goods inflation fading by mid-year, services ex-housing easing, and housing inflation 'unambiguously' improving -- and judges the funds rate as still a little restrictive, so past and current restrictiveness should finish the job. She reads labor-market risks as somewhat elevated (unemployment up to 4.6 percent, narrow job creation) and explicitly says current trends 'argue against tighter monetary policy.' She backed the 75 bp of 2025 cuts and expects 'some modest further adjustments to the funds rate would likely be appropriate later in the year' if her benign baseline holds. She invokes the late-1990s Greenspan episode to argue for patience and credibility. Net: a dovish-leaning, gradualist message.",
+  "key_quotes": [
+    {
+      "quote": "These trends, especially given labor market developments, argue against tighter monetary policy.",
+      "context": "Explicitly leaning against tightening given disinflation progress and labor softness.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I view the current level of the funds rate as still a little restrictive.",
+      "context": "Her read of the current stance.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Still, labor market risks have risen and that has been an important factor in my support for the 75 basis points of cuts that the FOMC did last year.",
+      "context": "Labor concern motivating support for easing.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "If all of that happens, then some modest further adjustments to the funds rate would likely be appropriate later in the year.",
+      "context": "Near-term bias toward modest further cuts later in 2026.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1.5,
+    "mandate_weight": -1,
+    "inflation_conviction": 2,
+    "labor_concern": 3,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1085,
+    "hawk_hits": 10,
+    "dove_hits": 2,
+    "tokens": 2122
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 2, "push": "neutral"}
+  }
+}

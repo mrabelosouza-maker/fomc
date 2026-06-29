@@ -1,0 +1,82 @@
+{
+  "speech_id": "schmid-20260529-bcb15a",
+  "member_id": "schmid",
+  "title": "The Local and the Global in Monetary Policy",
+  "date": "2026-05-29",
+  "url": "https://www.kansascityfed.org/speeches/the-local-and-the-global-in-monetary-policy/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "Speaking at the Reykjavik Economic Conference, Schmid frames his views through the lens of regionalism but delivers a clearly hawkish read on the outlook. He treats the large oil-price shock primarily as an inflation problem rather than a growth threat, arguing the U.S. is far more energy-efficient and now a net exporter so the activity hit is limited while the price pressure is unambiguous. He judges the labor market to be broadly in balance, attributing weak hiring to labor hoarding aftereffects and a stalled working-age population rather than cyclical weakness. His primary concern is inflation, which he calls too hot and above target for over five years, and he explicitly rejects assuming the latest run-up is transitory, keeping his focus on inflation in setting policy.",
+  "key_quotes": [
+    {
+      "quote": "My primary concern is inflation, which is too hot and has been above target for too long.",
+      "context": "Concluding synthesis of his policy outlook in the Wrapping Up section.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I place little stock in assuming that the most recent runup in prices is transitory within an acceptable time horizon.",
+      "context": "On the oil-price shock and whether the Fed should look through it.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "To synthesize, I believe the labor market is in balance, notwithstanding the potential, though yet unrealized, disruptions of AI.",
+      "context": "His summary read on the employment side of the mandate.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "With inflation running above the Fed's 2 percent definition of price stability for over five years, now is not the time to let down our guard.",
+      "context": "On how monetary policy should respond to the oil-driven relative price change.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "immigration"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0665,
+    "hawk_hits": 1,
+    "dove_hits": 4,
+    "tokens": 2768
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "hawkish"
+    }
+  }
+}

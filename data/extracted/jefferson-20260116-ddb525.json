@@ -1,0 +1,84 @@
+{
+  "speech_id": "jefferson-20260116-ddb525",
+  "member_id": "jefferson",
+  "title": "Economic Outlook and Monetary Policy Implementation",
+  "date": "2026-01-16",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260116a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Jefferson opens 2026 cautiously optimistic: the labor market is stabilizing though with risen downside employment risk, growth is solid, and he expects inflation (running just below 3 percent, with the stall traced to tariff-driven core goods) to resume a path to 2 percent as tariffs prove a one-time price-level shift backed by anchored expectations. He recounts supporting last year's cuts as the right response to a shifted balance of risks and views the funds rate as now consistent with neutral, declining to prejudge the upcoming meeting. A large second half on monetary policy implementation (end of QT, reserve management purchases that are 'not QE,' standing repo) is operational but accompanies a substantive macro/stance read, so the speech is policy-relevant overall.",
+  "key_quotes": [
+    {
+      "quote": "I am starting 2026 with a cautiously optimistic point of view. Conditions in the labor market appear to be stabilizing, and I see the economy as well positioned to continue to grow while inflation returns to a pathway toward our 2 percent objective.",
+      "context": "Opening outlook framing",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "It is a reasonable base case that the effects of tariffs on inflation will not be long-lasting—effectively, a one-time shift in the price level.",
+      "context": "Inflation conviction: tariffs as one-time",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "In this less dynamic and somewhat softer labor market, the downside risks to employment appear to have risen. My baseline, however, is for the unemployment rate to hold steady throughout this year.",
+      "context": "Labor market with risen downside risk",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Since the middle of 2024, the Committee has reduced the policy rate by 1.75 percentage points. In my view, those moves have brought the federal funds rate into a range consistent with the neutral rate — a rate that neither stimulates nor restricts economic activity.",
+      "context": "Stance judged at neutral",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -0.5,
+    "mandate_weight": 0,
+    "inflation_conviction": 2,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "balance_sheet_qt",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1103,
+    "hawk_hits": 5,
+    "dove_hits": 13,
+    "tokens": 2485
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "speech_id": "williams-20250716-692a40",
+  "member_id": "williams",
+  "title": "Summer of \u201925: The Data",
+  "date": "2025-07-16",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil250716",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "Williams reviews mid-2025 data showing elevated uncertainty from trade policy but a still-solid economy: a balanced labor market with no inflationary pressure, and inflation on a gradual, bumpy path toward 2 percent (he estimates ~2-1/2 percent headline / 2-3/4 percent core PCE for June). He details early, granular evidence of tariff pass-through into core goods prices and expects tariffs to add about 1 percentage point to inflation over the next several quarters, with a weaker dollar adding more. He endorses holding the funds rate at 4-1/4 to 4-1/2 percent, calling the modestly restrictive stance 'entirely appropriate' to buy time to assess incoming data. The lean is balanced-to-mildly-hawkish, with a clear near-term hold while tariff effects build.",
+  "key_quotes": [
+    {
+      "quote": "Maintaining this modestly restrictive stance of monetary policy is entirely appropriate to achieve our maximum employment and price stability goals.",
+      "context": "Endorsing the FOMC's decision to hold rates at 4-1/4 to 4-1/2 percent",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Overall, I expect tariffs to boost inflation by about 1 percentage point over the second half of this year and the first part of next year.",
+      "context": "Quantifying the expected upside to inflation from tariffs",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Overall, labor supply and demand are well balanced and there are no signs that the labor market is adding inflationary pressures.",
+      "context": "Reading a solid, balanced labor market in mid-2025",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "The combination of continued uncertainty, a solid labor market, and inflation still above our 2 percent goal led the FOMC to decide to leave the target range for the federal funds rate unchanged at 4-1/4 to 4-1/2 percent at its most recent meeting last month.",
+      "context": "Rationale for the hold given still-above-target inflation",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 1,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "dollar",
+      "immigration",
+      "balance_sheet_qt"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0524,
+    "hawk_hits": 3,
+    "dove_hits": 1,
+    "tokens": 1456
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 1, "push": "hawkish"}
+  }
+}

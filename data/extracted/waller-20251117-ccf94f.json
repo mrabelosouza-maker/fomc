@@ -1,0 +1,67 @@
+{
+  "speech_id": "waller-20251117-ccf94f",
+  "member_id": "waller",
+  "title": "The Case for Continuing Rate Cuts",
+  "date": "2025-11-17",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20251117a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller makes an explicit, strongly dovish case to cut the policy rate 25bp at the December meeting as risk management. He argues that despite the data gaps from the 43-day shutdown, private and partial public data show a labor market that is weak and near stall speed, with job creation he believes is predominantly demand-driven rather than just lower labor supply. He judges underlying inflation (ex-tariffs) close to 2 percent with well-anchored expectations and sees no force that would accelerate inflation. He worries restrictive policy is weighing on lower- and middle-income households and frames a December cut as insurance against further labor-market deterioration and a move toward neutral.",
+  "key_quotes": [
+    {
+      "quote": "This reading of the data leads me, at this moment, to support a cut in the FOMC's policy rate at our next meeting on December 9 and 10 as a matter of risk management.",
+      "context": "Direct statement of his dovish near-term call for a December cut.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "So, what is that data telling us? First, that the labor market is still weak and near stall speed.",
+      "context": "Headline read of the labor market driving his policy view.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "When outcomes are uncertain, policymakers must manage the risks, and the evidence is pointing toward a greater risk that low job creation is predominantly demand driven.",
+      "context": "Argues weakness is demand-side, strengthening the case for easing.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "With underlying inflation close to the FOMC's target and evidence of a weak labor market, I support cutting the Committee's policy rate by another 25 basis points at our December meeting.",
+      "context": "Low inflation conviction paired with the cut recommendation.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -4,
+    "mandate_weight": -3.5,
+    "inflation_conviction": 1,
+    "labor_concern": 4,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "urgent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "housing",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1798,
+    "hawk_hits": 6,
+    "dove_hits": 11,
+    "tokens": 3092
+  }
+}

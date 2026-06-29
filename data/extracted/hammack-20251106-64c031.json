@@ -1,0 +1,66 @@
+{
+  "speech_id": "hammack-20251106-64c031",
+  "member_id": "hammack",
+  "title": "Balancing Act: The Dual Mandate on an Economic Tightrope",
+  "date": "2025-11-06",
+  "url": "https://www.clevelandfed.org/collections/speeches/2025/sp-20251106-dual-mandate-on-economic-tightrope",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "A hawkish-leaning speech framed as a tightrope walk. Hammack argues policy should be 'mildly restrictive' to lean against inflation, which at 2.7 percent PCE (2.9 percent core) is 'too high and still trending in the wrong direction,' boosted by tariffs, insurance, electricity and AI costs; her base case has PCE near 3 percent and inflation misses persisting two to three years. She acknowledges a softening labor market (payrolls averaging 29,000/month) but keeps unemployment near her 4-1/4 percent estimate of the long-run rate and does not see a downturn as likely. Crucially, with a rising r-star she judges policy 'only barely restrictive, if at all,' so she does not think the Fed should do more after the recent cut\u2014inflation is the more pressing concern.",
+  "key_quotes": [
+    {
+      "quote": "But to me, comparing the size and persistence of our mandate misses and the risks, inflation is the more pressing concern. This argues for a mildly restrictive stance for our policy rate to ensure that inflation returns to 2 percent in a timely fashion.",
+      "context": "Her mandate weighting and overall hawkish lean",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Right now, my estimate of r-star leads me to see monetary policy as only barely restrictive, if at all.",
+      "context": "Her policy-stance read: little room to call policy restrictive",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Compared with our 2 percent objective, inflation is too high, and it\u2019s still trending in the wrong direction.",
+      "context": "Her read on inflation direction",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Here, labor market conditions remain generally healthy, but they have softened, and there is a risk of further slowing.",
+      "context": "Acknowledging labor softening while seeing conditions as still healthy",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2,
+    "inflation_conviction": 4,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "r_star",
+      "ai_productivity",
+      "immigration"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 3, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0366,
+    "hawk_hits": 17,
+    "dove_hits": 10,
+    "tokens": 2994
+  }
+}

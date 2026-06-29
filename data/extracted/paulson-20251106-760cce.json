@@ -1,0 +1,43 @@
+{
+  "speech_id": "paulson-20251106-760cce",
+  "member_id": "paulson",
+  "title": "Staying Ahead of the Curve: Twenty-Five Years of Consumer Finance Excellence",
+  "date": "2025-11-06",
+  "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Institutional/speeches/paulson/2025/251106-New-Perspectives-Conf-Speech.pdf",
+  "source": "philadelphia",
+  "non_policy": true,
+  "summary": "Ceremonial conference remarks marking the 25th anniversary of the Philadelphia Fed's Consumer Finance Institute. Paulson celebrates the Institute's research on consumer credit and payments, highlights its data-intensive and machine-learning work and the LIFE Survey, and notes that understanding how households earn, save, and borrow is an input to her thinking about monetary policy and to the transmission of policy to the broader economy. The speech offers no read on the current inflation or labor outlook and no signal on the stance of policy or the near-term rate path, so it is non-policy and down-weighted for the reaction-function aggregation.",
+  "key_quotes": [
+    {
+      "quote": "Understanding consumer behavior helps me to better understand the broader economy and is an important input into my thinking about monetary policy.",
+      "context": "Linking consumer-finance research to monetary policy, but without any stance or outlook read.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "And, certainly, the structure and efficiency of consumer credit markets impact the transmission of monetary policy to the broader economy.",
+      "context": "General point on policy transmission; no current-stance signal.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": []
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 1420
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "speech_id": "barr-20260326-b17119",
+  "member_id": "barr",
+  "title": "Brief Remarks on the Economic Outlook and Monetary Policy",
+  "date": "2026-03-26",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20260326a.htm",
+  "source": "board",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 1, "push": "neutral"}
+  },
+  "summary": "Barr supports the FOMC's decision to hold the policy rate, describing an economy that has stayed resilient through a series of shocks, with solid growth, resilient consumer spending, and strong AI/data-center investment. He leans toward inflation vigilance: core inflation is stuck around 3 percent, nonhousing services inflation remains elevated, tariffs have pushed up goods prices, and the Middle East conflict is driving up energy and commodity prices, with the explicit worry that another price shock could lift longer-term inflation expectations. At the same time he flags labor-market softness\u2014near-zero labor-force and job growth and a 'low hire, low fire' environment that is unusual outside a recession. The net is a cautious, on-hold stance balancing sticky inflation and upside price risk against a fragile labor market.",
+  "key_quotes": [
+    {
+      "quote": "The Federal Open Market Committee (FOMC) met last week and chose to maintain the current setting of monetary policy\u2014a decision I supported.",
+      "context": "Endorsing the hold",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Core inflation, which excludes volatile food and energy prices and is a good guide to future inflation, likely was 3 percent in February, about where it was a year ago.",
+      "context": "Inflation has stalled around 3%",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "another price shock could increase longer-term inflation expectations",
+      "context": "Upside-inflation risk from Middle East energy shock",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Job creation has also been close to zero for the past year, a highly unusual experience outside of a recession.",
+      "context": "Labor-market fragility / 'low hire, low fire'",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0592,
+    "hawk_hits": 0,
+    "dove_hits": 1,
+    "tokens": 285
+  }
+}

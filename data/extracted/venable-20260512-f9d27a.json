@@ -1,0 +1,64 @@
+{
+  "speech_id": "venable-20260512-f9d27a",
+  "member_id": "venable",
+  "title": "Welcome to the Whirlwind",
+  "date": "2026-05-12",
+  "url": "https://www.atlantafed.org/news-and-events/messages-from-president/2026/05/12/welcome-to-the-whirlwind",
+  "source": "atlanta",
+  "non_policy": false,
+  "summary": "In her first quarterly essay as Atlanta Fed interim president, Venable frames a 'wait and see' policy stance amid two-sided risks. She judges the economy to be growing near trend with consumer spending and the labor market still solid (job growth averaging ~76,000/month in early 2026, unemployment 4.3 percent), but she is more worried about inflation: it has exceeded the 2 percent goal for 61 months, April CPI ran 3.8 percent, and a Middle East-driven spike in oil and shipping costs threatens broad-based upside price pressure that energy contacts expect to persist. She endorses the April FOMC decision to hold the funds rate at 3.5 to 3.75 percent, characterizing policy as mildly restrictive to neutral, and argues the time is not right to loosen and risk stoking inflation, while cautioning against reacting too forcefully lest it upset the unusual labor-market balance. Net: a patient hold tilted toward guarding price stability, with explicit concern that prolonged turmoil could eventually damage employment.",
+  "key_quotes": [
+    {
+      "quote": "With inflation still well above our target, and renewed price pressures brewing from a historic disruption in global oil supplies, the time is not right to loosen policy and risk stoking further inflation.",
+      "context": "Core policy conclusion against easing; reveals the inflation-side tilt of the reaction function.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Therefore, I think the optimal policy approach in the face of risks to both sides of the dual mandate is to wait and see.",
+      "context": "States the near-term bias as a patient hold balancing two-sided risks.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "In my view, the Committee acted appropriately in leaving the federal funds rate target at 3.5 to 3.75 percent. As the chair explained, monetary policy appears to be mildly restrictive to neutral, positioning the Committee well to react once macroeconomic conditions begin to clarify.",
+      "context": "Her read of the current policy stance and endorsement of the April FOMC hold.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Keep in mind this is unfolding as inflation has now exceeded the Fed's 2 percent goal for 61 months and counting (through March).",
+      "context": "Emphasizes persistence of above-target inflation as a key concern.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 1, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 2, "push": "neutral"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0455,
+    "hawk_hits": 2,
+    "dove_hits": 1,
+    "tokens": 1089
+  }
+}

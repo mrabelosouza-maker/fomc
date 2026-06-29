@@ -1,0 +1,79 @@
+{
+  "speech_id": "schmid-20251031-de32a8",
+  "member_id": "schmid",
+  "title": "Dissent Statement by Jeff Schmid",
+  "date": "2025-10-31",
+  "url": "https://www.kansascityfed.org/speeches/dissent-statement-by-jeff-schmid/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "Schmid's statement explains his dissent at the October FOMC meeting against lowering the funds rate by 25 basis points; he preferred to leave the range unchanged. He assesses the labor market as largely in balance, the economy as showing continued momentum, and inflation as too high and spreading across goods and services after more than four years above 2%. He sees the stance as only modestly restrictive, pointing to easy financial conditions (record-high equities, narrow spreads, strong IT/software investment). He argues a cut would do little for structurally-driven labor softness but could have lasting inflation effects if the Fed's 2% commitment is questioned.",
+  "key_quotes": [
+    {
+      "quote": "At this week's FOMC meeting I dissented against lowering the target range for the federal funds rate by 25 basis points. My preference would have been to leave the target range unchanged.",
+      "context": "His dissenting vote at the October 2025 meeting.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "By my assessment, the labor market is largely in balance, the economy shows continued momentum, and inflation remains too high.",
+      "context": "His overall read of the dual mandate.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "None of this suggests that financial conditions are particularly tight or that the stance of policy is restrictive.",
+      "context": "Citing easy financial conditions to argue policy is only modestly restrictive.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "In the data, inflation is spreading across categories, both goods and services.",
+      "context": "On the breadth of inflation pressures.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1.5,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": []
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.133,
+    "hawk_hits": 3,
+    "dove_hits": 0,
+    "tokens": 509
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  }
+}

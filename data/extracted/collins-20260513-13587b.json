@@ -1,0 +1,66 @@
+{
+  "speech_id": "collins-20260513-13587b",
+  "member_id": "collins",
+  "title": "The U.S. Economy: Resilience Amid Risks and Uncertainty",
+  "date": "2026-05-13",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2026/boston-economic-club-remarks.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "Collins delivers her most hawkish-leaning message of the set. After more than five years of above-target inflation, now pushed up further by a Middle East oil shock and lingering tariff pass-through, she says her patience for looking through another supply shock has run out and she is particularly concerned about upside inflation risks. She judges the labor market as softened but still in balance (4.3% unemployment) with downside risks, and sees the stance as slightly restrictive. Her conclusion: it will likely be necessary to maintain the current slightly restrictive stance for some time; while she hopes normalization can resume late this year, she can envision a scenario requiring some policy tightening to return inflation durably to 2 percent.",
+  "key_quotes": [
+    {
+      "quote": "It will likely be necessary to maintain the current, slightly restrictive monetary policy stance for some time.",
+      "context": "Her bottom-line policy recommendation given upside inflation risks from the energy shock",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "More than five years of above-target inflation has reduced my patience for \u201clooking through\u201d another supply shock.",
+      "context": "Explaining why she will not accommodate the oil-price shock",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "And while it is not in my most likely outlook, I could envision a scenario in which some policy tightening is needed to ensure that inflation returns durably to 2 percent in a timely manner.",
+      "context": "Raising the possibility of hikes, not just holds",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "I am always focused on both sides of our mandate from Congress, but at this point, am particularly concerned about inflation.",
+      "context": "Mandate weighting tilted toward price stability",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 4,
+    "labor_concern": 1.5,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0312,
+    "hawk_hits": 12,
+    "dove_hits": 8,
+    "tokens": 4121
+  },
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 1, "push": "hawkish"}
+  }
+}

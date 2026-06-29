@@ -1,0 +1,24 @@
+{
+  "member_id": "hammack",
+  "as_of": {
+    "date": "2026-06-02",
+    "title": "It Takes Two to Make an Economy Go Right",
+    "url": "https://www.clevelandfed.org/collections/speeches/2026/sp-20260602-it-takes-two-to-make-an-economy-go-right",
+    "speech_id": "hammack-20260602-136e16"
+  },
+  "inflation": {
+    "label": "broadening / underlying",
+    "note": "Beyond gasoline she sees broad-based core pressures, with non-housing services stuck elevated and a growing risk inflation gets embedded in expectations.",
+    "quote": "Looking within the components of core inflation, I see relatively broad-based price pressures across goods and nonhousing services."
+  },
+  "labor": {
+    "label": "stable / balanced",
+    "note": "Incoming data point to a resilient, stable labor market with unemployment at 4.3 percent, around her definition of full employment.",
+    "quote": "In the labor market, the incoming data point to resilience and stability. The unemployment rate was 4.3 percent in April"
+  },
+  "stance": {
+    "label": "neutral",
+    "note": "Reads supportive financial conditions and a falling real funds rate as signs policy may not be restrictive, and worries it may not be sufficient to return inflation to 2 percent.",
+    "quote": "this is telling me that policy may not be restrictive. And rising inflation means the real federal funds rate has actually declined"
+  }
+}

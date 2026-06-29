@@ -1,0 +1,84 @@
+{
+  "speech_id": "schmid-20251114-b4a2bb",
+  "member_id": "schmid",
+  "title": "Maintaining the Balance in Monetary Policy",
+  "date": "2025-11-14",
+  "url": "https://www.kansascityfed.org/speeches/maintaining-the-balance-in-monetary-policy/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "At the Kansas City/Dallas energy conference in Denver, Schmid explains his dissent against the October rate cut: inflation remains too high (around 3% and spreading), the economy shows continued momentum, and the labor market though cooling is largely in balance, with policy only modestly restrictive, which is about where he thinks it should be. He emphasizes that the cooling labor market is partly structural (boomer retirements, slower immigration) rather than cyclical, so cuts would do little for jobs but risk longer-lasting inflation effects if the Fed's 2% commitment is questioned. He also discusses ending balance-sheet run-off and his preference for a smaller, shorter-duration, less distortive balance sheet.",
+  "key_quotes": [
+    {
+      "quote": "Two weeks ago, the Federal Open Market Committee voted to lower the policy rate by 25 basis points. I dissented on this decision.",
+      "context": "On his dissent against the October 2025 cut.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "And I agree: Inflation **is** too high. The most recent data suggest that inflation is running in the 3 percent range, above the Fed's 2 percent objective, and spreading, with a growing proportion of goods and services experiencing higher prices.",
+      "context": "His read on the inflation picture from district contacts and data.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I view the current stance of monetary policy as being only modestly restrictive, which is about where I think it should be.",
+      "context": "His judgment of the stance and where it should be.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "However, cuts could have longer-lasting effects on inflation as our commitment to our 2 percent objective increasingly comes into question.",
+      "context": "Rationale for dissenting and leaning against cuts.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 2,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "balance_sheet_qt",
+      "tariffs",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0879,
+    "hawk_hits": 8,
+    "dove_hits": 2,
+    "tokens": 2623
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "speech_id": "collins-20250410-2f3009",
+  "member_id": "collins",
+  "title": "Supply Factors and the Evolution of the Economy",
+  "date": "2025-04-10",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2025/georgetown-razin-lecture.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "Delivered just after the large April tariff announcements, Collins argues supply-side factors (labor-supply gains, productivity) drove the prior disinflation, but newly announced broad tariffs act as a negative supply shock that will raise inflation (possibly well above 3% core PCE this year) while slowing growth. The labor market is at or near full employment. She judges policy well positioned and says maintaining the current stance is appropriate for the time being, with risks tilted to inflation upside and activity downside. She stresses guarding against tariff-driven price increases unmooring inflation expectations; further cuts later this year are possible but renewed price pressures could delay normalization.",
+  "key_quotes": [
+    {
+      "quote": "Maintaining the current monetary policy stance seems appropriate for the time being, as we learn more about the scope of the changes in government policy and their impact on the economy.",
+      "context": "Policy recommendation: hold",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "the announcement of broad-based new tariffs will push up inflation, while slowing growth.",
+      "context": "Tariffs as a stagflationary supply shock",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "In particular, policy should help guard against the risk that price-level increases related to tariffs unmoor longer-term inflation expectations.",
+      "context": "Emphasis on anchoring inflation expectations",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "It may still be appropriate to lower the federal funds rate later this year. But renewed price pressures could delay further policy normalization, as confidence is needed that the tariffs are not destabilizing inflation expectations.",
+      "context": "Conditional, delayed easing path",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 1.5,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0548,
+    "hawk_hits": 15,
+    "dove_hits": 9,
+    "tokens": 5331
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "neutral"}
+  }
+}

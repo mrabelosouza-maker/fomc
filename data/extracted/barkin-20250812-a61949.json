@@ -1,0 +1,83 @@
+{
+  "speech_id": "barkin-20250812-a61949",
+  "title": "Why the Consumer Matters",
+  "date": "2025-08-12",
+  "non_policy": false,
+  "summary": "Barkin argues the outlook hinges on a 'solid but stretched' consumer as the fog lifts. He sees softening but not collapsing spending, core inflation at 2.8 percent with more tariff-driven price pressure set to come, but expects consumer pushback to blunt passthrough relative to 2022. He flags that squeezed margins could pressure employment, though lean staffing and shrinking labor supply should limit any rise in unemployment (then 4.2 percent, near maximum employment). On policy he notes the FOMC held the funds rate at a 'modestly restrictive' level in July and says the Fed is well positioned to adjust as visibility improves, without committing to a near-term move.",
+  "key_quotes": [
+    {
+      "quote": "You’ll have seen that, at our July meeting, with the labor market near most estimates of maximum employment and inflation above target, the FOMC continued to hold the fed funds rate at a modestly restrictive level.",
+      "context": "His read that the July hold kept policy modestly restrictive.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "We may well see pressure on inflation, and we may also see pressure on unemployment, but the balance between the two is still unclear.",
+      "context": "Two-sided, balanced framing of the mandate.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Twelve-month core inflation, at 2.8 percent, remains above the Fed’s 2 percent target for overall inflation, and companies are set to raise prices further in the context of increased tariffs.",
+      "context": "Above-target inflation with tariff upside.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "As the visibility continues to improve, we are well positioned to adjust our policy stance as needed.",
+      "context": "Patient, data-dependent near-term posture.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 2,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250812",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 4,
+    "dove_hits": 4,
+    "tokens": 1541
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  }
+}

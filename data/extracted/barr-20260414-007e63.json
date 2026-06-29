@@ -1,0 +1,52 @@
+{
+  "speech_id": "barr-20260414-007e63",
+  "member_id": "barr",
+  "title": "Rural Communities: Worth the Investment",
+  "date": "2026-04-14",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20260414a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "A community-development speech about rural economies with no substantive read on the monetary-policy stance. Barr argues that rural America is diverse and faces common constraints\u2014population decline and aging, loss of banks, hospitals and colleges, and reliance on net migration for growth\u2014while highlighting success stories built on local ownership, economic diversification, and CDFI financing. He notes recent external pressures on agricultural regions, including tariff-driven drops in soybean exports to China, higher machinery costs from steel and aluminum tariffs, and fertilizer and diesel cost spikes tied to Middle East conflict. He also flags longer-term forces (data centers, AI adoption in agriculture, and a structural shift toward knowledge-intensive sectors) that could widen rural-urban gaps.",
+  "key_quotes": [
+    {
+      "quote": "Rural communities are highly diverse in ways that shape both their challenges and opportunities.",
+      "context": "Framing the diversity of rural economies",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Higher U.S. tariffs, especially on steel and aluminum, impose further costs on farmers as they have raised the price of agricultural machinery.",
+      "context": "On tariff-driven cost pressures in agricultural regions",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "More than a third of global exports of urea passes through the Strait of Hormuz, and the interruption has led to a sharp price increase in this important fertilizer, up about 55 percent since the beginning of the year.",
+      "context": "On Middle East conflict raising fertilizer input costs",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 690
+  }
+}

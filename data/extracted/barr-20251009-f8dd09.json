@@ -1,0 +1,64 @@
+{
+  "speech_id": "barr-20251009-f8dd09",
+  "member_id": "barr",
+  "title": "The Economic Outlook and Monetary Policy",
+  "date": "2025-10-09",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20251009a.htm",
+  "source": "board",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 2, "push": "neutral"}
+  },
+  "summary": "Barr supports the September 25-basis-point rate cut and argues for a cautious, gradual approach going forward, invoking the Brainard principle that policy should move slowly amid considerable uncertainty. He sees the recent inflation pickup (headline PCE 2.7 percent in August) as largely tariff-driven, but worries it could become persistent if expectations un-anchor, noting the median FOMC participant doesn't expect a return to 2 percent until end-2027. He emphasizes labor-market softening\u2014private-sector employment shrank per ADP, job creation has slowed since May, and households' job-finding perceptions have deteriorated\u2014while judging supply and demand to be in rough balance. On net the message leans modestly dovish (he backed easing and wants to keep gathering data) but is hedged by tariff-driven inflation caution rather than urgency.",
+  "key_quotes": [
+    {
+      "quote": "I supported the Committee's decision on September 17 to lower the federal funds rate by 25 basis points.",
+      "context": "Backing the September cut",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I believe that principle applies now, and that the FOMC should be cautious about adjusting policy so that we can gather further data.",
+      "context": "Brainard gradualism / data-dependence",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "The median FOMC participant estimates that headline PCE inflation will not return to our 2 percent target until the end of 2027, more than two years from today.",
+      "context": "Inflation persistence concern",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The payroll services firm ADP found that private-sector employment shrank last month, in keeping with a slowdown in job creation since May.",
+      "context": "Labor-market softening as a reason to ease",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1,
+    "mandate_weight": -0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0875,
+    "hawk_hits": 0,
+    "dove_hits": 1,
+    "tokens": 294
+  }
+}

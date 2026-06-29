@@ -1,0 +1,66 @@
+{
+  "speech_id": "bowman-20250923-ec3fa9",
+  "member_id": "bowman",
+  "title": "Views on the Economy and Monetary Policy",
+  "date": "2025-09-23",
+  "url": "https://www.federalreserve.gov/newsevents/speech/bowman20250923a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Bowman explains her support for September's 25bp cut to 4 to 4-1/4 percent, while saying the Committee should have started easing back in July. She emphasizes a materially more fragile labor market\u2014flat payrolls (~25k/month), rising unemployment to 4.3 percent, narrow job gains, falling employment-to-population\u2014and growing confidence that tariffs will have only a small, short-lived inflation effect, with core PCE ex-tariffs around 2.5 percent. She wants the Committee to focus on employment risks and preemptively support the labor market, warns it risks being behind the curve, and welcomes the statement's signal of additional cuts. She advocates a forward-looking approach over strict data dependence. Clearly dovish, leaning toward continued cuts.",
+  "key_quotes": [
+    {
+      "quote": "In my view, the Committee should have begun lowering the policy rate at the July meeting, so, of course, I supported reducing the policy rate at this meeting.",
+      "context": "On her September policy vote, recalling her preference to have cut earlier.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Although still near full employment, the labor market has become more fragile and could deteriorate more significantly in the coming months.",
+      "context": "Labor market assessment in the economic conditions section.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "With softness in aggregate demand, and signs of fragility in the labor market, I think that we should focus on risks to our employment mandate and preemptively stabilize and support labor market conditions.",
+      "context": "On the balance of risks across the dual mandate.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "as I gain even greater confidence that tariffs will not present a persistent shock to inflation, I see that upside risks to price stability have diminished.",
+      "context": "On inflation risks and the tariff pass-through being one-off.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -3.5,
+    "mandate_weight": -4,
+    "inflation_conviction": 1,
+    "labor_concern": 4,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "urgent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "housing",
+      "immigration"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.5226,
+    "hawk_hits": 8,
+    "dove_hits": 23,
+    "tokens": 2571
+  }
+}

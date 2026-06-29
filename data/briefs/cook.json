@@ -1,0 +1,24 @@
+{
+  "member_id": "cook",
+  "as_of": {
+    "date": "2026-05-27",
+    "title": "The Opportunities and Risks AI Presents for the Economy and Financial System",
+    "url": "https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm",
+    "speech_id": "cook-20260527-3ed0de"
+  },
+  "inflation": {
+    "label": "broadening / underlying",
+    "note": "Core PCE at 3.3% (highest since 2023) from gasoline and tariffs, but she fears shocks embedding into price- and wage-setting and flags AI-driven price pressures.",
+    "quote": "After five years of above-target inflation, I am particularly attuned to the risk that elevated inflation will become embedded in price- and wage-setting behavior."
+  },
+  "labor": {
+    "label": "stable / balanced",
+    "note": "Labor market largely stable with unemployment at 4.3%, but she sees elevated downside risks.",
+    "quote": "In contrast to inflation, the labor market appears to be largely stable."
+  },
+  "stance": {
+    "label": "appropriate / well positioned",
+    "note": "On a risk-management basis she judges holding rates steady to be the right course, with risks tilted toward higher inflation.",
+    "quote": "from a risk-management perspective, I currently believe that the right course of action is to hold rates steady"
+  }
+}

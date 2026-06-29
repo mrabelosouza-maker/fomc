@@ -1,0 +1,24 @@
+{
+  "member_id": "logan",
+  "as_of": {
+    "date": "2026-06-03",
+    "title": "Opening remarks for moderated conversation at The University of Texas at El Paso",
+    "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260603",
+    "speech_id": "logan-20260603-b659c5"
+  },
+  "inflation": {
+    "label": "broadening / underlying",
+    "note": "She stresses excess inflation is not just tariffs and energy, points to underlying measures running in the mid-2s and watches expectations.",
+    "quote": "A good deal of the excess inflation over the past year has come from temporary factors, such as tariffs and energy price increases. But not all."
+  },
+  "labor": {
+    "label": "stable / balanced",
+    "note": "Unemployment around 4.3 percent with job gains in line with slow labor-force growth.",
+    "quote": "The labor market appears stable and broadly balanced."
+  },
+  "stance": {
+    "label": "loose/accommodative",
+    "note": "She judges policy is not restraining a strong economy with accommodative financial conditions and floats the need for higher rates.",
+    "quote": "These conditions indicate that monetary policy is not restraining the economy."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "speech_id": "barr-20260606-4db9f8",
+  "member_id": "barr",
+  "title": "Deregulating in a Financial Boom: What Could Go Wrong?",
+  "date": "2026-06-06",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "This is a bank-regulation speech with no read on the monetary-policy stance or the macro outlook. Barr argues that recent deregulation\u2014cutting large-bank capital requirements by roughly 6 percent (about $60 billion), inflating supervisory ratings, and rolling back consumer protections\u2014weakens bank resilience and raises financial-stability risk. He frames the tradeoff as asymmetric, like buying too little insurance: modestly high capital imposes small growth costs while inadequate capital creates sharply rising costs to stability. He warns that the short-term 'sugar high' of deregulation in a financial boom is outweighed by longer-term risks, citing research that capital ratios of 15-23 percent of risk-weighted assets would likely have prevented past crises.",
+  "key_quotes": [
+    {
+      "quote": "Deregulation can provide a short-term sugar high in the economy, but it can also lead to long-term costs for society.",
+      "context": "Core thesis on the asymmetric tradeoff of deregulating in a boom",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "The lesson from history and economic research is that reducing financial regulatory requirements can and often does produce financial stress and harms growth down the road.",
+      "context": "Drawing on the historical record of crises (Depression, S&L, GFC)",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Weaker capital rules, weaker liquidity requirements, and weaker supervision expose all of us to increased risks of bank stress, failures, or crises that can harm the economy.",
+      "context": "Warning on the consequences of recent regulatory rollback",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "financial_stability"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1812,
+    "hawk_hits": 0,
+    "dove_hits": 2,
+    "tokens": 274
+  }
+}

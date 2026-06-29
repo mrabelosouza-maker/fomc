@@ -1,0 +1,64 @@
+{
+  "speech_id": "collins-20250109-1fbbef",
+  "member_id": "collins",
+  "title": "Assessing the Economy as a New Year Begins",
+  "date": "2025-01-09",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2025/naiop-massachusetts-remarks.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "Collins opens 2025 judging the economy in a good place overall: inflation down significantly though still above target, with a healthy labor market after an orderly cooling. She supported the November and December cuts (the December one a closer call) as insurance to preserve labor-market health while keeping a restrictive stance still needed to restore price stability. She expects 2025 inflation somewhat higher than previously thought, with risks shifted to the upside, and advocates a gradual, patient, data-dependent approach with no preset path - holding longer if inflation progress stalls or easing sooner if needed. A broadly balanced, mildly dovish-leaning message.",
+  "key_quotes": [
+    {
+      "quote": "On balance, the December cut provided some additional insurance to preserve healthy labor market conditions while maintaining a restrictive policy stance that is still needed to sustainably restore price stability.",
+      "context": "Rationale for supporting the December cut",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Collins expects inflation in 2025 to run somewhat higher than she previously thought, with the risks likely having shifted to the upside.",
+      "context": "Upward revision to inflation outlook and risks",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "the appropriate policy strategy is gradualism, anchored by holistic data assessment, careful analysis, and patience",
+      "context": "Her preferred policy approach for 2025",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "my concerns about emerging labor market fragility have decreased more recently, as the unemployment rate stabilized",
+      "context": "Reduced labor-market worry entering 2025",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "housing",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1914,
+    "hawk_hits": 16,
+    "dove_hits": 23,
+    "tokens": 4265
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 1, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 2, "push": "neutral"}
+  }
+}

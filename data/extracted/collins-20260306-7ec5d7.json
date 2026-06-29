@@ -1,0 +1,66 @@
+{
+  "speech_id": "collins-20260306-7ec5d7",
+  "member_id": "collins",
+  "title": "Observations on the Economic Outlook, and Small Business",
+  "date": "2026-03-06",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2026/economic-outlook-small-business.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "Collins lays out a fairly benign 2026 baseline (solid growth, a relatively balanced labor market, and disinflation resuming later in the year as tariff effects fade) but with continued upside risks to inflation, which sat at 3% core PCE through end-2025 with no progress since 2024. She stresses returning inflation to target is essential and that resilient demand will keep some upward pressure on prices. On policy she favors a patient, deliberate approach, sees no urgency for additional adjustments, and would maintain rates at their current mildly restrictive level for some time, waiting for clear evidence inflation is moving durably toward 2 percent. Much of the speech addresses small-business cost pressures and New England conditions.",
+  "key_quotes": [
+    {
+      "quote": "I do not see an urgency for additional policy adjustments, and I will be looking for clear evidence that inflation is moving durably toward the 2 percent target \u2013 something that might occur only over the second half of the year.",
+      "context": "Her near-term policy inclination: patient hold",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "This, combined with recent evidence suggesting a relatively stable labor market, in my view argues for maintaining policy rates at their current, mildly restrictive levels for some time.",
+      "context": "Stance read and policy recommendation",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "As a result, my outlook has demand exerting some upward pressure on prices, slowing the return of inflation to 2 percent.",
+      "context": "Why she still sees upside inflation pressure",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Even with activity growing near capacity, and little inflationary pressures from the labor market, inflation has remained elevated.",
+      "context": "Core PCE stuck at 3% with no progress since 2024",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 3,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0691,
+    "hawk_hits": 7,
+    "dove_hits": 6,
+    "tokens": 4247
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 1, "push": "hawkish"}
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "speech_id": "schmid-20260211-8aae2f",
+  "member_id": "schmid",
+  "title": "Monetary Policy and the Economic Outlook",
+  "date": "2026-02-11",
+  "url": "https://www.kansascityfed.org/speeches/monetary-policy-and-the-economic-outlook-albuquerque/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "In Albuquerque, Schmid organizes the outlook around whether strong growth is supply-driven or demand-driven, concluding that with inflation still running closer to 3% than 2% demand is outpacing supply across much of the economy. He supported the FOMC's January decision to hold rates steady and argues that after cumulative cuts since 2024 the funds rate is no longer restraining activity much, if at all, so further cuts risk letting high inflation persist. He favors maintaining a somewhat restrictive stance. A large portion of the speech is a substantive discussion of the balance sheet (resumed growth for liquidity, continued MBS run-off, shortening Treasury maturities) and Fed independence, all from a hawkish, footprint-reducing perspective.",
+  "key_quotes": [
+    {
+      "quote": "With demand outpacing supply and inflation running closer to 3% than 2%, I see it as appropriate to maintain a somewhat restrictive policy stance.",
+      "context": "His core policy recommendation given his read that demand exceeds supply.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I therefore supported the Federal Open Market Committee's decision to hold rates steady in January.",
+      "context": "His vote/position at the January 2026 FOMC meeting.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "With the cumulative rate cuts carried out since 2024, the federal funds rate is now well off its post-pandemic high and arguably no longer restraining activity all that much, if at all.",
+      "context": "His judgment of how restrictive current policy is.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "In my view, further rate cuts risk allowing high inflation to persist even longer.",
+      "context": "Why he opposes additional easing.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "balance_sheet_qt",
+      "fed_independence",
+      "ai_productivity",
+      "fiscal"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.019,
+    "hawk_hits": 4,
+    "dove_hits": 5,
+    "tokens": 2763
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  }
+}

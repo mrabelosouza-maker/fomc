@@ -1,0 +1,24 @@
+{
+  "member_id": "bowman",
+  "as_of": {
+    "date": "2026-01-30",
+    "title": "Outlook for the Economy and Monetary Policy",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260130a.htm",
+    "speech_id": "bowman-20260130-e9f0fa"
+  },
+  "inflation": {
+    "label": "oil + tariffs",
+    "note": "No oil read; sees still-elevated inflation as mostly tariff effects on goods that should fade, with underlying core near 2 percent.",
+    "quote": "still-elevated inflation mostly reflects tariff effects on goods prices that I expect will fade this year. After removing these effects, core PCE inflation would have hovered close to 2 percent in recent months."
+  },
+  "labor": {
+    "label": "downside risks",
+    "note": "Views the labor market as fragile and the greater risk, with downside risks to employment not diminished.",
+    "quote": "I do not consider downside risks to the employment side of our mandate to have diminished, and I see several indications that the labor market remains vulnerable."
+  },
+  "stance": {
+    "label": "somewhat/modestly restrictive",
+    "note": "Sees policy as moderately restrictive and wants to keep cutting toward neutral, with three 2026 cuts in her SEP.",
+    "quote": "I continue to see policy as moderately restrictive, and, looking ahead to 2026, my Summary of Economic Projections includes three cuts for this year."
+  }
+}

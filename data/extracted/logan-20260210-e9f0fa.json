@@ -1,0 +1,67 @@
+{
+  "speech_id": "logan-20260210-e9f0fa",
+  "member_id": "logan",
+  "title": "Outlook for the economy and monetary policy",
+  "date": "2026-02-10",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260210",
+  "source": "dallas",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "summary": "Logan explains why she supported the FOMC's January decision to hold the funds rate steady after three 2025 cuts, framing those cuts as having added insurance for the labor market but taking on extra inflation-side risk. She judges the labor market to have stabilized with downside risks meaningfully dissipated, while PCE inflation at 2.8 percent has run above 2 percent for nearly five years. She anticipates some disinflation progress this year but is 'not yet fully confident' inflation is heading all the way to 2 percent, citing tariff pass-through, sticky core non-housing services, fiscal and financial tailwinds, and AI-driven demand. With the real funds rate now squarely within neutral-rate estimates, she sees policy as possibly very close to neutral and says she is more worried about inflation remaining stubbornly high; if conditions hold, no further cuts are needed.",
+  "key_quotes": [
+    {
+      "quote": "So in my judgment, holding rates steady at our first meeting this year was the appropriate decision.",
+      "context": "Endorsing the January hold after three 2025 rate cuts.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "But I am not yet fully confident inflation is heading all the way back to 2 percent.",
+      "context": "Her core inflation conviction despite tentative progress signs.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "All of this suggests to me that our current stance of policy may be very close to neutral and providing little restraint on economic activity and inflation.",
+      "context": "Reading the real funds rate against the 1.08-2.09 percent neutral-rate range.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "But right now, I am more worried about inflation remaining stubbornly high.",
+      "context": "Her statement of the binding mandate concern and overall lean.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "fiscal",
+      "r_star",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0202,
+    "hawk_hits": 5,
+    "dove_hits": 4,
+    "tokens": 2455
+  }
+}

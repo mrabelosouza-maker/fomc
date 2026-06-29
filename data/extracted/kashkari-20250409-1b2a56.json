@@ -1,0 +1,65 @@
+{
+  "speech_id": "kashkari-20250409-1b2a56",
+  "member_id": "kashkari",
+  "title": "Potential Implications of Announced Tariffs for Monetary Policy",
+  "date": "2025-04-09",
+  "url": "https://www.minneapolisfed.org/article/2025/potential-implications-of-announced-tariffs-for-monetary-policy",
+  "source": "minneapolis",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 1, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "summary": "Written just after the April 2 tariff package, Kashkari analyzes the larger-than-expected tariffs as a short-run consumption tax that raises inflation while lowering real incomes, investment, and growth and possibly raising unemployment. Although one could argue for looking through a one-time price-level shift and focusing on jobs, he argues the priority must be keeping long-run inflation expectations anchored given several years of above-target inflation, so the bar to cut rates even into a weakening economy is now higher. He notes near-term inflation expectations have moved up sharply even as long-run measures have held. On the other side, he expects near-term R* to decline as tariffs raise the cost of imported capital goods and uncertainty depresses investment, which passively tightens policy and reduces the immediate need to hike. Net, he sees the hurdle to moving rates in either direction as having risen.",
+  "key_quotes": [
+    {
+      "quote": "In my view, the hurdle to change the federal funds rate one way or the other has increased due to the tariffs.",
+      "context": "Bottom-line policy implication \u2014 a higher bar to move in either direction",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Given the paramount importance of keeping long-run inflation expectations anchored and the likely boost to near-term inflation from tariffs, the bar for cutting rates even in the face of a weakening economy and potentially increased unemployment is higher.",
+      "context": "Prioritizes the inflation anchor over employment support",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Once we are confident that inflation expectations are well anchored, we could then focus primarily on the traditional trade-offs between our dual mandate goals.",
+      "context": "Conditions any return to dual-mandate balancing on the anchor holding",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "If the policy rate remains unchanged, a decline in the neutral rate in the near term would represent a net tightening of policy in response to the tariffs.",
+      "context": "Argues passive tightening via a lower near-term R*",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "r_star",
+      "fiscal"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.064,
+    "hawk_hits": 7,
+    "dove_hits": 2,
+    "tokens": 978
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "speech_id": "musalem-20260528-c3d097",
+  "member_id": "musalem",
+  "title": "How Should the Promise of Higher Productivity Growth Change the Reality of Monetary Policy Today?",
+  "date": "2026-05-28",
+  "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/productivity-growth-and-monetary-policy-iceland",
+  "source": "stlouis",
+  "non_policy": false,
+  "summary": "Musalem argues it would be risky to base policy on the hope that an AI-driven productivity boom will solve today's inflation problem, since aggregate productivity data are inconclusive (he puts the odds of a high-growth regime below 50%) while the AI boom is clearly adding to demand. He stresses that the real policy rate sits below the FOMC's notion of long-run neutral, inflation is running meaningfully above target, longer-term inflation expectations are creeping higher, and the labor market remains stable. On that read he favors leaning against demand and inflation pressures now and maintaining a vigilant, restrictive stance focused on restoring price stability, invoking the 1970s credibility loss and 1990s opportunistic disinflation as cautionary parallels. He says he is prepared to cut once evidence shows higher productivity is actually pushing inflation down toward target, but until then policymakers should keep their guard up. The overall message is distinctly hawkish, weighting price stability over employment.",
+  "key_quotes": [
+    {
+      "quote": "With the real policy rate sitting below the FOMC's notion of long-run neutral, inflation running meaningfully above target, longer-term inflation expectations drifting higher and the labor market remaining stable, I believe it would be risky to rely on the prospect of higher productivity growth in the future to solve our inflation problem today.",
+      "context": "Core thesis tying his read of the stance and inflation to a hawkish lean",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "A better policy would be to lean against demand and inflation pressures today. If the anticipated productivity increase materializes and inflation pressures ease, the policy rate could then be lowered.",
+      "context": "Prescription on near-term policy: lean against demand now, cut only later if inflation eases",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "At present, I believe we should keep our guard up against persistent above-target inflation today, rather than base monetary policy on the hope that we will have higher productivity growth tomorrow.",
+      "context": "Conclusion emphasizing inflation vigilance as the binding concern",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "A better approach, in my view, is to maintain a vigilant monetary policy focused on restoring price stability.",
+      "context": "Closing statement weighting price stability over the employment side of the mandate",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 1, "push": "hawkish"},
+    "labor_market": {"intensity": 1, "push": "neutral"},
+    "growth_demand": {"intensity": 3, "push": "hawkish"},
+    "other": {"intensity": 3, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0099,
+    "hawk_hits": 6,
+    "dove_hits": 9,
+    "tokens": 2553
+  }
+}

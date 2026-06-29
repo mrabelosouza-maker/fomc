@@ -1,0 +1,59 @@
+{
+  "speech_id": "goolsbee-20260527-3672c7",
+  "member_id": "goolsbee",
+  "title": "Bank of Japan Institute for Monetary and Economic Studies Conference 2026",
+  "date": "2026-05-27",
+  "url": "https://www.chicagofed.org/publications/speeches/2026/may-27-bank-of-japan",
+  "source": "chicago",
+  "non_policy": false,
+  "summary": "A short released excerpt restating Goolsbee's framework that the rate implications of a productivity-growth boom depend on whether it is unexpected (which lowers inflation and calls for lower rates) or anticipated (which acts like a wealth increase, pulls spending forward, and risks overheating so that rates would likely need to rise). He warns that the more hype there is about future productivity, the more rates may need to rise to prevent overheating, and that these dynamics can spread across borders as the technology diffuses. He adds that a near-term supply shock\u2014whether from oil prices or supply-chain disruptions\u2014makes the inflation problem from anticipated future productivity more extreme. The lean is analytical and modestly hawkish, emphasizing overheating and inflation risk over easing.",
+  "key_quotes": [
+    {
+      "quote": "The bigger the hype about future productivity, the more rates may need to rise to prevent overheating.",
+      "context": "Anticipated productivity gains argue for higher rates",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "An increase in expected future income is just like a wealth increase today: It can lead to increased spending and potentially overheat the economy before the productivity boom has actually arrived.",
+      "context": "Mechanism linking anticipated productivity to overheating risk",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "facing a supply shock in the near term\u2014whether from oil prices, disruptions to the supply chain, or other factors\u2014makes the problem worse.",
+      "context": "Supply shocks amplify the inflation problem",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 3, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0818,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 336
+  }
+}

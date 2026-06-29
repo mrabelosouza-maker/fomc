@@ -1,0 +1,67 @@
+{
+  "speech_id": "logan-20251121-f977b2",
+  "member_id": "logan",
+  "title": "Opening remarks for panel titled 'Economic uncertainty and the design and conduct of monetary policy'",
+  "date": "2025-11-21",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl251121",
+  "source": "dallas",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 1, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 3, "push": "hawkish"}
+  },
+  "summary": "Framed around decision-making under uncertainty, Logan states she supported the September cut but would have preferred to hold in October, judging that the economic outlook did not call for easing. She sees the labor market as roughly balanced and cooling slowly, with slow payroll gains reflecting falling labor supply (immigration, participation) rather than rising slack, while inflation remains too high and not convincingly headed back to 2 percent. She argues there was likely no more than 75 basis points of restriction entering 2025 given soaring asset valuations and compressed credit spreads, and with the real funds rate near the low end of neutral estimates, policy isn't very restrictive. With two cuts now on board she would find it difficult to cut again in December absent clear evidence of faster disinflation or sharper labor cooling, favoring holding to learn more. She also discusses ending balance-sheet runoff on Dec. 1.",
+  "key_quotes": [
+    {
+      "quote": "While I supported the September rate cut, I would have preferred to hold rates steady at our October meeting.",
+      "context": "Her dissent in spirit from the October cut.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Inflation remains too high, taxing the budgets of businesses and families, and appears likely to exceed the FOMC\u2019s 2 percent target for too much longer.",
+      "context": "Price-stability side of the mandate; argues outlook didn't call for cutting.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Put another way, with inflation running persistently above target, a fed funds rate close to 4 percent isn\u2019t nearly as restrictive as you might have thought.",
+      "context": "Judging the real-rate stance against neutral.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "And with two rate cuts now in place, I\u2019d find it difficult to cut rates again in December unless there is clear evidence that inflation will fall faster than expected or that the labor market will cool more rapidly.",
+      "context": "Her near-term bias toward holding in December.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs",
+      "balance_sheet_qt",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1555,
+    "hawk_hits": 9,
+    "dove_hits": 12,
+    "tokens": 2648
+  }
+}

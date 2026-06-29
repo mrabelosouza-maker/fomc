@@ -1,0 +1,43 @@
+{
+  "speech_id": "daly-20250516-8268d8",
+  "member_id": "daly",
+  "title": "Choose and Choose Again",
+  "date": "2025-05-16",
+  "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/05/choose-and-choose-again/",
+  "source": "sanfrancisco",
+  "non_policy": true,
+  "summary": "A commencement address at the College of Western Idaho. Daly recounts her personal story\u2014dropping out of high school, earning a GED, and finding economics\u2014to encourage graduates that paths are not predetermined. It is a ceremonial, motivational speech with no content on inflation, the labor market, the policy stance, or the rate path. Non-policy for reaction-function purposes.",
+  "key_quotes": [
+    {
+      "quote": "The truth is, decisions are rarely final and paths are rarely predetermined.",
+      "context": "Central motivational message of the commencement address; no monetary-policy content.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "And we all have the opportunity to choose and choose again.",
+      "context": "Title theme of the ceremonial speech.",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": []
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 1113
+  }
+}

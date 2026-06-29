@@ -1,0 +1,83 @@
+{
+  "speech_id": "barkin-20250225-51da14",
+  "title": "Inflation Then and Now",
+  "date": "2025-02-25",
+  "non_policy": false,
+  "summary": "Barkin's most hawkish-leaning speech of the set: with the labor market solid (unemployment 4.0 percent) and PCE inflation still somewhat elevated (2.6 percent headline, 2.8 percent core), he argues it makes sense to stay 'modestly restrictive' until more confident inflation is returning to 2 percent, invoking the 1970s lesson against backing off too soon. He sees disinflation helped by healed supply, productivity, and consumer pushback, but takes the long view that fading tailwinds—deglobalization, a shrinking labor force, large deficits—could turn into inflationary headwinds. Given pervasive policy uncertainty he prefers to wait and see rather than make significant moves, while remaining ready to lean against inflation if headwinds persist.",
+  "key_quotes": [
+    {
+      "quote": "Labor market conditions remain solid, while inflation remains somewhat elevated. It makes sense to stay modestly restrictive until we are more confident inflation is returning to our 2 percent target.",
+      "context": "Core stance: keep policy modestly restrictive until inflation confidence improves.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I recognize the fight against inflation has been long, but it is critical that we remain steadfast. We learned in the ’70s that if you back off inflation too soon, you can allow it to reemerge.",
+      "context": "Hawkish conviction to finish the inflation fight.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "It is tempting to focus on gaming out these short-term factors, but it’s hard to make significant monetary policy changes amid such uncertainty. So, I prefer to wait and see how this uncertainty plays out and how the economy responds.",
+      "context": "Wait-and-see near-term posture from a hold-and-stay-restrictive position.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "All these trends suggest we could see our tailwinds replaced by inflationary headwinds.",
+      "context": "Longer-run upside inflation risk shaping his lean.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 2,
+    "inflation_conviction": 3,
+    "labor_concern": 1,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "fiscal"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250225",
+  "tone_score": {
+    "net_tone": 0.0239,
+    "hawk_hits": 3,
+    "dove_hits": 2,
+    "tokens": 1746
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "member_id": "williams",
+  "as_of": {
+    "date": "2026-05-04",
+    "title": "There Is No Try",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260504",
+    "speech_id": "williams-20260504-134503"
+  },
+  "inflation": {
+    "label": "oil + tariffs",
+    "note": "Sees PCE elevated near-term driven by tariffs and Middle East energy prices, with underlying inflation outside imported goods and energy still stable.",
+    "quote": "higher tariffs and energy prices has contributed about a  percentage point to that"
+  },
+  "labor": {
+    "label": "stable / balanced",
+    "note": "Hard data point to stabilization with unemployment around 4.3 percent, while some soft data suggest gradual slowing.",
+    "quote": "Much of the hard data points to stabilization, while  some of the soft data suggest continued gradual slowing"
+  },
+  "stance": {
+    "label": "appropriate / well positioned",
+    "note": "Judges the current stance well positioned to balance the two-sided risks, with the FOMC holding the funds rate at 3-1/2 to 3-3/4 percent.",
+    "quote": "current stance of monetary policy is well positioned to balance the risks to  our maximum employment and price st"
+  }
+}

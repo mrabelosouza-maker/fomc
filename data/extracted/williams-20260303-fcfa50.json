@@ -1,0 +1,66 @@
+{
+  "speech_id": "williams-20260303-fcfa50",
+  "member_id": "williams",
+  "title": "Two Sides of a Coin",
+  "date": "2026-03-03",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260303",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "Williams strikes his most explicitly dovish-leaning tone of the set: he sees a resilient economy with solid growth, a labor market showing 'promising signs of stabilization' after cooling, and inflation around 3 percent that he expects to come back down as largely one-off tariff effects fade. He notes the FOMC has already cut 1-3/4 percentage points over the past year-and-a-half in response to rising downside employment risks and lessening inflation risks, leaving risks better balanced. Crucially, he signals that if inflation follows his expected path, further rate cuts will eventually be warranted to keep policy from becoming inadvertently more restrictive. The speech leans dovish with a near-term bias toward cuts, conditional on the data.",
+  "key_quotes": [
+    {
+      "quote": "Looking further ahead, if inflation follows the path I expect, further reductions in the federal funds rate will eventually be warranted to prevent monetary policy from inadvertently becoming more restrictive.",
+      "context": "Explicit forward signal toward additional rate cuts",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Over the past year and a half, the FOMC has lowered the target range for the federal funds rate by a total of 1-3/4 percentage points in response to rising downside risks to employment and the lessening upside risks to inflation.",
+      "context": "Framing the easing cycle and the shift in the balance of risks",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Given the lack of second-round effects and well-anchored inflation expectations, I expect the tariffs largely to have one-off effects on prices.",
+      "context": "Conviction that tariff-driven inflation is transitory",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Despite solid economic growth in 2025, we saw a gradual softening of the labor market through much of the year. In recent months, however, there have been promising signs of stabilization.",
+      "context": "Reading recent labor-market stabilization",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1.5,
+    "mandate_weight": -0.5,
+    "inflation_conviction": 1.5,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "fiscal",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 2, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 4,
+    "dove_hits": 3,
+    "tokens": 1324
+  }
+}

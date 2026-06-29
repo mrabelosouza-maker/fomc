@@ -1,0 +1,66 @@
+{
+  "speech_id": "bowman-20250809-1b7c3e",
+  "member_id": "bowman",
+  "title": "Thoughts on the Economy and Community Bank Capital",
+  "date": "2025-08-09",
+  "url": "https://www.federalreserve.gov/newsevents/speech/bowman20250809a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Bowman explains her dissent at the July meeting, where she favored beginning to lower the moderately restrictive funds rate rather than holding. She points to markedly slower growth, weak consumer spending and housing, and a fragile, less dynamic labor market\u2014payrolls of just 35k/month, large downward revisions, narrow job gains\u2014while judging core PCE ex-tariffs below 2.5 percent and tariffs as a one-off effect. She argues the upside inflation risks have diminished and the Committee should focus on employment risks and move gradually toward neutral to avoid needing a larger correction later. The second half of the speech is community-bank capital and fraud (non-policy), but the macro/monetary portion gives a clearly dovish read.",
+  "key_quotes": [
+    {
+      "quote": "At last week's FOMC meeting, I dissented from the Committee's decision to hold the policy rate at its current level.",
+      "context": "Opening of the FOMC update, explaining her July dissent.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "With underlying inflation on a sustained trajectory toward 2 percent, softness in aggregate demand, and signs of fragility in the labor market, I think that we should focus on risks to our employment mandate.",
+      "context": "On the balance of risks to the dual mandate.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "As I recognize that economic conditions are shifting, I believe that beginning to move our policy rate at a gradual pace toward its neutral level will help maintain the labor market near full employment and ensure smooth progress toward achieving our dual mandate.",
+      "context": "The policy decision and path forward.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "as I gain even greater confidence that tariffs will not present a persistent shock to inflation, I see that upside risks to price stability have diminished.",
+      "context": "On inflation risks; treating tariffs as one-off.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -3.5,
+    "mandate_weight": -3.5,
+    "inflation_conviction": 1.5,
+    "labor_concern": 3.5,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "housing",
+      "immigration",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 1, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0936,
+    "hawk_hits": 8,
+    "dove_hits": 9,
+    "tokens": 3452
+  }
+}

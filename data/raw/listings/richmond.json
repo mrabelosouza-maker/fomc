@@ -1,0 +1,19 @@
+{
+  "source": "richmond",
+  "collected_at": "2026-06-20",
+  "speeches": [
+    {"member_id": "barkin", "speech_id": "barkin-20260628-deedb3", "date": "2026-06-28", "title": "Bloomberg Interview at the Aspen Ideas Festival", "url": "", "source": "bloomberg"},
+    {"member_id": "barkin", "speech_id": "barkin-20260521-aa63e0", "date": "2026-05-21", "title": "Navigating Supply Shocks", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260521", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20260327-b5939d", "date": "2026-03-27", "title": "Driving Through Economic Fog (Still)", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260327", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20260203-ea6b9f", "date": "2026-02-03", "title": "U.S. Economy: The Road Ahead", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260203", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20260106-d1a6c2", "date": "2026-01-06", "title": "Tuning In: 2026 Outlook", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260106", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20251118-7960e5", "date": "2025-11-18", "title": "Operating with Limited Data", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20251118", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20250926-6133fa", "date": "2025-09-26", "title": "Staying Sanguine About the Horizon", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250926", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20250812-a61949", "date": "2025-08-12", "title": "Why the Consumer Matters", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250812", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20250626-f70647", "date": "2025-06-26", "title": "Forecasting Beyond Today's Data", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250626", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20250511-9d6d75", "date": "2025-05-11", "title": "University of Richmond Commencement: Navigating Life's Ups and Downs", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250511", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20250327-125b10", "date": "2025-03-27", "title": "Driving through Economic Fog", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250327", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20250225-51da14", "date": "2025-02-25", "title": "Inflation Then and Now", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250225", "source": "richmond"},
+    {"member_id": "barkin", "speech_id": "barkin-20250103-dc4138", "date": "2025-01-03", "title": "2025 Economic Outlook", "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250103", "source": "richmond"}
+  ]
+}

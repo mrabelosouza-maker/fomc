@@ -1,0 +1,64 @@
+{
+  "speech_id": "cook-20250603-22e5ed",
+  "member_id": "cook",
+  "title": "Economic Outlook",
+  "date": "2025-06-03",
+  "url": "https://www.federalreserve.gov/newsevents/speech/cook20250603a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Cook presents a balanced, wait-and-see outlook centered on tariff-driven uncertainty: the economy is on firm footing with unemployment low at 4.2 percent and inflation at 2.1 percent headline / 2.5 percent core, but trade-policy changes are raising the likelihood of both higher inflation and labor-market cooling. She supported leaving the policy rate unchanged, judging the current stance well positioned to respond to a range of developments. She sees two-sided risks and emphasizes that price stability is essential for sustained strong labor markets, while flagging that the post-pandemic experience could make firms quicker to raise prices and households quicker to expect persistent inflation. The overall lean is a roughly neutral, patient hold with a mild inflation-vigilance tilt.",
+  "key_quotes": [
+    {
+      "quote": "At our most recent policy meeting last month, I supported the FOMC's decision to leave our policy interest rate unchanged. The current stance of monetary policy is well positioned to respond to a range of potential developments.",
+      "context": "Her policy stance amid tariff uncertainty",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Trade policy changes and the response of financial markets, firms, and consumers suggest risks to both sides of our dual mandate.",
+      "context": "Framing two-sided risks from trade policy",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "The recent post-pandemic experience with high inflation could make firms more willing to raise prices and consumers more likely to expect high inflation to persist.",
+      "context": "On the risk that tariff price increases could feed expectations",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Trade policy changes could alter hiring plans in the near future.",
+      "context": "On labor-market cooling risk from trade policy",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 1, "push": "neutral"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1771,
+    "hawk_hits": 6,
+    "dove_hits": 0,
+    "tokens": 1148
+  }
+}

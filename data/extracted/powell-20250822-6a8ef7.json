@@ -1,0 +1,65 @@
+{
+  "speech_id": "powell-20250822-6a8ef7",
+  "member_id": "powell",
+  "title": "Monetary Policy and the Fed's Framework Review",
+  "date": "2025-08-22",
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20250822a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Powell's Jackson Hole address pairs the near-term outlook with the framework review. He emphasizes a 'curious kind of balance' in the labor market produced by a marked slowing of both labor supply and demand, with rising downside risks to employment that could materialize quickly in layoffs. With core PCE at 2.9 percent and tariffs visibly pushing up goods prices, he treats the tariff effect as most likely a one-time price-level shift, judging adverse wage-price dynamics unlikely given a not-particularly-tight labor market. Crucially, he signals an opening to ease: with policy 100bp closer to neutral than a year ago and still restrictive, 'the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.' The framework section returns to flexible inflation targeting and drops the makeup and shortfalls language.",
+  "key_quotes": [
+    {
+      "quote": "Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.",
+      "context": "Opening the door to a rate cut at the September meeting",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "This unusual situation suggests that downside risks to employment are rising. And if those risks materialize, they can do so quickly in the form of sharply higher layoffs and rising unemployment.",
+      "context": "Characterizing labor-market risk from slowing supply and demand",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "A reasonable base case is that the effects will be relatively short lived\u2014a one-time shift in the price level.",
+      "context": "His read on tariff-driven inflation",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Our policy rate is now 100 basis points closer to neutral than it was a year ago, and the stability of the unemployment rate and other labor market measures allows us to proceed carefully as we consider changes to our policy stance.",
+      "context": "Characterizing current restrictiveness and room to move",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1,
+    "mandate_weight": -1,
+    "inflation_conviction": 3,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1185,
+    "hawk_hits": 7,
+    "dove_hits": 9,
+    "tokens": 1781
+  }
+}

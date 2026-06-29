@@ -1,0 +1,59 @@
+{
+  "speech_id": "williams-20251003-9543a4",
+  "member_id": "williams",
+  "title": "Prepare for the Unexpected",
+  "date": "2025-10-03",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2025/wil251003",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "A principles-focused speech at a farewell symposium for Klaas Knot, laying out three pillars of successful monetary policy\u2014accountability and independence, transparency, and well-anchored inflation expectations\u2014and arguing central banks must 'prepare for the unexpected' with robust strategies and a broad toolkit beyond the short-term rate. It is conceptual and offers essentially no read on the current U.S. stance, inflation outlook, or near-term policy path. The most policy-relevant content is its defense of central-bank independence and its emphasis that anchored expectations short-circuit second-round effects. As a framework speech it carries no clear hawkish or dovish lean.",
+  "key_quotes": [
+    {
+      "quote": "Central banks must own the responsibility to deliver price stability and have the independence of action and the ability to achieve it.",
+      "context": "First of three principles\u2014accountability and central-bank independence",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Well-anchored inflation expectations short-circuit so-called second-round effects in wage and price setting that exacerbate and prolong the impacts of the kinds of shocks we saw during the 1970s.",
+      "context": "On why anchored expectations matter for controlling inflation",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "It\u2019s important to be nimble in execution even as one is steady in strategy.",
+      "context": "Summarizing the robust-policy approach to uncertainty",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "fed_independence",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 1, "push": "neutral"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 0, "push": "neutral"},
+    "other": {"intensity": 1, "push": "neutral"}
+  },
+  "tone_score": {
+    "net_tone": 0.0449,
+    "hawk_hits": 4,
+    "dove_hits": 0,
+    "tokens": 1981
+  }
+}

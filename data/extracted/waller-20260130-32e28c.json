@@ -1,0 +1,64 @@
+{
+  "speech_id": "waller-20260130-32e28c",
+  "member_id": "waller",
+  "title": "Statement by Governor Christopher J. Waller",
+  "date": "2026-01-30",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20260130a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "This is Waller's explanation of his dissent at the January FOMC meeting, where he favored a 25bp cut. He argues monetary policy is still restricting activity at 50-75bp above the median 3 percent neutral estimate and that further easing is needed. He stresses a very weak labor market \u2014 payrolls up just under 600,000 in 2025 versus a ~1.9 million prior-decade average, likely to be revised to roughly zero ('Zero. Zip. Nada.') \u2014 and warns of planned 2026 layoffs and a significant risk of substantial deterioration. On inflation he reaffirms looking through anchored tariff effects, judging inflation ex-tariffs close to 2 percent. It is an unambiguously dovish call to move the rate toward neutral to protect employment.",
+  "key_quotes": [
+    {
+      "quote": "I dissented at the most recent meeting of the Federal Open Market Committee (FOMC) after concluding that cutting the policy rate by 25 basis points was the appropriate stance of policy.",
+      "context": "Opening: a formal dovish dissent in favor of cutting.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "This does not remotely look like a healthy labor market.",
+      "context": "Emphatic assessment of labor weakness (after citing near-zero 2025 job growth).",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Inflation excluding tariff effects is running close to the FOMC's 2 percent target and on a path to sustainably reach that goal.",
+      "context": "Low inflation conviction \u2014 sees underlying inflation on track.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "With total inflation excluding tariff effects close to our target at just slightly above 2 percent and a weak labor market, the policy rate should be closer to neutral, which the median FOMC participant estimates is 3 percent, and not where we are\u201450 to 75 basis points above 3 percent.",
+      "context": "Judges current policy as still restrictive with clear room to cut toward neutral.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -3.5,
+    "mandate_weight": -3.5,
+    "inflation_conviction": 1,
+    "labor_concern": 4,
+    "policy_stance_read": 4,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "urgent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.2066,
+    "hawk_hits": 2,
+    "dove_hits": 4,
+    "tokens": 375
+  }
+}

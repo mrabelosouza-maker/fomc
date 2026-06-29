@@ -1,0 +1,65 @@
+{
+  "speech_id": "hammack-20250211-c0462d",
+  "member_id": "hammack",
+  "title": "Show Me the Low Inflation",
+  "date": "2025-02-11",
+  "url": "https://www.clevelandfed.org/collections/speeches/2025/sp-20250211-show-me-low-inflation",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "Hammack\u2019s early-2025 outlook stresses patience. With the economy strong, the labor market healthy (4.0 percent unemployment), and inflation eased to 2.6 percent PCE but still above target, she argues it 'will likely be appropriate to hold the funds rate steady for some time' and wants 'broad-based evidence that inflation is sustainably returning to 2 percent before adjusting policy further.' She sees risks to inflation skewed to the upside (consumer-spending strength, proposed tariffs/immigration/tax policies) and judges policy 'only modestly restrictive,' possibly already near neutral\u2014two reasons supporting a patient, wait-and-see stance rather than further cuts.",
+  "key_quotes": [
+    {
+      "quote": "Given current economic conditions, it will likely be appropriate to hold the funds rate steady for some time.",
+      "context": "Her central near-term policy stance",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "As long as the labor market remains healthy, I am looking for broad-based evidence that inflation is sustainably returning to 2 percent before adjusting policy further.",
+      "context": "Conditioning further action on clear disinflation",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Given the recent history with elevated inflation, the risks to the inflation outlook appear skewed to the upside, and this could delay a return to 2 percent and further risk embedding elevated inflation into the economy.",
+      "context": "Her conviction that inflation risks are to the upside",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "As I see strong economic growth, the low unemployment rate, and still-elevated inflation, my overall view as of today is that monetary policy is only modestly restrictive.",
+      "context": "Her policy-stance read",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "fiscal"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1424,
+    "hawk_hits": 13,
+    "dove_hits": 8,
+    "tokens": 4453
+  }
+}

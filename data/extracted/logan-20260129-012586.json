@@ -1,0 +1,43 @@
+{
+  "speech_id": "logan-20260129-012586",
+  "member_id": "logan",
+  "title": "President Logan introduces FDIC Chairman Travis Hill at payments conference",
+  "date": "2026-01-29",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260129",
+  "source": "dallas",
+  "non_policy": true,
+  "summary": "Brief ceremonial remarks introducing FDIC Chairman Travis Hill at an SMU law symposium on the future of payments. Logan describes the Dallas Fed and the Federal Reserve System, notes the rapid growth of digital payments and the Fed's focus on balancing innovation with safety (tokenization, smart contracts, stablecoin regulation), and recaps Hill's biography. There is no discussion of the macro outlook or the stance of monetary policy, so it is non-policy for reaction-function purposes.",
+  "key_quotes": [
+    {
+      "quote": "As the Federal Reserve System explores emerging technologies such as tokenization and smart contracts, we remain focused on balancing innovation with safety.",
+      "context": "Payments-policy framing of the symposium; not a monetary-policy statement.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "This afternoon\u2019s discussion on stablecoin regulation highlighted the important balance between enabling innovation and ensuring appropriate safeguards in private digital money.",
+      "context": "Ceremonial introduction content on payments/regulation, no macro read.",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": []
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 530
+  }
+}

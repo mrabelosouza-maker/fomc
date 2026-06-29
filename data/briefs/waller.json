@@ -1,0 +1,24 @@
+{
+  "member_id": "waller",
+  "as_of": {
+    "date": "2026-05-22",
+    "title": "Policy Risks Have Changed",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20260522a.htm",
+    "speech_id": "waller-20260522-3860cd"
+  },
+  "inflation": {
+    "label": "broadening / underlying",
+    "note": "A Middle East energy shock atop earlier tariffs is bleeding into broad price increases, with about half of categories up 3%+ and some inflation expectations rising.",
+    "quote": "Also concerning is how broad price increases have been lately. About half of the categories of goods and services prices tracked in consumer inflation have been up 3 percent or more this year"
+  },
+  "labor": {
+    "label": "stable / balanced",
+    "note": "He judges labor supply and demand to have come into rough balance with unemployment steady at 4.3%, no longer the dominant policy driver.",
+    "quote": "recent data has indicated to me that labor supply and demand have finally come into a rough balance"
+  },
+  "stance": {
+    "label": "somewhat/modestly restrictive",
+    "note": "He favors removing easing-bias language and holding at the current restrictive setting, prepared to hike if expectations unanchor.",
+    "quote": "I am prepared to be patient in holding policy at its current restrictive setting as we watch how the conflict evolves"
+  }
+}

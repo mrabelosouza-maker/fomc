@@ -1,0 +1,83 @@
+{
+  "speech_id": "jefferson-20260527-598e44",
+  "member_id": "jefferson",
+  "title": "Global Economic Developments and the U.S. Economy",
+  "date": "2026-05-27",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Jefferson frames his outlook around a Middle East energy-price shock that has pushed inflation notably higher and added to upside inflation risk, while disinflation had already stalled on tariffs. He sees the labor market as broadly stable but with downside risks, leaving him facing the now-familiar two-sided problem. He expects inflation to decline later this year as the tariff and energy effects wane, but flags risks tilted to the upside. He backs holding the funds rate at 3-1/2 to 3-3/4 percent and explicitly declines to prejudge the next meeting, presenting the stance as well positioned and data-dependent.",
+  "key_quotes": [
+    {
+      "quote": "In recent months, inflation moved notably higher because of higher energy costs.",
+      "context": "Updating his read of inflation after the energy shock",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I expect inflation to decline later this year as the effects of tariffs and the energy shock wane, but I view risks around my inflation outlook as tilted to the upside.",
+      "context": "Baseline inflation forecast with risk assessment",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The U.S. labor market is broadly stable, with both hiring and firing at relatively low levels. I see risks to the labor market as somewhat skewed to the downside.",
+      "context": "Read of the labor market",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "At our last meeting, in late April, the FOMC decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent. I believe this policy stance leaves us well positioned to respond to economic developments based on the incoming data, the evolving outlook, and the balance of risks.",
+      "context": "Endorsing the hold and signaling data dependence",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "dollar"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0435,
+    "hawk_hits": 2,
+    "dove_hits": 3,
+    "tokens": 529
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  }
+}

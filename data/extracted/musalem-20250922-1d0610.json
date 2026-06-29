@@ -1,0 +1,68 @@
+{
+  "speech_id": "musalem-20250922-1d0610",
+  "member_id": "musalem",
+  "title": "Remarks on the Economic Outlook, the Balance of Risks and Monetary Policy",
+  "date": "2025-09-22",
+  "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/brookings-institution-economic-outlook-balance-risks-monetary-policy",
+  "source": "stlouis",
+  "non_policy": false,
+  "summary": "Musalem explains his support for the September 2025 FOMC decision to cut 25bp as a precautionary, insurance move to protect a labor market at full employment against rising downside risks, even though core PCE inflation (~2.9%) remains meaningfully above the 2% target. He frames risks as two-sided and stresses that policy should continue to lean against persistence in above-target inflation, warning against looking through tariff effects for too long. He judges the current stance as between modestly restrictive and neutral, with the ex ante real rate (0.8%) already close to or below the long-run neutral rate, leaving limited room to ease without becoming overly accommodative. He would back further cuts only if labor weakness emerges and inflation-persistence risk has not risen with expectations staying anchored, advocating a balanced approach that equally weighs both sides of the dual mandate.",
+  "key_quotes": [
+    {
+      "quote": "I supported this action because recent data indicate that the downside risks to employment have increased relative to the risk of inflation remaining persistently above target.",
+      "context": "Opening rationale for backing the September 25bp cut.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I supported the 25-basis-point reduction in the FOMC's policy rate last week as a precautionary move intended to support the labor market at full employment and against further weakening. The stance of monetary policy now lies between modestly restrictive and neutral, which I view as appropriate.",
+      "context": "Monetary Policy section, characterizing the cut and current stance.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "However, I believe there is limited room for easing further without policy becoming overly accommodative, and we should tread cautiously for three reasons.",
+      "context": "Caution about additional easing despite supporting the cut.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Looking ahead, my focus is on a policy path that equally weighs both sides of our dual mandate.",
+      "context": "Concluding statement on mandate weighting.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 3,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing",
+      "fiscal",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 3, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.292,
+    "hawk_hits": 8,
+    "dove_hits": 15,
+    "tokens": 1833
+  }
+}

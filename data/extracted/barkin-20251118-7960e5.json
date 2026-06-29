@@ -1,0 +1,83 @@
+{
+  "speech_id": "barkin-20251118-7960e5",
+  "title": "Operating with Limited Data",
+  "date": "2025-11-18",
+  "non_policy": false,
+  "summary": "With government data dark for seven weeks during the shutdown, Barkin leans on private data and Richmond Fed outreach to read the economy. He sees demand healthy but uneven by sector, a soft 'low-hire, low-fire' labor market (he reads outreach as weaker than the 4.3 percent unemployment rate implies), and inflation still about a point above target with shelter easing and oil low but goods and some core services firm. He concludes there is pressure on both sides of the mandate but also mitigants on both (consumer pushback and productivity on inflation; shrinking labor supply on unemployment). On policy he says when 'the lighthouse goes dark' you throttle back until you get visibility, and pointedly offers no guidance for the next meeting.",
+  "key_quotes": [
+    {
+      "quote": "On net, we are seeing pressure on both sides of our mandate, with inflation above our target and job growth down.",
+      "context": "His net read of the dual mandate.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "When the lighthouse goes dark, you might remain on your preexisting path at first, but soon enough, you will want to throttle back until you get more visibility.",
+      "context": "Policy posture under data uncertainty.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Our outreach suggests a somewhat weaker labor market than these numbers suggest.",
+      "context": "Concern the labor market is softer than official data show.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Our outreach leads me to believe inflation remains somewhat elevated but isn’t likely to increase much.",
+      "context": "Moderate, not escalating, inflation conviction.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -0.5,
+    "mandate_weight": -0.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": 3,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "immigration",
+      "tariffs"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20251118",
+  "tone_score": {
+    "net_tone": -0.0764,
+    "hawk_hits": 1,
+    "dove_hits": 3,
+    "tokens": 1542
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "dovish"
+    }
+  }
+}

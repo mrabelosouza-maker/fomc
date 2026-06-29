@@ -1,0 +1,45 @@
+{
+  "speech_id": "powell-20260111-6ccada",
+  "member_id": "powell",
+  "title": "Statement from Federal Reserve Chair Jerome H. Powell",
+  "date": "2026-01-11",
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "This is a defensive public statement responding to a Department of Justice grand jury subpoena and threat of criminal indictment tied to Powell's June Senate testimony on the Fed building renovation. It contains no read on inflation, the labor market, or the stance of monetary policy. Its substance is a defense of central-bank independence: Powell frames the legal threat as political pressure aimed at making the Fed set rates to suit the President rather than economic conditions, and vows to keep setting policy based on evidence and the dual mandate without political fear or favor.",
+  "key_quotes": [
+    {
+      "quote": "The threat of criminal charges is a consequence of the Federal Reserve setting interest rates based on our best assessment of what will serve the public, rather than following the preferences of the President.",
+      "context": "Powell characterizing the indictment threat as retaliation for independent policy setting",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "This is about whether the Fed will be able to continue to set interest rates based on evidence and economic conditions\u2014or whether instead monetary policy will be directed by political pressure or intimidation.",
+      "context": "Framing the stakes as central-bank independence",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "fed_independence"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 294
+  }
+}

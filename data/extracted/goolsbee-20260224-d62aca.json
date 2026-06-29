@@ -1,0 +1,66 @@
+{
+  "speech_id": "goolsbee-20260224-d62aca",
+  "member_id": "goolsbee",
+  "title": "42nd Annual NABE Economic Policy Conference",
+  "date": "2026-02-24",
+  "url": "https://www.chicagofed.org/publications/speeches/2026/feb-24-nabe-economic-policy-conference",
+  "source": "chicago",
+  "non_policy": false,
+  "summary": "Goolsbee pushes back on the view that the economy is fragile and needs rapid FOMC easing, arguing 2025 growth was solid and broad-based (driven by the consumer, not AI investment) and that the labor market has been steady, with low net job creation explained by the immigration-driven drop in the break-even pace rather than weakening demand. With the real economy steady, he says the focus for near-term policy should return to inflation, which stalled around 3 percent core PCE and remains well above target, with services-ex-housing at a stubborn 3.3 percent. He stresses that at 3 percent inflation it is not obvious policy is even restrictive, and warns against front-loading too many cuts given repeated upside inflation surprises and tariff pass-through still in train. He remains open to more cuts this year but only if there is actual progress back toward 2 percent, leaving him patient and inflation-focused.",
+  "key_quotes": [
+    {
+      "quote": "With inflation at 3%, it is not obvious that our interest rate policy is even restrictive.",
+      "context": "Judging the current stance as possibly already near neutral, implying little room to keep cutting",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I feel that front-loading too many rate cuts is not prudent in that circumstance.",
+      "context": "Resisting rapid easing given inflation risks",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Three percent inflation is not good enough\u2014and it\u2019s not what we promised when the Federal Reserve committed to the 2% target.",
+      "context": "Conviction that more progress on inflation is needed",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Economic growth and the labor market don\u2019t seem especially fragile",
+      "context": "Downplaying labor-market downside risk relative to inflation",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.145,
+    "hawk_hits": 3,
+    "dove_hits": 9,
+    "tokens": 2329
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "speech_id": "jefferson-20260206-d8e992",
+  "member_id": "jefferson",
+  "title": "Economic Outlook and Supply-Side (Dis)Inflation Dynamics",
+  "date": "2026-02-06",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260206a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Jefferson strikes a 'cautiously optimistic' tone: the labor market is stabilizing in a low-hire, low-fire state, growth has been resilient (he revised his 2026 forecast up), and he expects disinflation to resume once tariff pass-through completes, aided by strong productivity. He endorses the recent hold and views the funds rate as broadly neutral after 175 bp of cuts, framing tariffs as a likely one-time price-level shift given anchored expectations. The bulk of the speech argues that elevated structural productivity (including AI) and anchored expectations give the supply side room to evolve without precautionary tightening, an implicitly dovish-leaning, non-alarmed message. Near-term bias is hold/data-dependent with two-sided risks.",
+  "key_quotes": [
+    {
+      "quote": "At the start of this year, I am cautiously optimistic about the economic outlook. I see signs suggesting that the labor market is stabilizing, that inflation can return to a path toward our 2 percent objective, and that sustainable economic growth will continue.",
+      "context": "Opening framing of the outlook",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I continue to see it as a reasonable base case that the effect on inflation will not be long-lasting and will amount to a one-time shift in the price level, in part because anchored inflation expectations should limit second-round effects of tariffs on prices and wages.",
+      "context": "Tariffs viewed as one-time, not persistent inflation",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "With the FOMC strongly committed to returning inflation to its target, the risk of such a one-time shift leading to sustained inflation is likely to be low. This implies that there is more leeway for the supply side of the economy to evolve without the need for precautionary monetary policy restraint.",
+      "context": "Argues against precautionary tightening",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I see the overall labor market as roughly in balance, with a low-hiring, low-firing environment prevailing. In this less dynamic labor market, the downside risks to employment remain, but my baseline is for the unemployment rate to hold approximately steady throughout this year.",
+      "context": "Labor market assessment",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -0.5,
+    "mandate_weight": 0,
+    "inflation_conviction": 2,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0418,
+    "hawk_hits": 11,
+    "dove_hits": 11,
+    "tokens": 2286
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  }
+}

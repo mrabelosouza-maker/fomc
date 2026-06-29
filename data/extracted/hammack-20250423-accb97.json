@@ -1,0 +1,51 @@
+{
+  "speech_id": "hammack-20250423-accb97",
+  "member_id": "hammack",
+  "title": "The Federal Reserve\u2019s Balance Sheet: Some Major League Questions",
+  "date": "2025-04-23",
+  "url": "https://www.clevelandfed.org/collections/speeches/2025/sp-20250423-federal-reserve-balance-sheet",
+  "source": "cleveland",
+  "non_policy": true,
+  "summary": "A technical, operations-focused speech on the Federal Reserve\u2019s balance sheet rather than the rate stance or macro outlook. Hammack reviews balance-sheet normalization, the path toward a 'just-above-ample' level of reserves, and a range of open questions on buffer size, the standing repo facility, asset composition (rolling off MBS toward Treasuries), and duration. She supports the March decision to slow runoff but argues it could have continued at the prior pace, leans toward a smaller reserve buffer, and flags financial-stability risks from an oversized balance sheet. There is little substantive read on the near-term funds-rate path.",
+  "key_quotes": [
+    {
+      "quote": "With reserves still abundant, I believe that runoff could have continued at the prior pace for the time being rather than slowing as we did at our March FOMC meeting.",
+      "context": "Her view on balance-sheet runoff pace",
+      "dimension": "balance_sheet_qt"
+    },
+    {
+      "quote": "So for all of these reasons, I personally lean toward holding a smaller buffer in normal times.",
+      "context": "Preference for a smaller reserve buffer",
+      "dimension": "balance_sheet_qt"
+    },
+    {
+      "quote": "Perhaps relative to some others, another cost I see from a large balance sheet comes from financial stability risks.",
+      "context": "Linking a large balance sheet to financial-stability risk",
+      "dimension": "financial_stability"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "balance_sheet_qt",
+      "financial_stability"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 1,
+    "dove_hits": 1,
+    "tokens": 3409
+  }
+}

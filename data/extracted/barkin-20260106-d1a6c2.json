@@ -1,0 +1,83 @@
+{
+  "speech_id": "barkin-20260106-d1a6c2",
+  "title": "Tuning In: 2026 Outlook",
+  "date": "2026-01-06",
+  "non_policy": false,
+  "summary": "In a song-themed outlook, Barkin stresses a resilient economy (Q3 GDP 4.3 percent, core PCE 2.8 percent) but flags narrowness in both demand (AI ecosystem and wealthy consumers) and job growth (mostly health care), plus record-low consumer sentiment. He frames policy as a delicate balancing act: unemployment is historically low but ticking up, and inflation has been above target for almost five years, so neither labor deterioration nor de-anchored expectations is acceptable. He describes the FOMC's fall cuts—bringing the funds rate within the neutral range—as 'a bit of insurance,' and emphasizes that future moves will require finely tuned judgments hampered by the recent loss of clean government data. He gives no signal on the next meeting.",
+  "key_quotes": [
+    {
+      "quote": "Both sides of our mandate bear watching. Unemployment remains low on a historic basis but has ticked up. Inflation has come down but remains above target.",
+      "context": "His balanced framing of the dual mandate heading into 2026.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "As the labor market has softened in the past year, the FOMC cut rates further in the fall and to a level now within the range of its estimates of neutral. Think of it as taking out a bit of insurance.",
+      "context": "Reads stance as near neutral after insurance cuts.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "But going forward, policy will require finely tuned judgments balancing progress on each side of our mandate.",
+      "context": "Signals data-dependent, balanced near-term posture.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "With the hiring rate low, no one wants the labor market to deteriorate much further; with inflation above target now for almost five years, no one wants higher inflation expectations to get embedded.",
+      "context": "Two-sided risk statement.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 0,
+    "inflation_conviction": 2.5,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "fiscal",
+      "immigration"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260106",
+  "tone_score": {
+    "net_tone": -0.1274,
+    "hawk_hits": 3,
+    "dove_hits": 7,
+    "tokens": 1541
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "dovish"
+    }
+  }
+}

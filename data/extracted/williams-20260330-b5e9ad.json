@@ -1,0 +1,59 @@
+{
+  "speech_id": "williams-20260330-b5e9ad",
+  "member_id": "williams",
+  "title": "Ferrying Through the Crosscurrents",
+  "date": "2026-03-30",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260330",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "Williams portrays a resilient economy with solid growth and a stabilizing labor market (unemployment in a 4.3-4.5 percent band), but with inflation crosscurrents from tariffs (adding one-half to three-quarters of a point to ~3 percent PCE) and a Middle East conflict now lifting energy prices. He stresses the absence of second-round effects and well-anchored expectations, and judges the current stance well positioned, supporting the FOMC's hold at 3-1/2 to 3-3/4 percent. He expects above-potential growth near 2-1/2 percent, the unemployment rate to edge down, and inflation to reach 2 percent in 2027. The lean is balanced with a modest hawkish tilt given elevated inflation and supply-shock risk, and a near-term hold.",
+  "key_quotes": [
+    {
+      "quote": "This is an unusual set of circumstances. But the current stance of monetary policy is well positioned to balance the risks to our maximum employment and price stability goals.",
+      "context": "Supporting the FOMC's hold at 3-1/2 to 3-3/4 percent",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "The residual effects of tariffs and higher energy prices should increase headline inflation in the short term.",
+      "context": "On near-term upward pressure on inflation from tariffs and energy",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Here, we are getting mixed signals, with some key indicators showing signs of steadying while others are suggesting a weakening labor market.",
+      "context": "Reading the labor market's conflicting signals",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": 2,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 1, "push": "dovish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 1, "push": "neutral"}
+  },
+  "tone_score": {
+    "net_tone": -0.0425,
+    "hawk_hits": 0,
+    "dove_hits": 1,
+    "tokens": 1244
+  }
+}

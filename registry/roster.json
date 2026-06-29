@@ -1,0 +1,32 @@
+{
+  "roster_version": "2026.1",
+  "verified_at": "2026-06-20",
+  "sources": [
+    "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+    "https://www.federalreserve.gov/aboutthefed/bios/board/default.htm"
+  ],
+  "notes": "Chair transition confirmed live: Kevin Warsh is Chairman; Powell is now Governor; Jefferson Vice Chair; Bowman Vice Chair for Supervision; Stephen Miran no longer on the Board. Atlanta has interim president Cheryl Venable (Bostic departed) and Philadelphia is led by Anna Paulson (Harker retired) — predecessors' 2025 speeches are NOT attributed to the current seat-holder.",
+  "members": [
+    {"member_id": "warsh", "name": "Kevin M. Warsh", "title": "Chair", "bank": "Board of Governors", "voter_2026": true},
+    {"member_id": "jefferson", "name": "Philip N. Jefferson", "title": "Vice Chair", "bank": "Board of Governors", "voter_2026": true},
+    {"member_id": "bowman", "name": "Michelle W. Bowman", "title": "Vice Chair for Supervision", "bank": "Board of Governors", "voter_2026": true},
+    {"member_id": "barr", "name": "Michael S. Barr", "title": "Governor", "bank": "Board of Governors", "voter_2026": true},
+    {"member_id": "cook", "name": "Lisa D. Cook", "title": "Governor", "bank": "Board of Governors", "voter_2026": true},
+    {"member_id": "powell", "name": "Jerome H. Powell", "title": "Governor", "bank": "Board of Governors", "voter_2026": true},
+    {"member_id": "waller", "name": "Christopher J. Waller", "title": "Governor", "bank": "Board of Governors", "voter_2026": true},
+
+    {"member_id": "williams", "name": "John C. Williams", "title": "President (FOMC Vice Chair)", "bank": "New York", "voter_2026": true},
+    {"member_id": "hammack", "name": "Beth M. Hammack", "title": "President", "bank": "Cleveland", "voter_2026": true},
+    {"member_id": "kashkari", "name": "Neel Kashkari", "title": "President", "bank": "Minneapolis", "voter_2026": true},
+    {"member_id": "logan", "name": "Lorie K. Logan", "title": "President", "bank": "Dallas", "voter_2026": true},
+    {"member_id": "paulson", "name": "Anna Paulson", "title": "President", "bank": "Philadelphia", "voter_2026": true},
+
+    {"member_id": "collins", "name": "Susan M. Collins", "title": "President", "bank": "Boston", "voter_2026": false},
+    {"member_id": "barkin", "name": "Thomas I. Barkin", "title": "President", "bank": "Richmond", "voter_2026": false},
+    {"member_id": "goolsbee", "name": "Austan D. Goolsbee", "title": "President", "bank": "Chicago", "voter_2026": false},
+    {"member_id": "musalem", "name": "Alberto G. Musalem", "title": "President", "bank": "St. Louis", "voter_2026": false},
+    {"member_id": "schmid", "name": "Jeffrey R. Schmid", "title": "President", "bank": "Kansas City", "voter_2026": false},
+    {"member_id": "daly", "name": "Mary C. Daly", "title": "President", "bank": "San Francisco", "voter_2026": false},
+    {"member_id": "venable", "name": "Cheryl Venable", "title": "Interim President", "bank": "Atlanta", "voter_2026": false}
+  ]
+}

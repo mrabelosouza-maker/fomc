@@ -1,0 +1,60 @@
+{
+  "speech_id": "williams-20260416-cbd36b",
+  "member_id": "williams",
+  "title": "The Cosmos",
+  "date": "2026-04-16",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260416",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "Williams reviews a resilient U.S. and New York-region economy facing inflation crosscurrents: PCE inflation was 2.8 percent in February (tariffs adding one-half to three-quarters of a point) and the Middle East conflict is now pushing energy prices and headline inflation higher, even as tariff effects should wane. The labor market shows mixed signals\u2014stable hard data at 4.3 percent unemployment but softening household perceptions in a low-hire, low-fire market. He judges the current stance well positioned and supports holding the funds rate at 3-1/2 to 3-3/4 percent, expecting inflation of 2-3/4 to 3 percent this year and a return to 2 percent in 2027. The tone is balanced, emphasizing two-sided risks and anchored expectations, with a clear near-term hold.",
+  "key_quotes": [
+    {
+      "quote": "This is an unusual set of circumstances, but the current stance of monetary policy is well positioned to balance the risks to our maximum employment and price stability goals.",
+      "context": "Supporting the FOMC's March decision to hold rates at 3-1/2 to 3-3/4 percent",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Over the next few quarters, the effects of tariffs on the inflation rate should begin to wane, creating some downward momentum in core inflation.",
+      "context": "Expecting tariff effects to fade even as energy prices rise",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "What all of this means is that it\u2019s a reasonably good labor market if you have steady employment. But in a low-hire, low-fire labor market, it\u2019s not so good if you are looking for a job or worried you may need one soon.",
+      "context": "Characterizing the mixed labor-market signals",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0,
+    "inflation_conviction": 2.5,
+    "labor_concern": 2,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "housing",
+      "balance_sheet_qt"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {"intensity": 3, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 1, "push": "dovish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "hawkish"},
+    "other": {"intensity": 1, "push": "neutral"}
+  },
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 2,
+    "dove_hits": 1,
+    "tokens": 1622
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "speech_id": "goolsbee-20250205-83a8ea",
+  "member_id": "goolsbee",
+  "title": "Lessons from the Supply Side",
+  "date": "2025-02-05",
+  "url": "https://www.chicagofed.org/publications/speeches/2025/feb-5-automotive-insights-symposium",
+  "source": "chicago",
+  "non_policy": false,
+  "summary": "Drawing lessons from the pandemic, Goolsbee argues supply-side disruptions and supply chains were the dominant drivers of inflation over the past five years and that supply chains are more specialized, more prone to spillovers, and more macro-relevant than commonly assumed. He characterizes the early-2025 backdrop as a strong economy near full employment with inflation approaching the 2 percent target and supply chains mostly healed. Turning to tariffs, he notes that in pure theory a one-time tariff cost increase should be transitory and ignorable by the Fed, but he repeatedly cautions that with broader, higher tariffs and stacking along complex supply chains, the impact could be larger and more persistent than the 2018 episode. He concludes the Fed will face the hard task of distinguishing tariff-driven price increases from genuine overheating, with that distinction critical to when or whether policy should respond\u2014an overall balanced, data-dependent message.",
+  "key_quotes": [
+    {
+      "quote": "Coming into this week, I would say we have a strong economy. The job market seems fairly settled at a level we could plausibly call full employment. Inflation has come down and is approaching the Fed\u2019s 2% target. Growth is strong.",
+      "context": "Benign read of the early-2025 economy, labor at full employment",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "If we see inflation rising or progress stalling in 2025, the Fed will be in the difficult position of trying to figure out if the inflation is coming from overheating or if it\u2019s coming from tariffs. That distinction will be critical for deciding when or even if the Fed should act.",
+      "context": "Conditional, data-dependent policy framing around tariffs",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "The shocks might have started as transitory but quickly they became traaaaansitory, at best.",
+      "context": "Warning that tariff inflation may prove more persistent than the transitory baseline",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 0,
+    "inflation_conviction": 2,
+    "labor_concern": 0.5,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 1, "push": "neutral"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 1, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 1, "push": "neutral"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0095,
+    "hawk_hits": 4,
+    "dove_hits": 6,
+    "tokens": 2794
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "speech_id": "barkin-20260203-ea6b9f",
+  "title": "U.S. Economy: The Road Ahead",
+  "date": "2026-02-03",
+  "non_policy": false,
+  "summary": "Barkin strikes a constructive tone: the fog is lifting, growth is resilient (Q3 GDP 4.4 percent, unemployment 4.4 percent), and PCE inflation has come down to 2.8 percent with near-term expectations falling. He characterizes the 175 bps of cuts as 'insurance' to support the labor market while finishing the 'last mile' on inflation, and says 'so far, so good.' He takes the sustained inflation miss since 2021 seriously, arguing today's inflation feeds tomorrow's, but he also flags that job growth and demand are narrow (concentrated in AI and wealthy consumers/health care) and that slow job growth is uncomfortable. He signals readiness to respond as conditions change rather than a committed near-term direction.",
+  "key_quotes": [
+    {
+      "quote": "As the inflation rate has fallen, we have been bringing rates back down toward neutral levels, reducing the fed funds rate 175 basis points over the last year and a half.",
+      "context": "Describing the easing cycle as moving policy toward neutral.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I think of these cuts as having taken out some insurance to support the labor market as we work to complete the last mile to bring inflation back to target.",
+      "context": "Framing recent cuts as insurance for the labor side.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "It would be easy to blame the one-time effect of tariffs or measurement lags in shelter costs, but I take this sustained miss seriously.",
+      "context": "Why he keeps weight on the inflation side despite progress.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "So far, so good. But we know things change, and as they do, we remain ready to respond as appropriate.",
+      "context": "His near-term posture: wait-and-respond.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "immigration",
+      "fiscal",
+      "tariffs"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260203",
+  "tone_score": {
+    "net_tone": -0.1336,
+    "hawk_hits": 0,
+    "dove_hits": 5,
+    "tokens": 1696
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "dovish"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "speech_id": "musalem-20260130-b9004b",
+  "member_id": "musalem",
+  "title": "U.S. Economic Outlook and Monetary Policy",
+  "date": "2026-01-30",
+  "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/us-economic-outlook-monetary-policy-university-arkansas",
+  "source": "stlouis",
+  "non_policy": false,
+  "summary": "Musalem judges the economy resilient with above-trend momentum into 2026 and the labor market cooling in an orderly way near the natural rate, with downside jobs risk having lessened. With inflation still at 2.8%, above the 2% target, and risks evenly balanced, he supported holding the funds rate at 3.5%-3.75%, which he views as already neutral in real terms. He argues it would be unadvisable to ease into accommodative territory now, both because of inflation persistence risk and because cutting could raise inflation expectations and long-term rates and hurt employment. He would only support further cuts if clear labor-market weakness emerges (absent renewed inflation persistence) or if expected inflation falls sustainably to 2% or below.",
+  "key_quotes": [
+    {
+      "quote": "With inflation above target and the risks to the outlook evenly balanced, I believe it would be unadvisable to lower the rate into accommodative territory at this time.",
+      "context": "Summary section, stating his core policy conclusion at the Jan 2026 hold.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I believe that this setting is neutral in inflation-adjusted, or \"real,\" terms\u2014neither restrictive nor accommodative\u2014and is appropriate given my assessment of the baseline path for the economy and balance of risks.",
+      "context": "Characterizing the current 3.5%-3.75% funds rate as neutral, not restrictive.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Nonetheless, persistence in above-target inflation remains a risk. Business surveys report input and selling prices are continuing to rise for both goods and services, indicating inflation has some momentum.",
+      "context": "Inflation section, flagging upside persistence risk beyond tariffs.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I could support additional reductions in the policy rate if new evidence of labor market weakness or risks emerge, absent further signs of persistent above-target inflation or rising inflation expectations.",
+      "context": "Monetary policy section, laying out the conditional path for cuts.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 3,
+    "labor_concern": 2,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "housing",
+      "immigration",
+      "fiscal",
+      "fed_independence"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "dovish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 9,
+    "dove_hits": 8,
+    "tokens": 1986
+  }
+}

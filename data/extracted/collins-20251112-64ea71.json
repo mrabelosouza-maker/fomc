@@ -1,0 +1,67 @@
+{
+  "speech_id": "collins-20251112-64ea71",
+  "member_id": "collins",
+  "title": "Perspectives on the Economy and Financial Landscape",
+  "date": "2025-11-12",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2025/perspectives-on-economy-financial-landscape.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "Collins explains why she supported the October 25bp cut (to add support to a clearly softened labor market) while signaling a distinctly hawkish hold from here. She sets a relatively high bar for additional easing, arguing the stance is only mildly restrictive while broad financial conditions are a tailwind, so further easing risks slowing or stalling the return of inflation (running near 3% core) to target. Absent notable labor-market deterioration she would be hesitant to ease further and wants to see inflation durably on track to 2 percent first. Her baseline remains relatively benign with upside risks to inflation and downside risks to jobs. The latter half covers community-bank conditions and payments innovation.",
+  "key_quotes": [
+    {
+      "quote": "I see several reasons to have a relatively high bar for additional easing in the near term.",
+      "context": "Signaling a hawkish hold after the October cut",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Absent evidence of a notable labor market deterioration, I would be hesitant to ease policy further, especially given the limited information on inflation due to the government shutdown.",
+      "context": "Conditioning further cuts on clear labor weakness",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "providing additional monetary support to economic activity runs the risk of slowing \u2013 or possibly even stalling \u2013 the return of inflation to target.",
+      "context": "Why she resists further easing",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Importantly, the current policy stance remains restrictive, if only mildly so, which should help ensure the disinflation process resumes next year.",
+      "context": "Her read that the stance is only mildly restrictive",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "financial_stability",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.023,
+    "hawk_hits": 19,
+    "dove_hits": 20,
+    "tokens": 4239
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  }
+}

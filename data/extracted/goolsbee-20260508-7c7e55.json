@@ -1,0 +1,59 @@
+{
+  "speech_id": "goolsbee-20260508-7c7e55",
+  "member_id": "goolsbee",
+  "title": "Hoover Institution Monetary Policy Conference 2026",
+  "date": "2026-05-08",
+  "url": "https://www.chicagofed.org/publications/speeches/2026/may-8-hoover-institution-monetary-policy",
+  "source": "chicago",
+  "non_policy": false,
+  "summary": "An analytical lecture on how a productivity-growth surge should map into interest rates, using a New Keynesian model to show the answer hinges on whether the surge is unexpected or anticipated. An unexpected surge lowers inflation and calls for cuts (the Greenspan-1990s case), but a fully anticipated surge generates a wealth effect that pulls forward spending and raises the natural rate, so the proper response is to raise nominal rates to prevent overheating. Goolsbee argues that, with surveys showing most people expect large AI-driven productivity gains still to come, much of any boom is 'still on the way,' tilting the implication toward higher rates now, and he warns that a central bank that ignores r* and only reacts once inflation appears ends up having to tighten by more. The message is a hawkish-leaning caution about reflexively cutting on the back of AI optimism, framed analytically rather than as a near-term policy call.",
+  "key_quotes": [
+    {
+      "quote": "The bigger the share of a productivity boom that is still on the way, the more likely rates will need to rise now.",
+      "context": "Core policy implication: anticipated AI-driven productivity argues for higher, not lower, rates",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "The natural rate rises, and the standard Taylor rule says the central bank must raise the nominal rate.",
+      "context": "How an anticipated productivity surge raises r* and the warranted policy rate",
+      "dimension": "r_star"
+    },
+    {
+      "quote": "If the central bank reacts too slowly, it makes the problem worse.",
+      "context": "Arguing against a wait-for-inflation, behind-the-curve approach",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1,
+    "inflation_conviction": 2,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 3, "push": "hawkish"},
+    "other": {"intensity": 3, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1492,
+    "hawk_hits": 9,
+    "dove_hits": 0,
+    "tokens": 1617
+  }
+}

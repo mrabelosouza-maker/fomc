@@ -1,0 +1,63 @@
+{
+  "speech_id": "hammack-20250624-dfe365",
+  "member_id": "hammack",
+  "title": "A Fourth District Groundhog in London\u2019s Financial District",
+  "date": "2025-06-24",
+  "url": "https://www.clevelandfed.org/collections/speeches/2025/sp-20250624-fourth-district-groundhog-in-londons-financial-district",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "An outlook speech delivered in London after the June 2025 hold, which Hammack supported. She sees a resilient economy and a healthy labor market (4.2 percent unemployment) with inflation having made good progress (headline PCE 2.1 percent) but still above target on trend measures. The dominant theme is tariff-driven uncertainty; she leans on Fourth District contacts (steel) and warns of rising oil prices as an upside risk to inflation expectations. She views the stance as 'only modestly restrictive,' close to neutral, and favors holding steady 'for quite some time' before any 'very modest cuts,' preferring to move slowly in the right direction\u2014while ready to act decisively, including possibly quick cuts, if the economy falters.",
+  "key_quotes": [
+    {
+      "quote": "Taking on board all of the recent data and developments, I supported last week\u2019s decision to hold the federal funds rate steady.",
+      "context": "Her support for the June 2025 hold",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "In my view, the current policy stance is only modestly restrictive: the labor market has been healthy, and inflation has come down only slowly under the current setting. This feels to me like policy is already close to neutral.",
+      "context": "Her policy-stance read",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "It may well be the case that policy remains on hold for quite some time before the Committee initiates very modest cuts to return policy to a neutral setting.",
+      "context": "Her base-case path: extended hold then modest cuts",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Job gains have been solid on average through the first five months of the year, enough to keep the unemployment rate steady, at 4.2 percent in May.",
+      "context": "Her read on a healthy labor market",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 2, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "neutral"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0207,
+    "hawk_hits": 6,
+    "dove_hits": 6,
+    "tokens": 2340
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "speech_id": "collins-20251121-6d4092",
+  "member_id": "collins",
+  "title": "Observations on the U.S. Economy in a Changing Global Landscape",
+  "date": "2025-11-21",
+  "url": "https://www.bostonfed.org/news-and-events/speeches/2025/us-economy-in-a-changing-global-landscape-remarks.aspx",
+  "source": "boston",
+  "non_policy": false,
+  "summary": "These are conference opening remarks on heightened global risks and economic fragmentation and their medium-term implications for monetary policy; Collins explicitly states she is not commenting on her near-term policy outlook. Her substantive macro message is structural: a more volatile, fragmented global economy could produce more volatile business cycles and a transitional period of inflationary pressures (reversing the disinflationary effect of pre-pandemic globalization), though robust productivity gains could mitigate this. Because she withholds any read on the current stance or near-term direction, this speech carries little reaction-function signal.",
+  "key_quotes": [
+    {
+      "quote": "But let me emphasize that these considerations do not affect my near-term policy outlook, which I am not commenting on in these remarks.",
+      "context": "Explicitly declines to give a near-term policy signal",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "The shift toward economic fragmentation could do the opposite and usher in a transitional period of inflationary pressures.",
+      "context": "Structural/medium-term inflation concern from deglobalization",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "First, a more volatile and fragmented global environment could result in more volatile business cycles and inflation.",
+      "context": "Medium-term implications for the Fed's price-stability mandate",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": 2,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "financial_stability",
+      "dollar"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0252,
+    "hawk_hits": 0,
+    "dove_hits": 1,
+    "tokens": 1570
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 1, "push": "hawkish"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  }
+}

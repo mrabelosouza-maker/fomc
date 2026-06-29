@@ -1,0 +1,15 @@
+{
+  "source": "sanfrancisco",
+  "collected_at": "2026-06-20",
+  "speeches": [
+    {"member_id": "daly", "speech_id": "daly-20260408-7ce008", "date": "2026-04-08", "title": "Regionalism at the Federal Reserve: Many Voices, One Purpose", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2026/04/many-voices-one-purpose/", "source": "sanfrancisco"},
+    {"member_id": "daly", "speech_id": "daly-20260217-939b95", "date": "2026-02-17", "title": "The AI Moment? Possibilities, Productivity, and Policy", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2026/02/the-ai-moment-possibilities-productivity-and-policy/", "source": "sanfrancisco"},
+    {"member_id": "daly", "speech_id": "daly-20251113-e2017d", "date": "2025-11-13", "title": "Modern Central Banking: Monetary Policy Implementation and Communication", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/11/modern-central-banking-monetary-policy-implementation-and-communication/", "source": "sanfrancisco"},
+    {"member_id": "daly", "speech_id": "daly-20250924-1711aa", "date": "2025-09-24", "title": "Steady Through Change: In Policy, Business, and Life", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/09/steady-through-change-policy-business-life/", "source": "sanfrancisco"},
+    {"member_id": "daly", "speech_id": "daly-20250806-a8bcec", "date": "2025-08-06", "title": "Investing in a Durable Economic Future", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/08/investing-in-a-durable-economic-future/", "source": "sanfrancisco"},
+    {"member_id": "daly", "speech_id": "daly-20250622-bc03a8", "date": "2025-06-22", "title": "Dynamic Central Bank Communication", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/06/dynamic-central-bank-communication/", "source": "sanfrancisco"},
+    {"member_id": "daly", "speech_id": "daly-20250516-8268d8", "date": "2025-05-16", "title": "Choose and Choose Again", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/05/choose-and-choose-again/", "source": "sanfrancisco"},
+    {"member_id": "daly", "speech_id": "daly-20250218-a7f397", "date": "2025-02-18", "title": "Community Banking: Aligning Ideals with Practice", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/02/community-banking-aligning-ideals-with-practice/", "source": "sanfrancisco"},
+    {"member_id": "daly", "speech_id": "daly-20250105-f644a8", "date": "2025-01-05", "title": "Ben Bernanke: Solving a Crisis, Changing the Fed", "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/01/ben-bernanke-solving-a-crisis-changing-the-fed/", "source": "sanfrancisco"}
+  ]
+}

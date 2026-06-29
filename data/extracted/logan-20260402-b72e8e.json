@@ -1,0 +1,46 @@
+{
+  "speech_id": "logan-20260402-b72e8e",
+  "member_id": "logan",
+  "title": "The banking system and the demand for reserves",
+  "date": "2026-04-02",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260402",
+  "source": "dallas",
+  "non_policy": true,
+  "summary": "An operational speech on the Fed's balance sheet and the demand for bank reserves, accompanying a co-authored essay. Logan argues for shrinking the balance sheet by shifting reserve demand inward (better liquidity-tool access, smarter regulation) rather than returning to a scarce-reserves regime, and defends the efficiency of the ample-reserves framework. She explicitly defers the economic outlook and FOMC policy decisions to the subsequent fireside chat, so the prepared remarks carry no read on inflation, the labor market or the policy stance and are non-policy for reaction-function purposes.",
+  "key_quotes": [
+    {
+      "quote": "So, I favor an approach that reduces banks\u2019 need for reserves and shifts the demand curve inward.",
+      "context": "Core balance-sheet recommendation, an operational rather than stance question.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "I\u2019ve focused on the details of the Fed\u2019s balance sheet, but I\u2019m sure you would also like to hear about the outlook for the economy and the FOMC\u2019s policy decisions, and I trust Robert has plenty of questions for me on those topics.",
+      "context": "Explicitly deferring the macro/policy read to the Q&A, leaving the prepared text non-policy.",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "balance_sheet_qt",
+      "financial_stability"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0221,
+    "hawk_hits": 0,
+    "dove_hits": 1,
+    "tokens": 2040
+  }
+}

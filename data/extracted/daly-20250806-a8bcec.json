@@ -1,0 +1,71 @@
+{
+  "speech_id": "daly-20250806-a8bcec",
+  "member_id": "daly",
+  "title": "Investing in a Durable Economic Future",
+  "date": "2025-08-06",
+  "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/08/investing-in-a-durable-economic-future/",
+  "source": "sanfrancisco",
+  "non_policy": false,
+  "summary": "In a speech mostly about Alaska's regional economy, Daly opens with a substantive national outlook. She judges policy as 'modestly restrictive' because inflation remains above 2 percent, and assesses the risks to the employment and inflation mandates as 'roughly balanced.' She views tariffs as a near-term but likely transitory boost to inflation that monetary policy need not offset, while flagging that the labor market has softened and that further labor-market weakening would be unwelcome, noting jobs tend to 'fall quickly and hard' once they stumble. She concludes the Fed will 'likely need to adjust policy in the coming months,' recalibrating to the balance of risks\u2014signaling a data-dependent easing lean.",
+  "key_quotes": [
+    {
+      "quote": "But we need to finish the job\u2014inflation is still above our target, which is why interest rates remain modestly restrictive.",
+      "context": "Her characterization of the current policy stance.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "My own assessment is that the risks to our employment and inflation goals are roughly balanced.",
+      "context": "Balance-of-risks framing across the dual mandate.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Tariffs will boost inflation in the near term, but likely not in a persistent way that monetary policy would need to offset.",
+      "context": "Her read on tariff-driven inflation persistence.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "At the same time, the labor market has softened. And I would see additional slowing as unwelcome, especially since we know that once the labor market stumbles, it tends to fall quickly and hard.",
+      "context": "Concern about downside labor-market risk.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "All this means that we will likely need to adjust policy in the coming months. Recalibrating it to match the collective risks to both of our mandated goals.",
+      "context": "Near-term guidance toward adjusting (easing) policy.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1,
+    "mandate_weight": 0,
+    "inflation_conviction": 2,
+    "labor_concern": 3,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "fiscal",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "neutral"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.029,
+    "hawk_hits": 2,
+    "dove_hits": 1,
+    "tokens": 1190
+  }
+}

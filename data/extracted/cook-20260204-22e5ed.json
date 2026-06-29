@@ -1,0 +1,66 @@
+{
+  "speech_id": "cook-20260204-22e5ed",
+  "member_id": "cook",
+  "title": "Economic Outlook",
+  "date": "2026-02-04",
+  "url": "https://www.federalreserve.gov/newsevents/speech/cook20260204a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Cook describes a solid but two-speed economy where disinflation 'essentially stalled' in 2025, with PCE at 2.9 percent and core at 3 percent, and the labor market roughly in balance at 4.4 percent unemployment. She sees risks tilted toward higher inflation and accordingly supported the FOMC's decision to hold the policy rate steady, stressing that until she sees stronger evidence inflation is moving sustainably to target, that is where her focus lies. She repeatedly emphasizes the imperative of the Committee's inflation-mandate credibility after nearly five years of above-target inflation, warning that the cost of losing credibility would be severe. The labor market is judged stable but vulnerable to downside shocks given its lack of dynamism, leaving her on a hawkish-leaning hold.",
+  "key_quotes": [
+    {
+      "quote": "At this time, I see risks as tilted toward higher inflation. As a result, I supported the FOMC's decision to hold the policy rate steady at our meeting last week.",
+      "context": "Her policy conclusion after the January FOMC meeting",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Those readings indicate that progress on inflation essentially stalled in 2025.",
+      "context": "On PCE at 2.9% and core at 3% leveling off above target",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "After nearly five years of above-target inflation, it is essential that we maintain our credibility by returning to a disinflationary path and achieving our target in the relatively near future.",
+      "context": "Emphasizing the inflation mandate as the binding priority",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "While the unemployment rate has shown signs of stabilization, the lack of dynamism in the labor market likely makes it susceptible to downside shocks.",
+      "context": "Labor-market assessment as roughly balanced but fragile",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 4,
+    "labor_concern": 2,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1929,
+    "hawk_hits": 5,
+    "dove_hits": 12,
+    "tokens": 2176
+  }
+}

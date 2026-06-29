@@ -1,0 +1,66 @@
+{
+  "speech_id": "waller-20251016-1420df",
+  "member_id": "waller",
+  "title": "Cutting Rates in the Face of Conflicting Data",
+  "date": "2025-10-16",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20251016a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller supports another 25bp cut at the October FOMC meeting to move policy toward neutral, judging the current stance moderately restrictive while inflation ex-tariffs runs close to 2 percent with anchored expectations. He highlights a genuine conflict between solid GDP/spending data and a softening labor market, where payroll gains have collapsed and employment may already be shrinking, and reads the labor message as weakening demand relative to supply. He is dovish in the near term but explicitly conditions the pace beyond October on how the conflict resolves: if growth and jobs firm up he would slow the pace of cuts (citing possibly higher r*), while if the labor market weakens further he sees scope to cut the rate 100-125bp toward neutral. Inflation is treated as on track and not a barrier to easing.",
+  "key_quotes": [
+    {
+      "quote": "Based on all of the data we have on the labor market, I believe that the FOMC should reduce the policy rate another 25 basis points at our meeting that concludes October 29.",
+      "context": "His near-term call for an October cut.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Given this benign view of inflation, I believe the ultimate disposition of the labor market will be the more salient factor affecting monetary policy.",
+      "context": "Mandate emphasis squarely on employment over inflation.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "On the other hand, if the labor market continues to soften or even weaken and inflation remains in check, then I believe the FOMC should proceed to reduce the policy rate toward a neutral level, which I judge is about 100 to 125 basis points lower than it is today.",
+      "context": "Sees policy as well above neutral with substantial room to cut.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Since I expect tariff effects on inflation to fade in the coming months, what matters for monetary policy is the rate of inflation outside of tariffs, and estimates by Federal Reserve staff indicate that this underlying rate of inflation is running fairly close to our target.",
+      "context": "Low inflation conviction; looks through tariffs.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -3,
+    "mandate_weight": -3,
+    "inflation_conviction": 1.5,
+    "labor_concern": 3.5,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.2718,
+    "hawk_hits": 5,
+    "dove_hits": 12,
+    "tokens": 2845
+  }
+}

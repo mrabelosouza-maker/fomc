@@ -1,0 +1,82 @@
+{
+  "speech_id": "barkin-20260327-b5939d",
+  "title": "Driving Through Economic Fog (Still)",
+  "date": "2026-03-27",
+  "non_policy": false,
+  "summary": "Barkin says the economic fog has deepened, driven by AI uncertainty and an oil-price spike tied to the Iran conflict, even as growth and consumption hold up and unemployment sits near 4.4 percent. He worries the labor market 'feels a bit fragile' with near-zero job growth masked by shrinking labor supply, while the path on inflation is the 'foggiest' part of the outlook after PCE prints suggested disinflation may be stalling—now compounded by higher oil. He sees two-sided risk and explains the FOMC held rates at the last meeting, judging it prudent to await clarity rather than lean in either direction. The 175 bps of cuts over 18 months leave the funds rate at the higher end of the neutral range.",
+  "key_quotes": [
+    {
+      "quote": "At our last meeting, with risks to both the labor market and inflation, and the outlook foggy, it felt prudent to hold rates and await more clarity on how we should be leaning to best support the economy going forward.",
+      "context": "Rationale for holding rates amid two-sided risk.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "We’ve lowered rates 175 basis points over the last 18 months, leaving the fed funds rate at the higher end of the range of neutral as defined by FOMC participants and outside analysts.",
+      "context": "His read that policy is roughly at the top of neutral, not deeply restrictive.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "At the same time, it’s hard to ignore the PCE inflation data over the last few months, which suggests our progress on inflation may be at risk of stalling.",
+      "context": "Concern that disinflation has stalled, before the oil spike.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Zero job growth is not a comfortable place to be.",
+      "context": "His concern about labor-market fragility despite low unemployment.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 0,
+    "inflation_conviction": 3.5,
+    "labor_concern": 3,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260327",
+  "tone_score": {
+    "net_tone": -0.2098,
+    "hawk_hits": 0,
+    "dove_hits": 7,
+    "tokens": 1642
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  }
+}

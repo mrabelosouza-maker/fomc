@@ -1,0 +1,84 @@
+{
+  "speech_id": "schmid-20260115-f8dd09",
+  "member_id": "schmid",
+  "title": "The Economic Outlook and Monetary Policy",
+  "date": "2026-01-15",
+  "url": "https://www.kansascityfed.org/speeches/the-economic-outlook-and-monetary-policy-2026/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "Addressing the Economic Club of Kansas City, Schmid explains why he preferred to leave the policy rate unchanged at both the October and December meetings (dissenting from the cuts), citing three factors: inflation is too high (around 3%), cutting could disproportionately harm the inflation side of the mandate without helping employment, and policy is not currently very restrictive. He argues weak hiring is largely structural (demographics, immigration, AI) so rate cuts are the wrong tool, and worries persistent above-target inflation could un-anchor price-setting psychology. He judges the neutral rate has risen, so current policy is no longer very restrictive, and sees little reason to cut further.",
+  "key_quotes": [
+    {
+      "quote": "My preference at both meetings, as reflected in my vote, was to leave the policy rate unchanged.",
+      "context": "On his dissents at the October and December 2025 FOMC meetings.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "First, inflation remains too high. Second, I believe that cutting rates could disproportionately harm the inflation side of our mandate without providing much benefit to the employment side. And third, I don't think that monetary policy is currently very restrictive.",
+      "context": "The three factors underpinning his preference to hold.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "As such, the data suggest to me that the neutral interest rate in the economy has moved up and that the current stance of policy, which well could have been restrictive before the pandemic, is no longer very restrictive now.",
+      "context": "His conclusion on r* and restrictiveness.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I see little reason at this point to further lower the policy rate, though of course, I will be watching the data closely for signs that growth is losing momentum or that the labor market is weakening more substantially.",
+      "context": "His forward guidance on the policy rate.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1.5,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "r_star",
+      "ai_productivity",
+      "immigration",
+      "tariffs"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1153,
+    "hawk_hits": 9,
+    "dove_hits": 9,
+    "tokens": 2708
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  }
+}

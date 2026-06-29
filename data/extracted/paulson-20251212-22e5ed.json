@@ -1,0 +1,67 @@
+{
+  "speech_id": "paulson-20251212-22e5ed",
+  "member_id": "paulson",
+  "title": "Economic Outlook",
+  "date": "2025-12-12",
+  "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Institutional/speeches/paulson/2025/251212-delaware-chamber.pdf",
+  "source": "philadelphia",
+  "non_policy": false,
+  "summary": "A year-in-review outlook in which Paulson notes inflation roughly unchanged (core PCE 2.8 percent), a less dynamic labor market with the unemployment rate up to 4.4 percent, and slower growth around 1.7 percent. She frames the FOMC's 75 bp of 2025 cuts as taking out 'some insurance against further labor market deterioration,' and judges the funds rate, now at 3.5 to 3.75 percent, as still somewhat restrictive. She expects goods (tariff) and housing inflation to ease through 2026 and remains 'a little more concerned about labor market weakness than about upside risks to inflation.' A large closing section on credibility argues that anchored expectations give the Committee room to be patient -- including not raising rates reflexively if growth is high due to AI/productivity. Net: a dovish-leaning, insurance-oriented message.",
+  "key_quotes": [
+    {
+      "quote": "By lowering rates 75 basis points over the last three meetings, we've taken out some insurance against further labor market deterioration.",
+      "context": "Characterizing 2025 cuts as insurance against labor downside.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "On net, I am still a little more concerned about labor market weakness than about upside risks to inflation.",
+      "context": "Her net mandate lean.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "But with the funds rate currently at 3.5 to 3.75 percent, I continue to see monetary policy as somewhat restrictive.",
+      "context": "Her read of the current stance.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I attribute most of the increases in goods inflation in 2025 to tariffs and I expect the bulk of these effects to disappear by middle of next year.",
+      "context": "Confidence that tariff-driven inflation is transitory.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1.5,
+    "mandate_weight": -1.5,
+    "inflation_conviction": 2,
+    "labor_concern": 3,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0694,
+    "hawk_hits": 6,
+    "dove_hits": 8,
+    "tokens": 1870
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "dovish"},
+    "other": {"intensity": 2, "push": "neutral"}
+  }
+}

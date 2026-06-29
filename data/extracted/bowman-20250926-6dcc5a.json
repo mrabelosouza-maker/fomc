@@ -1,0 +1,70 @@
+{
+  "speech_id": "bowman-20250926-6dcc5a",
+  "member_id": "bowman",
+  "title": "Thoughts on Monetary Policy Decisionmaking and Challenges Ahead",
+  "date": "2025-09-26",
+  "url": "https://www.federalreserve.gov/newsevents/speech/bowman20250926a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Bowman lays out her decisionmaking philosophy: a flexible approach that directs focus to whichever side of the dual mandate is deviating most, plus a small Fed footprint in markets. Applying that lens, she argues the labor market is now materially fragile while inflation ex-tariffs hovers only modestly above target, justifying her support for September's start of rate cuts toward neutral. She warns the Committee may already be behind the curve and could need to cut faster and by more if conditions continue to deteriorate, and she urges shifting from backward-looking data dependence to a proactive, forward-looking forecast-based approach. Much of the speech covers balance-sheet preferences (smallest possible, Treasury-only, MBS sales, higher SRF bid rate) and longer-run challenges (supply shocks, term premiums, housing, AI, r*). The monetary-policy lean is dovish.",
+  "key_quotes": [
+    {
+      "quote": "Recent data show a materially more fragile labor market along with inflation that, excluding tariffs, has continued to hover not far above our target.",
+      "context": "Applying her flexible mandate framework to current conditions.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "In my view, the recent data, including the estimated payroll employment benchmark revisions, show that we are at serious risk of already being behind the curve in addressing deteriorating labor market conditions. Should these conditions continue, I am concerned that we will need to adjust policy at a faster pace and to a larger degree going forward.",
+      "context": "On the case for moving decisively to remove restraint.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "With tariff-related price increases likely being a one-time effect, my view is that inflation will return to 2 percent after these effects dissipate.",
+      "context": "Justifying looking through tariff-driven inflation.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Over the longer run, my preference is to maintain the smallest balance sheet possible with reserve balances at a level closer to scarce than ample.",
+      "context": "Section on the Fed's balance-sheet footprint.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -3,
+    "mandate_weight": -3.5,
+    "inflation_conviction": 1.5,
+    "labor_concern": 4,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "urgent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "balance_sheet_qt",
+      "housing",
+      "r_star",
+      "fiscal",
+      "immigration",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.2607,
+    "hawk_hits": 10,
+    "dove_hits": 20,
+    "tokens": 5036
+  }
+}

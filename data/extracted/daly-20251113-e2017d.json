@@ -1,0 +1,46 @@
+{
+  "speech_id": "daly-20251113-e2017d",
+  "member_id": "daly",
+  "title": "Modern Central Banking: Monetary Policy Implementation and Communication",
+  "date": "2025-11-13",
+  "url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/11/modern-central-banking-monetary-policy-implementation-and-communication/",
+  "source": "sanfrancisco",
+  "non_policy": true,
+  "summary": "A conceptual speech on monetary-policy implementation and central-bank balance sheets\u2014how reserves, liquidity provision, and asset purchases work, why balance sheets grew during the GFC and pandemic, and why they normalize slowly. It is about the mechanics of policy and communication rather than the stance of monetary policy: Daly offers no read on the current inflation or labor outlook and no signal on the near-term rate path. Its only stance-adjacent content is on balance-sheet normalization (QT), which she says proceeds gradually to avoid disrupting markets. Down-weighted as non-policy for the reaction-function aggregation.",
+  "key_quotes": [
+    {
+      "quote": "When markets are healthy and functioning normally, central banks must move more carefully, reducing balance sheets gradually to avoid disrupting market pricing.",
+      "context": "On the pace of balance-sheet normalization (QT); the one stance-adjacent point in an otherwise mechanics-focused speech.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "The key message is that no tool or tactic is perfect. Each involves tradeoffs. And all must evolve as the economy changes.",
+      "context": "Thesis of the speech\u2014about implementation tools generally, not the current policy stance.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "balance_sheet_qt",
+      "financial_stability"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 1260
+  }
+}

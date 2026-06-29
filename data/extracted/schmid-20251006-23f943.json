@@ -1,0 +1,82 @@
+{
+  "speech_id": "schmid-20251006-23f943",
+  "member_id": "schmid",
+  "title": "The Federal Reserve, Economic Outlook and Monetary Policy",
+  "date": "2025-10-06",
+  "url": "https://www.kansascityfed.org/speeches/the-federal-reserve-economic-outlook-and-monetary-policy/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "To CFA Kansas City, Schmid says the Fed is relatively close to its dual mandate but inflation remains too high, with durable-goods and services prices elevated and price increases becoming more widespread (nearly 80% of categories rising). He notes the labor market has cooled and flags a growing risk it could weaken more abruptly than he expected, which is why he voted for the September rate cut as a risk-management move. Still, he judges the stance only slightly restrictive (easy financial conditions, continued momentum, record IT investment) and the right place to be, arguing policy should lean against demand to relieve price pressure. This is his least hawkish 2025 speech given his support for the September cut and explicit acknowledgement of downside labor risk, though his mandate emphasis stays tilted toward inflation.",
+  "key_quotes": [
+    {
+      "quote": "At the FOMC meeting in September I voted in favor of lowering the policy rate by 25 basis points.",
+      "context": "His supporting vote for the September 2025 cut as risk management.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "However, some recent data suggests a growing risk that the labor market may weaken more substantially or abruptly than I have been anticipating.",
+      "context": "His most explicit acknowledgement of downside labor-market risk.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Overall, given the state of the economy and financial markets, I view the current stance of policy as only slightly restrictive, which I think is the right place to be.",
+      "context": "His judgment of the policy stance.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "One worrying sign is that price increases are also becoming more widespread.",
+      "context": "On the broadening of inflation across consumption categories.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2,
+    "inflation_conviction": 3.5,
+    "labor_concern": 2.5,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1305,
+    "hawk_hits": 4,
+    "dove_hits": 7,
+    "tokens": 2113
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  }
+}

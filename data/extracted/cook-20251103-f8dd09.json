@@ -1,0 +1,67 @@
+{
+  "speech_id": "cook-20251103-f8dd09",
+  "member_id": "cook",
+  "title": "The Economic Outlook and Monetary Policy",
+  "date": "2025-11-03",
+  "url": "https://www.federalreserve.gov/newsevents/speech/cook20251103a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Delivered during the government shutdown using alternative data, this is Cook's clearest dovish-leaning message in the set: she supported the FOMC's quarter-point cut to 3-3/4 to 4 percent because she judges downside risks to employment greater than upside risks to inflation. She reads core PCE at 2.8 percent but argues underlying inflation excluding tariffs is about 2.3 percent and on track to target, treating tariff effects as a one-time level shift. She characterizes the current policy rate as only 'modestly restrictive' and frames the cut as a gradual step toward normalization, while supporting the end of balance-sheet runoff on December 1. She stresses every meeting including December is live, keeping options open but with an employment-risk tilt.",
+  "key_quotes": [
+    {
+      "quote": "I viewed that decision as appropriate, because I believe that the downside risks to employment are greater than the upside risks to inflation.",
+      "context": "Justifying her support for the October quarter-point rate cut",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I see the current policy rate as remaining modestly restrictive, which is appropriate given that inflation remains somewhat above our 2 percent target.",
+      "context": "Her read of the current stance after the cut",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "When excluding tariff effects, 12-month core PCE inflation through September appears to be about 1/2 percentage point lower at about 2.3 percent, suggesting that underlying inflation has continued to make progress toward target.",
+      "context": "Discounting tariff-driven inflation as a one-time effect",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Keeping rates too high increases the likelihood that the labor market will deteriorate sharply.",
+      "context": "On the risk of overly tight policy for employment",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": -1.5,
+    "mandate_weight": -1.5,
+    "inflation_conviction": 2,
+    "labor_concern": 3,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "cut",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "balance_sheet_qt",
+      "fiscal"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "dovish"},
+    "tariffs": {"intensity": 2, "push": "dovish"},
+    "labor_market": {"intensity": 3, "push": "dovish"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 2, "push": "dovish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1593,
+    "hawk_hits": 5,
+    "dove_hits": 10,
+    "tokens": 1932
+  }
+}

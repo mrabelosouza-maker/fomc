@@ -1,0 +1,24 @@
+{
+  "member_id": "powell",
+  "as_of": {
+    "date": "2025-09-23",
+    "title": "Economic Outlook",
+    "url": "https://www.federalreserve.gov/newsevents/speech/powell20250923a.htm",
+    "speech_id": "powell-20250923-22e5ed"
+  },
+  "inflation": {
+    "label": "oil + tariffs",
+    "note": "DATED (Sept 2025, pre oil shock): inflation pickup driven by goods prices from tariffs, explicitly not broader pressures, with no oil/energy theme yet.",
+    "quote": "Incoming data and surveys suggest that those price increases largely reflect higher tariffs rather than broader price pressures."
+  },
+  "labor": {
+    "label": "downside risks",
+    "note": "Softer, less dynamic labor market with job gains slowing to ~29,000/month and downside risks to employment having risen.",
+    "quote": "In this less dynamic and somewhat softer labor market, the downside risks to employment have risen."
+  },
+  "stance": {
+    "label": "somewhat/modestly restrictive",
+    "note": "After the September 25bp cut toward neutral he characterizes policy as still modestly restrictive and well positioned (read is dated, pre oil shock).",
+    "quote": "This policy stance, which I see as still modestly restrictive, leaves us well positioned to respond to potential economic developments."
+  }
+}

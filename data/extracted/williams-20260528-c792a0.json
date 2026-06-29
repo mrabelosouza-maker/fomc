@@ -1,0 +1,59 @@
+{
+  "speech_id": "williams-20260528-c792a0",
+  "member_id": "williams",
+  "title": "Productivity Growth and the Challenge of Real-Time Policymaking",
+  "date": "2026-05-28",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260528",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "A conceptual, research-oriented speech on how shifts in trend productivity growth affect the economy and complicate real-time policymaking, motivated by the attention on AI. Williams stresses a 'recognition problem'\u2014trend shifts are very hard to identify in real time, so expectations and behavior adjust only gradually\u2014and shows that a productivity acceleration generates a sustained, if modest, disinflationary impulse and eventually raises the natural rate of interest. He draws no conclusions about the current stance or near-term policy path; instead he argues for robust policy approaches given the large uncertainty around structural change. The monetary-policy read is therefore indirect: it leans toward humility and caution rather than a hawkish or dovish bias.",
+  "key_quotes": [
+    {
+      "quote": "In addition to the effects on growth, an increase in productivity growth also reduces costs that businesses face, contributing to downward pressure on inflation until prices and wages fully adjust.",
+      "context": "Explaining that a productivity acceleration is disinflationary, a structural reason inflation could ease on its own",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Second, an increase in trend productivity growth raises real interest rates in the long run.",
+      "context": "On the implications of a productivity boom for the natural rate of interest / r-star",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Therefore, as in the case of any type of structural change, robust policy approaches have an especially favorable cost-benefit calculus.",
+      "context": "Closing argument for cautious, robust policy under deep uncertainty about productivity trends",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": null,
+    "inflation_conviction": 1.5,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 1, "push": "dovish"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 0, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 2, "push": "neutral"}
+  },
+  "tone_score": {
+    "net_tone": 0.0112,
+    "hawk_hits": 2,
+    "dove_hits": 1,
+    "tokens": 1989
+  }
+}

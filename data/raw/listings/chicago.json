@@ -1,0 +1,142 @@
+{
+  "source": "chicago",
+  "collected_at": "2026-06-20",
+  "speeches": [
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20260527-3672c7",
+      "date": "2026-05-27",
+      "title": "Bank of Japan Institute for Monetary and Economic Studies Conference 2026",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/may-27-bank-of-japan",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20260508-7c7e55",
+      "date": "2026-05-08",
+      "title": "Hoover Institution Monetary Policy Conference 2026",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/may-8-hoover-institution-monetary-policy",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20260414-6be631",
+      "date": "2026-04-14",
+      "title": "Semafor World Economy 2026",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/apr-14-semafor-world-economy",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20260407-e9c204",
+      "date": "2026-04-07",
+      "title": "Detroit Economic Club: A Conversation on The Economy and Monetary Policy",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/apr-7-detroit-economic-club",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20260331-9026c9",
+      "date": "2026-03-31",
+      "title": "Economic Mobility Project: Human Capital in a Time of Low Real Rates",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/mar-31-economic-mobility-project",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20260224-d62aca",
+      "date": "2026-02-24",
+      "title": "42nd Annual NABE Economic Policy Conference",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/feb-24-nabe-economic-policy-conference",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20260219-ec2b97",
+      "date": "2026-02-19",
+      "title": "2026 Joint Conference on Financial Crises",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/feb-19-joint-conference-financial-crises",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20251212-9add91",
+      "date": "2025-12-12",
+      "title": "Chicago Fed Annual Economic Outlook Symposium",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/dec-12-chicago-fed-annual-economic-outlook-symposium",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20250904-313f8c",
+      "date": "2025-09-04",
+      "title": "mHUB’s Industry Disruptor Series",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/sept-4-mhubs-industry-disruptor-series",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20250813-a63acd",
+      "date": "2025-08-13",
+      "title": "Regional Insight, National Impact: A Monetary Policy Luncheon with the Chicago Fed",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/aug-13-monetary-policy-luncheon",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20250529-b9f94e",
+      "date": "2025-05-29",
+      "title": "2025 Mackinac Policy Conference",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/may-29-mackinac-policy-conference",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20250423-b5fc32",
+      "date": "2025-04-23",
+      "title": "Philadelphia Economic Mobility Summit",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/april-23-austan-goolsbee-philadelphia-economic-mobility-summit",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20250410-5160ba",
+      "date": "2025-04-10",
+      "title": "The Economic Club of New York",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/april-10-austan-goolsbee-economic-club-new-york",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20250228-b1cef1",
+      "date": "2025-02-28",
+      "title": "Remarks on Productivity Growth and Monetary Policy",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/feb-28-siepr-economic-summit",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20250220-b84644",
+      "date": "2025-02-20",
+      "title": "Navigating the Year Ahead: A Conversation with Austan Goolsbee on the Midwest Economy",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/feb-20-chicagoland-chamber-of-commerce",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "speech_id": "goolsbee-20250205-83a8ea",
+      "date": "2025-02-05",
+      "title": "Lessons from the Supply Side",
+      "url": "https://www.chicagofed.org/publications/speeches/2025/feb-5-automotive-insights-symposium",
+      "source": "chicago"
+    },
+    {
+      "member_id": "goolsbee",
+      "date": "2026-06-22",
+      "title": "Marketplace radio interview with Kai Ryssdal",
+      "url": "https://www.marketplace.org/",
+      "source": "chicago",
+      "speech_id": "goolsbee-20260622-b824f9"
+    }
+  ]
+}

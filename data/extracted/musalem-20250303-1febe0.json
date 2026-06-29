@@ -1,0 +1,65 @@
+{
+  "speech_id": "musalem-20250303-1febe0",
+  "member_id": "musalem",
+  "title": "Remarks on the Economic Outlook and Monetary Policy",
+  "date": "2025-03-03",
+  "url": "https://www.stlouisfed.org/from-the-president/remarks/2025/remarks-on-economic-outlook-and-monetary-policy",
+  "source": "stlouis",
+  "non_policy": false,
+  "summary": "Musalem reads the economy as on solid footing with a healthy labor market and supportive financial conditions, but flags recent softness in consumer spending and housing as a downside risk to growth. He sees inflation still above the 2% target with risks skewed to the upside, and judges current policy as only modestly restrictive after the fall's 100bp of cuts. He argues for a patient hold: modestly restrictive policy should persist until there is confidence inflation is converging to 2%, with further easing warranted only if the labor market deteriorates while inflation and expectations behave. His core preoccupation is keeping medium- to longer-term inflation expectations well anchored, drawing on the 1970s versus post-2022 disinflation episodes to argue that anchored expectations are what make a balanced response to conflicting goals feasible.",
+  "key_quotes": [
+    {
+      "quote": "If the economy remains strong and inflation remains above target, then I believe modestly restrictive policy will continue to be appropriate until there is confidence inflation is converging to the FOMC's 2% target.",
+      "context": "First of his four key messages, on the conditions for holding policy modestly restrictive.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Thus, I perceive the risks to inflation as skewed to the upside and am watching near- and longer-term inflation expectations carefully.",
+      "context": "Assessment of risks in the baseline scenario discussion, citing above-potential growth and full employment.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Policy is now modestly restrictive and meaningfully less restrictive than it was seven months ago.",
+      "context": "Characterizing the current stance after the fall's 100bp of cuts.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I believe a patient approach now will help us as we seek maximum employment, price stability and a durable economic expansion.",
+      "context": "Stating his near-term policy inclination given two-sided risks.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 2,
+    "inflation_conviction": 3,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 1, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0378,
+    "hawk_hits": 27,
+    "dove_hits": 16,
+    "tokens": 2794
+  }
+}

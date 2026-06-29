@@ -1,0 +1,24 @@
+{
+  "member_id": "kashkari",
+  "as_of": {
+    "date": "2026-05-01",
+    "title": "Why I Dissented",
+    "url": "https://www.minneapolisfed.org/article/2026/why-i-dissented",
+    "speech_id": "kashkari-20260501-bdf11b"
+  },
+  "inflation": {
+    "label": "oil + tariffs",
+    "note": "Pre-conflict he saw tariff goods inflation and housing fading toward 2 percent; now the Iran oil shock dominates the risk, threatening to keep core near 3 percent and unanchor expectations.",
+    "quote": "Tariffs had clearly pushed up goods inflation, but that increase likely would have waned during 2026 as prices fully adjusted to the new tariff regime."
+  },
+  "labor": {
+    "label": "stable / balanced",
+    "note": "Describes the labor market as lukewarm but largely stable, with unemployment near 4.3 percent, somewhat above his estimate of maximum employment.",
+    "quote": "the labor market appeared lukewarm but largely stable with the unemployment rate having hovered around 4.3 percent since May 2025"
+  },
+  "stance": {
+    "label": "somewhat/modestly restrictive",
+    "note": "Views policy as mildly restrictive, which pre-conflict justified further gradual cuts, but the oil shock now argues for signaling the next move could be a cut or a hike.",
+    "quote": "Given that I viewed policy as mildly restrictive, some further cuts to the federal funds rate would likely be appropriate over time."
+  }
+}

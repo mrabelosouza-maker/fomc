@@ -1,0 +1,64 @@
+{
+  "speech_id": "paulson-20260327-d4b4f2",
+  "member_id": "paulson",
+  "title": "Monetary Policy and Productivity",
+  "date": "2026-03-27",
+  "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/260327-macroeconomics-and-monetary-policy-conference",
+  "source": "philadelphia",
+  "non_policy": false,
+  "summary": "A largely analytical speech on what AI-driven productivity uncertainty means for monetary policy via the long-run neutral rate (R*). Paulson lays out low, medium, and high productivity scenarios that map to R* values spanning about a percentage point (roughly 2.5 to 3.5 percent), puts her own R* estimate near the SEP median of 3.1 percent, and flags a disconnect in which private forecasters show narrower dispersion than the FOMC. The policy-relevant core is a risk-management argument: unlike the 1990s, the FOMC today is navigating this with inflation still above target (2.8 percent, six years above 2 percent), so if a growth surge appears she would 'weight the possibility of overheating more heavily' and be more cautious rather than reflexively patient. She notes she sees no signs the labor market is contributing to inflation today. Net: a broadly balanced, conditionally cautious lean rather than a directional call.",
+  "key_quotes": [
+    {
+      "quote": "But if inflation is above 2 percent and has been for some time, I would be more cautious. I would be inclined to weight the possibility of overheating more heavily in determining appropriate policy.",
+      "context": "Risk-management reaction to a possible growth surge given above-target inflation -- a hawkish-leaning conditional.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "We're in a different position today. Inflation has been above our 2-percent target for six years. While we've made significant progress, inflation is still 2.8 percent, not 2 percent.",
+      "context": "Why she is less willing to be reflexively patient than the 1990s Fed.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "For example, I see no signs that the labor market is contributing to inflation today.",
+      "context": "Reassurance that labor is not currently an inflation source.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "My current estimate of longer-run R* is close to the SEP median of 3.1 percent.",
+      "context": "Her neutral-rate anchor, central to her stance assessment.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 1,
+    "inflation_conviction": 2.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0282,
+    "hawk_hits": 5,
+    "dove_hits": 3,
+    "tokens": 2827
+  },
+  "drivers": {
+    "oil_war": {"intensity": 1, "push": "hawkish"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 0, "push": "neutral"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 3, "push": "neutral"},
+    "other": {"intensity": 3, "push": "neutral"}
+  }
+}

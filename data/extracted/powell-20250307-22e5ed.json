@@ -1,0 +1,60 @@
+{
+  "speech_id": "powell-20250307-22e5ed",
+  "member_id": "powell",
+  "title": "Economic Outlook",
+  "date": "2025-03-07",
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20250307a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Powell describes a solid economy, a labor market broadly in balance that is not a source of inflationary pressure, and inflation moving closer to 2 percent though still somewhat above target with a bumpy path. He emphasizes patience and optionality given high uncertainty about the net effect of new trade, immigration, fiscal, and regulatory policies, stressing the need to separate signal from noise. He explicitly states policy is not on a preset course and is symmetric: the Fed can hold restraint longer if inflation stalls, or ease if the labor market weakens. The lean is balanced and patient, with no urgency to move.",
+  "key_quotes": [
+    {
+      "quote": "We do not need to be in a hurry, and are well positioned to wait for greater clarity.",
+      "context": "Signaling patience amid policy uncertainty",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "If the economy remains strong but inflation does not continue to move sustainably toward 2 percent, we can maintain policy restraint for longer. If the labor market were to weaken unexpectedly or inflation were to fall more quickly than anticipated, we can ease policy accordingly.",
+      "context": "Stating a symmetric reaction function",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "With wage growth moderating and labor supply and demand having moved into better balance, the labor market is not a significant source of inflationary pressure.",
+      "context": "His read on the labor market in early 2025",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 0,
+    "inflation_conviction": 2,
+    "labor_concern": 1,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "fiscal"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 1, "push": "neutral"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.07,
+    "hawk_hits": 1,
+    "dove_hits": 3,
+    "tokens": 816
+  }
+}

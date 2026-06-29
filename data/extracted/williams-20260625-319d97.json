@@ -1,0 +1,83 @@
+{
+  "speech_id": "williams-20260625-319d97",
+  "member_id": "williams",
+  "title": "The Strategy and the Goals",
+  "date": "2026-06-25",
+  "url": "https://tellerwindow.newyorkfed.org/2026/06/25/the-strategy-and-the-goals/",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "A dual-mandate stock-take plus a primer on policy implementation. Williams reads the economy as resilient to the Middle East shock: consumer spending and (AI-fueled) business investment are holding up, and the labor market is steady (unemployment 4.3%, the 'job security gap' having stabilized). He calls inflation 'unquestionably elevated and well above' the 2% goal, driven by tariffs, energy/Mideast prices, and AI-related goods demand, but expects readings to edge down\u2014tariff effects have 'mostly played out,' energy should stabilize as the Strait of Hormuz reopens, shelter is slowing, and inflation expectations remain well anchored. He endorses last week's hold at 3.5\u20133.75% as 'well positioned' to restore 2% on a sustained basis, with growth modestly above potential and a glide path to target by 2028. The net read is a patient, mildly hawkish hold: no near-term easing signal, inflation the operative concern, but real confidence in disinflation and two-sided (AI/Mideast) upside risks. The second half is operational (ample reserves, ON RRP/SRP, RMP tapering).",
+  "key_quotes": [
+    {
+      "quote": "On the price stability side of our dual mandate, inflation is unquestionably elevated and well above the FOMC's longer-run goal of 2 percent.",
+      "context": "His characterization of the current inflation problem as the binding mandate concern",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Given the elevated level of inflation, it is imperative that we restore it to our 2 percent longer-run goal on a sustained basis. The current stance of monetary policy is well positioned to do that.",
+      "context": "Endorsing the FOMC's hold at 3.5\u20133.75% as appropriately positioned (restrictive enough), no near-term easing signal",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "First, the direct effects of existing tariffs on prices appear to have mostly played out. Any new tariffs would replace those that were curtailed or will soon expire, implying that we should not see a significant additional impulse on prices.",
+      "context": "Looking through tariffs and laying out why he expects inflation to edge down\u2014the disinflation conviction that keeps the lean from being more hawkish",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "At 4.3 percent, the unemployment rate has changed little over the past year... survey measures of job and worker availability, along with the New York Fed's \"job security gap,\"\u2014both of which had been flashing warning signs earlier\u2014have also largely stabilized.",
+      "context": "Reassured on labor; earlier warning signs have faded, so jobs are not a reason to ease",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 2.5,
+    "labor_concern": 1,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "balance_sheet_qt"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-25T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "tone_score": {
+    "net_tone": 0.0128,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 1531
+  }
+}

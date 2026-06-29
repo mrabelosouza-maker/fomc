@@ -1,0 +1,51 @@
+{
+  "speech_id": "cook-20251120-f53210",
+  "member_id": "cook",
+  "title": "A Policymaker's View of Financial Stability",
+  "date": "2025-11-20",
+  "url": "https://www.federalreserve.gov/newsevents/speech/cook20251120a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "This is a financial-stability surveillance speech centered on three vulnerabilities (elevated asset valuations, the growth and complexity of private credit, and hedge-fund footprint in the Treasury market) plus the implications of generative AI in algorithmic trading, with no read on the inflation or labor outlook or the near-term stance of monetary policy. Cook repeatedly affirms the system remains resilient and states she does not see these vulnerabilities as current threats to financial stability. Monetary policy enters only framing-wise: she notes the Fed promotes financial stability to support the dual mandate. Because there is no substantive macro outlook or stance signal, it is treated as non-policy.",
+  "key_quotes": [
+    {
+      "quote": "Allow me to start by saying that the financial system remains resilient, supported by strong balance sheets among households and businesses and high capital levels across the banking system.",
+      "context": "Opening assessment of overall financial-system resilience",
+      "dimension": "financial_stability"
+    },
+    {
+      "quote": "Currently, my impression is that there is an increased likelihood of outsized asset price declines. However, given the system's overall resilience, I do not see the kinds of weaknesses that played out so painfully in the Great Recession, and, thus, I do not see potential asset price declines as posing risks to the financial system.",
+      "context": "On elevated asset valuations as a watched but not acute vulnerability",
+      "dimension": "financial_stability"
+    },
+    {
+      "quote": "Another potential vulnerability worth watching is the growth of private credit. Fed staff estimate that, over the past five years, private credit has roughly doubled.",
+      "context": "On private credit as a rapidly growing vulnerability to monitor",
+      "dimension": "financial_stability"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "financial_stability",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0529,
+    "hawk_hits": 0,
+    "dove_hits": 3,
+    "tokens": 3222
+  }
+}

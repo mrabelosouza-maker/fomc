@@ -1,0 +1,67 @@
+{
+  "speech_id": "logan-20250930-5292d7",
+  "member_id": "logan",
+  "title": "Why I'll be cautious about further rate cuts",
+  "date": "2025-09-30",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2025/lkl250930",
+  "source": "dallas",
+  "non_policy": false,
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 3, "push": "hawkish"},
+    "tariffs": {"intensity": 2, "push": "hawkish"},
+    "labor_market": {"intensity": 2, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "hawkish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "summary": "Logan's flagship policy speech laying out why the FOMC should proceed cautiously on further rate cuts. She supported the September cut as insurance against labor-market downside but stresses three features: inflation is not convincingly on track to 2 percent (driven especially by sticky non-housing services near 3.4 percent), aggregate demand remains resilient amid buoyant financial conditions, and the labor market is slowing but with only modest, not large, slack. She judges policy to be only modestly restrictive, with neutral-rate estimates suggesting little room to cut without becoming accommodative. Concluding that a modest further increase in labor-market slack is likely needed to finish restoring price stability, she commits to a cautious, learning-oriented approach to additional cuts.",
+  "key_quotes": [
+    {
+      "quote": "However, I will be cautious about further rate cuts.",
+      "context": "Her central message after supporting the September cut.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Most worrisome for the medium-term inflation outlook, non-housing services inflation should be relatively unaffected by tariffs, yet it has hovered near 3.4 percent over the past year.",
+      "context": "Identifying the persistent underlying-inflation driver.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The combination of persistent inflation, resilient demand and modest labor market slack indicates to me that policy is likely only modestly restrictive.",
+      "context": "Her stance read and the limited room to cut.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "With non-housing-services inflation running above the rate consistent with overall 2-percent inflation, a modest further increase in labor market slack is likely necessary to finish restoring price stability.",
+      "context": "Arguing some labor cooling is needed, weighting price stability.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 2,
+    "inflation_conviction": 3.5,
+    "labor_concern": 2.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "ai_productivity",
+      "housing",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1742,
+    "hawk_hits": 18,
+    "dove_hits": 25,
+    "tokens": 3295
+  }
+}

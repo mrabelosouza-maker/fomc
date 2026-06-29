@@ -1,0 +1,59 @@
+{
+  "speech_id": "powell-20250416-22e5ed",
+  "member_id": "powell",
+  "title": "Economic Outlook",
+  "date": "2025-04-16",
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20250416a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Powell describes a solid economy and balanced labor market but flags that the announced tariff increases are significantly larger than anticipated, with effects likely to include both higher inflation and slower growth. He stresses the risk that tariff-driven inflation could be more persistent than a one-time price-level shift, making anchoring longer-term inflation expectations the central obligation. He signals patience rather than action: the Fed is 'well positioned to wait for greater clarity' before adjusting the stance, and acknowledges the dual-mandate goals may come into tension. The lean is cautious and slightly inflation-attentive given the upside risk to prices.",
+  "key_quotes": [
+    {
+      "quote": "The level of the tariff increases announced so far is significantly larger than anticipated. The same is likely to be true of the economic effects, which will include higher inflation and slower growth.",
+      "context": "His read on the magnitude of tariff shocks",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Our obligation is to keep longer-term inflation expectations well anchored and to make certain that a one-time increase in the price level does not become an ongoing inflation problem.",
+      "context": "Framing the core policy obligation",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "For the time being, we are well positioned to wait for greater clarity before considering any adjustments to our policy stance.",
+      "context": "Signaling a hold while uncertainty is high",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 1,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "fiscal"
+    ]
+  },
+  "drivers": {
+    "oil_war": {"intensity": 0, "push": "neutral"},
+    "underlying_inflation": {"intensity": 2, "push": "hawkish"},
+    "tariffs": {"intensity": 3, "push": "hawkish"},
+    "labor_market": {"intensity": 1, "push": "neutral"},
+    "growth_demand": {"intensity": 2, "push": "dovish"},
+    "other": {"intensity": 2, "push": "hawkish"}
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1376,
+    "hawk_hits": 3,
+    "dove_hits": 4,
+    "tokens": 845
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "speech_id": "barkin-20250327-125b10",
+  "title": "Driving through Economic Fog",
+  "date": "2025-03-27",
+  "non_policy": false,
+  "summary": "Barkin introduces his 'dense fog' metaphor: a rosy end-2024 (GDP 2.5 percent, unemployment 4.1 percent, PCE down to 2.6 percent) has given way to record uncertainty from tariffs, immigration, fiscal and energy policy, freezing business hiring and investment and denting consumer sentiment. He weighs tariffs as a larger price shock than 2018, while energy looks disinflationary. He judges an uncertainty-driven sentiment drop could quiet demand. On policy he endorses the FOMC's hold, arguing that with the labor market still solid and inflation still above target, a 'moderately restrictive' stance is a good place to be, and the Fed is well positioned to adjust once the fog clears.",
+  "key_quotes": [
+    {
+      "quote": "At our last meeting, the FOMC held the federal funds rate steady. With the labor market still solid and inflation still above target, our moderately restrictive stance is a good place to be.",
+      "context": "Endorsing the hold and a moderately restrictive stance.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "If conditions start to shift, we are well positioned to adjust. Until then, like businesses and consumers, we are waiting for the fog to clear.",
+      "context": "Patient, wait-and-see near-term posture.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "In the context of recent high inflation, one could imagine more of an impact on prices, but no one knows where the tariff rates will finally settle or how affected countries, businesses and consumers will respond.",
+      "context": "Tariff upside risk to inflation, with uncertainty.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 3,
+    "labor_concern": 1.5,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "fiscal"
+    ]
+  },
+  "member_id": "barkin",
+  "source": "richmond",
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-20T00:00:00Z",
+  "rubric_version": "1.0",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2025/barkin_speech_20250327",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 4,
+    "dove_hits": 4,
+    "tokens": 1540
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  }
+}
