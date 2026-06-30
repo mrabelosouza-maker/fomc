@@ -2,6 +2,7 @@
   "source": "cleveland",
   "collected_at": "2026-06-20",
   "speeches": [
+    {"member_id": "hammack", "speech_id": "hammack-20260630-4a97a5", "date": "2026-06-30", "title": "CNBC Interview at the ECB Sintra Forum", "url": "", "source": "cnbc"},
     {
       "member_id": "hammack",
       "speech_id": "hammack-20250211-c0462d",

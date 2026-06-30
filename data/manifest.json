@@ -2018,6 +2018,18 @@
       "content_hash": "3faffc076f4530da01f8e31f97190fccd7f14903",
       "state": "extracted"
     },
+    "hammack-20260630-4a97a5": {
+      "speech_id": "hammack-20260630-4a97a5",
+      "member_id": "hammack",
+      "date": "2026-06-30",
+      "title": "CNBC Interview at the ECB Sintra Forum",
+      "url": "",
+      "source": "cnbc",
+      "raw_path": "data\\raw\\speeches\\hammack-20260630-4a97a5.md",
+      "extract_path": "data\\extracted\\hammack-20260630-4a97a5.json",
+      "content_hash": "2b559c5e118f6100dc938b508ae98d3ed3905f0d",
+      "state": "extracted"
+    },
     "hammack-20250211-c0462d": {
       "speech_id": "hammack-20250211-c0462d",
       "member_id": "hammack",

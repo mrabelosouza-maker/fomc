@@ -1,0 +1,82 @@
+{
+  "speech_id": "hammack-20260630-4a97a5",
+  "member_id": "hammack",
+  "title": "CNBC Interview at the ECB Sintra Forum",
+  "date": "2026-06-30",
+  "url": "",
+  "source": "cnbc",
+  "non_policy": false,
+  "summary": "In a CNBC interview at the ECB's Sintra forum, Hammack embraces the label of one of the FOMC's most hawkish voices and openly floats rate hikes: she sees 'no tension' in the mandate \u2014 a labor market near full employment, good growth, and inflation that's been too high for five years \u2014 so 'if that continues, it may mean that we need higher interest rates.' She treats July as a 'live meeting' but won't prejudge. She looks through the reversing oil spike to a broad-based core that persists 'with a three handle,' citing AI data-center capex, insurance, and electricity, and dismisses the absence of wage pressure as no comfort given high core services. She judges policy restrictive 'about' only in housing, warns resilient consumer spending suggests policy 'may not be restrictive enough,' and sees AI capex and loose financial conditions as adding to inflation rather than restraining activity.",
+  "key_quotes": [
+    {
+      "quote": "There\u2019s no tension in our mandate. I see a labor market that\u2019s right around my estimate of full employment. Growth numbers look good... And we\u2019ve got inflation that\u2019s too high. And it\u2019s been too high for the past five years. And so when I look at policy, if that continues, it may mean that we need higher interest rates to bring inflation back down to target.",
+      "context": "Her core reaction function: full employment + persistently high inflation implies possible hikes.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I keep an open mind walking into every meeting. I think every meeting is a live meeting.",
+      "context": "On whether she'd back a July hike \u2014 keeps it open, won't prejudge, but won't rule it out.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "When I look at that core inflation, that\u2019s been very elevated as well. That\u2019s continuing to persist with a three handle... what I see is a more broad-based picture of inflation pressure.",
+      "context": "Looks through reversing energy to broad-based core (AI data centers, insurance, electricity).",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "If it continues to hold up, then that says to me that policy may not be restrictive enough to help us bring inflation back down... You see it in housing. That\u2019s about the only place that you see it.",
+      "context": "Reads current policy as barely restrictive \u2014 only housing \u2014 implying room/need to tighten.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3.5,
+    "inflation_conviction": 4.5,
+    "labor_concern": 1,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "housing"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-06-30T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0314,
+    "hawk_hits": 4,
+    "dove_hits": 1,
+    "tokens": 1017
+  }
+}
