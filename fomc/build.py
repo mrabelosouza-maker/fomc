@@ -5,6 +5,7 @@ Pure function of disk state (modulo the as-of date / FRED ribbon).
 from __future__ import annotations
 
 import csv
+import shutil
 from datetime import datetime, timezone
 
 import pandas as pd
@@ -98,10 +99,15 @@ def main(as_of: str | None = None, *, with_ribbon: bool = True) -> str:
     out.write_text(page, encoding="utf-8")
     print(f"wrote {out} ({len(page)/1024:.0f} KB)")
     # Also emit index.html at the repo root so GitHub Pages (served from / on
-    # the default branch) picks up the latest build automatically.
+    # the default branch) picks up the latest build automatically. Copy from the
+    # file just written (not a second string write) and verify the byte count —
+    # a silent short write on a network share previously shipped a stale page.
     index = config.PROJECT_ROOT / "index.html"
-    index.write_text(page, encoding="utf-8")
-    print(f"wrote {index}")
+    shutil.copyfile(out, index)
+    out_sz, idx_sz = out.stat().st_size, index.stat().st_size
+    if out_sz != idx_sz:
+        raise RuntimeError(f"index.html short write: {idx_sz} != {out_sz} bytes")
+    print(f"wrote {index} ({idx_sz/1024:.0f} KB)")
     return str(out)
 
 
