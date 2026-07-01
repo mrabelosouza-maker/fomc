@@ -67,8 +67,10 @@ DIM_BY_ID = {d["id"]: d for d in DIMENSIONS}
 # Chair Warsh is now a full corpus member: his two policy communications since taking
 # the chair are scored in data/extracted/ (2026-06-17 first FOMC press conference,
 # +3.0; 2026-07-01 ECB/Sintra panel, +2.0), so he flows through member_functions like
-# any other voter — with a real momentum delta (latest − prior ≈ −1.0, the marginal
-# softening at Sintra). This supersedes the earlier hand-placed CHAIR_PLACEMENT star
+# any other voter — with a real momentum delta (latest − prior ≈ −0.5, a modest step
+# down in stridency at Sintra; his AI/productivity optimism is explicitly walled off
+# from near-term policy, so it is NOT scored as a dovish driver). This supersedes the
+# earlier hand-placed CHAIR_PLACEMENT star
 # row (removed from fig_voter_strip); do not reintroduce a separate placement while he
 # has in-corpus communications.
 

@@ -6,7 +6,7 @@
   "url": "https://www.cnbc.com/2026/07/01/kevin-warsh-ecb-forum-live-updates.html",
   "source": "ecb_forum",
   "non_policy": false,
-  "summary": "Warsh's first international appearance as Chair (Sintra panel with Lagarde, Bailey, Macklem) kept the June price-stability anchor intact but struck a marginally softer tone. He reaffirmed that 'prices are too high' and that anyone expecting comfort with inflation above 2% 'would be disappointed', yet volunteered that over his first four weeks 'expectations of inflation ... have come down. Inflation risks have come down,' and declined the 'hawkish' label. He leaned hard into an AI/productivity supply-side story \u2014 structural productivity in the high-2% range, potential growth trending up, a capex boom he expects to expand supply with 'huge implications for monetary policy' \u2014 framing it as a reason for optimism (and implicitly disinflation) rather than tightening. He refused all forward guidance on July ('a good family fight in four weeks'), pointed to lower volatility, yields and inflation expectations as evidence markets need no spoon-feeding, and reiterated that the balance sheet should shrink over time but slowly and telegraphed. Net: same framework, less hawkish at the margin \u2014 a hold with two-way optionality rather than the hike-leaning read of the June presser.",
+  "summary": "Warsh's first international appearance as Chair (Sintra panel with Lagarde, Bailey, Macklem) kept the June price-stability anchor intact but struck a marginally softer tone. He reaffirmed that 'prices are too high' and that anyone expecting comfort with inflation above 2% 'would be disappointed', yet volunteered that over his first four weeks 'expectations of inflation ... have come down. Inflation risks have come down,' and declined the 'hawkish' label. He leaned into an AI/productivity supply-side story \u2014 structural productivity in the high-2% range, potential growth trending up, a capex boom he expects to expand supply \u2014 but explicitly WALLED IT OFF from near-term policy: the boom shows up 'first and foremost in demand' (inflationary now), the supply payoff is later and uncertain ('it's up to the central bank to decide whether it's inflationary'), and 'does that optimism convey into policy in the next six or nine months? Still too soon to say' with the timing 'to be taken very seriously.' So it is a structural narrative, not a reaction-function signal. He also refused all forward guidance on July ('a good family fight in four weeks'), would not update the labor read on recent data, and declined to call the energy shock transitory. Net: mostly a REAFFIRMATION of the June stance, with one genuine but narrow marginal softening \u2014 inflation expectations and risks 'have come down' \u2014 plus a less strident tone. A modest step down in stridency, not a signal about the next move.",
   "key_quotes": [
     {
       "quote": "expectations of inflation over the first four weeks of this period, they've come down. Inflation risks have come down.",
@@ -25,14 +25,14 @@
     },
     {
       "quote": "their expectation is the supply side of the economy will expand. And if it does, that has huge implications for monetary policy ... structural productivity is in the high 2% range. So potential growth looks like it's trended up.",
-      "context": "Amplified AI/productivity supply-side optimism \u2014 the disinflationary lean that pulls him less hawkish than June.",
+      "context": "Structural optimism on supply/productivity; but he separately calls it 'too soon' to convey into policy over the next 6-9 months \u2014 a medium-term narrative, not a near-term steer.",
       "dimension": "policy_stance_read"
     }
   ],
   "llm_scores": {
-    "composite_hawk_dove": 2.0,
+    "composite_hawk_dove": 2.5,
     "mandate_weight": 2.5,
-    "inflation_conviction": 2.5,
+    "inflation_conviction": 3.0,
     "labor_concern": 1.5,
     "policy_stance_read": 2.0,
     "near_term_bias": {
@@ -65,7 +65,7 @@
     },
     "growth_demand": {
       "intensity": 3,
-      "push": "dovish"
+      "push": "neutral"
     },
     "other": {
       "intensity": 2,

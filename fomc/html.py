@@ -382,7 +382,7 @@ TEMPLATE = r"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
 
  <section>
   <h2>6 · Votantes vs não-votantes na escala</h2>
-  <p class="desc">Onde cada membro cai na escala hawk-dove (stance atual), separado por status de voto em 2026. Losango = mediana do grupo. Mostra se o comitê que decide está mais hawkish/dovish que o resto. O Chair Warsh agora entra como votante a partir de suas comunicações desde a posse (coletiva 17/06 +3,0 → painel ECB/Sintra 01/07 +2,0), com delta de momentum próprio.</p>
+  <p class="desc">Onde cada membro cai na escala hawk-dove (stance atual), separado por status de voto em 2026. Losango = mediana do grupo. Mostra se o comitê que decide está mais hawkish/dovish que o resto. O Chair Warsh agora entra como votante a partir de suas comunicações desde a posse (coletiva 17/06 +3,0 → painel ECB/Sintra 01/07 +2,5), com delta de momentum próprio.</p>
   <!--VOTERSTRIP-->
  </section>
 
