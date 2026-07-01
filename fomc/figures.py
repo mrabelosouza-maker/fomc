@@ -174,26 +174,12 @@ def fig_voter_strip(mfuncs: dict[str, MemberFunction]) -> go.Figure:
                 x=[med], y=[base], mode="markers", marker=dict(color=color, size=20, symbol="diamond",
                 line=dict(color="#333", width=1.5)), showlegend=False,
                 hovertemplate=f"mediana {label}: {med:+.2f}<extra></extra>"))
-    # Chair Warsh: a separate row BELOW the two corpus groups (his read comes from the
-    # press conference, not the speech corpus — see config.CHAIR_PLACEMENT).
-    cp = config.CHAIR_PLACEMENT
-    chair_base = -2.0
-    yticks.append(chair_base)
-    ylabels.append(f"Chair Warsh<br><span style='font-size:9px'>{cp['source']}</span>")
-    fig.add_trace(go.Scatter(  # uncertainty range +2.5..+3.5
-        x=[cp["lo"], cp["hi"]], y=[chair_base, chair_base], mode="lines",
-        line=dict(color=config.HAWK, width=3), showlegend=False,
-        hovertemplate=f"faixa {cp['lo']:+.1f} a {cp['hi']:+.1f}<extra></extra>"))
-    fig.add_trace(go.Scatter(
-        x=[cp["composite"]], y=[chair_base], mode="markers+text",
-        marker=dict(color=config.HAWK, size=18, symbol="star", line=dict(color="white", width=1.2)),
-        text=[f"Warsh {cp['composite']:+.1f}"], textposition="top center",
-        textfont=dict(size=10, color=config.HAWK), showlegend=False,
-        hovertemplate=f"Chair Warsh ({cp['source']}): {cp['composite']:+.2f}<extra></extra>"))
+    # (Chair Warsh is now a regular corpus voter — he appears as a dot in the
+    # "Votantes 2026" row above, no longer a separate hand-placed star. See config.)
     fig.add_vline(x=0, line=dict(color="#bbb", width=1))
     fig.update_layout(**_LAYOUT, height=420,
                       xaxis_title="← dovish     composite hawk-dove (stance atual)     hawkish →",
-                      yaxis=dict(tickvals=yticks, ticktext=ylabels, range=[-3, 3]))
+                      yaxis=dict(tickvals=yticks, ticktext=ylabels, range=[-1, 3.2]))
     return fig
 
 

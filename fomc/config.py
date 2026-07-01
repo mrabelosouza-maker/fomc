@@ -64,23 +64,13 @@ DIMENSIONS = [
 DIMENSION_IDS = [d["id"] for d in DIMENSIONS]
 DIM_BY_ID = {d["id"]: d for d in DIMENSIONS}
 
-# Chair Warsh has no in-window *speeches* (he is `insufficient` in the corpus), but
-# his first FOMC press conference (2026-06-17, transcript in
-# ../us_oil_sensitive/pressconference20260617.txt) is a strong read on his reaction
-# function. Scored by hand against registry/rubric.json and shown as a SEPARATE row
-# below the two corpus groups in the voter-strip (fig_voter_strip), so it is never
-# mixed into the speech-driven medians. Central +3.0 (held the funds rate, so not the
-# +4/+5 of someone demanding a hike now, but: "inflation is a choice… we are going to
-# deliver", 5-yr overshoot, hike kept on the table, labor downside dismissed, stance
-# judged only "uneven"/not clearly restrictive). Range +2.5..+3.5.
-CHAIR_PLACEMENT = {
-    "member_id": "warsh",
-    "name": "Kevin M. Warsh",
-    "composite": 3.0,
-    "lo": 2.5,
-    "hi": 3.5,
-    "source": "Coletiva 17/06/2026 (1ª como Chair)",
-}
+# Chair Warsh is now a full corpus member: his two policy communications since taking
+# the chair are scored in data/extracted/ (2026-06-17 first FOMC press conference,
+# +3.0; 2026-07-01 ECB/Sintra panel, +2.0), so he flows through member_functions like
+# any other voter — with a real momentum delta (latest − prior ≈ −1.0, the marginal
+# softening at Sintra). This supersedes the earlier hand-placed CHAIR_PLACEMENT star
+# row (removed from fig_voter_strip); do not reintroduce a separate placement while he
+# has in-corpus communications.
 
 # Palette (shared with the sibling dashboards: navy + gold, hawk red / dove teal).
 NAVY = "#16213e"

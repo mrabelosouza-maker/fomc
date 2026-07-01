@@ -1,0 +1,84 @@
+{
+  "speech_id": "warsh-20260617-c0ef29",
+  "member_id": "warsh",
+  "title": "FOMC Press Conference",
+  "date": "2026-06-17",
+  "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260617.pdf",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Warsh's first press conference as Chair: the FOMC held the funds rate at 3.5-3.75% but the message was a hard recommitment to price stability. He stressed that inflation has run above the 2% goal for more than five years, that 'inflation is a choice,' and that the committee is 'unambiguous and unanimous' that it 'will deliver price stability.' He stripped the statement down, dropped forward guidance as ill-suited to the conjuncture, and declined to submit a dot (the SEP median implied a hike, with nine participants seeing an increase by year-end). He dismissed the framing of a 'cruel choice' between jobs and inflation and judged current restrictiveness only 'uneven' (restrictive in housing, hard to call restrictive in financial markets), while repeatedly refusing to endorse either a near-term hike or cut. Net: hawkish in framing and commitment, but holding, with the hike kept explicitly on the table.",
+  "key_quotes": [
+    {
+      "quote": "I am pleased to report that members of the FOMC are unambiguous and unanimous. This committee will deliver price stability.",
+      "context": "Recommitment to the 2% objective as the central message of the meeting.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "But the commitment to deliver is strong, unanimous, and unambiguous. And that's an important message we've missed for five years. And we're going to fix that.",
+      "context": "Framing the multi-year overshoot as a credibility failure to be corrected \u2014 high inflation conviction.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "It's uneven. If I look at the housing markets as one example ... Fed policy appears to be somewhat restrictive. I would have a hard time managing to say those words if I were to see what's happening in financial markets.",
+      "context": "He does NOT judge the stance to be clearly restrictive across the board \u2014 why the composite is not +4/+5.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I don't believe that we have a cruel choice ... if we do our job, we can make strong growth, low prices, and strong employment mutually compatible.",
+      "context": "Dismisses labor-side downside as a binding constraint on delivering price stability.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.0,
+    "mandate_weight": 3.0,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.0,
+    "policy_stance_read": 2.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "balance_sheet_qt",
+      "fed_independence",
+      "housing"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-01T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1158,
+    "hawk_hits": 9,
+    "dove_hits": 1,
+    "tokens": 6045
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "speech_id": "warsh-20260701-e5b3a6",
+  "member_id": "warsh",
+  "title": "ECB Forum Panel (Sintra)",
+  "date": "2026-07-01",
+  "url": "https://www.cnbc.com/2026/07/01/kevin-warsh-ecb-forum-live-updates.html",
+  "source": "ecb_forum",
+  "non_policy": false,
+  "summary": "Warsh's first international appearance as Chair (Sintra panel with Lagarde, Bailey, Macklem) kept the June price-stability anchor intact but struck a marginally softer tone. He reaffirmed that 'prices are too high' and that anyone expecting comfort with inflation above 2% 'would be disappointed', yet volunteered that over his first four weeks 'expectations of inflation ... have come down. Inflation risks have come down,' and declined the 'hawkish' label. He leaned hard into an AI/productivity supply-side story \u2014 structural productivity in the high-2% range, potential growth trending up, a capex boom he expects to expand supply with 'huge implications for monetary policy' \u2014 framing it as a reason for optimism (and implicitly disinflation) rather than tightening. He refused all forward guidance on July ('a good family fight in four weeks'), pointed to lower volatility, yields and inflation expectations as evidence markets need no spoon-feeding, and reiterated that the balance sheet should shrink over time but slowly and telegraphed. Net: same framework, less hawkish at the margin \u2014 a hold with two-way optionality rather than the hike-leaning read of the June presser.",
+  "key_quotes": [
+    {
+      "quote": "expectations of inflation over the first four weeks of this period, they've come down. Inflation risks have come down.",
+      "context": "The key softening vs June: he presents inflation risk as already receding under his watch.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "we've all looked around, and we've seen that prices are too high. And I don't think I'm the only one on this stage that's recommitted to deliver price stability.",
+      "context": "Price-stability anchor held firm despite the softer tone.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "if there were people in household or the business sector and the financial markets who thought that this central bank was going to be comfortable with an inflation objective above 2%, well, I guess they'd be disappointed.",
+      "context": "Floor under the dovishness: no tolerance for an above-2% objective; a cut needs inflation to actually cede.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "their expectation is the supply side of the economy will expand. And if it does, that has huge implications for monetary policy ... structural productivity is in the high 2% range. So potential growth looks like it's trended up.",
+      "context": "Amplified AI/productivity supply-side optimism \u2014 the disinflationary lean that pulls him less hawkish than June.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.0,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 2.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "fed_independence",
+      "balance_sheet_qt",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-01T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0166,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 3644
+  }
+}
