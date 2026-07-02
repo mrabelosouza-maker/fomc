@@ -3266,6 +3266,18 @@
       "content_hash": null,
       "state": "listed"
     },
+    "daly-20260702-aa54c1": {
+      "speech_id": "daly-20260702-aa54c1",
+      "member_id": "daly",
+      "date": "2026-07-02",
+      "title": "Banco de Espa\u00f1a Panel: Shocks, Uncertainty, and Policy Divergence",
+      "url": "",
+      "source": "sanfrancisco",
+      "raw_path": "data\\raw\\speeches\\daly-20260702-aa54c1.md",
+      "extract_path": "data\\extracted\\daly-20260702-aa54c1.json",
+      "content_hash": "033446a8c1f8f61fff95df278c925fa45269cc5e",
+      "state": "extracted"
+    },
     "daly-20260408-7ce008": {
       "speech_id": "daly-20260408-7ce008",
       "member_id": "daly",

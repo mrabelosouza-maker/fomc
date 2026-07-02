@@ -1,0 +1,89 @@
+{
+  "speech_id": "daly-20260702-aa54c1",
+  "member_id": "daly",
+  "title": "Banco de Espa\u00f1a Panel: Shocks, Uncertainty, and Policy Divergence",
+  "date": "2026-07-02",
+  "url": "",
+  "source": "sanfrancisco",
+  "non_policy": false,
+  "summary": "In a wide-ranging Banco de Espa\u00f1a panel, Daly gives her most substantive U.S.-outlook read in months and it lands notably firmer than her 2025 easing bias. She describes 'exceedingly strong' AI-driven investment growth and resilient consumers, and crucially says the labor market she worried was softening 'last year' has now 'stabilized' and is steady across measures. Inflation is still above target and has risen on tariff and oil effects, though oil back near $70 offers 'some hope for relief'; she is comfortable keeping policy in a 'slightly restricted position, so inflation should come down.' She declines any forward guidance ('the worst kind of guidance you can give is certain guidance in an uncertain world'), frames risks as genuinely two-sided (more-persistent inflation vs. growth disappointing), and casts herself as a patient gradualist who does not want to react quickly. Net: a balanced, on-hold stance with no easing signal\u2014a clear step up in firmness from her dovish 2025 run.",
+  "key_quotes": [
+    {
+      "quote": "We continue to have policy in a slightly restricted position, so inflation should come down.",
+      "context": "Her read of the current stance\u2014comfortable keeping policy modestly restrictive to bring inflation down; no easing signal.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "So when you go to the job market, it's steady. We had a little bit of concern last year that it might be softening, but now it's stabilized.",
+      "context": "The key shift vs. 2025: the labor-market downside worry that drove her easing bias has receded.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "I see the factors as we have very strong investment growth, exceedingly strong investment growth. And this investment growth is in AI.",
+      "context": "Strong AI-driven demand/investment now a supportive, firm-side driver of her outlook.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "So I would say that's why I think there's a scenario where we have to fight inflation that turns out to be more persistent. There's also a scenario where the growth just doesn't continue to sustain itself.",
+      "context": "Genuinely two-sided risk framing; no directional lean, hence a balanced near-term bias.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "The worst kind of guidance you can give is certain guidance in an uncertain world... And so I'm much more of a gradualist when it comes to these things, and taking it slowly to do it well.",
+      "context": "Refuses forward guidance; patient gradualist stance on the near-term path.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 2.0,
+    "labor_concern": 1.0,
+    "policy_stance_read": 3.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs",
+      "financial_stability",
+      "housing"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-02T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.008,
+    "hawk_hits": 3,
+    "dove_hits": 2,
+    "tokens": 3937
+  }
+}
