@@ -30,7 +30,7 @@
     }
   ],
   "llm_scores": {
-    "composite_hawk_dove": 1.5,
+    "composite_hawk_dove": 2,
     "mandate_weight": 2,
     "inflation_conviction": 3,
     "labor_concern": 1.5,
