@@ -30,8 +30,13 @@ def _bias_pill(bias: dict) -> str:
 
 def _member_payload(mfuncs: dict[str, MemberFunction], corpus, decomp: dict) -> list[dict]:
     """Latest summary + bias per member, plus dims, delta and driver mix."""
+    # Card blurb/bias describe the latest POLICY speech (non-policy speeches like
+    # ceremonial or methodological talks carry no stance read), so it stays in
+    # step with latest_composite, which is likewise computed over policy speeches.
     latest: dict[str, object] = {}
     for ex in corpus:
+        if ex.non_policy:
+            continue
         cur = latest.get(ex.member_id)
         if cur is None or ex.date > cur.date:
             latest[ex.member_id] = ex
