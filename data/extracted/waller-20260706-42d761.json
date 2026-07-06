@@ -1,0 +1,79 @@
+{
+  "speech_id": "waller-20260706-42d761",
+  "member_id": "waller",
+  "title": "Two Thoughts on the Transmission of Monetary Policy",
+  "date": "2026-07-06",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "A methodological dinner talk in Rome rather than a fresh outlook read: Waller offers two lessons about monetary-policy transmission. First, initial conditions are crucial \u2014 policy should key off what is happening now, not a historical average \u2014 and large, sudden shocks transmit nonlinearly and faster than linear models predict (a Lucas-critique / rational-inattention argument that a steeper Phillips curve makes inflation react quickly). Second, forward guidance is 'more art than science': it can speed transmission when it works but hindered policy in 2020\u201321 when rigid guidance tied the FOMC's hands and delayed necessary rate increases, and it is least useful when divergent scenarios each carry significant probability and require different paths (his 'yellow light \u2014 don't stop in the middle of the intersection' metaphor). The net message is a case for vigilance and flexibility rather than pre-commitment; it does not advocate a near-term direction, consistent with his current data-dependent hold.",
+  "key_quotes": [
+    {
+      "quote": "To decide where policy should go, you need a clear sense of where you are starting from. By \"initial conditions,\" I mean what is currently happening\u2014not some average of experience in the past.",
+      "context": "Core of the first lesson: policy should respond to current state, not historical averages.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "For example, if big shocks lead firms to increase the frequency of price changes, the Phillips curve steepens, which changes how monetary policy actions are transmitted to inflation and the real economy.",
+      "context": "Nonlinear-transmission / Lucas-critique argument that large shocks make inflation react faster \u2014 a vigilance point.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "In the end, this restrictive guidance tied the hands of the FOMC in 2021 and unnecessarily delayed rate increases.",
+      "context": "Warns rigid dovish forward guidance delayed necessary hikes \u2014 a mildly hawkish lesson favoring flexibility.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "In these divergent situations, it's much harder to give forward guidance, and, as a result, it is less useful.",
+      "context": "Yellow-light metaphor: with divergent scenarios each requiring different paths, he declines to pre-commit \u2014 a data-dependent, non-committal near-term posture.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "data-dependent"
+    },
+    "theme_flags": []
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-06T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.2188,
+    "hawk_hits": 7,
+    "dove_hits": 0,
+    "tokens": 1024
+  }
+}
