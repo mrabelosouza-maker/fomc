@@ -1,0 +1,87 @@
+{
+  "speech_id": "williams-20260707-6a8881",
+  "member_id": "williams",
+  "title": "Fox Business Interview",
+  "date": "2026-07-07",
+  "url": "https://www.foxbusiness.com/",
+  "source": "fox_business",
+  "non_policy": false,
+  "summary": "A live-TV reaffirmation of the patient hold, with a genuine dovish tilt at the margin coming entirely from energy. Williams reads the economy as 'more of the same': ~2% trend growth, consumer spending strong, and a solid labor market (unemployment ~4.25% in June) whose risks he now calls 'pretty balanced.' The new element vs his late-June read is oil: he flags a 'big decline' in current AND future oil prices as 'part of the good news' and expects energy to pull headline PCE (~4%) down over the next several months, feeding through to core (airfares, etc.). He is therefore 'a little bit more positive about the near-term inflation outlook.' But he keeps inflation as the operative concern ('still quite high,' 'still too high'), cites tariff inflation (near its peak) and a new upside from the AI investment boom, and repeatedly frames policy as 'well positioned' and 'in a good place' \u2014 data-dependent, no near-term easing signal, no confirmation a hike is off the table ('totality of the data'). He endorses Chair Warsh dropping explicit rate forward guidance as appropriate given the uncertainty. Net: still a mildly hawkish, patient hold, softened a notch by the energy-led improvement in the near-term inflation path.",
+  "key_quotes": [
+    {
+      "quote": "We definitely have seen a big decline in oil prices, not only the current oil prices, but future expected oil prices... I expect that to come down each of the next several months as energy prices come down. And also, as those energy prices come down, we'll see that show up also in core inflation.",
+      "context": "The energy-led improvement in his near-term inflation path \u2014 the one thing that shifted vs his June read, where oil/Mideast was an upside RISK; now it is a disinflationary tailwind",
+      "dimension": "oil_war"
+    },
+    {
+      "quote": "Right now, my view is that monetary policy is well positioned. So I think the interest rates, the stance of policy, is well positioned to achieve our maximum employment and price stability goals.",
+      "context": "Reaffirms the hold as appropriately calibrated; no near-term easing signal, does not confirm a hike is off the table",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "On inflation, absolutely inflation is still too high. I do feel a little bit more positive about the near-term inflation outlook because of the energy price declines that we're going to see.",
+      "context": "Keeps inflation as the binding concern while conceding a modestly more benign near-term path \u2014 the essence of the small dovish drift",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "On the labor market, I feel pretty good about it. I think the risks are pretty balanced on the labor market... steady, solid growth, steady labor market.",
+      "context": "Labor is not a reason to ease; risks two-sided and comfortable",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "We're still seeing inflation from the tariffs, although I think we're near the peak effect of that... But we're also seeing some inflation from the AI investment boom.",
+      "context": "Tariffs looked-through and near peak (dovish), but he newly flags the AI investment boom as an upside inflation source (offsetting)",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 1,
+    "inflation_conviction": 2,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-07T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "tone_score": {
+    "net_tone": -0.0317,
+    "hawk_hits": 0,
+    "dove_hits": 1,
+    "tokens": 993
+  }
+}
