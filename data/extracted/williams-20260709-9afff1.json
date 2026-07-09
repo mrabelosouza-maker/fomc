@@ -1,0 +1,89 @@
+{
+  "speech_id": "williams-20260709-9afff1",
+  "member_id": "williams",
+  "title": "Remarks and Q&A at New York Fed conference",
+  "date": "2026-07-09",
+  "url": "https://whbl.com/2026/07/09/feds-williams-expects-energy-prices-to-abate-even-as-iran-war-flares/",
+  "source": "reuters_bloomberg",
+  "non_policy": false,
+  "summary": "A hawkish re-hardening at the margin, delivered at a NY Fed conference the day after the June minutes and two days after his Jul 7 Fox Business interview. The single dovish element he leaned on Jul 7 \u2014 an energy-led improvement in the near-term inflation path from a seeming Middle East resolution \u2014 has unwound: hostilities resumed (Trump says the deal is void), so the upside risk to energy and inflation is back, even as Williams keeps a benign baseline ('reasonable' that oil falls over 6\u201312 months). He calls inflation 'too high' and, most notably, elevates AI-investment-driven demand to his MAIN inflation concern, stating explicitly that a sustained AI demand-over-supply impulse is something 'you don't look through' \u2014 you position policy to offset it. He lays out a two-sided reaction function but spends his emphasis on the hike leg ('other scenarios where inflation is more persistent and stays higher, which would call for tighter monetary policy'), and gives a concrete data test: core PCE running 0.2%/month in H2-2026 is consistent with continued disinflation, higher than that signals persistence. He will not pre-commit on July 28-29 ('we haven't even started the analysis') and reaffirms data dependence unchanged. Net: still a data-dependent hold, but the near-term inflation-risk balance has tilted back up and the hike option is explicit \u2014 a modest hawkish step up from Jul 7, slightly above his late-June read. Balance-sheet remarks (reform should target financial-system resilience, not a reduction number) are not a policy-stance signal.",
+  "key_quotes": [
+    {
+      "quote": "If this creates a sustained impulse to demand relative to supply in the inflation \u2026 I do think that's the kind of situation where you don't look through this. You basically say you need to have a monetary policy positioned \u2026 to offset the inflationary impulse from that.",
+      "context": "On AI-investment demand \u2014 now his main inflation concern; the clearest hawkish conditionality of the appearance and the key marginal shift vs Jul 7",
+      "dimension": "growth_demand"
+    },
+    {
+      "quote": "other scenarios where inflation is more persistent and stays higher, which would \u2026 call for tighter monetary policy. I think that's the right way to think about it.",
+      "context": "His two-sided reaction function, with the emphasis on the tightening leg",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "A rate of core PCE of two-tenths a month in the second half of this year, that would be consistent with my view of a disinflationary process that's continuing. If it's higher than that, that would be a sign of inflation a bit more persistent.",
+      "context": "A concrete, quantified data test for the reaction function \u2014 0.2% m/m core PCE is the disinflation threshold",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The markets still expect oil prices to come down over the next six to 12 months. I think that's a pretty reasonable baseline.",
+      "context": "Energy baseline still benign despite the war flare-up \u2014 but this is no longer the active disinflationary tailwind it was on Jul 7; the risk is now two-sided/up",
+      "dimension": "oil_war"
+    },
+    {
+      "quote": "We haven't even started the process of doing an analysis.",
+      "context": "Declines to pre-commit on the July 28-29 decision; reaffirms data dependence ('I have not changed')",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1,
+    "inflation_conviction": 3,
+    "labor_concern": 1,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "oil_war",
+      "tariffs",
+      "balance_sheet_qt"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-09T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 1,
+    "dove_hits": 1,
+    "tokens": 900
+  }
+}
