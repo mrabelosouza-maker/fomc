@@ -1,0 +1,82 @@
+{
+  "speech_id": "waller-20260713-afa442",
+  "member_id": "waller",
+  "title": "Monetary Policy at a Crossroads",
+  "date": "2026-07-13",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller takes his May hawkish pivot one decisive step further: for the first time he puts a near-term HIKE explicitly on the table. He judges the real economy in good shape (resilient consumption, AI capex, 111k jobs/month over the last three months) and employment close to maximum sustainable, so \u2014 'unless I see evidence of a significantly weakening labor market' \u2014 his focus is squarely on inflation. And inflation is the problem: core PCE has climbed from 3.0% in Dec-25 to 3.4% in May, the rise began before the oil shock, and it is broad (nearly 70% of core-services categories running above 3%), with fresh pressure from core intermediate PPI and AI-related chip/server prices. He argues that with anchored expectations and a slack-ish labor market he can move deliberately rather than aggressively \u2014 'sternly staring at inflation until it melts before our withering gaze is not an option' \u2014 but that the current policy setting may simply not be enough to bring inflation down. The base case he states is still a hold; the trigger is data: 'if we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.' Oil, notably, has flipped from a hawkish force to a disinflationary tailwind for headline.",
+  "key_quotes": [
+    {
+      "quote": "But I don't take the inflationary signals I have discussed today lightly. If we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.",
+      "context": "Closing policy conclusion: the first explicit conditional hike signal from Waller \u2014 a hot June core print puts tightening on the table.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "When inflation is well above its target and the labor market is near full employment and stable, any serious policy rule calls for raising the policy rate to bring down inflation. Sternly staring at inflation until it melts before our withering gaze is not an option.",
+      "context": "Rejects the 'anchored expectations means we need not respond' argument \u2014 a rules-based case for hiking given his own read of labor and inflation.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "In sum, I believe employment is close to its maximum sustainable level, neither a source of concern for the strength of the six-year economic expansion nor a source of inflationary pressure. Unless I see evidence of a significantly weakening labor market, my focus will be on inflation.",
+      "context": "The dual-mandate weighting is now almost entirely on the price-stability side; labor only re-enters if it deteriorates significantly.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Because core inflation is a good guide to future inflation, I am concerned that, if this upward trend continues, it will be hard to push inflation back toward the Committee's 2 percent goal with monetary policy at its current setting.",
+      "context": "He questions whether the current stance is restrictive enough \u2014 the core of the 'crossroads' framing.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3,
+    "mandate_weight": 3.5,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "dovish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-13T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0292,
+    "hawk_hits": 12,
+    "dove_hits": 6,
+    "tokens": 2636
+  }
+}
