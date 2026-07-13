@@ -6,7 +6,7 @@
   "url": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
   "source": "board",
   "non_policy": false,
-  "summary": "Waller takes his May hawkish pivot one decisive step further: for the first time he puts a near-term HIKE explicitly on the table. He judges the real economy in good shape (resilient consumption, AI capex, 111k jobs/month over the last three months) and employment close to maximum sustainable, so \u2014 'unless I see evidence of a significantly weakening labor market' \u2014 his focus is squarely on inflation. And inflation is the problem: core PCE has climbed from 3.0% in Dec-25 to 3.4% in May, the rise began before the oil shock, and it is broad (nearly 70% of core-services categories running above 3%), with fresh pressure from core intermediate PPI and AI-related chip/server prices. The base case he states is still a hold; the trigger is data: 'if we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.' The Q&A sharpens the trigger and caps the size of the response, and the two roughly offset. Sharper: he pre-commits to an asymmetric reading of the next print \u2014 'if I get another higher one, I'm going to treat that as signal, not noise' after five or six upside months, whereas a soft print would need 'maybe a couple more' to convince him \u2014 and he rejects the idea that supply-driven (oil/tariff/AI) inflation is beyond the Fed's reach, calling it 'the view of Arthur Burns in the 1970s.' Capped: he places the economy at the kink of the Beveridge curve, where significant tightening now would push up unemployment and 'starts leaning into recession risk'; he declines symbolic hikes ('I look at the data\u2026 I don't have to re-anchor'); he concedes hyperscaler AI demand is near-perfectly inelastic to rates; and he reads financial conditions ambiguously (traditional lending channels 'don't seem loose to me at all,' spreads and a one-sector AI equity market look loose). Oil, notably, has flipped from a hawkish force to a disinflationary tailwind for headline.",
+  "summary": "Waller takes his May hawkish pivot one decisive step further: for the first time he puts a near-term HIKE explicitly on the table. He judges the real economy in good shape (resilient consumption, AI capex, 111k jobs/month over the last three months) and employment close to maximum sustainable, so \u2014 'unless I see evidence of a significantly weakening labor market' \u2014 his focus is squarely on inflation. And inflation is the problem: core PCE has climbed from 3.0% in Dec-25 to 3.4% in May, the rise began before the oil shock, and it is broad (nearly 70% of core-services categories running above 3%), with fresh pressure from core intermediate PPI and AI-related chip/server prices. The base case he states is still a hold; the trigger is data: 'if we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.' The Q&A sharpens the trigger and caps the size of the response, and the two roughly offset. Sharper: he pre-commits to an asymmetric reading of the next print \u2014 'if I get another higher one, I'm going to treat that as signal, not noise' after five or six upside months, whereas a soft print would need 'maybe a couple more' to convince him \u2014 and he rejects the idea that supply-driven (oil/tariff/AI) inflation is beyond the Fed's reach, calling it 'the view of Arthur Burns in the 1970s.' Capped in size, not in willingness: he places the economy at the kink of the Beveridge curve, where significant tightening now would push up unemployment and 'starts leaning into recession risk' \u2014 but this is a statement about the COST of tightening, not about labor-market concern, which he is explicit in sidelining ('it looks pretty stable right now'); he declines symbolic hikes ('I look at the data\u2026 I don't have to re-anchor'); he concedes hyperscaler AI demand is near-perfectly inelastic to rates; and he reads financial conditions ambiguously (traditional lending channels 'don't seem loose to me at all,' spreads and a one-sector AI equity market look loose). Oil, notably, has flipped from a hawkish force to a disinflationary tailwind for headline.",
   "key_quotes": [
     {
       "quote": "But I don't take the inflationary signals I have discussed today lightly. If we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.",
@@ -35,8 +35,8 @@
     },
     {
       "quote": "But we're not at that point right now. We're kind of near the kink of the Beveridge curve.",
-      "context": "Q&A: the key constraint on how far he would tighten \u2014 unlike 2022, cooling demand now would raise unemployment, which 'starts leaning into recession risk, and that's where you have to be very careful.'",
-      "dimension": "labor_concern"
+      "context": "Q&A: NOT a statement of labor-market concern \u2014 he is relaxed on labor (\"it looks pretty stable right now\") and explicitly sidelines it (\"unless I see evidence of a significantly weakening labor market, my focus will be on inflation\"). The kink is about the COST of tightening: unlike 2022, cooling demand now would raise unemployment, which \"starts leaning into recession risk.\" It caps the SIZE of any hike, not the willingness to deliver one.",
+      "dimension": "policy_stance_read"
     },
     {
       "quote": "So I'm not interested in symbolic rate hikes.",
@@ -48,7 +48,7 @@
     "composite_hawk_dove": 3,
     "mandate_weight": 3.5,
     "inflation_conviction": 4,
-    "labor_concern": 1.5,
+    "labor_concern": 1,
     "policy_stance_read": 2.5,
     "near_term_bias": {
       "direction": "hold",
@@ -83,7 +83,7 @@
       "push": "hawkish"
     },
     "other": {
-      "intensity": 2,
+      "intensity": 1,
       "push": "dovish"
     }
   },
