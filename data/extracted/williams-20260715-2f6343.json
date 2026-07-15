@@ -1,0 +1,93 @@
+{
+  "speech_id": "williams-20260715-2f6343",
+  "member_id": "williams",
+  "title": "Stability of Thy Times",
+  "date": "2026-07-15",
+  "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260715",
+  "source": "newyork",
+  "non_policy": false,
+  "summary": "A constructive, mildly hawkish hold that walks back the Jul 9 re-hardening. In prepared remarks at the Partnership for New York City, Williams calls inflation 'unquestionably too high at about 4 percent' and says it is 'imperative' to restore 2%, but the speech's center of gravity is a six-part case that inflation HAS PEAKED: tariff direct effects largely played out (new tariffs mostly replacing expiring ones), shelter disinflation intact, energy prices likely peaked with futures pointing back toward pre-Hormuz-closure levels, AI supply-demand imbalances receding as supply comes online, no labor-market inflation pressure (HPW index, wage growth consistent with low inflation), and anchored expectations. He publishes a full glide path: inflation ~3-1/4% by year-end, toward 2% in 2027, on target in 2028, with growth 2-2-1/4% (modestly above potential) and unemployment edging DOWN to 4% by 2028. The labor market is 'solid and stable' with prior warning signs 'largely stabilized, albeit at low levels.' Policy is 'well positioned' at 3-1/2 to 3-3/4%, with a data-dependent, totality-of-the-data close and no hint of either a cut or the hike scenario he spelled out on Jul 9 \u2014 the AI-demand impulse he then said one 'doesn't look through' is now framed as receding over time, though 'highly uncertain' in magnitude and duration. Net: a step back down from the Jul 9 hawkish edge to roughly his Jul 7 stance \u2014 patient hold, inflation still the binding concern, but with a firmer disinflation call.",
+  "key_quotes": [
+    {
+      "quote": "Inflation is unquestionably too high at about 4 percent, well above the FOMC's longer-run goal of 2 percent.",
+      "context": "Inflation remains the binding concern and the reason for the hold",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "But there are encouraging reasons to expect that inflation has peaked and should edge down in coming quarters.",
+      "context": "The headline marginal shift: an explicit inflation-has-peaked call backed by six reasons (tariffs played out, shelter, energy futures, AI supply, labor, anchored expectations)",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The current stance of monetary policy is well positioned to do that.",
+      "context": "Reaffirms the 3-1/2 to 3-3/4% hold as appropriately calibrated; no easing signal, and none of the Jul 9 hike-scenario language",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Fourth, the supply-demand imbalances stemming from AI-related investment should recede over time as more supply comes online. That said, the magnitude and duration of these supply-demand imbalances are highly uncertain.",
+      "context": "Softens the Jul 9 framing in which the AI demand impulse was his MAIN inflation concern and something you 'don't look through' \u2014 now listed among the reasons inflation edges down",
+      "dimension": "growth_demand"
+    },
+    {
+      "quote": "I expect overall inflation to decline to around 3-1/4 percent by year-end, then continue on a glide path toward our 2 percent goal in 2027 and land on target in 2028.",
+      "context": "A published forecast path consistent with a long patient hold rather than hikes",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Fifth, we do not see evidence of the labor market adding to inflationary pressures.",
+      "context": "Labor solid and stable, prior warning signs 'largely stabilized, albeit at low levels' \u2014 neither a reason to ease nor an inflation worry",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 2,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-fable-5",
+  "extracted_at": "2026-07-15T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "tone_score": {
+    "net_tone": 0.0459,
+    "hawk_hits": 2,
+    "dove_hits": 0,
+    "tokens": 1895
+  }
+}
