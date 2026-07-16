@@ -346,11 +346,9 @@ TEMPLATE = r"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
 </header>
 <main>
 
- <section>
-  <h2>📅 Agenda do Fed — próximos eventos</h2>
-  <p class="desc">Próximas falas e eventos do Fed (fonte: Bloomberg). ★ por votante; em vermelho o período de <b>blackout</b> de comunicação pré-FOMC.</p>
-  <!--AGENDA-->
- </section>
+ <!-- Agenda section temporarily removed (registry/calendar.json is stale).
+      To restore: put back the <section> with the <!--AGENDA--> marker here;
+      _agenda_html() and the build_page() replace call are still in place. -->
 
  <section>
   <h2>1 · Função de reação atual de cada membro</h2>

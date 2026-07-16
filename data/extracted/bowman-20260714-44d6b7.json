@@ -1,0 +1,81 @@
+{
+  "speech_id": "bowman-20260714-44d6b7",
+  "member_id": "bowman",
+  "title": "Responsible Innovation and Financial Inclusion",
+  "date": "2026-07-14",
+  "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "Pre-recorded video remarks in Bowman's Vice Chair for Supervision capacity, opening the Board's third annual Financial Inclusion Conference. It is entirely a supervision/innovation speech: banks as the center of financial inclusion, the Fed's role as setting clear expectations without micromanaging bank business decisions, and a calibrated supervisory touch for AI adoption (alternative data and AI to widen credit access for the un-/underbanked, lighter-touch oversight for lower-risk AI use cases, flexibility for smaller banks, and the FSB's 'Sound Practices for Responsible Adoption of AI' report she sponsored as chair of its Standing Committee on Supervisory and Regulatory Cooperation). There is NO monetary-policy content whatsoever \u2014 not a word on inflation, the labor market, growth, the funds rate, or the stance of policy \u2014 and the footnoted disclaimer explicitly distances the remarks from the FOMC. Every numeric dimension is therefore null rather than invented. Nothing in her reaction function moved: her last policy speeches were the January outlooks (composite \u22122.5 on Jan 30, \u22123 on Jan 16 \u2014 moderately restrictive stance, fragile labor market as the binding risk, wanting to keep cutting toward neutral), and this speech neither confirms nor revises that dovish lean; it simply says nothing about it. The AI discussion here is supervisory/compliance-oriented and carries no read on AI as a macro or productivity force.",
+  "key_quotes": [
+    {
+      "quote": "While I am unable to join you in person, I wanted to highlight the importance of financial inclusion in building a strong and stable financial system and an economy that works for everyone.",
+      "context": "Opening of pre-recorded remarks to the Board's Financial Inclusion Conference \u2014 establishes the speech as a conference address on inclusion, not an outlook speech",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "As bank regulators and supervisors, the Federal Reserve has a role to play in encouraging responsible innovation while maintaining a safe and sound banking system.",
+      "context": "Framing the Fed's role strictly in its supervisory capacity; the entire speech is delivered from the Vice Chair for Supervision seat, not the FOMC seat",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "So, our goal must be to support responsible AI innovation. That starts with greater clarity on what level of oversight is appropriate for different AI applications.",
+      "context": "The core of the speech \u2014 AI treated purely as a bank-supervision calibration question (lower-risk use cases warrant lighter touch), with no reference to AI investment, productivity, or any macro/rate implication",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "When we provide clear regulatory expectations and focus supervision on material risks, banks can innovate to reach more Americans with affordable financial services.",
+      "context": "Closing statement of her deregulatory-leaning supervisory philosophy \u2014 the only 'reaction function' visible in this speech is a regulatory one",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 0,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 1003
+  }
+}

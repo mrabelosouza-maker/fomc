@@ -1,0 +1,98 @@
+{
+  "speech_id": "warsh-20260714-d481a8",
+  "member_id": "warsh",
+  "title": "Semiannual Monetary Policy Report to the Congress",
+  "date": "2026-07-14",
+  "url": "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Warsh's first Humphrey-Hawkins as Chair (House Jul 14 / Senate Jul 15) fully restores the June stridency and reverses the modest Sintra softening: gone is the 'inflation risks have come down' line, replaced by a sticky-price argument that cuts the other way \u2014 'the longer that prices have been above the inflation target, it's usually a bit harder to dislodge them,' his job being 'to take sticky prices and to unstick them.' The prepared text holds at 3-1/2 to 3-3/4% and says the Committee has 'no tolerance for persistently elevated inflation'; the Q&A is where the reaction function shows. The single most useful marginal datapoint: a benign CPI print landed the morning of Day 1 and he refused to bank it \u2014 'I'm not for cherrypicking. I am not going to show up here and say mission accomplished' \u2014 and on Day 2 dismissed CPI/PPI/core/trimmed-mean alike as 'imperfect measures of the state of underlying inflation' (also denying the WSJ report that he favors Dallas trimmed-mean PCE). Asked to enumerate his options he listed hold, hike and cut as 'a non-exclusive list,' keeping June's hike-on-the-table posture without adding a hike signal, and deferred everything to 'a good family fight' at the July meeting while stressing he has no 'magic wand' over a 'consensus-led organization.' The mandate weighting is stated more bluntly than in any prior speech \u2014 'the labor market part of our mandate looks pretty good. The price stability part of our mandate looks less good' \u2014 with the labor market 'broadly in balance,' low unemployment, few layoffs; AI displacement is a 2-to-5-year question for a task force, not a policy input. TWO GENUINE MOVES vs the prior two: (1) the balance sheet is promoted from a task-force topic to an active tightening instrument \u2014 'the balance sheet should be as small as practicable,' 'a leaner, meaner balance sheet,' a permanently large, long-duration portfolio 'sure seems a little bit more like fiscal policy than I'm comfortable with,' and in the options answer he names 'both balance sheet and interest rate' as tools to 'take it head-on'; and (2) he breaks with Waller and Williams on AI, declining to call the capex boom inflationary \u2014 he concedes 'Will it increase measured prices over the course of the next 12 months? I suspect it will be' but says a one-time price change with a supply response is not inflation, expressly distinguishing it from a war shock that 'tends to reduce the supply side,' and calls productivity 'structurally disinflationary.' He concedes the Iran war raised oil and that tariffs move particular prices, but refuses to blame or to look through either \u2014 his doctrine throughout is that relative price shocks are outside his control and only become inflation if they 'broaden out,' which is the Fed's choice. Net: composite back to the June 3.0, on hold, hawkish in commitment and now in the second instrument, but with a supply-side optimism that is the quiet dovish counterweight.",
+  "key_quotes": [
+    {
+      "quote": "Overall, I would say the labor market part of our mandate looks pretty good. The price stability part of our mandate looks less good.",
+      "context": "Day 2, asked about part-time work and tourism-economy labor conditions; the bluntest statement of his mandate weighting in the corpus, delivered right after insisting the Fed has 'no legislative orphans'.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "And the longer that prices have been above the inflation target, it's usually a bit harder to dislodge them and get them lower. Our job, my commitment to you is to take sticky prices and to unstick them.",
+      "context": "Day 1, on persistently high grocery/agricultural prices; a persistence argument that replaces the Sintra claim that inflation risks 'have come down' \u2014 duration of the 63-month overshoot makes the job harder, not easier.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "while I reviewed the data that came out this morning on CPI and it was it was positive relative to expectations, I'm not for cherrypicking. I am not going to show up here and say mission accomplished.",
+      "context": "Day 1, hours after a better-than-expected CPI print \u2014 he explicitly refuses to treat good inflation news as a reason to ease. The clearest marginal-news item in the testimony.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "My predilection, my inclination, is interest rate policy should be the driver of monetary policy. The balance sheet should be as small as practicable to conduct operations.",
+      "context": "Day 2, asked the smallest balance sheet the Fed could operate with; he adds he wants 'a leaner, meaner balance sheet' and that a permanently large, long-duration portfolio 'sure seems a little bit more like fiscal policy than I'm comfortable with'. New vs June/Sintra: the balance sheet as an active tightening instrument, not just a task-force topic.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I don't view a one-time change in prices as necessarily being inflationary because I think there's a supply response in that way. This is different from a foreign conflict and what it might do, which tends to reduce the supply side of the economy. Will it increase measured prices over the course of the next 12 months? I suspect it will be. But whether that's inflationary or not, that's up to the Federal Reserve, and we're going to have something to say about that.",
+      "context": "Day 2, asked directly whether AI investment is driving inflation as Waller and Williams have warned; he prefaces it 'this is one of the good family fights' and gives a view 'somewhat nuanced from ... some of my colleagues'. The counterweight to the hawkish framing \u2014 he will not treat the capex boom as an inflation problem.",
+      "dimension": "growth_demand"
+    },
+    {
+      "quote": "That is an option. Another option. A third option, a non-exclusive list of options. And a lot of it depends on whether it's temporary or permanent.",
+      "context": "Day 2, asked whether his options are to leave rates alone, raise, or cut; keeps the hike explicitly live without signaling it, consistent with June and with his refusal of forward guidance ahead of the July meeting.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.0,
+    "mandate_weight": 3.0,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.0,
+    "policy_stance_read": 2.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "balance_sheet_qt",
+      "fed_independence",
+      "fiscal",
+      "financial_stability",
+      "housing",
+      "immigration",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0026,
+    "hawk_hits": 18,
+    "dove_hits": 13,
+    "tokens": 37668
+  }
+}

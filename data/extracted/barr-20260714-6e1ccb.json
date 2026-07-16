@@ -1,0 +1,82 @@
+{
+  "speech_id": "barr-20260714-6e1ccb",
+  "member_id": "barr",
+  "title": "Fireside Chat on Artificial Intelligence and Financial Inclusion",
+  "date": "2026-07-14",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
+  "source": "board",
+  "non_policy": true,
+  "summary": "A moderated fireside Q&A on AI and financial inclusion with no monetary-policy content whatsoever \u2014 no read on inflation, no read on the macro labor market, no characterization of the stance, and no hint of the next move. Barr argues generative AI can raise low- and moderate-income households' welfare through worker productivity and wage gains, expanded credit access via alternative data, language-barrier bridging, trust-building through tailored interaction, and relief from the 'scarcities' of money, time and focus he wrote about in No Slack (2012) \u2014 but only with clear guard rails on privacy, algorithmic bias, values alignment, and financial stability, and only 'with intentionality and purpose.' The only Fed-adjacent substance is supervisory/financial-stability, not monetary: he flags that generative AI in trading could accelerate runs, cause herd behavior, or produce collusion among machines, and applies the standard vulnerabilities framework to households (build resilience because you cannot know which shock lands). Versus his prior speeches NOTHING MOVED on the reaction function: this is his fifth consecutive non_policy outing (Rural Communities Apr 14, Efficient and Effective Central Banking May 14, Measuring Financial Health May 20, Deregulating in a Financial Boom Jun 6), and it is thematically a direct sequel to the May 20 financial-health speech, extending the same AI-measurement thesis into a Q&A format. His last scored macro speech remains Mar 26 (composite +0.5, hold, inflation_conviction 3.5 vs labor_concern 3); this text provides no evidence to update that in either direction, so all five numeric dimensions are null rather than guessed.",
+  "key_quotes": [
+    {
+      "quote": "AI can help workers become much more productive and thus increase the possibility or probability that they'll get a wage boost from that productivity.",
+      "context": "On the AI upside for low- and moderate-income workers \u2014 a micro/distributional productivity claim about tasks within jobs, explicitly NOT a read on aggregate labor slack, wage-driven inflation, or the policy stance",
+      "dimension": "ai_productivity"
+    },
+    {
+      "quote": "There are all kinds of issues that might arise with AI and financial stability. For example, some uses of AI in trading \u2014 again, AI is being used in trading today \u2014 but some forms of generative AI that might be used in trading could accelerate runs, could lead to herd behavior, might result in collusion among AI machines.",
+      "context": "The closest the Q&A comes to Fed business: an AI/financial-stability guard-rails argument framed as supervisory and market-integrity concern, with no linkage to financial conditions or the rate path",
+      "dimension": "financial_stability"
+    },
+    {
+      "quote": "One of the things when we're looking at the financial system as a whole, one of the things that we do is we try and focus on the vulnerabilities in the financial system because we don't know quite where our shock is going to come from.",
+      "context": "Asked what keeps him up at night about shocks; he answers with the vulnerabilities/resilience framework applied to households (car breaks down, new tires) rather than naming any macro or policy risk",
+      "dimension": "financial_stability"
+    },
+    {
+      "quote": "It is possible that generative AI can help overcome inequality in our society and help promote financial inclusion, but only if we decide to do that with intentionality and purpose.",
+      "context": "His single closing takeaway \u2014 confirms the speech's subject is inclusion and AI governance, not the economic outlook",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0551,
+    "hawk_hits": 0,
+    "dove_hits": 6,
+    "tokens": 5270
+  }
+}

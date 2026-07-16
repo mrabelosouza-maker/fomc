@@ -1,0 +1,90 @@
+{
+  "speech_id": "goolsbee-20260715-85345a",
+  "member_id": "goolsbee",
+  "title": "Kenosha Area Business Alliance Business Lunch",
+  "date": "2026-07-15",
+  "url": "https://www.chicagofed.org/publications/speeches/2026/kenosha-business-lunch",
+  "source": "chicago",
+  "non_policy": false,
+  "summary": "A moderated Q&A with heavy biographical/Fed-explainer filler, but the macro half carries real marginal news: Goolsbee is reacting in real time to the CPI released that morning, which he calls 'surprisingly benign' and 'a bit cutting the other way from what things have been for the last six months or so.' The key move is on services \u2014 the single component he has spent months flagging as the thing 'making me the most nervous' because services are insulated from tariffs and oil and are historically persistent. Today that print was 'very encouraging,' and he says he is 'heartened.' He immediately fences it in ('one month is no months'; he needs several months of PCE-consistent prints), and he keeps his hawkish anchor fully intact: 'Inflation is way too high, going the wrong way,' and the persistence conversation is still open. But he adds an explicit conditional easing link that was absent from his June framing: 'the sooner we can show that we're headed back to 2%, I think the sooner we can normalize' \u2014 the first time he ties confirmed disinflation directly to normalizing the stance rather than merely to 'feeling better.' On labor he is if anything more relaxed than before, rebutting last year's deterioration fears: the job market is 'remarkably stable without being good,' payrolls have broken down as a cycle indicator because of immigration and 55+ participation swings, and the rates-based measures (hiring, layoff, vacancy, unemployment) are flat \u2014 a weird low-hire/low-fire mix he attributes to uncertainty, not weakness. He keeps tariffs as one-and-done and blames the oil/war shock plus 'stagflationary dust' for stalling progress. Net vs his Jun 22 Marketplace interview (composite 2.0): same hawkish through line, but the services worry that drove it just got its first real counter-evidence, and the destination he names is now normalization. Mildly hawkish hold with a dovish tilt at the margin.",
+  "key_quotes": [
+    {
+      "quote": "Inflation is way too high, going the wrong way.",
+      "context": "His read after disinflation stalled \u2014 tariffs came in, then the war pushed oil up before the tariff increment faded. The hawkish anchor that survives the benign CPI.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "I felt like before we got some of what I was calling the stagflationary dust in the air, we were on path to get to 2%. And the sooner we can show that we're headed back to 2%, I think the sooner we can normalize.",
+      "context": "The marginal news: an explicit conditional link from confirmed disinflation to normalizing the stance, which his June framing (wanting 'more information before front-loading too many rate cuts') did not carry.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "At least today, at least for this one, the services inflation was very encouraging.",
+      "context": "Reacting to the CPI released that morning. Services persistence has been his single biggest worry for months because services are insulated from tariffs and oil \u2014 this is the first counter-evidence.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "But I always say one month is no months. You never want to overreact to one month. If we got several months like this, I would be feeling better.",
+      "context": "Immediately fencing in the benign CPI; he wants several months of PCE-consistent prints before concluding anything, which keeps the near-term bias at hold.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "My read of the job market is it's been remarkably stable without being good. So it's not a super boom, but it's not falling apart.",
+      "context": "Rebutting last year's job-market-deterioration fears; payrolls have broken down as a cycle indicator (immigration, 55+ participation) and the rates-based measures are flat. Labor is neither a reason to ease nor an inflation worry.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 2,
+    "inflation_conviction": 3,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration",
+      "housing",
+      "fed_independence"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "dovish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0403,
+    "hawk_hits": 0,
+    "dove_hits": 3,
+    "tokens": 7558
+  }
+}

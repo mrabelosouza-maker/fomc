@@ -1,0 +1,92 @@
+{
+  "speech_id": "schmid-20260716-23f943",
+  "member_id": "schmid",
+  "title": "The Federal Reserve, Economic Outlook and Monetary Policy",
+  "date": "2026-07-16",
+  "url": "https://www.kansascityfed.org/speeches/schmid-2026-07-16/",
+  "source": "kansascity",
+  "non_policy": false,
+  "summary": "Schmid holds his hawkish line unchanged \u2014 the closing synthesis is word-for-word identical to his May 29 Reykjavik wrap (\"labor market is in balance... primary concern is inflation, which is too hot and has been above target for too long\") \u2014 but the marginal news is that he refuses to take the win on the encouraging inflation print released this week, calling it \"premature to put too much weight on a single data point\" and attributing the June fallback largely to oil, which is \"once again rising.\" The composition of his hawkish case rotates: the oil shock is demoted from the central hawkish driver it was in March/May (when he called it not transitory and the reason not to let down our guard) to a two-way volatile factor whose relief may not persist, and its place is taken by an ex-energy/broadening argument \u2014 inflation \"still running solidly above 2 percent\" excluding energy, services inflation \"trending higher since the end of last year,\" and broad-based persistence with five consecutive years above target. Two genuinely new pieces of argumentation: (1) he cites July 2026 KC Fed research that energy shocks were only ever temporary BECAUSE the Fed reacted, converting his don't-look-through instinct into an explicit reaction-function claim (\"Inflation shocks are not intrinsically transitory\"); and (2) a demand-side pillar built on beef \u2014 consumption forecast 10 percent above its 20-year average despite record prices \u2014 used to reject the textbook look-through-supply-shocks view and revive his push to fold food back into core. The labor read firms slightly and settles: unemployment 4.2 percent is now explicitly \"about in line with\" neutral, weak job gains (500k over the year) are structural (aging, immigration fall-off, a working-age population that grew almost not at all), and growth is \"resilient\" at 2\u00be percent \u2014 so nothing on the employment side argues for easing. Net: composite unchanged at 3, hold/patient, with the hawkish case now resting on breadth and demand rather than the oil shock.",
+  "key_quotes": [
+    {
+      "quote": "Though this week\u2019s inflation data showed an encouraging deceleration, it would be premature to put too much weight on a single data point relative to recent trends.",
+      "context": "The marginal news: the first soft inflation print of the cycle lands two days before the speech and he explicitly declines to update on it",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The persistence of inflation across a broad-based selection of goods and services is concerning, especially with inflation running above the Fed\u2019s 2 percent objective for five consecutive years.",
+      "context": "The new center of gravity of his hawkish case \u2014 ex-energy inflation \"solidly above 2 percent\" and services inflation trending higher since end-2025, replacing the oil shock as the lead worry",
+      "dimension": "underlying_inflation"
+    },
+    {
+      "quote": "With the price of oil once again rising, it is uncertain how persistent any relief on energy will be.",
+      "context": "Oil demoted from the central hawkish shock of March/May to a two-way volatile factor; the June disinflation is discounted as energy-driven and possibly fleeting",
+      "dimension": "oil_war"
+    },
+    {
+      "quote": "I am uncomfortable ever assuming that a burst of inflation is likely to be temporary. Inflation shocks are not intrinsically transitory. How persistent a spike in inflation is will depend importantly on how the Fed reacts or is expected to react.",
+      "context": "His don't-look-through instinct upgraded into an explicit reaction-function claim, newly backed by July 2026 KC Fed research (Glover) arguing energy shocks stayed temporary only because the Fed tightened",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Imbalances lead to inflation, and the Fed always has a role to play when it comes to keeping inflation in check.",
+      "context": "Conclusion of a new demand-side argument \u2014 beef consumption forecast 10 percent above its 20-year average despite record prices \u2014 used to reject the textbook case for looking through supply shocks",
+      "dimension": "growth_demand"
+    },
+    {
+      "quote": "To synthesize, I believe the labor market is in balance and growth remains resilient. My primary concern is inflation, which is too hot and has been above target for too long. As such, my focus remains on inflation in setting the correct course for policy.",
+      "context": "Closing synthesis, verbatim identical to his May 29 wrap \u2014 unemployment 4.2 percent is \"about in line with\" neutral and weak hiring is structural, so employment gives no reason to ease",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "fed_independence",
+      "immigration"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0965,
+    "hawk_hits": 5,
+    "dove_hits": 0,
+    "tokens": 3248
+  }
+}

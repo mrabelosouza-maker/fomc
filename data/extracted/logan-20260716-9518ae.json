@@ -1,0 +1,93 @@
+{
+  "speech_id": "logan-20260716-9518ae",
+  "member_id": "logan",
+  "title": "Remarks on Inflation, Employment and Monetary Policy",
+  "date": "2026-07-16",
+  "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260716",
+  "source": "dallas",
+  "non_policy": false,
+  "summary": "Logan crosses the line from conditional to live: where on Jun 3 she was 'increasingly concerned that higher interest rates COULD be necessary later this year,' here she opens and closes with a present-tense recommendation \u2014 'I currently believe modestly higher interest rates would better balance the outlook and risks' \u2014 delivered by a 2026 voter a week and a half before the July FOMC. The marginal news is that she pre-empts the soft June CPI rather than being moved by it: she concedes energy, core goods, non-housing services and housing all cooperated and that a return to target is possible, but calls that path 'tenuous' and 'more a hope than a likelihood,' and answers the print with 'one month of relief is not enough.' Her analytical case hardened underneath: core PCE is 3.4 percent and has RISEN four-tenths since December, the NY Fed's persistent-component model also reads 3.4 and has hovered near 3 for three years, market-based non-housing core services has made no 12-month progress since mid-2024 and 'picked up a bit this spring,' and she actively discounts her own Dallas Fed trimmed mean (2.4 percent) as biased low because the mix of price changes is causing it to drop too many increases \u2014 an unusual move to disown the most dovish measure on her own dashboard. Her point estimate is unchanged (mid 2's, not 2), but the labor side was upgraded ('well balanced and perhaps even strengthening a bit,' 92k/month vs the ~50k she cited in June, downside risks 'have faded') and the risk distribution is now explicitly one-sided ('the inflation risks are mainly to the upside'), leaving no offset. New in this speech: Texas CEOs raising pay to cover cost of living plus a TBOS wage pickup, which she reads as the first sign the inflation/wage gap closes the wrong way; a nonlinear AI price channel broadening from chips into construction and power; and a second-round argument on energy (refinery capacity, airlines not rushing to take back increases) that survives even if Hormuz shipments resume. The stance read is the crux and it is not restrictive \u2014 'monetary policy is not restraining the economy' \u2014 so on her framing a hike buys restriction the economy currently lacks, justified by the entrenchment asymmetry: 'Better modest restriction now than severe restriction later.' Net: the most hawkish speech in her corpus and an explicit hike advocacy, tempered only by 'modestly,' a genuine hearing for the hopeful scenario, and closing committee humility.",
+  "key_quotes": [
+    {
+      "quote": "So, I currently believe modestly higher interest rates would better balance the outlook and risks for the FOMC\u2019s maximum employment and price stability goals.",
+      "context": "Her closing recommendation, repeated verbatim from the opening \u2014 the escalation from Jun 3's conditional 'could be necessary later this year' to a present-tense hike call from a voter with the FOMC 'a week and a half' away.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "But one month of relief is not enough. It is time to finish the job of restoring price stability.",
+      "context": "Her direct answer to the soft June CPI released days earlier \u2014 she names the dovish data point and refuses it rather than ignoring it.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Putting together all these ways of looking at the data and economy, my best judgment is that inflation appears to be heading toward the mid 2\u2019s\u2014not all the way back to 2 percent.",
+      "context": "The analytical core, after triangulating trimmed mean (which she argues is biased low), core PCE at 3.4 percent and up four-tenths since December, the NY Fed multivariate core trend at 3.4, and market-based non-housing core services with no progress since mid-2024.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The labor, consumption and financial data indicate that monetary policy is not restraining the economy.",
+      "context": "The pivot of the whole argument \u2014 same sentence as Jun 3, but now paired with 'If inflation is not heading all the way to 2 percent on its own, then at least some policy restriction is needed to help get it there,' i.e. the restriction does not currently exist. Backed by equities +20 percent and credit spreads near the tightest ever.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Overall, the labor market is well balanced and perhaps even strengthening a bit.",
+      "context": "Unemployment 4.3 percent near the lowest sustainable level and 92k jobs/month outpacing labor-force growth \u2014 an upgrade from Jun 3's 'stable and broadly balanced.' She grants that slow-to-hire dynamics are 'cold comfort' for job seekers but rules them out as a policy target: 'not ones that easier monetary policy can fix.' Paired with 'downside risks to employment have faded after drawing focus last year. And the inflation risks are mainly to the upside.'",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Better modest restriction now than severe restriction later.",
+      "context": "The entrenchment asymmetry that sets the pace \u2014 preceded by 'History shows that when central banks try to hold down unemployment by accepting persistent inflation, they often end up with more inflation and more unemployment.' Argues for acting now but sizing it modestly.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 4.5,
+    "mandate_weight": 4,
+    "inflation_conviction": 4.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 0.5,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0823,
+    "hawk_hits": 2,
+    "dove_hits": 4,
+    "tokens": 2364
+  }
+}

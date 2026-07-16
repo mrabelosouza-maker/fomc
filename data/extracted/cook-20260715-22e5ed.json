@@ -1,0 +1,92 @@
+{
+  "speech_id": "cook-20260715-22e5ed",
+  "member_id": "cook",
+  "title": "Economic Outlook",
+  "date": "2026-07-15",
+  "url": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Cook's most one-sided speech of the cycle: she keeps the hold but declares the risk balance has decisively flipped to the inflation side. The organizing device is a seesaw \u2014 a year ago it was 'tilted a bit toward the threats to the employment mandate,' and today the inflation side 'is now tilting toward the ground.' The marginal news is on the LABOR side, not inflation: where her May 27 speech called downside risks to the labor market 'elevated,' she now says 'I see few reasons that today's labor market has more risk than a year earlier' and that 'risks on the employment side have diminished' \u2014 unemployment 4.2% at roughly the natural rate, low claims, moderate payroll growth, job openings picking up, and the low-hire/low-fire environment reframed as structural (population growth, WFH, post-pandemic over-hiring) rather than a downturn signal; even the AI job-transition risk, while 'significant,' is 'not \u2026 a greater risk than a year ago.' On inflation she adds a broadening argument she had not made before: PCE at 3.7% (near the highest since 2023), headline running ~1pp above what was expected a year ago, and core goods at a 'striking 5 percent annual pace' when they trended DOWN pre-pandemic \u2014 proof the acceleration 'is not only an energy price story.' Genuinely new is her treatment of the AI capex buildout as an INFLATION shock (chips, high-tech equipment, software, utilities) rather than only a productivity story, and one that 'does not show signs of slowing' with >$1.5tn of announced data centers barely realized. Offsetting dovish notes: tariff-related price increases 'do appear to be mostly behind us,' expectations 'mostly anchored,' and wages decelerating 'consistent with 2 percent' \u2014 which is why she voted to hold and finds it 'prudent to give a bit more time.' But she pointedly refuses to let anchored expectations become complacency ('it does not mean that we can take our eye off the ball') and closes with a conditional trigger, 'If we do not see signs of disinflation soon, I am prepared to act.' Net: a firmer hawkish hold than May \u2014 composite up on the collapse of the labor-side counterweight, not on a higher inflation conviction \u2014 though she softened May's explicit 'prepared to raise rates' to the vaguer 'prepared to act' and declines to predict the path two weeks before the meeting.",
+  "key_quotes": [
+    {
+      "quote": "However, as I have stated at several points this year, the risks from high inflation concern me more at this time.",
+      "context": "Opening framing of the dual mandate; she watches both sides but names inflation as the binding concern",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "In fact, I see few reasons that today's labor market has more risk than a year earlier. Therefore, risks on the employment side have diminished. The balance of risks has teetered toward the inflation mandate.",
+      "context": "THE mover vs her May 27 speech, which called downside risks to the labor market 'elevated'; unemployment 4.2% at roughly the natural rate, low claims, moderate payrolls, job openings picking up",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Core inflation is also coming in well above what I previously anticipated, driven by core goods prices, which have been increasing at a striking 5 percent annual pace so far this year.",
+      "context": "New broadening argument \u2014 core goods trended DOWN pre-pandemic, so the acceleration 'is not only an energy price story'; headline 2026 running ~1pp above year-ago expectations",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The other shock is increased capital expenditures tied to the buildout of AI infrastructure. This spending has caused significant price increases for chips, other high-tech equipment, software, and utilities.",
+      "context": "Genuinely new: AI capex recast as one of the year's two unanticipated PRICE shocks (alongside the Middle East conflict), not just a productivity story; >$1.5tn of announced data centers only slightly realized and 'does not show signs of slowing'",
+      "dimension": "growth_demand"
+    },
+    {
+      "quote": "At this juncture, I see it as prudent to give a bit more time to observe how inflation unfolds from here. Going forward, though, I believe the risks continue to be strongly weighted toward higher inflation for at least two reasons.",
+      "context": "Defends her vote to hold last month (tariff and Middle East shocks 'should, in theory, result in only short-lived increases') while tilting the forward risk assessment hard hawkish",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "If we do not see signs of disinflation soon, I am prepared to act. I am fully committed to reaching our inflation target, and this commitment is unwavering.",
+      "context": "Conditional hawkish trigger following her warning that anchored expectations 'do not tell us what those policy actions need to be' and 'does not mean that we can take our eye off the ball'; softer than May's explicit 'prepared to raise rates'",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0114,
+    "hawk_hits": 5,
+    "dove_hits": 3,
+    "tokens": 1926
+  }
+}
