@@ -1,0 +1,83 @@
+{
+  "speech_id": "jefferson-20260716-53cc15",
+  "member_id": "jefferson",
+  "title": "Navigating Economic Shocks: A Monetary Policymaker's Perspective",
+  "date": "2026-07-16",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "In a largely conceptual Stanford lecture on classifying and responding to shocks, Jefferson frames the current juncture as a two-sided problem: a Middle East energy supply shock (with oil now off its peak) layered on tariff effects, against an inflation rate still above target and unemployment (4.2%) near maximum employment. His new wrinkle relative to prior remarks is an explicit hawkish contingency: he endorses the June hold at 3-1/2 to 3-3/4 percent, but warns that the quick succession of shocks risks inflation becoming entrenched and expectations unanchoring, and states that if inflation does not start to cool down soon it 'could be appropriate to reconsider our current policy stance' to deliver price stability. He devotes much of the speech to AI's uncertain, two-sided effects on supply, demand, inflation and r*, explicitly declining to prejudge the direction. Net, he holds and stays data-dependent, but has added a conditional tightening signal that leans marginally more hawkish than his May remarks.",
+  "key_quotes": [
+    {
+      "quote": "That said, in a scenario where actual inflation does not start to cool down soon, I believe that it could be appropriate to reconsider our current policy stance to ensure we fulfill our commitment to deliver price stability.",
+      "context": "New explicit conditional-tightening signal appended to his endorsement of the June hold",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "The quick succession of shocks raises the risk that inflation becomes entrenched and inflation expectations become unanchored.",
+      "context": "His central upside-inflation worry at the current juncture",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "If inflation expectations risk becoming unanchored, then a stronger reaction to the inflation side of our mandate may be warranted.",
+      "context": "Conditional reaction function in the face of the supply-shock tradeoff",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "At our last meeting, in June, the FOMC decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent. This policy stance should continue to support the labor market while allowing inflation to resume its decline toward our 2 percent target as the effects of past tariffs and energy prices pass through completely.",
+      "context": "Endorsing the current hold and its rationale",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.0,
+    "mandate_weight": 1.0,
+    "inflation_conviction": 3,
+    "labor_concern": 2,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "extractor_model": "claude-opus-4-8",
+  "extracted_at": "2026-07-17T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0102,
+    "hawk_hits": 6,
+    "dove_hits": 4,
+    "tokens": 2386
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  }
+}
