@@ -1,6 +1,6 @@
 member_id,name,title,bank,voter_2026,n_speeches,n_policy,n_current,first_date,last_date,composite,latest_composite,baseline_composite,delta,tone_mean,stale,insufficient,composite_hawk_dove,mandate_weight,inflation_conviction,labor_concern,policy_stance_read
 logan,Lorie K. Logan,President,Dallas,True,11,6,2,2025-09-30,2026-07-16,4.062,4.5,2.6,1.9,-0.0638,False,False,4.062,3.562,4.281,0.719,0.719
-hammack,Beth M. Hammack,President,Cleveland,True,11,10,3,2025-02-11,2026-06-30,3.057,3.5,1.278,2.222,0.0138,False,False,3.057,2.919,4.362,1.138,1.805
+hammack,Beth M. Hammack,President,Cleveland,True,12,11,4,2025-02-11,2026-07-17,3.191,3.5,1.5,2.0,0.0126,False,False,3.191,3.245,4.403,0.946,1.805
 schmid,Jeffrey R. Schmid,President,Kansas City,False,11,11,3,2025-06-24,2026-07-16,3.0,3.0,2.9,0.1,-0.001,False,False,3.0,3.0,4.0,1.117,1.0
 warsh,Kevin M. Warsh,Chair,Board of Governors,True,3,3,3,2026-06-17,2026-07-14,2.833,3.0,2.75,0.25,0.045,False,False,2.833,2.833,3.333,1.167,2.0
 musalem,Alberto G. Musalem,President,St. Louis,False,9,9,2,2025-02-20,2026-05-28,2.663,3.5,1.312,2.188,-0.0723,False,False,2.663,2.372,3.791,1.337,1.209

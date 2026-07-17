@@ -1,0 +1,81 @@
+{
+  "speech_id": "hammack-20260717-90a82c",
+  "member_id": "hammack",
+  "title": "LinkedIn Post: No Conflict in Our Mandate",
+  "date": "2026-07-17",
+  "url": "https://www.linkedin.com/in/beth-hammack",
+  "source": "linkedin",
+  "non_policy": false,
+  "summary": "In a LinkedIn post ahead of the July FOMC meeting, Hammack flatly declares 'there is no conflict in our mandate': inflation is too high while the labor market sits right around her level of maximum employment, so 'persistently high inflation is the bigger concern.' She cites the Cleveland Fed's PCE nowcast putting core inflation at 3.3 percent after this week's data and stresses that district contacts describe broad-based pressure \u2014 energy and supply chains, but also insurance and the AI data-center buildup \u2014 against good growth and stable consumer spending. The new element is the urgency from the ground: for the first time in her tenure, businesses are telling her the Fed needs to act to curb inflation and consumers who can't make ends meet voice 'a growing sense of despair.' She closes with her standard open-mind-into-every-meeting line, leaving the hike question open but the direction of concern unambiguous.",
+  "key_quotes": [
+    {
+      "quote": "There is no conflict in our mandate. Inflation is too high. The labor market is right around my level of maximum employment.",
+      "context": "Her core framing: no employment-inflation trade-off, so inflation is the binding concern.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "Persistently high inflation is the bigger concern.",
+      "context": "Explicit ranking of the two mandate risks, right after citing the 3.3% core PCE nowcast.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "What I\u2019m hearing from those conversations is that inflation isn\u2019t coming from only one source\u2014it\u2019s broad based.",
+      "context": "District contacts point beyond energy/supply chains to insurance and the AI data-center buildup.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "For the first time in my tenure, I\u2019m hearing from businesses who say they think we need to take action to curb inflation, and from consumers who can\u2019t make ends meet about a growing sense of despair.",
+      "context": "New urgency signal from the ground \u2014 businesses asking the Fed to act; relayed approvingly as input to her policy view.",
+      "dimension": "near_term_bias"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 4,
+    "inflation_conviction": 4.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-fable-5",
+  "extracted_at": "2026-07-17T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 326
+  }
+}
