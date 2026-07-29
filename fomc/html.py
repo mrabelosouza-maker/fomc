@@ -250,6 +250,12 @@ TEMPLATE = r"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
 <title>Funções de reação do FOMC</title>
 <style>
  body{font-family:Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;color:#1a1a1a;background:#eef0f4;line-height:1.45}
+ /* tabs (shared with dots.html) */
+ nav.tabs{background:#fff;border-bottom:1px solid #e0e3e9;padding:0 40px;display:flex;flex-wrap:wrap;gap:2px;position:sticky;top:0;z-index:60;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+ nav.tabs a{font-weight:600;font-size:13px;color:#5b6472;text-decoration:none;padding:11px 15px;border-bottom:3px solid transparent}
+ nav.tabs a:hover{color:#16213e;background:#f4f6fa}
+ nav.tabs a.on{color:#16213e;border-bottom-color:#c8920a}
+ @media (max-width:720px){nav.tabs{padding:0 12px}}
  header{background:#16213e;color:#fff;padding:24px 40px;border-bottom:4px solid #c8920a}
  header h1{margin:0 0 6px;font-size:24px}
  header p{margin:3px 0;opacity:.9;font-size:13px;max-width:1050px}
@@ -339,6 +345,10 @@ TEMPLATE = r"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
  .modal .mlink{font-size:12px;color:#c8920a;font-weight:600;cursor:pointer;margin-top:6px;display:inline-block}
  .modal .mlink:hover{text-decoration:underline}
 </style></head><body>
+<nav class="tabs">
+ <a href="index.html" class="on">Funções de reação por membro</a>
+ <a href="dots.html">Mapa dos dots &amp; relevância</a>
+</nav>
 <header>
  <h1>Funções de reação do FOMC — por membro, votantes vs não-votantes</h1>
  <p>Leitura individual da função de reação de política monetária de cada participante do FOMC, extraída dos seus discursos (__WINDOW__). ★ = votante em 2026. Hawk (vermelho) = inclinação a juros mais altos / mais preocupado com inflação; dove (azul) = inclinação a cortes / mais preocupado com emprego.</p>

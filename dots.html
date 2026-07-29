@@ -1,0 +1,330 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOMC — Mapa dos dots &amp; relevância</title>
+<style>
+  :root{
+    --ground:#eef0f4; --card:#ffffff; --ink:#14161c; --muted:#5b6472;
+    --hairline:#d7dbe2; --navy:#16213e; --gold:#c8920a; --gold-soft:#e7c56a;
+    --hawk:#c0392b; --dove:#1e7d8c;
+    --r3:#a01e1e;   /* +3 altas */
+    --r2:#c0392b;   /* +2 altas */
+    --r1:#d97b3f;   /* +1 alta  */
+    --r0:#3f5170;   /* manter    */
+    --rm:#1e7d8c;   /* corte     */
+    --sans:"Segoe UI",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    --mono:"SF Mono",SFMono-Regular,ui-monospace,Consolas,"Liberation Mono",Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0}
+
+  /* ---------- tabs (shared with index.html) ---------- */
+  nav.tabs{background:#fff;border-bottom:1px solid #e0e3e9;padding:0 40px;display:flex;flex-wrap:wrap;gap:2px;position:sticky;top:0;z-index:60;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  nav.tabs a{font:600 13px var(--sans);color:#5b6472;text-decoration:none;padding:11px 15px;border-bottom:3px solid transparent}
+  nav.tabs a:hover{color:#16213e;background:#f4f6fa}
+  nav.tabs a.on{color:#16213e;border-bottom-color:#c8920a}
+
+  .wrap{
+    background:var(--ground); color:var(--ink); font-family:var(--sans);
+    -webkit-font-smoothing:antialiased; line-height:1.5; padding:0 0 64px;
+  }
+  .container{max-width:1120px; margin:0 auto; padding:0 24px}
+
+  /* ---------- header ---------- */
+  header.masthead{
+    background:linear-gradient(180deg,#101a30 0%, var(--navy) 100%);
+    color:#f4f6fa; padding:38px 0 30px; border-bottom:3px solid var(--gold);
+  }
+  .eyebrow{
+    font-size:11.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--gold-soft); font-weight:600; margin:0 0 10px;
+  }
+  h1{
+    font-size:clamp(26px,4.2vw,40px); line-height:1.05; letter-spacing:-.02em;
+    font-weight:800; margin:0; text-wrap:balance; max-width:22ch;
+  }
+  .dek{margin:12px 0 0; color:#c3ccdb; font-size:15px; max-width:70ch}
+  .statstrip{
+    display:flex; flex-wrap:wrap; gap:28px; margin-top:22px;
+    border-top:1px solid rgba(255,255,255,.13); padding-top:16px;
+  }
+  .stat .k{font-family:var(--mono); font-size:20px; font-weight:600; font-variant-numeric:tabular-nums; color:#fff}
+  .stat .l{font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:#93a0b6; margin-top:2px}
+
+  /* ---------- section scaffolding ---------- */
+  section{margin-top:44px}
+  .sec-head{display:flex; align-items:baseline; gap:14px; margin-bottom:6px}
+  .sec-num{font-family:var(--mono); font-size:13px; color:var(--gold); font-weight:600}
+  h2{font-size:22px; letter-spacing:-.01em; font-weight:750; margin:0}
+  .sec-sub{color:var(--muted); font-size:14px; margin:6px 0 22px; max-width:78ch}
+
+  /* ---------- dot plot ---------- */
+  .plot{background:var(--card); border:1px solid var(--hairline); border-radius:12px; overflow:hidden}
+  .plot-inner{overflow-x:auto}
+  .grid{min-width:560px}
+  .row{
+    display:grid; grid-template-columns:132px 1fr; align-items:center;
+    border-top:1px solid var(--hairline); position:relative;
+  }
+  .row:first-child{border-top:0}
+  .rail{
+    padding:16px 14px; border-right:1px solid var(--hairline);
+    align-self:stretch; display:flex; flex-direction:column; justify-content:center; gap:3px;
+    background:linear-gradient(90deg,var(--tint,transparent),transparent);
+  }
+  .rate{font-family:var(--mono); font-size:18px; font-weight:600; font-variant-numeric:tabular-nums; letter-spacing:-.01em}
+  .move{font-size:11px; letter-spacing:.06em; text-transform:uppercase; font-weight:600; color:var(--muted)}
+  .cohort{padding:14px 16px; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+
+  .chip{
+    display:inline-flex; align-items:center; gap:7px;
+    padding:6px 11px 6px 9px; border-radius:999px; font-size:14px; font-weight:600;
+    background:#fff; border:1.5px solid var(--c,#3f5170); color:#1e2530;
+    box-shadow:0 1px 0 rgba(20,22,28,.04); white-space:nowrap;
+  }
+  .chip .pip{width:9px; height:9px; border-radius:50%; border:2px solid var(--c,#3f5170); flex:none}
+  .chip.voter{background:var(--c,#3f5170); color:#fff; border-color:var(--c)}
+  .chip.voter .pip{background:var(--gold); border-color:var(--gold); box-shadow:0 0 0 2px rgba(255,255,255,.35)}
+  .chip.nonvoter{background:#fff; color:#25303f}
+  .chip.nonvoter .pip{background:transparent}
+  .chip.low{border-style:dashed}
+  .chip .stale{font-family:var(--mono); font-size:12px; opacity:.7; margin-left:-2px}
+  .chip .anchor{font-size:11px; opacity:.85; margin-left:1px}
+  .chip .mv{font-family:var(--mono); font-size:11px; opacity:.85; margin-left:1px}
+
+  .medline{
+    display:flex; align-items:center; gap:10px; padding:7px 16px;
+    background:repeating-linear-gradient(90deg,#faf3df 0 10px,#fff 10px 20px);
+    border-top:1px dashed var(--gold); border-bottom:1px dashed var(--gold);
+  }
+  .medline b{font-family:var(--mono); color:#8a6608; font-size:13px; font-weight:700}
+  .medline span{font-size:12.5px; color:#8a6608}
+
+  .shadow{
+    display:flex; gap:12px; align-items:flex-start; margin-top:14px;
+    background:#fbf6e8; border:1.5px dashed var(--gold); border-radius:10px; padding:13px 16px;
+  }
+  .shadow .badge{
+    font-family:var(--mono); font-weight:700; font-size:13px; color:#8a6608;
+    border:1.5px dashed var(--gold); border-radius:8px; padding:6px 10px; white-space:nowrap; align-self:center;
+  }
+  .shadow p{margin:0; font-size:13.5px; color:#4a4636}
+  .shadow strong{color:#2c2a20}
+
+  .legend{display:flex; flex-wrap:wrap; gap:18px 26px; margin-top:16px; font-size:12.5px; color:var(--muted)}
+  .legend .li{display:flex; align-items:center; gap:8px}
+  .lp{width:12px; height:12px; border-radius:50%; flex:none}
+  .lp.v{background:var(--navy); box-shadow:0 0 0 2px var(--gold) inset}
+  .lp.nv{background:#fff; border:1.5px solid var(--muted)}
+  .lp.dash{background:#fff; border:1.5px dashed var(--muted); border-radius:5px}
+
+  /* ---------- rankings ---------- */
+  .rankgrid{display:grid; grid-template-columns:1fr 1fr; gap:22px}
+  .rank{background:var(--card); border:1px solid var(--hairline); border-radius:12px; padding:6px 4px 12px}
+  .rank h3{
+    font-size:13px; letter-spacing:.08em; text-transform:uppercase; font-weight:700;
+    margin:14px 16px 4px; display:flex; justify-content:space-between; align-items:baseline;
+  }
+  .rank h3 em{font-style:normal; font-weight:500; color:var(--muted); font-size:11px; letter-spacing:.04em}
+  .rrow{display:grid; grid-template-columns:22px 1fr 52px; gap:10px; align-items:center; padding:9px 16px; border-top:1px solid #eef0f4}
+  .rk{font-family:var(--mono); font-size:13px; color:var(--muted); font-variant-numeric:tabular-nums; text-align:right}
+  .who{min-width:0}
+  .who .nm{font-weight:700; font-size:14.5px}
+  .who .rl{font-size:11.5px; color:var(--muted); margin-top:1px}
+  .bar{height:9px; border-radius:5px; background:#eef0f4; overflow:hidden; display:flex; margin-top:6px}
+  .bar .p{background:var(--navy)} .bar .s{background:var(--gold)}
+  .score{font-family:var(--mono); font-weight:700; font-size:16px; font-variant-numeric:tabular-nums; text-align:right}
+  .rrow.stale .who .nm::after{content:" °"; color:var(--muted); font-family:var(--mono)}
+  .barkey{display:flex; gap:20px; margin:12px 16px 0; font-size:12px; color:var(--muted)}
+  .barkey .sw{display:inline-flex; align-items:center; gap:7px}
+  .barkey i{width:12px; height:9px; border-radius:3px; display:inline-block}
+
+  /* ---------- footer ---------- */
+  .notes{margin-top:44px; border-top:1px solid var(--hairline); padding-top:22px;
+    display:grid; grid-template-columns:1fr 1fr; gap:28px}
+  .notes h4{font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--navy); margin:0 0 8px}
+  .notes p, .notes li{font-size:12.5px; color:var(--muted); line-height:1.55}
+  .notes ul{margin:0; padding-left:16px}
+  .notes a{color:var(--dove); text-decoration:none; border-bottom:1px solid rgba(30,125,140,.3)}
+  .notes a:hover{border-bottom-color:var(--dove)}
+
+  @media (max-width:720px){
+    .rankgrid{grid-template-columns:1fr}
+    .notes{grid-template-columns:1fr}
+    nav.tabs{padding:0 12px}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .row,.rrow,.shadow{animation:rise .5s cubic-bezier(.2,.7,.2,1) both}
+    .row:nth-child(2){animation-delay:.04s}.row:nth-child(3){animation-delay:.08s}
+    .row:nth-child(4){animation-delay:.12s}.row:nth-child(5){animation-delay:.16s}
+    .row:nth-child(6){animation-delay:.2s}.row:nth-child(7){animation-delay:.24s}
+    @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  }
+</style></head><body>
+
+<nav class="tabs">
+  <a href="index.html">Funções de reação por membro</a>
+  <a href="dots.html" class="on">Mapa dos dots &amp; relevância</a>
+</nav>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="container">
+      <p class="eyebrow">FOMC · reaction functions · as-of 29 jul 2026 (corpus até 17/07)</p>
+      <h1>Quem é cada dot — e quem move a política</h1>
+      <p class="dek">De-anonimização do dot plot de junho/2026 pela hawkishness revelada nos discursos, e ranking de relevância de votantes e não-votantes. A atribuição é um modelo (ordem do composite → bins conhecidos do SEP), não dado oficial de autoria.</p>
+      <div class="statstrip">
+        <div class="stat"><div class="k">3,50–3,75%</div><div class="l">Faixa desde jun/26 · held 12–0</div></div>
+        <div class="stat"><div class="k">3,8%</div><div class="l">Mediana dot 2026 (SEP jun)</div></div>
+        <div class="stat"><div class="k">18</div><div class="l">Dots (Warsh abstido)</div></div>
+        <div class="stat"><div class="k">9 · 8 · 1</div><div class="l">Alta · manter · corte</div></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- ================= DOT PLOT ================= -->
+    <section>
+      <div class="sec-head"><span class="sec-num">01</span><h2>Mapa dos dots — fim de 2026</h2></div>
+      <p class="sec-sub">Cada participante ordenado pelo composite hawk-dove atual e alocado no bin de dots cuja contagem é conhecida da tabela oficial, do mais hawkish (topo) ao mais dovish. Anel dourado = votante 2026. O número em cinza é o composite que define a ordem.</p>
+
+      <div class="plot"><div class="plot-inner"><div class="grid">
+
+        <div class="row" style="--tint:rgba(160,30,30,.08)">
+          <div class="rail"><span class="rate" style="color:var(--r3)">4,375%</span><span class="move">+3 altas</span></div>
+          <div class="cohort">
+            <span class="chip voter" style="--c:var(--r3)"><span class="pip"></span>Logan<span class="mv">4,1</span><span class="anchor">◆</span></span>
+          </div>
+        </div>
+
+        <div class="row" style="--tint:rgba(192,57,43,.08)">
+          <div class="rail"><span class="rate" style="color:var(--r2)">4,125%</span><span class="move">+2 altas</span></div>
+          <div class="cohort">
+            <span class="chip voter" style="--c:var(--r2)"><span class="pip"></span>Hammack<span class="mv">3,2</span></span>
+            <span class="chip nonvoter" style="--c:var(--r2)"><span class="pip"></span>Schmid<span class="mv">3,0</span></span>
+            <span class="chip nonvoter" style="--c:var(--r2)"><span class="pip"></span>Musalem<span class="mv">2,7</span></span>
+            <span class="chip nonvoter" style="--c:var(--r2)"><span class="pip"></span>Collins<span class="mv">2,5</span></span>
+            <span class="chip voter" style="--c:var(--r2)"><span class="pip"></span>Kashkari<span class="mv">2,5</span></span>
+          </div>
+        </div>
+
+        <div class="row" style="--tint:rgba(217,123,63,.10)">
+          <div class="rail"><span class="rate" style="color:var(--r1)">3,875%</span><span class="move">+1 alta</span></div>
+          <div class="cohort">
+            <span class="chip voter" style="--c:var(--r1)"><span class="pip"></span>Cook<span class="mv">2,3</span></span>
+            <span class="chip voter" style="--c:var(--r1)"><span class="pip"></span>Waller<span class="mv">1,8</span></span>
+            <span class="chip nonvoter" style="--c:var(--r1)"><span class="pip"></span>Goolsbee<span class="mv">1,5</span></span>
+          </div>
+        </div>
+
+        <div class="medline"><b>— mediana 3,8% —</b><span>9º/10º dots: fronteira manter ↔ +1 alta</span></div>
+
+        <div class="row" style="--tint:rgba(63,81,112,.09)">
+          <div class="rail"><span class="rate" style="color:var(--r0)">3,625%</span><span class="move">manter</span></div>
+          <div class="cohort">
+            <span class="chip voter low" style="--c:var(--r0)"><span class="pip"></span>Paulson<span class="mv">1,4</span></span>
+            <span class="chip nonvoter" style="--c:var(--r0)"><span class="pip"></span>Venable<span class="mv">1,0</span></span>
+            <span class="chip nonvoter" style="--c:var(--r0)"><span class="pip"></span>Barkin<span class="mv">0,8</span></span>
+            <span class="chip voter" style="--c:var(--r0)"><span class="pip"></span>Williams<span class="mv">0,8</span></span>
+            <span class="chip voter" style="--c:var(--r0)"><span class="pip"></span>Jefferson<span class="mv">0,7</span></span>
+            <span class="chip voter" style="--c:var(--r0)"><span class="pip"></span>Barr<span class="mv">0,5</span></span>
+            <span class="chip nonvoter" style="--c:var(--r0)"><span class="pip"></span>Daly<span class="mv">0,5</span></span>
+            <span class="chip voter" style="--c:var(--r0)"><span class="pip"></span>Powell<span class="mv">0,0</span><span class="stale">°</span></span>
+          </div>
+        </div>
+
+        <div class="row" style="--tint:rgba(30,125,140,.10)">
+          <div class="rail"><span class="rate" style="color:var(--rm)">3,375%</span><span class="move">−1 corte</span></div>
+          <div class="cohort">
+            <span class="chip voter low" style="--c:var(--rm)"><span class="pip"></span>Bowman<span class="mv">−2,5</span><span class="stale">°</span></span>
+          </div>
+        </div>
+
+      </div></div></div>
+
+      <div class="shadow">
+        <span class="badge">WARSH<br>abstenção</span>
+        <p>O composite do chair (<strong>+2,83</strong>) o situaria no pelotão de <strong>+2 altas (4,125%)</strong>, logo abaixo de Logan. Como se absteve, o SEP de junho perdeu ao mesmo tempo esse dot hawkish do chair <em>e</em> — vindo de março — o <strong>outlier dovish do Miran</strong> (fora do Board). As duas caudas comprimiram: a mediana subiu para 3,8% carregada pelos regionais hawkish, não pelo centro do Board.</p>
+      </div>
+
+      <div class="legend">
+        <span class="li"><span class="lp v"></span>Votante 2026</span>
+        <span class="li"><span class="lp nv"></span>Não-votante (projeta dot, não vota)</span>
+        <span class="li"><span class="lp dash"></span>Baixa confiança na atribuição</span>
+        <span class="li"><span style="font-family:var(--mono)">◆</span>&nbsp;Âncora de alta confiança</span>
+        <span class="li"><span style="font-family:var(--mono)">°</span>&nbsp;Leitura defasada (última fala pré-choque)</span>
+      </div>
+    </section>
+
+    <!-- ================= RANKINGS ================= -->
+    <section>
+      <div class="sec-head"><span class="sec-num">02</span><h2>Ranking de relevância</h2></div>
+      <p class="sec-sub">Relevância = <b style="color:var(--navy)">poder de voto/cargo</b> + <b style="color:var(--gold)">sinal informacional</b> (lidera vs. segue o consenso). Score = 0,6·P + 0,4·S; a barra decompõe as duas contribuições. Empates: confie no bloco, não no gap de 0,1.</p>
+
+      <div class="rankgrid">
+        <!-- VOTERS -->
+        <div class="rank">
+          <h3>Votantes 2026 <em>12 membros</em></h3>
+          <div class="rrow"><span class="rk">1</span><div class="who"><div class="nm">Warsh</div><div class="rl">Chair · define pauta; abster-se foi sinal</div><div class="bar"><span class="p" style="width:60%"></span><span class="s" style="width:30.4%"></span></div></div><span class="score">4,52</span></div>
+          <div class="rrow"><span class="rk">2</span><div class="who"><div class="nm">Williams</div><div class="rl">NY · Vice-Chair FOMC · encarna o centro</div><div class="bar"><span class="p" style="width:56.4%"></span><span class="s" style="width:32%"></span></div></div><span class="score">4,42</span></div>
+          <div class="rrow"><span class="rk">3</span><div class="who"><div class="nm">Waller</div><div class="rl">Governor · <b>liderou</b> o pivô hawkish (Δ +4,2)</div><div class="bar"><span class="p" style="width:45.6%"></span><span class="s" style="width:40%"></span></div></div><span class="score">4,28</span></div>
+          <div class="rrow"><span class="rk">4</span><div class="who"><div class="nm">Jefferson</div><div class="rl">Vice Chair · medido, segue consenso</div><div class="bar"><span class="p" style="width:51.6%"></span><span class="s" style="width:22.4%"></span></div></div><span class="score">3,70</span></div>
+          <div class="rrow"><span class="rk">5</span><div class="who"><div class="nm">Hammack</div><div class="rl">Cleveland · pivô hawkish cedo, frequente</div><div class="bar"><span class="p" style="width:38.4%"></span><span class="s" style="width:32%"></span></div></div><span class="score">3,52</span></div>
+          <div class="rrow"><span class="rk">6</span><div class="who"><div class="nm">Logan</div><div class="rl">Dallas · autoridade em mercados/plumbing</div><div class="bar"><span class="p" style="width:38.4%"></span><span class="s" style="width:30.4%"></span></div></div><span class="score">3,44</span></div>
+          <div class="rrow"><span class="rk">7</span><div class="who"><div class="nm">Cook</div><div class="rl">Governor · pivotou, mas fala pouco de política</div><div class="bar"><span class="p" style="width:43.2%"></span><span class="s" style="width:22.4%"></span></div></div><span class="score">3,28</span></div>
+          <div class="rrow"><span class="rk">8</span><div class="who"><div class="nm">Kashkari</div><div class="rl">Minneapolis · vocal, muda posição em público</div><div class="bar"><span class="p" style="width:36%"></span><span class="s" style="width:28%"></span></div></div><span class="score">3,20</span></div>
+          <div class="rrow stale"><span class="rk">9</span><div class="who"><div class="nm">Bowman</div><div class="rl">VC Supervisão · silenciosa em política monetária</div><div class="bar"><span class="p" style="width:48%"></span><span class="s" style="width:14.4%"></span></div></div><span class="score">3,12</span></div>
+          <div class="rrow"><span class="rk">10</span><div class="who"><div class="nm">Barr</div><div class="rl">Governor · foco supervisão, baixa saliência</div><div class="bar"><span class="p" style="width:43.2%"></span><span class="s" style="width:16%"></span></div></div><span class="score">2,96</span></div>
+          <div class="rrow"><span class="rk">11</span><div class="who"><div class="nm">Paulson</div><div class="rl">Philadelphia · grande Δ (+3,1), track curto</div><div class="bar"><span class="p" style="width:34.8%"></span><span class="s" style="width:20%"></span></div></div><span class="score">2,74</span></div>
+          <div class="rrow stale"><span class="rk">12</span><div class="who"><div class="nm">Powell</div><div class="rl">Governor · rebaixado e silencioso desde jan/26</div><div class="bar"><span class="p" style="width:42%"></span><span class="s" style="width:12%"></span></div></div><span class="score">2,70</span></div>
+          <div class="barkey">
+            <span class="sw"><i style="background:var(--navy)"></i>Poder (0,6·P)</span>
+            <span class="sw"><i style="background:var(--gold)"></i>Sinal (0,4·S)</span>
+          </div>
+        </div>
+
+        <!-- NON-VOTERS -->
+        <div class="rank">
+          <h3>Não-votantes 2026 <em>7 membros</em></h3>
+          <div class="rrow"><span class="rk">1</span><div class="who"><div class="nm">Goolsbee</div><div class="rl">Chicago · articulador de narrativa; vota 2027</div><div class="bar"><span class="p" style="width:26.4%"></span><span class="s" style="width:32%"></span></div></div><span class="score">2,92</span></div>
+          <div class="rrow"><span class="rk">2</span><div class="who"><div class="nm">Barkin</div><div class="rl">Richmond · muito frequente, moldador de narrativa</div><div class="bar"><span class="p" style="width:24%"></span><span class="s" style="width:28%"></span></div></div><span class="score">2,60</span></div>
+          <div class="rrow"><span class="rk">2</span><div class="who"><div class="nm">Collins</div><div class="rl">Boston · sênior, comunicação clara e frequente</div><div class="bar"><span class="p" style="width:26.4%"></span><span class="s" style="width:25.6%"></span></div></div><span class="score">2,60</span></div>
+          <div class="rrow"><span class="rk">4</span><div class="who"><div class="nm">Musalem</div><div class="rl">St. Louis · hawk pensante, pivô relevante (Δ +2,2)</div><div class="bar"><span class="p" style="width:24%"></span><span class="s" style="width:26.4%"></span></div></div><span class="score">2,52</span></div>
+          <div class="rrow"><span class="rk">5</span><div class="who"><div class="nm">Schmid</div><div class="rl">Kansas City · hawk consistente, frequente</div><div class="bar"><span class="p" style="width:21.6%"></span><span class="s" style="width:22.4%"></span></div></div><span class="score">2,20</span></div>
+          <div class="rrow"><span class="rk">6</span><div class="who"><div class="nm">Daly</div><div class="rl">San Francisco · mais quieta em política (última fala jul/26)</div><div class="bar"><span class="p" style="width:22.8%"></span><span class="s" style="width:17.6%"></span></div></div><span class="score">2,02</span></div>
+          <div class="rrow"><span class="rk">7</span><div class="who"><div class="nm">Venable</div><div class="rl">Atlanta (interina) · 1 discurso, peso transitório</div><div class="bar"><span class="p" style="width:12%"></span><span class="s" style="width:9.6%"></span></div></div><span class="score">1,08</span></div>
+          <div class="barkey">
+            <span class="sw"><i style="background:var(--navy)"></i>Poder (0,6·P)</span>
+            <span class="sw"><i style="background:var(--gold)"></i>Sinal (0,4·S)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= NOTES ================= -->
+    <div class="notes">
+      <div>
+        <h4>Método &amp; ressalvas</h4>
+        <ul>
+          <li>Dots atribuídos por <b>ordem do composite hawk-dove</b> (recency-weighted, as-of 29 jul 2026, corpus até 17/07) derramada nos bins de contagem conhecida do SEP de junho — de-anonimização por hawkishness revelada, não autoria oficial.</li>
+          <li>Warsh absteve-se → 18 dots para 18 participantes; Miran deixou o Board (sem dot).</li>
+          <li><b>Mudou desde a 1ª versão (as-of 01/07):</b> com os discursos de 13–17/07, <b>Waller</b> sobe para o bin de <b>+1 alta</b> e <b>Paulson</b> desce para <b>manter</b> — o único par que troca. Todos os outros bins ficam idênticos.</li>
+          <li>Baixa confiança nas fronteiras (Paulson↔Goolsbee) e no dot de corte (Bowman, leitura de jul/26 ainda muito dovish).</li>
+          <li>Pesos P/S são julgamento (calibração de 01/07) — a barra expõe os componentes para recalibração. Powell e Bowman têm leituras defasadas (°).</li>
+          <li>Scores de composite são grosseiros: confie no <b>ranking</b>, não em gaps de 0,1 ponto.</li>
+          <li>Não reflete a reunião de <b>28–29 jul 2026</b> (decisão posterior ao corpus).</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Fontes</h4>
+        <ul>
+          <li><a href="https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm">Fed — FOMC Projection Materials, 17 jun 2026</a> (distribuição de dots)</li>
+          <li><a href="https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html">CNBC — decisão de junho/2026</a></li>
+          <li><a href="https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-june-17-2026">Fox Business — abstenção de Warsh no dot plot</a></li>
+          <li>Corpus de discursos + reaction functions: pipeline determinístico do projeto (<span style="font-family:var(--mono)">data/extracted</span>, 155 discursos, 19 membros) — ver <a href="index.html">a aba de funções de reação</a>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body></html>
