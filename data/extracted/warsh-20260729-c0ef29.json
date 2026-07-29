@@ -1,0 +1,94 @@
+{
+  "speech_id": "warsh-20260729-c0ef29",
+  "member_id": "warsh",
+  "title": "FOMC Press Conference",
+  "date": "2026-07-29",
+  "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260729.pdf",
+  "source": "board",
+  "non_policy": false,
+  "summary": "ATENCAO METODOLOGICA: o composite deste documento (+1.0) esta ancorado na ENTREGA, nao na mensagem, por decisao do usuario (2026-07-29). As outras 12 fichas de membros do painel usam a ancora de MENSAGEM, na qual este documento pontuaria +3.5 (duas classificacoes Fable independentes convergiram nesse valor). Portanto o composite do Warsh NAO e diretamente comparavel com os demais membros: parte da diferenca e de metodo, nao de postura. As cinco dimensoes restantes, os drivers e os quotes seguem a ancora de mensagem, como no resto do corpus. || Segunda coletiva de Warsh como presidente: o FOMC manteve a taxa em 3,5-3,75% por 9-3 e, pelas palavras dele, a reuniao foi 'a choice between two alternatives' - manter ou subir, com as tres dissidencias do lado do aperto e corte fora da mesa. A retorica endureceu ('There is no soft inflation target', 2% 'and not a whisper more', lente de medicao 'broader than' PCE via Goodhart) e o nucleo benigno do CPI de junho pesou 'in two words, not much'. Mas nada foi entregue: o argumento organizador e a substituicao por condicoes financeiras - a alta de decil superior em juros nominais e reais no intermeeting conta como restricao ja entregue ('the markets have done quite a bit') e 'provided us some comfort'. Enunciou pela primeira vez a propria funcao de reacao (apertar quando a subjacente sobe, afrouxar quando cai com o outro lado do mandato atingido), simetrica como regra mas com so o ramo de aperto operacional no diagnostico dele - e, confrontado por Reuters com o fato de que a subjacente vem subindo, nao contestou a premissa e pediu tempo. A justificativa do +1.0: foi a unica reuniao do corpus dele em que havia acao de aperto disponivel na mesa e ele declinou, saindo com a doutrina que licencia continuar sem agir.",
+  "key_quotes": [
+    {
+      "quote": "Any Central Banker, when he or she sees underlying inflation moving higher, he or she is more inclined to tighten policy.  Again, when you've achieved the other side of your mandate and you see underlying inflation falling, he's more inclined to loosen policy.  That's my reaction function",
+      "context": "Respondendo se perde o controle da narrativa ao nao dar guidance; primeira enunciacao explicita da funcao de reacao dele, e primeira linguagem de afrouxamento no corpus.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "As a point estimate at this very moment and a choice between two alternatives, you heard the results of it",
+      "context": "Resposta ao 'what are you waiting for' de McKee; confirma que as alternativas na mesa eram manter e subir, e que corte nao era proposta.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "they have tightened financial conditions in this intrameeting period and that has given us, that has provided us some comfort that we've got the ability and capability to deliver",
+      "context": "Para Ann (Reuters), sobre nao ter agido apesar da inflacao acima da meta; o argumento de substituicao no seu ponto mais explicito, e a base do composite ancorado na entrega.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "So we're not going to be constrained by market prices.  We're not going to be constrained or take verbatim from what the market's doing but I think it's useful, Ann, to understand that markets can be a very good source of information.  Not a determining source, not a perfect source",
+      "context": "Confrontado com alta praticamente toda precificada para setembro; embolsa o aperto do mercado mas recusa a obrigacao - substituicao de mao unica.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "In two words, \"not much.\"",
+      "context": "Perguntado quanto o nucleo benigno do CPI de junho pesou na decisao de nao subir; convicao de inflacao resistente a dado favoravel.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I abide fully by the strategy document, we're going to deliver 2% inflation and not a whisper more, but to achieve that, I'm looking at a broader set of inflation data than PCE.",
+      "context": "Resposta a Paul sobre qual medida de inflacao usa; reserva discricao para nao se satisfazer com o PCE cooperando.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.0,
+    "mandate_weight": 3.0,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.0,
+    "policy_stance_read": 2.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "balance_sheet_qt",
+      "tariffs",
+      "fed_independence"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "dovish"
+    }
+  },
+  "extractor_model": "claude-fable-5 (duas passadas independentes; composite reancorado na entrega por decisao do usuario)",
+  "extracted_at": "2026-07-29T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1608,
+    "hawk_hits": 14,
+    "dove_hits": 0,
+    "tokens": 6535
+  }
+}

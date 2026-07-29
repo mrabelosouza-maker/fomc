@@ -19,6 +19,8 @@ EXTRACTED_DIR = DATA_DIR / "extracted"
 BRIEFS_DIR = DATA_DIR / "briefs"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
 RESULTS_DIR = PROJECT_ROOT / "results"
+# Optional per-member headline overrides (see aggregate.load_headline_overrides).
+HEADLINE_OVERRIDES_PATH = REGISTRY_DIR / "headline_overrides.json"
 
 ROSTER_PATH = REGISTRY_DIR / "roster.json"
 SOURCES_PATH = REGISTRY_DIR / "sources.json"

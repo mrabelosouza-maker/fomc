@@ -47,7 +47,7 @@ def _member_payload(mfuncs: dict[str, MemberFunction], corpus, decomp: dict) -> 
             "member_id": m.member_id, "name": m.name, "title": m.title, "bank": m.bank,
             "voter": m.voter_2026, "composite": m.composite, "insufficient": m.insufficient,
             "latest": m.latest_composite, "baseline": m.baseline_composite,
-            "delta": m.delta, "stale": m.stale,
+            "delta": m.delta, "stale": m.stale, "override": m.override,
             "n": m.n_speeches, "n_policy": m.n_policy, "n_current": m.n_current,
             "first": m.first_date, "last": m.last_date,
             "dims": m.dims, "dims_hawk": m.dims_hawk, "tone_mean": m.tone_mean,
@@ -113,12 +113,14 @@ def _cards_html(members: list[dict]) -> str:
                            f"{(lc if lc is not None else 0):+.1f} vs média dos anteriores "
                            f"{m['baseline']:+.1f}'>Δ {delta:+.1f} {arrow}</span>")
         stale = " · <span class='stale'>defasado</span>" if m.get("stale") else ""
+        ovr = (f" · <span class='ovr' title='{_h.escape(m['override'])}'>headline fixado</span>"
+               if m.get("override") else "")
         cards.append(
             f"<div class='card {side}{voter_cls}' data-member='{m['member_id']}'>"
             f"<div class='chead'><span class='cname'>{_h.escape(m['name'])}{star}</span>"
             f"<span class='cbig {side}'>{comp:+.1f}</span></div>"
             f"<div class='cmeta'>{_h.escape(m['title'])} · {_h.escape(m['bank'])} · "
-            f"{'votante' if m['voter'] else 'não-votante'} · {m['n']} speeches{stale}</div>"
+            f"{'votante' if m['voter'] else 'não-votante'} · {m['n']} speeches{stale}{ovr}</div>"
             f"<div class='cbias'>{delta_badge}</div>"
             f"<div class='cdims'>{''.join(bars)}</div>"
             f"<div class='cgist'>{_h.escape((m['latest_summary'] or '')[:240])}</div>"
@@ -281,6 +283,7 @@ TEMPLATE = r"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
  .dbadge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:11px;font-weight:700;margin-left:4px}
  .d-hawk{background:#fadbd8;color:#a93226}.d-dove{background:#d6eef1;color:#0f6674}.d-flat{background:#eee;color:#777}
  .stale{color:#b08900;font-weight:600}
+ .ovr{color:#c0392b;font-weight:700;border-bottom:1px dotted #c0392b;cursor:help}
  .drv{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;margin:2px 4px 2px 0;color:#fff}
  /* briefs table */
  table.briefs{border-collapse:collapse;width:100%;font-size:12.5px}

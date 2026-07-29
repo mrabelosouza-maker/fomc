@@ -60,6 +60,21 @@ def load_calendar() -> dict:
     return {"events": []}
 
 
+def load_headline_overrides() -> dict:
+    """Per-member headline overrides (registry/headline_overrides.json), or empty.
+
+    An editorial escape hatch: normally a member's headline composite is the
+    recency-weighted mean over the current window, which by design is slow to
+    react to a single document. An override pins that member's headline to
+    ``mode: "latest"`` (their most recent policy speech) or to an explicit
+    ``composite`` value. Overridden members are NOT comparable with the rest of
+    the panel, so the card renders a visible marker.
+    """
+    if config.HEADLINE_OVERRIDES_PATH.exists():
+        return json.loads(config.HEADLINE_OVERRIDES_PATH.read_text(encoding="utf-8"))
+    return {}
+
+
 def load_corpus() -> list[schema.Extraction]:
     if not config.EXTRACTED_DIR.exists():
         return []
@@ -120,6 +135,7 @@ class MemberFunction:
     tone_mean: float | None
     stale: bool                              # current relies on a fallback (no speech in window)
     insufficient: bool
+    override: str = ""                        # non-empty = headline pinned editorially, not comparable
 
 
 def _days(a: str, b: str) -> float:
@@ -127,7 +143,7 @@ def _days(a: str, b: str) -> float:
 
 
 def member_functions(corpus: list[schema.Extraction], roster: dict[str, Member],
-                     as_of: str) -> dict[str, MemberFunction]:
+                     as_of: str, overrides: dict | None = None) -> dict[str, MemberFunction]:
     by_member: dict[str, list[schema.Extraction]] = {}
     for ex in corpus:
         by_member.setdefault(ex.member_id, []).append(ex)
@@ -187,6 +203,20 @@ def member_functions(corpus: list[schema.Extraction], roster: dict[str, Member],
             tone_mean=(round(statistics.mean(tones), 4) if tones else None),
             stale=stale, insufficient=(n_policy == 0),
         )
+
+        # Editorial headline override. Applied to the composite AND to the
+        # composite dimension so the card's big number and its own bar agree.
+        ov = (overrides or {}).get(mid)
+        if ov and not out[mid].insufficient:
+            pinned = (out[mid].latest_composite if ov.get("mode") == "latest"
+                      else ov.get("composite"))
+            if pinned is not None:
+                f = out[mid]
+                f.composite = round(float(pinned), 3)
+                f.dims["composite_hawk_dove"] = f.composite
+                f.dims_hawk["composite_hawk_dove"] = round(
+                    config.normalize_to_hawk("composite_hawk_dove", f.composite), 3)
+                f.override = ov.get("note") or "headline fixado editorialmente"
     return out
 
 

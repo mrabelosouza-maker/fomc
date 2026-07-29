@@ -46,6 +46,38 @@ def test_member_functions_and_medians(tmp_project):
     assert med["all"]["n"] == 2
 
 
+def test_headline_override_pins_to_latest(tmp_project):
+    """An override pins the headline to the newest policy speech, not the
+    recency-weighted window mean, and flags the member as non-comparable."""
+    p = tmp_project
+    write_roster(p, [{"member_id": "x", "name": "X", "voter_2026": True, "bank": "Board"},
+                     {"member_id": "y", "name": "Y", "voter_2026": True, "bank": "SF"}])
+    for mid in ("x", "y"):
+        write_speech(p, f"{mid}-20250301-a", mid, "2025-03-01",
+                     scores={"composite_hawk_dove": 4})
+        write_speech(p, f"{mid}-20250310-b", mid, "2025-03-10",
+                     scores={"composite_hawk_dove": 1})
+    roster = aggregate.load_roster()
+    corpus = aggregate.load_corpus()
+
+    plain = aggregate.member_functions(corpus, roster, "2025-03-15")
+    assert 1 < plain["x"].composite < 4          # weighted mean sits between the two
+    assert plain["x"].override == ""
+
+    over = aggregate.member_functions(corpus, roster, "2025-03-15",
+                                      {"x": {"mode": "latest", "note": "pedido"}})
+    assert over["x"].composite == 1               # pinned to the newest speech
+    assert over["x"].dims["composite_hawk_dove"] == 1   # card number and its bar agree
+    assert over["x"].override == "pedido"
+    assert over["y"].composite == plain["y"].composite  # everyone else untouched
+    assert over["y"].override == ""
+
+    explicit = aggregate.member_functions(corpus, roster, "2025-03-15",
+                                          {"x": {"composite": -2.5}})
+    assert explicit["x"].composite == -2.5
+    assert explicit["x"].dims_hawk["composite_hawk_dove"] == -0.5
+
+
 def test_non_policy_downweighted(tmp_project):
     p = tmp_project
     write_roster(p, [{"member_id": "x", "name": "X", "voter_2026": True, "bank": "Board"}])

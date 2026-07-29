@@ -19,7 +19,7 @@ def _write_summary_csv(mfuncs) -> None:
     cols = (["member_id", "name", "title", "bank", "voter_2026", "n_speeches",
              "n_policy", "n_current", "first_date", "last_date", "composite",
              "latest_composite", "baseline_composite", "delta", "tone_mean", "stale",
-             "insufficient"] + config.DIMENSION_IDS)
+             "insufficient", "override"] + config.DIMENSION_IDS)
     with path.open("w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(cols)
@@ -28,7 +28,7 @@ def _write_summary_csv(mfuncs) -> None:
             w.writerow([m.member_id, m.name, m.title, m.bank, m.voter_2026,
                         m.n_speeches, m.n_policy, m.n_current, m.first_date, m.last_date,
                         m.composite, m.latest_composite, m.baseline_composite, m.delta,
-                        m.tone_mean, m.stale, m.insufficient]
+                        m.tone_mean, m.stale, m.insufficient, m.override]
                        + [m.dims.get(d) for d in config.DIMENSION_IDS])
 
 
@@ -60,7 +60,11 @@ def main(as_of: str | None = None, *, with_ribbon: bool = True) -> str:
     print(f"roster: {len(roster)} members | corpus: {len(corpus)} extractions | "
           f"briefs: {len(briefs)} | calendar: {len(calendar.get('events', []))} | as_of {as_of}")
 
-    mfuncs = aggregate.member_functions(corpus, roster, as_of)
+    overrides = aggregate.load_headline_overrides()
+    mfuncs = aggregate.member_functions(corpus, roster, as_of, overrides)
+    for f in mfuncs.values():
+        if f.override:
+            print(f"headline override: {f.member_id} pinned to {f.composite:+.2f}")
     medians = aggregate.group_medians(mfuncs)
     evo = aggregate.evolution(corpus, roster, as_of)
     decomp = aggregate.driver_decomposition(corpus, roster, as_of)
