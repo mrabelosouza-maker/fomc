@@ -1,0 +1,88 @@
+{
+  "speech_id": "paulson-20260804-74e4ff",
+  "member_id": "paulson",
+  "title": "Monetary Policy Perspective: Keeping an Open Mind",
+  "date": "2026-08-04",
+  "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/monetary-policy-perspective-keeping-an-open-mind",
+  "source": "philadelphia",
+  "non_policy": false,
+  "summary": "An essay whose stated posture is neutrality \u2014 'keeping an open mind' \u2014 but whose risk distribution is one-sided. Paulson supported the July 29 hold and lays out exactly two scenarios: either policy is mildly restrictive and does the job, or policy is NOT restrictive enough and 'more restrictive policy may be needed.' There is no scenario in which policy is too tight and no path to a cut anywhere in the essay, which is the substantive move from her January dovish lean and her May hold. Her focus is squarely on UNDERLYING inflation, which she estimates at 2.4\u20132.8% ex-tariffs and ex-energy and which 'has been elevated for a long time' and has 'edged down only modestly over the past year or so' \u2014 the single most compelling piece of evidence, she says, for the not-restrictive-enough case, alongside five-plus years of above-target inflation and the AI buildout's supply-chain price pressure feeding consumer prices while the productivity offset stays 'further off.' On supply shocks she is the counterweight to Schmid: the June ceasefire showed shocks CAN be temporary, 'reinforcing the case for looking through such disruptions.' Labour is stable near full employment (u 4.2%, infrequent layoffs) despite worried workers, so it neither constrains nor demands action. The tell is her stated decision rule: absent visible progress, 'the passage of time without progress would itself signal that more restrictive policy is needed' \u2014 a hawkish default that puts the burden of proof on disinflation.",
+  "key_quotes": [
+    {
+      "quote": "The other possibility, however, is that current policy is not restrictive enough to deliver our target rate of 2 percent inflation. The most compelling evidence for this view is straightforward: Inflation has been above target for more than five years and even stripping out temporary factors, measures of underlying inflation have edged down only modestly over the past year or so.",
+      "context": "The two-scenario framing is 'appropriately calibrated vs too loose' \u2014 there is no too-tight branch and no cut anywhere in the essay",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "If instead underlying inflation remains stubbornly elevated, the passage of time without progress would itself signal that more restrictive policy is needed.",
+      "context": "Her decision rule, and the hawkish default: the burden of proof sits on disinflation, not on the case for tightening",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I estimate that underlying inflation is running somewhere between 2.4 and 2.8 percent. Underlying inflation has been elevated for a long time, and it is what I am most focused on as I evaluate our progress toward the 2 percent target.",
+      "context": "Her reaction function is anchored on an ex-tariff, ex-energy underlying measure rather than headline \u2014 the June headline improvement is 'only one step'",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The June ceasefire in the Middle East provided temporary relief for consumers and businesses. Oil prices have since jumped and remain volatile, but the brief period of Middle East stability demonstrated that supply shocks can be temporary, reinforcing the case for looking through such disruptions when setting monetary policy.",
+      "context": "The direct counterweight to Schmid/Kashkari: she does look through the oil shock, which is what keeps her composite well below theirs despite a similar underlying-inflation read",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "The unemployment rate has been remarkably steady, fluctuating only between 4 and 4.5 percent since June 2024 and currently standing at 4.2 percent, near what I consider to be full employment. Employers tell me that layoffs are infrequent.",
+      "context": "Labour near full employment and stable \u2014 no employment-side constraint on staying tight or tightening further",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-08-05T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "tone_score": {
+    "net_tone": 0.1358,
+    "hawk_hits": 10,
+    "dove_hits": 2,
+    "tokens": 1356
+  }
+}

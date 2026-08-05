@@ -1,0 +1,94 @@
+{
+  "speech_id": "williams-20260803-cd4a3f",
+  "member_id": "williams",
+  "title": "Reuters Interview (full transcript)",
+  "date": "2026-08-03",
+  "url": "https://www.reuters.com/markets/us/full-text-transcript-reuters-interview-with-ny-fed-president-williams-2026-08-03/",
+  "source": "reuters",
+  "non_policy": false,
+  "summary": "Conducted two days after the July 29 hold, this is Williams making the affirmative case AGAINST raising rates \u2014 the mirror image of the Kashkari/Schmid dissent camp \u2014 and it is his most explicit anti-hike communication of the cycle. He keeps his three-bucket decomposition and finds all three benign: tariff pass-through has 'mostly played out' and the newly announced tariffs largely replace expiring ones; oil has 'essentially already peaked' with futures pointing to moderation once the Strait reopens; and AI demand 'is not a big driver of inflation right now.' The rebuttal to the hikers is a demand argument: GDP grew 2% over the past year and less in H1, unemployment has been near-constant for a year, so 'we're not seeing the economy show any signs of overheating' and therefore the economy is 'not adding to inflation.' Policy is 'well positioned' to support the disinflation path back to 2% by 2028, and the case is 'very forward looking, not looking backwards' \u2014 an explicit rejection of the five-years-above-target argument Paulson and Schmid lean on. The hawkish hedge is genuine but conditional and unquantified: if the economy is not on a trajectory back to 2%, 'it would absolutely be appropriate to act.' On AI he sees no bubble and is not worried about the leverage yet, expecting equity volatility rather than financial-stability risk. On communications he fully backs the Warsh-era removal of forward guidance as 'exactly the right call' given the uncertainty, and is relaxed about markets facing less predictable meetings.",
+  "key_quotes": [
+    {
+      "quote": "So we're not seeing the economy show any signs of overheating in terms of labor market, in terms of growth. We're seeing economy that's growing more or less at trend, and that's why the unemployment rate has been near constant for about a year.",
+      "context": "Asked directly why he did not vote to hike \u2014 his answer is that there is no demand-side inflation to lean against, the opposite of Schmid's 'strength of demand' argument",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I think what we've seen on the tariffs is that probably the vast majority or large part of the effects of the tariffs that are in place have now passed through into to prices in the U.S. economy... So I think that those effects, which have been pretty sizable on inflation, we should not see large effects from tariffs on inflation rates in the coming months anymore.",
+      "context": "The tariff bucket is closed out; the newly announced tariffs 'really were replacing some of the expiring tariffs' and do not change his view",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Moderating somewhat, or basically having essentially already peaked... I don't anticipate, at least based on what's happening so far in my base case, that we're going to see continued inflationary push in the second half of the year or the next year from the from the conflict in the Middle East.",
+      "context": "Oil/war treated as a peaked, look-through shock even with the Strait closed \u2014 the key divergence from Kashkari, who calls the Iran war a reason to hike",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "I think that monetary policy currently is well positioned in where we are today to support that disinflationary path.",
+      "context": "No easing signal and no tightening signal \u2014 the 3.50\u20133.75% setting is judged appropriate for a base case of 2% by 2028",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "But of course, at the end of the day, if the economy is not on a trajectory that will bring inflation back down to 2% and we would, in my view there would be, it would absolutely be appropriate to act to get us on a trajectory that does bring inflation back to 2%.",
+      "context": "The conditional hawkish hedge \u2014 real but unquantified and outside his base case, which keeps this a patient hold rather than a lean",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I don't see this as a bubble kind of situation... most of these businesses have very high earnings, so I'm not as worried about the financial stability from the leverage right now.",
+      "context": "AI leverage is equity-volatility risk, not a financial-stability or policy constraint \u2014 no macroprudential argument for tighter policy",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0,
+    "mandate_weight": 1,
+    "inflation_conviction": 1.5,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "financial_stability",
+      "housing"
+    ]
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-08-05T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  },
+  "tone_score": {
+    "net_tone": -0.0562,
+    "hawk_hits": 4,
+    "dove_hits": 9,
+    "tokens": 6403
+  }
+}

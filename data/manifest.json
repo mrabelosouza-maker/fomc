@@ -2378,6 +2378,18 @@
       "content_hash": null,
       "state": "listed"
     },
+    "schmid-20260804-7b1417": {
+      "speech_id": "schmid-20260804-7b1417",
+      "member_id": "schmid",
+      "date": "2026-08-04",
+      "title": "Agriculture, the Economy, and the Kansas City Fed",
+      "url": "https://www.kansascityfed.org/speeches/agriculture-the-economy-and-the-kansas-city-fed/",
+      "source": "kansascity",
+      "raw_path": "data\\raw\\speeches\\schmid-20260804-7b1417.md",
+      "extract_path": "data\\extracted\\schmid-20260804-7b1417.json",
+      "content_hash": "cac45a5ceb07cb4058cd348650a1489b9420fa45",
+      "state": "extracted"
+    },
     "schmid-20260529-bcb15a": {
       "speech_id": "schmid-20260529-bcb15a",
       "member_id": "schmid",
@@ -2569,6 +2581,18 @@
       "extract_path": null,
       "content_hash": null,
       "state": "listed"
+    },
+    "kashkari-20260805-9e99da": {
+      "speech_id": "kashkari-20260805-9e99da",
+      "member_id": "kashkari",
+      "date": "2026-08-05",
+      "title": "CNBC Interview on Fed Communications and the Case for Gradual Hikes",
+      "url": "https://www.reuters.com/markets/us/clear-communication-feds-reaction-function-is-helpful-kashkari-says-2026-08-05/",
+      "source": "reuters",
+      "raw_path": "data\\raw\\speeches\\kashkari-20260805-9e99da.md",
+      "extract_path": "data\\extracted\\kashkari-20260805-9e99da.json",
+      "content_hash": "2272eb30c2947922c4fe217e6d7c97458a3b3796",
+      "state": "extracted"
     },
     "kashkari-20260602-89a983": {
       "speech_id": "kashkari-20260602-89a983",
@@ -2810,6 +2834,18 @@
       "content_hash": "dd44d1c7e5695506457bd81614eeb63f5affcf7a",
       "state": "extracted"
     },
+    "williams-20260803-cd4a3f": {
+      "speech_id": "williams-20260803-cd4a3f",
+      "member_id": "williams",
+      "date": "2026-08-03",
+      "title": "Reuters Interview (full transcript)",
+      "url": "https://www.reuters.com/markets/us/full-text-transcript-reuters-interview-with-ny-fed-president-williams-2026-08-03/",
+      "source": "reuters",
+      "raw_path": "data\\raw\\speeches\\williams-20260803-cd4a3f.md",
+      "extract_path": "data\\extracted\\williams-20260803-cd4a3f.json",
+      "content_hash": "8993cbd2b5d02c6a4153c726415c12a92234464a",
+      "state": "extracted"
+    },
     "williams-20260625-319d97": {
       "speech_id": "williams-20260625-319d97",
       "member_id": "williams",
@@ -2989,6 +3025,18 @@
       "extract_path": null,
       "content_hash": null,
       "state": "listed"
+    },
+    "paulson-20260804-74e4ff": {
+      "speech_id": "paulson-20260804-74e4ff",
+      "member_id": "paulson",
+      "date": "2026-08-04",
+      "title": "Monetary Policy Perspective: Keeping an Open Mind",
+      "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/monetary-policy-perspective-keeping-an-open-mind",
+      "source": "philadelphia",
+      "raw_path": "data\\raw\\speeches\\paulson-20260804-74e4ff.md",
+      "extract_path": "data\\extracted\\paulson-20260804-74e4ff.json",
+      "content_hash": "2b6efe828f385c8aa95b96fcd3f2810e00ba0697",
+      "state": "extracted"
     },
     "paulson-20260519-86a37f": {
       "speech_id": "paulson-20260519-86a37f",
