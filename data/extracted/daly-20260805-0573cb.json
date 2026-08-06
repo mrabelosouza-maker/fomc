@@ -1,0 +1,74 @@
+{
+  "speech_id": "daly-20260805-0573cb",
+  "member_id": "daly",
+  "title": "Tokyo Conference Remarks: Supportive of the July Hold, Prepared to Act",
+  "date": "2026-08-05",
+  "url": "https://www.reuters.com/markets/us/feds-daly-says-central-bank-was-right-hold-rates-steady-july-policy-meeting-2026-08-05/",
+  "source": "reuters",
+  "non_policy": false,
+  "summary": "Daly's first read after the three-dissent July meeting, and she plants herself firmly on the hold side while conceding the hawkish tail. She is 'completely supportive' of the July 29 decision and frames September as an information problem \u2014 'we have a lot of information we need to collect' to determine whether inflation is a supply shock that wanes or 'a longer-lasting inflation situation.' Her base case is explicitly benign and more articulated than on July 2: there are 'good reasons' the supply-driven shocks 'will not have a lasting impact,' businesses now have 'limited pricing power and will struggle to pass on higher input costs,' and an end to the Middle East war should fade oil's contribution \u2014 the factor consumers key on. What is new versus July is the insurance clause: the Fed should be 'vigilant to watch the information as it comes in, but be very prepared to take action,' and if inflation momentum looked to be building again the Fed 'might need to respond aggressively' \u2014 language driven by her worry about how the public would respond to another chapter of renewed inflation, i.e. an expectations/credibility argument rather than a forecast. Net: a patient, data-gathering hold with a conditional hawkish tail and no easing signal. She is NOT a 2026 voter, and against a committee where three members dissented for hikes she sits clearly on the dovish side of the distribution \u2014 but the drift in her own reaction function since 2025 remains upward. The Reuters report covers no labor-market or policy-restrictiveness read, so those dimensions are left null.",
+  "key_quotes": [
+    {
+      "quote": "We have a lot of information we need to collect",
+      "context": "On what is needed before the September meeting \u2014 to determine whether inflation is being driven by supply shocks that will wane over time, or whether a longer-lasting inflation situation is forming; she was 'completely supportive' of the July hold",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "vigilant to watch the information as it comes in, but be very prepared to take action",
+      "context": "The new hawkish insurance clause vs her July 2 gradualism; she added that if inflation momentum was again building, the Fed might need to respond aggressively to get price pressures back to target",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "good reasons",
+      "context": "Her characterisation of the case that the supply-driven shocks hitting the U.S. economy will NOT have a lasting impact on inflation \u2014 the dovish base case that keeps her out of the hike camp",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 2,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": []
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-08-06T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0695,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 466
+  }
+}
