@@ -1,0 +1,81 @@
+{
+  "speech_id": "hammack-20260810-fb2283",
+  "member_id": "hammack",
+  "title": "Yahoo Finance Interview: More Than One Hike to Bring Down Inflation",
+  "date": "2026-08-10",
+  "url": "https://uk.finance.yahoo.com/news/cleveland-feds-hammack-it-will-take-more-than-one-interest-rate-hike-to-bring-down-inflation-173530729.html",
+  "source": "yahoo_finance",
+  "non_policy": false,
+  "summary": "Three weeks after dissenting for a 25bp hike in July, Hammack escalates from one move to a sequence: 'one 25 basis point move probably doesn't do a whole lot', so it is 'probably some number of movements', though she declines to prejudge how many or where they end. Her instrument argument is that policy is not actually tight \u2014 3.50-3.75% is not 'meaningfully restricting', and businesses report no restraint on investment or growth \u2014 so 'now is the time to act', with the brake pumped gradually before the stop sign rather than slammed. On inflation she is unmoved by the prospect of two straight softer core CPI prints: 'from where I sit, I just don't see it coming back on its own', with core PCE at 3.3% and the pressure broad-based. She explicitly refuses to let a weak labor print move her: the July payroll loss of 23,000 sits against a 20-25k twelve-month average and 4.1% unemployment that she calls full employment, so 'I'm still not seeing a problem'. Finally, she pushes back on the Chair's higher-bond-yields-are-a-good-thing framing \u2014 'markets are a complement for the Fed. They're not a substitute' \u2014 arguing the Committee must stand behind its words with action and build credibility by explaining its reaction function rather than by outsourcing tightening to the curve.",
+  "key_quotes": [
+    {
+      "quote": "I would say in general, one 25 basis point move probably doesn't do a whole lot for the economy. So it's probably some number of [movements]. But I don't want to prejudge what that number is going to be.",
+      "context": "Her central new statement: the July dissent for a single hike becomes an expectation of a series of hikes.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "When I'm talking to businesses, I'm not hearing that they're sensing any restraint from investments in growth based on where interest rates are. So to me that says that now is the time to act.",
+      "context": "Follows her judgment that 3.5%-3.75% is not 'meaningfully restricting' \u2014 the stance read that drives the call to tighten.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Nothing would make me feel better than to be wrong, that we need to change the stance of policy to help bring inflation back to target. But from where I sit, I just don't see it coming back on its own.",
+      "context": "Said in the context of core PCE at 3.3% and an expected second straight decline in core CPI \u2014 she is not persuaded by the incoming softening.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Markets are a complement for the Fed. They're not a substitute. We have to stand behind our words with our actions when appropriate.",
+      "context": "Direct pushback on Chair Warsh pointing approvingly to higher bond yields at the July meeting.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 4,
+    "mandate_weight": 4,
+    "inflation_conviction": 4.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 0.5,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-08-10T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1303,
+    "hawk_hits": 4,
+    "dove_hits": 0,
+    "tokens": 942
+  }
+}
