@@ -2,6 +2,6 @@
   "_doc": "Overrides editoriais do headline por membro. mode='latest' fixa o headline no composite do discurso de politica mais recente; alternativamente 'composite': <valor> fixa um numero. Membro com override NAO e comparavel com o resto do painel, porque os demais usam a media ponderada por recencia da janela atual (CURRENT_WINDOW_DAYS). O card renderiza um marcador visivel. Remover a entrada devolve o membro a metodologia padrao.",
   "warsh": {
     "mode": "latest",
-    "note": "headline = documento mais recente (coletiva de 29/07, +1,0), nao a media ponderada da janela (+2,3). Pedido do usuario em 29/07/2026. Nao comparavel com os outros membros."
+    "note": "headline = documento mais recente (Jackson Hole, 28/08, +4,0), nao a media ponderada da janela. Pedido do usuario em 29/07/2026. Ressalva de ancora: a coletiva de 29/07 foi pontuada na ancora de ENTREGA (+1,0); Jackson Hole nao e uma reuniao de decisao e volta a ancora de MENSAGEM do resto do corpus, entao parte do salto 29/07 -> 28/08 e de metodo. Nao comparavel com os outros membros."
   }
 }

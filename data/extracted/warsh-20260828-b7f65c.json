@@ -1,0 +1,104 @@
+{
+  "speech_id": "warsh-20260828-b7f65c",
+  "member_id": "warsh",
+  "title": "In Our Time",
+  "date": "2026-08-28",
+  "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "NOTA DE ANCORA: este documento e pontuado na ancora de MENSAGEM, como o resto do corpus (13 membros). A coletiva de 29/07 e o unico documento do painel ancorado na ENTREGA (+1,0 em vez de +3,5), porque naquela reuniao havia acao de aperto na mesa e ele declinou. Parte do salto 29/07 -> 28/08 e, portanto, de metodo; a comparacao limpa e contra a leitura de mensagem do 29/07 (+3,5) e contra o Humphrey-Hawkins de 14/07 (+3,0). || Jackson Hole, 100o dia de mandato. Warsh retira exatamente o argumento que licenciava a inacao em julho. Na coletiva de 29/07 a alta de decil superior nos juros de mercado contava como aperto ja entregue e 'provided us some comfort'; aqui ele desmonta a substituicao por condicoes financeiras com evidencia propria - spreads de credito e leveraged loans perto das minimas historicas, emissao forte, o SLOOS de julho com padroes de C&I no lado facil da faixa - e conclui que 'credit and loan markets are showing few signs of policy restraint' e que seria 'hard pressed to describe broad financial conditions as restrictive'. Na inflacao, endurece o diagnostico com aritmetica: PCE cheio 3,7% em 12m mas 4,1% em 6m (aceleracao na margem), 54% da cesta acima de 3% em 12m e 49% em 6m contra 32% nas duas decadas pre-pandemia, 'progress over the past two years has been modest', e os dados melhores do verao 'do not tell me that underlying trends have meaningfully improved'. Declara que 'the Fed's predominant focus right now should be on prices'. No emprego fecha o outro lado: 4,1% de desemprego, claims perto das minimas em decadas, e uma racionalizacao estrutural para payrolls fracos ('when labor supply is barely growing, monthly job gains are naturally going to run low') que termina em 'the labor markets are consistent with full employment' - isto e, o pre-requisito do ramo dovish da funcao de reacao que ele enunciou em julho ('when you've achieved the other side of your mandate') fica satisfeito, deixando so o ramo de aperto operacional. Fecha com um padrao explicito e o veredito de que ele nao esta sendo cumprido: 'We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do.' A contrapartida: nenhum compromisso ('committed to a discipline, not to a decision'), doutrina anti-forward-guidance reafirmada, expectativas de inflacao reconhecidas como ancoradas (com a ressalva de que 'they tend to look strong and durable until they don't'), e a agenda de IA/produtividade explicitamente isolada da conjuntura corrente ('no bearing on decisions we make in the current policy conjuncture'). Nota de rubrica auditavel: policy_stance_read cai de 2,0 para 1,0 porque a dimensao mede quao RESTRITIVA ele julga a postura corrente, e ele passou a julga-la nao-restritiva - o que na intencao dele e um argumento pro-aperto, capturado no driver 'other' (FCI), que inverte de dovish para hawkish com intensidade 3.",
+  "key_quotes": [
+    {
+      "quote": "Certain sectors\u2014like housing and agriculture\u2014are showing strains. But, on balance, I would be hard pressed to describe broad financial conditions as restrictive.",
+      "context": "Depois de listar spreads de credito perto das minimas, emissao forte e o SLOOS de julho no lado facil; inverte diretamente o 'the markets have done quite a bit / provided us some comfort' de 29/07, que era a base do composite ancorado na entrega.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Credit and loan markets are showing few signs of policy restraint.",
+      "context": "Conclusao da secao de condicoes financeiras; e a evidencia com que ele retira a propria licenca para nao agir.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "None of these measures are perfect, but they all tell a similar story: Inflation is running above our 2 percent target. So the Fed's predominant focus right now should be on prices.",
+      "context": "Apos citar PCE 3,7% em 12m e 4,1% em 6m; primeira vez no corpus dele que hierarquiza explicitamente o mandato no momento presente.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "And while this summer's PCE and CPI readings were better than expected, they do not tell me that underlying trends have meaningfully improved.",
+      "context": "Recusa o dado favoravel do verao, na mesma linha do 'in two words, not much' de 29/07 sobre o CPI de junho; conviccao de inflacao resistente a boas leituras.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "They may well be concerned about possible future labor disruptions, but as of now, I believe the labor markets are consistent with full employment.",
+      "context": "Fecha a secao de emprego depois de explicar payrolls baixos por oferta de trabalho estagnada; satisfaz o pre-requisito ('achieved the other side of your mandate') que na funcao de reacao dele separa o ramo dovish do hawkish.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Here is my standard: We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do.",
+      "context": "Ultima frase da avaliacao economica; enuncia o gatilho e, tres paragrafos antes, apresenta a evidencia de que ele nao esta sendo cumprido - o mais proximo de um vies de alta sem dar guidance.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "There is one signal nobody can miss: The responsibility for 65 months of sustained, elevated inflation sits squarely with the central bank. And that is where it belongs.",
+      "context": "Encerra o argumento de inflacao; contabiliza o overshoot acumulado como divida institucional a ser paga, nao como historia passada.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I stand here today committed to a discipline, not to a decision.",
+      "context": "Abertura da conclusao; a contrapartida dovish - o diagnostico endurece mas nada e prometido, coerente com a doutrina anti-forward-guidance da secao anterior.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 4.0,
+    "mandate_weight": 4.0,
+    "inflation_conviction": 4.0,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1.0,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "financial_stability",
+      "balance_sheet_qt",
+      "housing"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5[1m]",
+  "extracted_at": "2026-08-28T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0662,
+    "hawk_hits": 4,
+    "dove_hits": 0,
+    "tokens": 3647
+  }
+}
