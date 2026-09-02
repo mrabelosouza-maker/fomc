@@ -1,0 +1,95 @@
+{
+  "speech_id": "williams-20260902-8ea475",
+  "member_id": "williams",
+  "title": "CNBC Interview at the New York Fed (full transcript)",
+  "date": "2026-09-02",
+  "url": "https://www.cnbc.com/",
+  "source": "cnbc",
+  "non_policy": false,
+  "summary": "A month after telling Reuters that policy was 'well positioned' to deliver the disinflation, Williams withdraws exactly that assertion: 'there's no clear science right now that whether monetary policy currently is sufficient to make sure we bring inflation back to target in the next year or two or whether we need to see further action to do that.' The inflation decomposition is unchanged and still benign in its parts (core ~3.3% driven mostly by energy and tariffs, no second-round effects, no unusual broadening, anchored expectations, contained compensation growth, tariffs moving into the rearview mirror), but he now adds 'some effects of higher service inflation' and, newly, AI investment showing up in semiconductor and software prices. The bigger shift is that he closes the door on the bond market doing the Fed's work for it: the yield rise is 'more about the economy affecting financial conditions', not the reverse, driven by a strong US economy and an AI/data-centre investment surge visible in real rates rather than inflation compensation, and getting inflation to 2% on a sustained basis is 'job number one... nobody else can do that for us.' He also introduces a timeline constraint \u2014 being on the path is not enough, it must be 'in the foreseeable future', and he will be watching whether progress is 'slowing too much'. Against that he keeps two brakes: recent data 'have been encouraging', and rates are still 'in a good place'. On r* he is an optimist over 5-10 years but says the model estimate is ~1% real and 'the data is not screaming that the neutral rate has risen'; on the balance sheet he defers to the Warsh task force and is 'not in a rush' to change anything.",
+  "key_quotes": [
+    {
+      "quote": "it's it's not a to me a clear there's no clear science right now that whether monetary policy currently is in the right uh is is um sufficient to make sure we bring inflation back to target uh in a in a uh you know next year or two or whether we need to see further action to do that",
+      "context": "The material change vs the Aug-3 Reuters interview, where he asserted policy 'is well positioned in where we are today to support that disinflationary path' \u2014 sufficiency is now an open question and a hike is a live branch, not a remote hedge",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "it's our job to ensure that we ensure price stability and most importantly right now is to get inflation back to 2% on a sustained basis. That's job number one. So that's our job and then you know we nobody else can do that for us.",
+      "context": "Asked directly whether the market can do the work for the Fed \u2014 he refuses the substitution, echoing the Warsh Jackson Hole removal of the FCI argument that had licensed inaction",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "I think it's not really about financial conditions affecting the economy. It's more about the economy affecting financial conditions.",
+      "context": "The yield rise is read as a symptom of a strong economy and the AI/data-centre investment surge, showing up in real rates and not in inflation compensation \u2014 so it is not a headwind that substitutes for policy",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "it's important not only that we are on that path but we are on that path to to do that you know in in the foreseeable future",
+      "context": "A new timeline constraint on the 2%-by-next-year-or-two path; his stated trigger is whether the data show 'slowing progress too much'",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "we're not seeing kind of second round effects or broadening of the tariffs. We're not seeing uh unusual broadening of the effects of higher energy prices. So, and we're seeing well anchored inflation expectations and and pretty uh contained uh compensation growth.",
+      "context": "The dovish core of the argument survives intact \u2014 the inflation he sees is still supply-side and fading, which is why this is a hawkish tilt rather than a hawkish pivot",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "at least so far the data is not screaming that the neutral rate has risen",
+      "context": "Model r* ~1% real, up 'a little bit but not that much'; he is a 5-10y productivity optimist but explicitly declines to raise the destination now \u2014 the one dimension where he does NOT move hawkish",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1,
+    "mandate_weight": 2,
+    "inflation_conviction": 2.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "r_star",
+      "balance_sheet_qt",
+      "fiscal"
+    ]
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-09-02T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  },
+  "tone_score": {
+    "net_tone": -0.0495,
+    "hawk_hits": 3,
+    "dove_hits": 5,
+    "tokens": 2552
+  }
+}
