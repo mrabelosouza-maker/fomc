@@ -1,0 +1,97 @@
+{
+  "speech_id": "waller-20260903-c5e563",
+  "member_id": "waller",
+  "title": "The Economic Outlook and Some Comments on My Policy Communication",
+  "date": "2026-09-03",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller partially unwinds the July hawkish escalation without abandoning the hike option. The base case moves from 'a hot print puts tightening on the table' to an explicit lean toward holding on September 15-16: 'recent data suggest we are finally seeing some signs of disinflation... I would be inclined to support holding.' The evidentiary basis is new and specific: three-month core has fallen steadily from 4.76 percent in February to 3.05 percent in July, a trajectory whose speed he calls 'encouraging'; roughly half the last core PCE increase came from imputed nonmarket services, so 'underlying inflation is doing better than the core numbers suggest'; and a pending Commerce Department revision to nonmarket fee estimates should shave a few tenths off 12-month PCE. Crucially, he retires the two supply-side drivers he was hawkish on: 'I don't see elevated energy prices and tariffs now as a significant source of ongoing inflation pressure' \u2014 tariff pass-through is largely done and his fear that energy would bleed into other prices 'hasn't come to pass.' The hawkish tail survives and is cheaper to trigger than a normal hold: he judges 'policy is currently only slightly restricting aggregate demand, and it may not take much acceleration in inflation to nudge me into supporting tighter policy,' with a hike framed as 'a small adjustment.' Labor is sidelined harder than in July \u2014 the 2H25 signs of easing 'evaporated,' unemployment 4.1 percent and slightly below the FOMC's long-run median, so activity and jobs 'are not a large factor in my determination.' Everything runs through the August CPI/PCE print. He closes with a taxonomy of communication, defending the conditional 'IF-THEN' reaction function (the umpire's strike zone) and endorsing Chair Warsh's view that forward guidance is not appropriate now, while reserving it for the effective lower bound.",
+  "key_quotes": [
+    {
+      "quote": "The short version is that, while inflation remains meaningfully above the Federal Open Market Committee's (FOMC) 2 percent goal, recent data suggest we are finally seeing some signs of disinflation. If this continues in the data due over the next two weeks, I would be inclined to support holding the target for the federal funds rate at its current setting.",
+      "context": "Opening statement of the base case \u2014 the July framing was a conditional hike; here the lean is explicitly to hold, conditional on the August prints.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "But if inflation comes in hot, I would consider a rate hike. I judge that policy is currently only slightly restricting aggregate demand, and it may not take much acceleration in inflation to nudge me into supporting tighter policy.",
+      "context": "The hawkish tail is intact and explicitly cheap to trigger: he does not think the current stance is doing much work, so a modest upside surprise suffices.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Three-month core inflation is 3.05 percent for the three months through July, a level that is still not consistent with the FOMC's 2 percent goal. Nevertheless, it is important to note the trend. Three-month inflation has fallen steadily from 4.76 percent in February. That is a considerable improvement, and the speed of this downward trajectory is encouraging.",
+      "context": "The disinflation evidence that licenses the softer stance \u2014 he switches the operative metric to 3m core and reads the trend, not the level.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I don't see elevated energy prices and tariffs now as a significant source of ongoing inflation pressure. The evidence is that the price effects of tariffs have largely passed through inflation, and my earlier worry that higher energy prices would bleed into many goods and services prices hasn't come to pass, at least so far.",
+      "context": "Explicit retirement of the two supply-side hawkish drivers he carried through the first half of 2026, including a named reversal of his own oil-passthrough worry.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "So, ignoring this one factor, my take is that underlying inflation is doing better than the core numbers suggest.",
+      "context": "Nonmarket (imputed) services accounted for about half of the July core PCE increase; a pending Commerce revision could cut a few tenths off 12-month PCE. He is arguing measured core overstates the underlying trend.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "With economic activity and the labor market in good shape, they are not a large factor in my determination of the appropriate setting of monetary policy.",
+      "context": "Labor is sidelined even more firmly than in July: the 2H25 signs of easing demand 'evaporated,' unemployment is 4.1 percent and slightly below the FOMC long-run median, layoffs and claims low.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "By communicating my reaction function, consumers, businesses, and investors can better understand how I will vote on policy given the range of outcomes and then factor that into their planning for the future.",
+      "context": "The communication section: he defends conditional IF-THEN guidance (the umpire's strike zone) as distinct from forward guidance, and endorses Chairman Warsh's view that forward guidance is not appropriate outside the effective lower bound.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2,
+    "mandate_weight": 3.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-09-03T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0104,
+    "hawk_hits": 5,
+    "dove_hits": 5,
+    "tokens": 2308
+  }
+}
