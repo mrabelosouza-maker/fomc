@@ -1,0 +1,109 @@
+{
+  "speech_id": "warsh-20260916-c0ef29",
+  "member_id": "warsh",
+  "title": "FOMC Press Conference",
+  "date": "2026-09-16",
+  "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+  "source": "board",
+  "non_policy": false,
+  "summary": "NOTA DE ANCORA: este e o unico documento do corpus em que a ancora de MENSAGEM e a ancora de ENTREGA coincidem - ele pregou e entregou. Na coletiva de 29/07 o composite foi ancorado na entrega (+1,0 contra +3,5 de mensagem) porque havia aperto na mesa e ele declinou; aqui o aperto saiu, por unanimidade, e nao ha desconto a fazer. || Terceira coletiva de Warsh como presidente e a primeira com acao: o FOMC subiu 25bp para 3,75-4,00%, voto UNANIME (nenhuma dissidencia dovish num comite que em julho tinha 9-3 com as tres dissidencias do lado do aperto). A logica e exatamente a que ele montou em Jackson Hole, agora executada. Primeiro, ele repete que seria 'hard-pressed to describe broad financial conditions as restrictive' e acrescenta o ponto novo e decisivo: 'This view was widely shared by the Committee' - o argumento de FCI deixou de ser dele e virou do colegiado, e a acao e descrita nao como aperto mas como remocao de acomodacao ('we removed a dose of accommodation'). Segundo, o padrao que ele enunciou em agosto ('We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed') recebe o veredito explicito: 'Today the FOMC decide that this standard has not been satisfied.' Terceiro, ele hierarquiza o mandato sem ambiguidade - 'our predominant focus is on the price stability side of our mandate' - depois de declarar o lado do emprego resolvido ('the labor side of the Fed's Congressional agreement is in good shape', 4,1% de desemprego, vagas e horas semanais subindo, claims em nivel de pleno emprego). No diagnostico de precos ele recusa os dados bons do verao ('do not tell me that underlying trends have a meaningfully improved'), cita PCE cheio ~3,6% em agosto, nucleo ~3,2% e demasiadas categorias acima de 3% em 6m e 12m, e marca o preco de commodities/insumos como tendo SUBIDO no intermeeting - o driver oil_war sobe de 2 para 3. Ele lista os tres motivos do movimento: economia mais forte, tendencia de inflacao que nao passa no teste, e geopolitica. O SEP mediano traz mais uma alta este ano (Fed funds 4,1% no fim de 2026 e igual em 2027), riscos de inflacao para cima e de emprego equilibrados, com o 2% so em 2029 - e ele se descola disso ('those aren't my forecasts'). As contrapartidas dovish sao de forma, nao de substancia: recusa de forward guidance ('I am not in the forward guidance business', 'I am not going to pre-judge any future decisions'), recusa do conceito operacional de juro neutro ('In a word, no'), e a negativa de que precise machucar o mercado de trabalho ('I don't believe that we need to go harm to the Labor Markets to achieve our objective') - o que preserva a opcao de nao encadear altas, mas tambem remove o custo que normalmente freia um ciclo. Nota de rubrica auditavel: policy_stance_read permanece em 1,0 (como em Jackson Hole) porque a dimensao mede quao RESTRITIVA ele julga a postura CORRENTE, e mesmo depois da alta ele so diz ter removido 'uma dose de acomodacao' para que as condicoes fiquem 'more consistent with our ultimate objectives' - ou seja, ainda nao restritiva; na intencao dele isso e um argumento PRO-aperto, capturado no driver 'other' (FCI) com intensidade 3 hawkish. Nota de fonte: transcricao CART ao vivo; garbles obvios do estenografo foram corrigidos no raw (Hormuz, Basel, PCE, dots), as citacoes abaixo sao verbatim contra o arquivo salvo.",
+  "key_quotes": [
+    {
+      "quote": "But inflation remains elevated. Today's policy action will support a timelier return to the Committee's 2% goal. This Committee will deliver price stability.",
+      "context": "Paragrafo de abertura, logo apos anunciar a alta de 25bp para 3,75-4,00%; a promessa repetida desde junho deixa de ser retorica e passa a ter acao anexada.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "As I said at the policy Symposium in Jackson Hole, I would be hard-pressed to describe broad financial conditions as restrictive.",
+      "context": "Seguido, no paragrafo imediatamente posterior, de 'This view was widely shared by the Committee' e de 'So, we removed a dose of accommodation' - o argumento de FCI de Jackson Hole vira consenso do colegiado e produz o voto unanime.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "We removed a dose of accommodation, so that financial and credit conditions would be more consistent with our ultimate objectives.",
+      "context": "Resposta direta a pergunta 'os juros estao restritivos agora?'; mesmo apos a alta ele NAO reivindica restricao - so menos acomodacao. E por isso que policy_stance_read fica em 1,0.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Yet for more than five years inflation has been running above target. So our predominant focus is on the price stability side of our mandate.",
+      "context": "Vem logo depois de declarar 'the labor side of the Fed's Congressional agreement is in good shape'; a hierarquizacao do mandato e explicita e unilateral.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "This summer's inflation readings do not tell me that underlying trends have a meaningfully improved.",
+      "context": "Antes de citar PCE cheio ~3,6% em agosto, nucleo ~3,2% e categorias demais acima de 3% em 6m e 12m; conviccao de inflacao que resiste a leituras favoraveis, igual ao 'in two words, not much' de 29/07.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I defined the standard for action. We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed.",
+      "context": "Retoma o padrao de Jackson Hole e, na frase seguinte, da o veredito: 'Today the FOMC decide that this standard has not been satisfied' - a justificativa formal da alta e o gancho para as proximas.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "Unemployment claims, on a four-week moving average, are running at levels consistent with full employment. The labor side of the Fed's Congressional agreement is in good shape.",
+      "context": "Fecha a secao de emprego com 4,1% de desemprego, vagas e horas semanais em alta; o pre-requisito que na funcao de reacao dele libera o foco unico em precos esta satisfeito.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "This won't surprise you, I am not in the forward guidance business.",
+      "context": "Resposta a Colby Smith sobre se uma alta inaugura a sequencia tipica; a contrapartida dovish do documento e de forma - entregou o aperto mas nao contratou o ciclo ('I am not going to pre-judge any future decisions we make').",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I don't believe that we need to go harm to the Labor Markets to achieve our objective.",
+      "context": "Ultima resposta da coletiva; nega o trade-off classico, o que preserva a opcao de nao encadear altas mas tambem retira o custo que normalmente freia um ciclo de aperto.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 4.5,
+    "mandate_weight": 4.5,
+    "inflation_conviction": 4.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1.0,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "financial_stability",
+      "fed_independence",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5[1m]",
+  "extracted_at": "2026-09-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0947,
+    "hawk_hits": 7,
+    "dove_hits": 0,
+    "tokens": 4018
+  }
+}
