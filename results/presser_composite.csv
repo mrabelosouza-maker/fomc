@@ -1,0 +1,15 @@
+date,member,composite,bias,mid,action
+2025-01-29,powell,1.0,hold,4.375,manutenção
+2025-03-19,powell,0.5,hold,4.375,manutenção
+2025-05-07,powell,0.5,hold,4.375,manutenção
+2025-06-18,powell,1.0,hold,4.375,manutenção
+2025-07-30,powell,2.0,hold,4.375,manutenção
+2025-09-17,powell,-1.5,cut,4.125,corte
+2025-10-29,powell,0.0,hold,3.875,corte
+2025-12-10,powell,-1.0,hold,3.625,corte
+2026-01-28,powell,1.5,hold,3.625,manutenção
+2026-03-18,powell,2.0,hold,3.625,manutenção
+2026-04-29,powell,2.5,hold,3.625,manutenção
+2026-06-17,warsh,3.0,hold,3.625,manutenção
+2026-07-29,warsh,1.0,hold,3.625,manutenção
+2026-09-16,warsh,4.5,hike,3.875,ALTA

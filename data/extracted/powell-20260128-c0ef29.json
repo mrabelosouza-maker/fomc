@@ -1,0 +1,84 @@
+{
+  "speech_id": "powell-20260128-c0ef29",
+  "member_id": "powell",
+  "title": "FOMC Press Conference",
+  "date": "2026-01-28",
+  "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260128.pdf",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Manutencao em 3,50-3,75% e o primeiro documento francamente hawkish do novo ciclo. Ele RETIRA do comunicado a frase de que os riscos de baixa para o emprego subiram, porque ha sinais de estabilizacao do desemprego, e registra 'melhora clara' na perspectiva de crescimento. Do lado dos precos, faz a conta que incomoda: nucleo de PCE em 3,0% nos 12 meses ate dezembro, praticamente o mesmo de um ano antes - 'no liquido, nenhum progresso'. E rebaixa a leitura da propria postura ate quase o neutro: 'e dificil olhar os dados que estao chegando e dizer que a politica esta significativamente restritiva'. A contrapartida dovish permanece verbal - houve dissidencias pro-corte e ele diz que os riscos dos DOIS lados diminuiram. Fecha com a advertencia de que as empresas do meio da cadeia seguem decididas a repassar o resto das tarifas, 'razao pela qual precisamos manter o olho na inflacao e nao declarar vitoria prematuramente'.",
+  "key_quotes": [
+    {
+      "quote": "Having lowered our policy rate by 75 basis points over the course of our previous three meetings, we see the current stance of monetary policy as appropriate",
+      "context": "Remarks; a pausa e apresentada como resultado do ciclo ja entregue, nao como espera por dados.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "it's hard to look at the incoming data and say that policy's significantly restrictive at this time.",
+      "context": "Primeira vez que ele se aproxima da posicao que Warsh radicalizaria em 2026 - a de que a politica nao esta restritiva.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "And that's pretty much what we had the year before. So, on net, no progress.",
+      "context": "Sobre o nucleo de PCE em 3,0% nos 12 meses ate dezembro; o balanco de um ano inteiro sem desinflacao.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "which is one of the reasons why we need to keep our eye on inflation and not declare victory prematurely.",
+      "context": "Ultima resposta da coletiva, sobre as empresas do meio da cadeia que ainda pretendem repassar tarifas.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 1.5,
+    "inflation_conviction": 3.0,
+    "labor_concern": 2.0,
+    "policy_stance_read": 2.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "fiscal",
+      "fed_independence"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5[1m]",
+  "extracted_at": "2026-09-21T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.3816,
+    "hawk_hits": 12,
+    "dove_hits": 33,
+    "tokens": 7707
+  }
+}

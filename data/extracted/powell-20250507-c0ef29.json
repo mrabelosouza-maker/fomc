@@ -1,0 +1,82 @@
+{
+  "speech_id": "powell-20250507-c0ef29",
+  "member_id": "powell",
+  "title": "FOMC Press Conference",
+  "date": "2025-05-07",
+  "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20250507.pdf",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Manutencao unanime seis semanas depois do 2 de abril, com as tarifas anunciadas 'significativamente maiores do que o antecipado'. O documento e o mais equilibrado do conjunto: o comunicado passa a dizer que subiram OS DOIS riscos, de desemprego e de inflacao, e ele desenvolve pela primeira vez o protocolo para quando os mandatos entram em tensao (quao longe cada variavel esta da meta e quanto tempo levaria para voltar). Ainda assim, a conclusao operacional e hawkish na margem: ele recusa explicitamente um corte preventivo porque, ao contrario de 2019, 'a inflacao esta acima da meta ha quatro anos'. Fixa a obrigacao de impedir que um aumento de nivel de precos vire processo inflacionario. Postura 'modestly or moderately restrictive'. Emprego solido, sem deterioracao nos dados duros - apenas sentimento muito ruim.",
+  "key_quotes": [
+    {
+      "quote": "The risks of higher unemployment and higher inflation appear to have risen",
+      "context": "Nova frase do comunicado; e o primeiro reconhecimento formal de que os dois lados do mandato pioraram ao mesmo tempo.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Our obligation is to keep longer-term inflation expectations well anchored and to prevent a one-time increase in the price level from becoming an ongoing inflation problem.",
+      "context": "A guarda hawkish que ele passa a repetir em todas as coletivas seguintes de 2025.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "it's not a situation where we can be preemptive, because we actually don't know what the right response to, to the data will be until we see more data.",
+      "context": "Recusa do corte preventivo, contrastando explicitamente com 2019, quando a inflacao estava em 1,6%.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "our policy is sort of modestly or moderately restrictive.",
+      "context": "Leitura da postura corrente, um degrau abaixo de janeiro.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 3.0,
+    "labor_concern": 2.0,
+    "policy_stance_read": 3.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "fiscal"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5[1m]",
+  "extracted_at": "2026-09-21T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.4183,
+    "hawk_hits": 13,
+    "dove_hits": 37,
+    "tokens": 8472
+  }
+}

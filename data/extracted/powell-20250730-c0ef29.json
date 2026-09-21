@@ -1,0 +1,83 @@
+{
+  "speech_id": "powell-20250730-c0ef29",
+  "member_id": "powell",
+  "title": "FOMC Press Conference",
+  "date": "2025-07-30",
+  "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20250730.pdf",
+  "source": "board",
+  "non_policy": false,
+  "summary": "A coletiva mais hawkish do Powell em 2025, e a unica do ano em que o indice de lexico fica positivo. Manutencao com DUAS dissidencias pro-corte (Bowman e Waller) - as primeiras dissidencias duplas de governadores em decadas -, e ele responde com uma hierarquizacao aritmetica do mandato: a inflacao esta acima da meta, o emprego esta NA meta, logo a postura deve ser restritiva, porque 'politica apertada e o que traz a inflacao para baixo'. Acrescenta que 'as condicoes financeiras estao acomodaticias' e que a economia nao se comporta como se a politica a estivesse segurando indevidamente. Diz que o comunicado passa a descrever a postura como apropriada 'para se proteger contra riscos de inflacao'. Concede que ha risco de baixa no emprego - o equilibrio vem de oferta e demanda caindo juntas -, mas nao o trata como acionavel. Fecha com a promessa de que o repasse tarifario nao virara inflacao 'porque vamos garantir que nao'.",
+  "key_quotes": [
+    {
+      "quote": "We see our current policy stance as appropriate to guard against inflation risks.",
+      "context": "Frase nova das remarks; e a formulacao mais explicitamente hawkish do ano.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "the majority view was, was still what it has been, which is that inflation is running above target, maximum employment is right at target.",
+      "context": "A aritmetica com que ele rebate as duas dissidencias pro-corte: uma variavel esta na meta, a outra nao.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Financial conditions are accommodative, and the economy is not - the economy is not performing as though restrictive policy were holding it back inappropriately.",
+      "context": "Argumento de FCI - o mesmo instrumento que Warsh usaria em 2026, aqui empregado para justificar manter, nao subir.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "in the end, there should be no doubt that we will do what we need to do to keep inflation under control.",
+      "context": "Compromisso condicional: o repasse tarifario nao virara inflacao porque o Fed garantira que nao.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.0,
+    "mandate_weight": 2.0,
+    "inflation_conviction": 3.0,
+    "labor_concern": 2.0,
+    "policy_stance_read": 3.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "fed_independence",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5[1m]",
+  "extracted_at": "2026-09-21T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0844,
+    "hawk_hits": 36,
+    "dove_hits": 20,
+    "tokens": 7897
+  }
+}

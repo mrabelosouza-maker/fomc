@@ -1,0 +1,83 @@
+{
+  "speech_id": "powell-20250319-c0ef29",
+  "member_id": "powell",
+  "title": "FOMC Press Conference",
+  "date": "2025-03-19",
+  "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20250319.pdf",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Manutencao mais desaceleracao tecnica do QT. A palavra do dia e clareza: 'well positioned to wait for greater clarity', com a incerteza sobre comercio, imigracao, fiscal e regulacao declarada 'unusually elevated'. E aqui que ele formula a doutrina de look-through que Goolsbee viria a revogar em set/2026: pode ser apropriado olhar atraves da inflacao tarifaria SE ela passar rapido e SE as expectativas longas seguirem ancoradas - e as longas, diz, seguem ancoradas apesar do salto nas curtas. Reconhece que a inflacao de bens subiu 'pretty significantly' em jan-fev e que parte disso e tarifa, mas o SEP mantem dois cortes em 2025 porque crescimento menor e inflacao maior 'se cancelam'. Diagnostica a postura como 'clearly a restrictive stance'. Menos hawkish que janeiro: entra risco de baixa para atividade e a disposicao explicita de relevar o choque de oferta.",
+  "key_quotes": [
+    {
+      "quote": "We do not need to be in a hurry to adjust our policy stance, and we are well positioned to wait for greater clarity.",
+      "context": "Frase-sintese das remarks; a pausa passa a ser justificada pela incerteza, nao mais so pela forca da economia.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "it can be the case that it's appropriate sometimes to look through inflation if it's going to go away quickly without action by, by us, if it's transitory.",
+      "context": "A doutrina do look-through, com as duas condicoes que ele anexa (passar rapido e expectativas longas ancoradas). E o argumento que Goolsbee revoga em 21/09/2026.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "we're at a place where we can cut or we - or we can hold what is a clearly a restrictive stance of policy.",
+      "context": "Definicao explicita de 'well positioned'; sustenta policy_stance_read em 3,5.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I do think with the arrival of, of the tariff inflation, further progress may be delayed",
+      "context": "Reconhece que a desinflacao para em 2025 por causa das tarifas - atraso, nao reversao.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 0.5,
+    "mandate_weight": 0.5,
+    "inflation_conviction": 2.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": 3.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "tariffs",
+      "immigration",
+      "balance_sheet_qt"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5[1m]",
+  "extracted_at": "2026-09-21T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1629,
+    "hawk_hits": 19,
+    "dove_hits": 24,
+    "tokens": 9057
+  }
+}
