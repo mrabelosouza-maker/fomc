@@ -418,8 +418,8 @@ TEMPLATE = r"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
  </section>
 
  <section>
-  <h2>9 · Mapa membros × dimensões</h2>
-  <p class="desc">Cada célula na escala hawk(vermelho)/dove(azul). ★ votantes.</p>
+  <h2>9 · Mapa de postura — votantes vs não-votantes</h2>
+  <p class="desc">Cada célula é a posição do membro naquela dimensão no eixo comum hawk-dove: <b>cores quentes = mais hawkish</b>, <b>cores frias = mais dovish</b>, creme = neutro. O número é a posição normalizada (+1 = extremo hawkish, −1 = extremo dovish); o <b>score bruto</b> da rubrica aparece no hover. A normalização existe porque as dimensões têm escalas diferentes — e porque <i>labor-market concern</i> é invertida (mais preocupação com emprego = mais dovish). Blocos separados: <b>votantes 2026</b> em cima, <b>não-votantes</b> embaixo; dentro de cada bloco, do mais hawkish ao mais dovish.<br><b>Atenção na coluna <i>stance restrictiveness</i>:</b> ela mede como o membro descreve a política <i>hoje</i> (restritiva = quente; neutra ou frouxa = fria). Num regime de alta, um hawk que diz que o juro ainda está acomodatício aparece <i>frio</i> nessa coluna — isso é o argumento dele para subir mais, não uma postura dovish.</p>
   <!--HEATMAP-->
  </section>
 

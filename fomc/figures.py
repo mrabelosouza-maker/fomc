@@ -4,6 +4,7 @@ from __future__ import annotations
 import statistics
 
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
 from . import config
 from .aggregate import MemberFunction
@@ -233,20 +234,90 @@ def fig_median_radar(medians: dict) -> go.Figure:
     return fig
 
 
+# Diverging ramp for the member x dimension map: cool (dove) -> neutral -> warm
+# (hawk). Two hues with a neutral, near-white midpoint - never a rainbow. The
+# poles extend the house HAWK/DOVE so the extremes read as hot/cold.
+HAWK_DOVE_SCALE = [
+    [0.00, "#0a4250"],
+    [0.18, "#1e7d8c"],
+    [0.36, "#9dc7cd"],
+    [0.50, "#f4f2ec"],
+    [0.64, "#eeae83"],
+    [0.82, "#c0392b"],
+    [1.00, "#6e1512"],
+]
+
+
+def _heat_block(members, dims: list[str]) -> go.Heatmap:
+    """One grouped block (voters / non-voters) of the member x dimension map."""
+    z, txt, raw, ylab = [], [], [], []
+    for m in members:
+        row_z, row_t, row_r = [], [], []
+        for d in dims:
+            h = m.dims_hawk.get(d)
+            v = m.dims.get(d)
+            row_z.append(h)
+            row_t.append("" if h is None else f"{h:+.2f}")
+            row_r.append("n/d" if v is None else f"{v:+.1f}")
+        z.append(row_z); txt.append(row_t); raw.append(row_r)
+        bank = "Board" if m.bank.startswith("Board") else m.bank
+        ylab.append(f"{_short(m.name)} · {bank}")
+    return go.Heatmap(
+        z=z, x=[config.DIM_BY_ID[d]["label"] for d in dims], y=ylab,
+        text=txt, customdata=raw, texttemplate="%{text}",
+        textfont=dict(size=11),
+        coloraxis="coloraxis", xgap=2, ygap=2,
+        hovertemplate=("<b>%{y}</b><br>%{x}<br>"
+                       "eixo hawk-dove: %{z:+.2f}<br>score bruto: %{customdata}"
+                       "<extra></extra>"),
+    )
+
+
 def fig_heatmap(mfuncs: dict[str, MemberFunction]) -> go.Figure:
+    """Member x dimension map, split into a VOTERS block and a NON-VOTERS block.
+
+    Every cell is on the common hawk axis (+1 = most hawkish, -1 = most dovish),
+    so cells are comparable across dimensions whose raw scales differ (the raw
+    score is in the hover). Rows are sorted most hawkish first inside each block.
+    """
     members = [m for m in mfuncs.values() if not m.insufficient]
-    members.sort(key=lambda m: (m.composite if m.composite is not None else 0))
+    members.sort(key=lambda m: (m.composite if m.composite is not None else 0), reverse=True)
     dims = config.DIMENSION_IDS
-    z = [[m.dims_hawk.get(d) for d in dims] for m in members]
-    ylab = [f"{_short(m.name)}{' ★' if m.voter_2026 else ''}" for m in members]
-    xlab = [config.DIM_BY_ID[d]["label"] for d in dims]
-    fig = go.Figure(go.Heatmap(
-        z=z, x=xlab, y=ylab, zmid=0, zmin=-1, zmax=1,
-        colorscale=[[0, config.DOVE], [0.5, "#f5f5f0"], [1, config.HAWK]],
-        colorbar=dict(title="hawk", tickvals=[-1, 0, 1], ticktext=["dove", "0", "hawk"]),
-        hovertemplate="%{y} · %{x}: %{z:.2f}<extra></extra>",
-    ))
-    fig.update_layout(**_LAYOUT, height=max(360, 22 * len(members) + 80))
+    blocks = [
+        ("★ VOTANTES 2026", [m for m in members if m.voter_2026]),
+        ("NÃO-VOTANTES 2026", [m for m in members if not m.voter_2026]),
+    ]
+    blocks = [(t, ms) for t, ms in blocks if ms]
+    n_tot = sum(len(ms) for _, ms in blocks)
+
+    fig = make_subplots(
+        rows=len(blocks), cols=1,
+        row_heights=[len(ms) / n_tot for _, ms in blocks],
+        vertical_spacing=0.1 if len(blocks) > 1 else 0.0,
+        subplot_titles=[t for t, _ in blocks],
+    )
+    for i, (_, ms) in enumerate(blocks, start=1):
+        fig.add_trace(_heat_block(ms, dims), row=i, col=1)
+        fig.update_yaxes(autorange="reversed", ticks="", row=i, col=1)
+        fig.update_xaxes(side="bottom", ticks="", tickangle=0, row=i, col=1)
+
+    layout = dict(_LAYOUT)
+    layout["margin"] = dict(l=170, r=24, t=46, b=54)
+    fig.update_layout(
+        **layout,
+        height=44 * n_tot + 150 * len(blocks),
+        coloraxis=dict(
+            colorscale=HAWK_DOVE_SCALE, cmin=-1, cmax=1, cmid=0,
+            colorbar=dict(
+                title=dict(text="postura", side="right"), thickness=14, len=0.7,
+                tickvals=[-1, -0.5, 0, 0.5, 1],
+                ticktext=["dove", "", "neutro", "", "hawk"],
+                outlinewidth=0, ticks="",
+            ),
+        ),
+    )
+    for ann in fig.layout.annotations:  # left-align the block titles
+        ann.update(x=0, xanchor="left", font=dict(size=13, color=config.NAVY))
     return fig
 
 
