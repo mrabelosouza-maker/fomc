@@ -1,0 +1,107 @@
+{
+  "speech_id": "goolsbee-20260921-11bed0",
+  "member_id": "goolsbee",
+  "title": "Remarks at Official Monetary and Financial Institutions Forum Event",
+  "date": "2026-09-21",
+  "url": "https://www.chicagofed.org/-/media/publications/speeches/2026/9-21-26-omfif.pdf",
+  "source": "chicago",
+  "non_policy": false,
+  "summary": "A virada doutrinaria mais importante do corpus do Goolsbee: ele desmonta em publico o proprio argumento que o definiu desde fev/2025 - o 'look through' de choques de oferta. Em 'Lessons from the Supply Side' (05/02/2025) ele sustentava que uma tarifa e um aumento de preco de uma vez so, 'transitory and ignorable by the Fed'; aqui ele diz que as tarifas nao foram nada parecidas com o exemplo de livro-texto e sim um padrao de 'repeated escalation', que o petroleo segue perto de US$ 100 e possivelmente subindo depois que os futuros projetavam queda rapida, e que a presuncao correta hoje e a INVERSA da anterior: diante de um choque grande, e mais acurado supor que ele sera persistente do que supor que passa. A tese central e logica, nao conjuntural: se o BC se compromete com 2% no medio prazo E se compromete a nao reagir a choques de oferta, um choque persistente torna os dois compromissos incompativeis - 'one of those two commitments can't hold up'. Conclusao operacional explicita: 'the first answer is, don't do nothing. Looking through won't work', e a unica forma de restaurar a meta e subir juros para fechar o hiato, mesmo que nao seja nos setores onde o choque ocorre. Ele reforca com a litania do calendario de desinflacao empurrado - Q4/2025, Q1/2026, Q2, Q3, Q4 e agora 2027 - 'that's not a comforting pattern' - e fecha dizendo que sem evidencia de que os choques estao de fato arrefecendo e dificil enxergar caminho crivel de volta a 2% e mais dificil ainda justificar continuar olhando atraves deles. Na conjuntura americana ele aponta DOIS focos de sobreaquecimento de DEMANDA (onde, nas palavras dele, 'there is no ambiguity about how the Fed needs to respond'): inflacao de servicos elevada - justamente a serie que em 15/07 ele dissera ser 'very encouraging' e que o deixara 'heartened', recuo agora revertido - e a construcao de data centers de IA 'spilling out of its own lane'; ambos, diz, sao areas de preocupacao nos dados recentes. A contrapartida, e o que o distingue do resto do bloco hawkish: ele e o unico que precifica o custo. Como salarios sao rigidos, trazer a inflacao a meta no curto prazo significa 'pushing employment below target and output below potential'; por isso a resposta a choque de oferta 'may not need to be as large' que a resposta a sobreaquecimento de demanda - mas 'it won't be painless either', e o encerramento e 'the only way back is the hard way'. Isso e o oposto direto do Warsh, que na coletiva de 16/09 negou o trade-off ('I don't believe that we need to go harm to the Labor Markets to achieve our objective'). Nota de rubrica auditavel: policy_stance_read fica NULL porque o discurso e doutrinario e em nenhum momento diagnostica quao restritiva esta a postura corrente (nao ha uma unica ocorrencia de 'restrictive' no texto); labor_concern sobe para 2,0 nao porque ele veja o mercado de trabalho fraco hoje - ele nao o diagnostica - mas porque a perda de emprego decorrente da propria politica que ele defende e tratada como custo real e explicito, o que na pratica limita o tamanho da resposta que ele endossaria. Ele NAO vota em 2026 (Chicago volta ao rodizio em 2027).",
+  "key_quotes": [
+    {
+      "quote": "My argument is that in this new environment, there are some supply shocks that central banks should not simply look through - namely, the persistent ones.",
+      "context": "Tese do discurso, na introducao; e a revogacao explicita da doutrina que ele proprio defendeu em 'Lessons from the Supply Side' (05/02/2025), quando tratava a tarifa como aumento de uma vez so 'ignorable by the Fed'.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Well, the first answer is, don't do nothing. Looking through won't work.",
+      "context": "Abertura da secao 'How to Respond to Extended Supply Shocks'; a passagem do diagnostico para a prescricao, sem rodeio.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "If a central bank commits to hitting 2% inflation in the medium term and commits to not respond to supply shocks, then a repeated or persistent supply shock to inflation means one of those two commitments can't hold up.",
+      "context": "O nucleo logico do argumento: o look-through indefinido e incompativel com a meta. E por isso que a virada e doutrinaria e nao apenas conjuntural.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "And these days, when you see a large supply shock, it's usually more accurate to assume it will be persistent than to assume it will quickly go away.",
+      "context": "Inverte a presuncao default. Logo em seguida vem a evidencia: cadeias da Covid, petroleo ainda perto de US$ 100 depois que os futuros projetavam queda, e tarifas em escalada repetida.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Tariffs have been nothing like the stylized textbook example of a one-time price increase - they've instead followed a pattern of repeated escalation.",
+      "context": "A reversao mais literal: em fev/2025 a tarifa era o caso puro do choque de nivel unico que o Fed deveria ignorar.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "We need evidence that these shocks are actually fading, or it's hard to see a credible path back to 2% inflation - and harder still to justify continuing to look through them.",
+      "context": "Fecha a secao de conjuntura americana, depois da litania do calendario de desinflacao empurrado de Q4/2025 ate 2027; e o gatilho declarado dele, e ele diz que nao foi acionado.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I'm especially attuned to elevated inflation in service-sector industries, and to any evidence that AI data center construction is spilling out of its own lane and raising aggregate output beyond what the economy can absorb. Either could be signs of old-fashioned demand overheating - and if demand overheats, there is no ambiguity about how the Fed needs to respond. Both are areas of concern in the recent data.",
+      "context": "Aplicacao a conjuntura. Servicos e a serie que ele vinha monitorando como a que mais o preocupava e que em 15/07 ele dissera ser 'very encouraging'; aqui o recuo de julho e revertido e reclassificado como possivel sobreaquecimento de DEMANDA, onde ele diz nao haver ambiguidade sobre a resposta.",
+      "dimension": "growth_demand"
+    },
+    {
+      "quote": "Forcing inflation back to target in the short run means pushing employment below target and output below potential.",
+      "context": "O mecanismo de salarios rigidos; e a razao pela qual ele diz que a resposta 'may not need to be as large' que a um choque de demanda - a unica contrapartida dovish substantiva do discurso.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Our policy response to persistent supply shocks may not need to be as large as it would be if the inflation were coming from demand overheating. But it won't be painless either. This is exactly the painful trade-off between employment and inflation that stagflationary shocks always impose on a central bank. Unfortunately, in environments like that, the only way back is the hard way.",
+      "context": "Paragrafo final. Contrasta diretamente com Warsh em 16/09 ('I don't believe that we need to go harm to the Labor Markets to achieve our objective'): Goolsbee endossa o aperto E assume o custo em emprego.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.0,
+    "mandate_weight": 3.0,
+    "inflation_conviction": 4.5,
+    "labor_concern": 2.0,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5[1m]",
+  "extracted_at": "2026-09-21T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.402,
+    "hawk_hits": 11,
+    "dove_hits": 0,
+    "tokens": 1487
+  }
+}
