@@ -223,6 +223,7 @@ def build_page(mfuncs, medians, evo, corpus, roster, figs, meta, decomp, briefs,
     page = page.replace("<!--DRIVERS-->", _emb(figs["drivers"]))
     page = page.replace("<!--DRIVERDELTA-->", _emb(figs["driverdelta"]))
     page = page.replace("<!--RADAR-->", _emb(figs["radar"]))
+    page = page.replace("<!--HEATTIME-->", _emb(figs["heattime"]))
     page = page.replace("<!--HEATMAP-->", _emb(figs["heatmap"]))
     page = page.replace("<!--EVOLUTION-->", _emb(figs["evolution"]))
     page = page.replace("<!--TONE-->", _emb(figs["tone"]))
@@ -418,8 +419,10 @@ TEMPLATE = r"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
  </section>
 
  <section>
-  <h2>9 · Mapa de postura — votantes vs não-votantes</h2>
-  <p class="desc">Cada célula é a posição do membro naquela dimensão no eixo comum hawk-dove: <b>cores quentes = mais hawkish</b>, <b>cores frias = mais dovish</b>, creme = neutro. O número é a posição normalizada (+1 = extremo hawkish, −1 = extremo dovish); o <b>score bruto</b> da rubrica aparece no hover. A normalização existe porque as dimensões têm escalas diferentes — e porque <i>labor-market concern</i> é invertida (mais preocupação com emprego = mais dovish). Blocos separados: <b>votantes 2026</b> em cima, <b>não-votantes</b> embaixo; dentro de cada bloco, do mais hawkish ao mais dovish.<br><b>Atenção na coluna <i>stance restrictiveness</i>:</b> ela mede como o membro descreve a política <i>hoje</i> (restritiva = quente; neutra ou frouxa = fria). Num regime de alta, um hawk que diz que o juro ainda está acomodatício aparece <i>frio</i> nessa coluna — isso é o argumento dele para subir mais, não uma postura dovish.</p>
+  <h2>9 · Mapa de postura consolidada ao longo do tempo</h2>
+  <p class="desc">Uma célula por membro-mês: o <b>composite hawk-dove consolidado</b> naquele mês (média ponderada por recência de tudo que o membro falou até ali — a mesma série que a seção 10 desenha como linhas, lida como mapa para ver o comitê inteiro de uma vez). <b>Cores quentes = mais hawkish, cores frias = mais dovish</b>, creme = neutro; célula em branco = o membro ainda não tinha discurso na base naquele mês. Blocos separados: <b>votantes 2026</b> em cima, <b>não-votantes</b> embaixo; dentro de cada bloco, do mais hawkish ao mais dovish <i>hoje</i>. Lendo da esquerda para a direita, cada linha mostra a trajetória daquele membro; lendo de cima para baixo numa coluna, a dispersão do comitê naquele mês. A escala de cor é simétrica em torno de zero e ajustada ao intervalo efetivo dos dados.</p>
+  <!--HEATTIME-->
+  <p class="desc" style="margin-top:18px"><b>Corte transversal por dimensão (stance atual):</b> cada célula é a posição do membro naquela dimensão no eixo comum hawk-dove — o número é a posição normalizada (+1 = extremo hawkish, −1 = extremo dovish) e o <b>score bruto</b> da rubrica aparece no hover. A normalização existe porque as dimensões têm escalas diferentes — e porque <i>labor-market concern</i> é invertida (mais preocupação com emprego = mais dovish). <b>Atenção na coluna <i>stance restrictiveness</i>:</b> ela mede como o membro descreve a política <i>hoje</i> (restritiva = quente; neutra ou frouxa = fria). Num regime de alta, um hawk que diz que o juro ainda está acomodatício aparece <i>frio</i> nessa coluna — isso é o argumento dele para subir mais, não uma postura dovish.</p>
   <!--HEATMAP-->
  </section>
 

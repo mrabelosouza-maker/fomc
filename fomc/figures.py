@@ -1,6 +1,7 @@
 """Plotly figures. Each returns a go.Figure; html.py embeds them inline."""
 from __future__ import annotations
 
+import math
 import statistics
 
 import plotly.graph_objects as go
@@ -317,6 +318,77 @@ def fig_heatmap(mfuncs: dict[str, MemberFunction]) -> go.Figure:
         ),
     )
     for ann in fig.layout.annotations:  # left-align the block titles
+        ann.update(x=0, xanchor="left", font=dict(size=13, color=config.NAVY))
+    return fig
+
+
+_MONTHS_PT = ["jan", "fev", "mar", "abr", "mai", "jun",
+              "jul", "ago", "set", "out", "nov", "dez"]
+
+
+def _month_label(ym: str) -> str:
+    y, m = ym.split("-")
+    return f"{_MONTHS_PT[int(m) - 1]}/{y[2:]}"
+
+
+def fig_evolution_heatmap(evo: dict, mfuncs: dict[str, MemberFunction]) -> go.Figure:
+    """Members x months map of the consolidated composite stance.
+
+    One cell per member-month: the recency-weighted composite as of the end of
+    that month, i.e. the same series section 10 draws as lines, read as a map so
+    the whole committee's drift is visible at once. Split into a VOTERS block and
+    a NON-VOTERS block; warm = hawkish, cool = dovish; blank = no speech yet.
+    """
+    months = evo.get("months", [])
+    series = evo.get("members", {})
+    members = [m for m in mfuncs.values() if not m.insufficient and m.member_id in series]
+    members.sort(key=lambda m: (m.composite if m.composite is not None else 0), reverse=True)
+    blocks = [
+        ("★ VOTANTES 2026", [m for m in members if m.voter_2026]),
+        ("NÃO-VOTANTES 2026", [m for m in members if not m.voter_2026]),
+    ]
+    blocks = [(t, ms) for t, ms in blocks if ms]
+    if not blocks or not months:
+        return go.Figure()
+    n_tot = sum(len(ms) for _, ms in blocks)
+
+    vals = [v for m in members for v in series[m.member_id] if v is not None]
+    bound = max(2.0, math.ceil(max(abs(v) for v in vals) * 2) / 2) if vals else 5.0
+    xlab = [_month_label(mo) for mo in months]
+
+    fig = make_subplots(
+        rows=len(blocks), cols=1,
+        row_heights=[len(ms) / n_tot for _, ms in blocks],
+        vertical_spacing=0.09 if len(blocks) > 1 else 0.0,
+        subplot_titles=[t for t, _ in blocks],
+    )
+    for i, (_, ms) in enumerate(blocks, start=1):
+        z = [series[m.member_id] for m in ms]
+        ylab = [f"{_short(m.name)} · {'Board' if m.bank.startswith('Board') else m.bank}"
+                for m in ms]
+        fig.add_trace(go.Heatmap(
+            z=z, x=xlab, y=ylab, coloraxis="coloraxis", xgap=1, ygap=1,
+            hovertemplate="<b>%{y}</b><br>%{x}: composite %{z:+.2f}<extra></extra>",
+        ), row=i, col=1)
+        fig.update_yaxes(autorange="reversed", ticks="", row=i, col=1)
+        fig.update_xaxes(ticks="", tickangle=-45, row=i, col=1)
+
+    layout = dict(_LAYOUT)
+    layout["margin"] = dict(l=170, r=24, t=46, b=64)
+    fig.update_layout(
+        **layout,
+        height=30 * n_tot + 150 * len(blocks),
+        coloraxis=dict(
+            colorscale=HAWK_DOVE_SCALE, cmin=-bound, cmax=bound, cmid=0,
+            colorbar=dict(
+                title=dict(text="composite", side="right"), thickness=14, len=0.7,
+                tickvals=[-bound, -bound / 2, 0, bound / 2, bound],
+                ticktext=[f"dove {-bound:+.1f}", "", "0", "", f"hawk {bound:+.1f}"],
+                outlinewidth=0, ticks="",
+            ),
+        ),
+    )
+    for ann in fig.layout.annotations:
         ann.update(x=0, xanchor="left", font=dict(size=13, color=config.NAVY))
     return fig
 

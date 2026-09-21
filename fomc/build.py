@@ -84,6 +84,7 @@ def main(as_of: str | None = None, *, with_ribbon: bool = True) -> str:
         "driverdelta": figures.fig_driver_delta(mfuncs, decomp, b1),
         "radar": figures.fig_median_radar(medians),
         "heatmap": figures.fig_heatmap(mfuncs),
+        "heattime": figures.fig_evolution_heatmap(evo, mfuncs),
         "evolution": figures.fig_evolution(evo, roster),
         "tone": figures.fig_tone_scatter(corpus),
     }
