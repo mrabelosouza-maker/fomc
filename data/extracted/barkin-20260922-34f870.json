@@ -1,0 +1,83 @@
+{
+  "speech_id": "barkin-20260922-34f870",
+  "member_id": "barkin",
+  "title": "Why Hike?",
+  "date": "2026-09-22",
+  "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260922",
+  "source": "richmond",
+  "non_policy": false,
+  "summary": "Barkin's first speech after the FOMC's 25bp hike last week is a full-throated defense of the move: inflation is the 'troublemaker' of the dual mandate, above 2 percent for more than five years, with headline PCE at 3.7 percent and core at 3.3 percent in July, and \u2014 crucially \u2014 the pressure is broad, not a tariff/oil sideshow, since more than 60 percent of the PCE index is rising faster than 3 percent year over year. Against that he sees a labor market that 'gets good grades' (4.1 percent unemployment, claims near historic lows, 160k+ payrolls in August), so the risks to inflation clearly outweigh the risks to maximum employment. He explicitly rejects the argument that inflation returns to target on its own: the supposedly passing shocks (new tariffs, the Middle East conflict, AI build-out supply strain) are not one-off, and he now hears businesses saying they can pass costs on with far less resistance than prepandemic \u2014 Richmond surveys have prices received averaging 3.5 percent and CFO Survey 2027 price expectations at 4.1 percent. Demand is firming (blowout retail sales, an investment boom well beyond data centers), which only adds to the pressure. On what comes next he is deliberately open-ended \u2014 'Will additional hikes be required, and how many? We'll see' \u2014 but the risk case he spells out most vividly is that inflation proves stubborn and one 'talking-to' is not enough.",
+  "key_quotes": [
+    {
+      "quote": "Looking at both, it\u2019s clear which kid needs our focus. The risks to inflation outweigh the risks to maximum employment. That\u2019s why we raised rates.",
+      "context": "His summary of the mandate trade-off behind his support for last week's 25bp hike.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "It is tempting to try to blame high inflation on a handful of categories with particularly high exposure to the Middle East conflict or to tariffs. But more than 60 percent of the PCE index is rising faster than 3 percent year over year.",
+      "context": "Rejecting the idea that the inflation overshoot is narrow/supply-shock-driven; the broadening argument.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "There was an argument that inflation would return to target on its own, without any additional help from the Fed. The idea was that as inflationary shocks passed, so would high inflation. One problem with that argument, of course, is that the \u201cpassing\u201d shocks aren\u2019t proving to be short-lived, or one-off events.",
+      "context": "Explicitly abandoning the look-through / self-correcting-inflation case, which is the core of why he wanted to act.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "We are committed to returning inflation sustainably to our 2 percent target. Last week\u2019s hike will help. Will additional hikes be required, and how many? We\u2019ll see.",
+      "context": "His forward guidance: door open to more hikes, but no commitment to a sequence.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 4,
+    "inflation_conviction": 4.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "tariffs",
+      "ai_productivity",
+      "immigration"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-09-22T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0127,
+    "hawk_hits": 1,
+    "dove_hits": 1,
+    "tokens": 1561
+  }
+}
