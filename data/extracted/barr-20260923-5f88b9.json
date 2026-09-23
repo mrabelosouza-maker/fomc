@@ -1,0 +1,83 @@
+{
+  "speech_id": "barr-20260923-5f88b9",
+  "member_id": "barr",
+  "title": "A Long-Term View on the Costs of Shelter",
+  "date": "2026-09-23",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "The body of this speech is a housing-affordability lecture, but Barr opens with a short and unusually direct monetary-policy section that marks his hawkish turn. He frames the past year and a half as a sequence of price-pressure shocks \u2014 tariffs, the Middle East conflict and the war in Ukraine, and the surge in AI-related investment demand \u2014 and judges that growth is strong and the labor market solid while inflation is above target and 'not clearly trending toward target in a timely way.' On that basis he says risks to the inflation goal have increased while labor-market risks have receded, which required recalibrating policy; he supported last week's hike and, strikingly, says the Committee had been 'out of position.' His base case is that further policy adjustments are likely to be needed to bring inflation down in a timely fashion \u2014 a more explicit tightening signal than either Collins or Barkin gave this week. The housing material reinforces the same story from the cost side: shelter inflation has cooled from its 2022\u201323 pace but the level of rents and prices remains a burden, and he points out that mortgage rates are generally lower when inflation is lower.",
+  "key_quotes": [
+    {
+      "quote": "Economic growth is strong and the labor market is solid, but inflation is above our 2 percent target and not clearly trending toward target in a timely way.",
+      "context": "His summary read of the dual mandate ahead of justifying the hike.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Moreover, risks to achieving our inflation target have increased, while risks to the labor market have receded.",
+      "context": "The shift in the balance of risks that, in his telling, required recalibration.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "In my view, given changes to the economy, we were out of position, and we made an adjustment in the right direction.",
+      "context": "His judgment that the policy stance had become inappropriately loose relative to the economy.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion.",
+      "context": "His forward guidance: additional tightening is the base case, not just a risk scenario.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3.5,
+    "inflation_conviction": 4,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "housing",
+      "tariffs",
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-09-23T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.056,
+    "hawk_hits": 0,
+    "dove_hits": 3,
+    "tokens": 2868
+  }
+}
