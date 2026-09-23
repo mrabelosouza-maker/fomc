@@ -1,0 +1,79 @@
+{
+  "speech_id": "collins-20260923-6aac29",
+  "member_id": "collins",
+  "title": "LinkedIn Post on the September FOMC Decision",
+  "date": "2026-09-23",
+  "url": "https://www.linkedin.com/",
+  "source": "linkedin",
+  "non_policy": false,
+  "summary": "In a short LinkedIn note explaining her vote, Collins confirms she supported the FOMC's 25bp hike and frames it as the natural execution of the conditional warning she gave on August 25 \u2014 that absent evidence of meaningful inflation progress it would be appropriate to tighten soon. The new information is her risk assessment: she now sees an increased likelihood of scenarios in which inflation remains notably above 2 percent, and says the upside risks to inflation have increased, while labor market conditions look 'a bit stronger overall' with unemployment still low (caveating that experiences vary by place and sector). Her reaction function is explicit: with the labor market on a better footing, monetary policy can focus on a timely return to price stability, 'especially after five and a half years of too high inflation.' She endorses a 'somewhat more restrictive' funds rate as what will ensure inflation durably returns to target, without committing to a sequence of further moves \u2014 she keeps her stance 'firmly grounded in the data.'",
+  "key_quotes": [
+    {
+      "quote": "Given all the available information, I now see an increased likelihood of future scenarios in which inflation remains notably above 2 percent.",
+      "context": "Her updated risk assessment, the substantive change relative to her earlier conditional language.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "While the upside risks to inflation have increased, labor market conditions seem a bit stronger overall, and the unemployment rate remains low \u2013 though I recognize that experiences vary considerably by place and sector.",
+      "context": "The two-sided read that tips the mandate balance toward inflation.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "With the labor market on a better footing, monetary policy can focus on a timely return to price stability, especially after five and a half years of too high inflation.",
+      "context": "Her explicit statement of which mandate leg now binds.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "A somewhat more restrictive federal funds rate will help ensure that inflation durably returns to target.",
+      "context": "Her endorsement of a tighter stance as the means of delivering price stability.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3,
+    "mandate_weight": 3.5,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": 3,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": []
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5",
+  "extracted_at": "2026-09-23T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.2951,
+    "hawk_hits": 4,
+    "dove_hits": 0,
+    "tokens": 287
+  }
+}
