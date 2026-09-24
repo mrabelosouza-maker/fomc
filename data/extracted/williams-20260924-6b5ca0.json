@@ -1,0 +1,74 @@
+{
+  "speech_id": "williams-20260924-6b5ca0",
+  "member_id": "williams",
+  "title": "London Macro Policy Forum (NIESR): Another Hike by Year-End Reasonable",
+  "date": "2026-09-24",
+  "url": "https://www.reuters.com/",
+  "source": "reuters",
+  "non_policy": false,
+  "summary": "Three weeks after telling CNBC there was 'no clear science' on whether policy was sufficient, and one week after voting for the hike, Williams now endorses the market's path: it is 'likely that another rate hike may be appropriate by the end of the year. That seems to me a reasonable way of thinking about it.' The open question of Sept 2 has become a base case for more tightening, although he hedges it heavily ('we have to see', high uncertainty) and borrows the framing from market pricing rather than stating his own projection. Inflation is now 'the big challenge' and he adds a timeliness condition \u2014 not only back to 2% but 'in a timely manner' \u2014 while the economy has proven resilient to the energy shock, so growth no longer argues for patience. On process he aligns fully with Warsh: explicit forward guidance is 'over', decisions will be taken as between July and September, and the September move reflected a build-up of pressures rather than a data surprise \u2014 which implies the next hike needs no single trigger either. Coverage is press-only (Reuters/CNBC), so the read rests on a few quoted lines.",
+  "key_quotes": [
+    {
+      "quote": "it's likely that another rate hike may be appropriate by the end of the year. That seems to me a reasonable way of thinking about it",
+      "context": "Endorsing the market/SEP path of at least one more hike in 2026 \u2014 the key change vs Sept 2, when further action was only an open question",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "But we have to see. We're going to collect the data and do what we did between July and September",
+      "context": "The hedge: data-dependent, meeting by meeting, no commitment on timing",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "We really want to see not only inflation get back to 2% which is absolutely essential to achieve that, but also we want to see that happen ... in a timely manner",
+      "context": "Inflation described as the 'big challenge'; the timeliness condition hardens the Sept 2 'foreseeable future' language",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 3,
+    "inflation_conviction": 3,
+    "labor_concern": null,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": []
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-09-24T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 756
+  }
+}
