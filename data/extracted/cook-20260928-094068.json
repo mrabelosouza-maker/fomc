@@ -1,0 +1,81 @@
+{
+  "speech_id": "cook-20260928-094068",
+  "member_id": "cook",
+  "title": "Oakland Tech Week (Kapor Center): AI Adds Near-Term Inflation Pressure; Rate Path Data-Dependent",
+  "date": "2026-09-28",
+  "url": "https://www.federalreserve.gov/",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Mostly an AI-and-the-economy keynote, but it closes with a full policy section: Cook voted for the September 25bp hike because inflation 'has been too high for too long' (headline 3.8%, core 3.4%) and says she will 'consider what policy rate may be needed to continue to guide inflation down,' with 'the number and magnitude of any future adjustments' left to the data. The AI analysis tilts hawkish in the near term: sector-specific AI price surges should be looked through, but AI-fueled demand (data-center inputs, energy, wealth effects) is now broadening into economy-wide pressure (electricity/water ~5%, core goods >3%), and productivity-driven disinflation will not 'arrive in time to offset the broadening inflationary pressure later this year.' Versus Anchorage (Aug 5), the conditional hike became a vote, and the self-correction list flipped: oil is no longer expected to bring deflationary relief but cited as continued pass-through pressure from the Middle East conflict, while tariffs drop out. The labor market is 'well positioned to handle an increase in rates' (unemployment down to 4.1%), and even an AI-driven rise in unemployment would be a supply-side mismatch where cutting 'could risk fueling inflation.' She stops short of calling further hikes her baseline, keeping the next step data-dependent.",
+  "key_quotes": [
+    {
+      "quote": "However, I do not expect those effects to arrive in time to offset the broadening inflationary pressure later this year.",
+      "context": "On whether AI productivity gains will offset AI-fueled demand pressure.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Furthermore, in coming months I expect to see continued pressure on inflation from the AI buildout, as discussed today, and from the pass-through of higher oil prices and supply chain disruptions associated with the conflict in the Middle East.",
+      "context": "Economic outlook section, after explaining her vote for the September hike.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "The labor market appears to be well positioned to handle an increase in rates.",
+      "context": "Labor read supporting the hike; unemployment trending down to 4.1%.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Looking ahead, I will consider what policy rate may be needed to continue to guide inflation down to our target.",
+      "context": "Closing forward guidance; followed by 'the number and magnitude of any future adjustments' being data-driven.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3,
+    "mandate_weight": 3,
+    "inflation_conviction": 4,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-09-28T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0174,
+    "hawk_hits": 4,
+    "dove_hits": 7,
+    "tokens": 3290
+  }
+}
