@@ -1,0 +1,83 @@
+{
+  "speech_id": "barr-20260929-221819",
+  "member_id": "barr",
+  "title": "Detroit Economic Club: Further Adjustments Likely Needed as Inflation Too High",
+  "date": "2026-09-29",
+  "url": "https://www.federalreserve.gov/",
+  "source": "board",
+  "non_policy": false,
+  "summary": "A full outlook-and-policy speech that restates, with more supporting detail, the hawkish turn Barr first signaled in his housing remarks on September 23. Inflation has been above target for five and a half years, he counts only two months of 2 percent-consistent core PCE in the past 20, and he does not yet see a clear trend toward a timely return; energy prices from the Middle East conflict persist while the AI investment surge is now having a measurable effect on prices, with chip-price increases spreading to other products. Growth has gained momentum and the labor market is in rough balance near maximum employment, so labor risks have receded and policy must be recalibrated toward the inflation side; his base case again is that further policy adjustments are likely to be needed. New relative to last week, he adds an r* argument (a lasting AI productivity boost would raise the equilibrium rate and imply a higher policy-rate setting, though it is too early to know) and drops the 'out of position' language, while tariffs are downgraded to effects that 'may have diminished.'",
+  "key_quotes": [
+    {
+      "quote": "I count only two months of data consistent with 2 percent core PCE inflation over the past 20 months. And I don't yet see a clear trend toward a timely return to 2 percent.",
+      "context": "His read of the underlying inflation trend through the volatile monthly prints.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Risks to achieving our inflation target have increased, while risks to the labor market have receded, so we need to recalibrate policy to get us in a better position that more evenly balances risks to both components of our dual mandate.",
+      "context": "Justification for the September hike and for continued recalibration.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion.",
+      "context": "Forward guidance: more tightening is the base case, repeated verbatim from September 23.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Balancing this shift in savings and investment would require higher interest rates in equilibrium\u2014what monetary economists would call a rise in r*. That, in turn, implies a higher setting for the policy rate.",
+      "context": "AI-productivity scenario; he adds it is too early to know if these dynamics are in play.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 3.5,
+    "inflation_conviction": 4,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-09-29T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0387,
+    "hawk_hits": 1,
+    "dove_hits": 3,
+    "tokens": 2673
+  }
+}
