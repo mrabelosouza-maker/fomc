@@ -1,0 +1,82 @@
+{
+  "speech_id": "goolsbee-20260929-ec4d9b",
+  "member_id": "goolsbee",
+  "title": "Chicago Fed Luncheon Q&A: AI Hype Risks Short-Run Overheating",
+  "date": "2026-09-29",
+  "url": "https://www.chicagofed.org/",
+  "source": "video transcript (auto-captions, lightly cleaned)",
+  "non_policy": false,
+  "summary": "A moderated luncheon Q&A in central Illinois (partial auto-caption transcript that ends mid-answer), mostly biography and business-conditions talk with no statement on the rate path or on how restrictive policy is. The policy-relevant content is twofold. On supply shocks he is more ambivalent than in his September 21 OMFIF remarks: oil that raises both inflation and unemployment is 'a central bank nightmare' where 'it's not obvious what you do', whereas a week earlier his answer was 'don't do nothing, looking through won't work.' On demand he is clearly hawkish: AI hype about future productivity is a 'high danger' of overheating the economy in the next six months, data-center investment is 'old-fashioned overheating,' and if that spreads into an inflationary impulse the Fed 'needs to take action to prevent that thing from spiraling.' In the district, 'demand isn't the problem right now. It's cost,' with diesel over $6 and high wage pressures, while hiring is as low as at a recession trough and layoffs as low as at a boom peak, which he attributes to tariff and trade uncertainty. The lower score versus September 21 reflects the Q&A format and the absence of a policy path, not a dovish retreat.",
+  "key_quotes": [
+    {
+      "quote": "So something like the price of oil which drives up inflation and drives up unemployment at the same time, that's a central bank nightmare because it's not obvious what you do to respond to it.",
+      "context": "Answer on how the Fed balances the cost squeeze on manufacturers.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "But I do know that in the next six months, if everyone believes that there's going to be a huge increase in productivity coming, that's a high danger to overheat the economy right now before that's happened.",
+      "context": "Answer on AI; he calls it two-thirds cop-out, one-third insight.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "That's something where the unemployment rate goes down and the inflation rate goes up and the Fed needs to take action to prevent that thing from spiraling.",
+      "context": "Why an AI-driven demand impulse, unlike a supply shock, calls for a policy response.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "the hiring rate is as low as at the trough of a recession, very low hiring rate; the layoff rate is as low as at the peak of a boom, very low layoff rate.",
+      "context": "Labor-market read, attributed to tariff and trade uncertainty.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.0,
+    "mandate_weight": 2.0,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1.5,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 0,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-09-29T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1257,
+    "hawk_hits": 4,
+    "dove_hits": 1,
+    "tokens": 1583
+  }
+}
