@@ -1,0 +1,76 @@
+{
+  "speech_id": "musalem-20260929-5a0d6d",
+  "member_id": "musalem",
+  "title": "LSE: Communicate the Framework, Not the Path",
+  "date": "2026-09-29",
+  "url": "https://www.stlouisfed.org/",
+  "source": "stlouisfed",
+  "non_policy": true,
+  "summary": "A prepared lecture on central bank communication with no read on the current outlook or the policy stance; Musalem explicitly defers applying it to current U.S. conditions to the Q&A, which is not in the text. He argues the Fed should communicate its reaction framework (how and why it sets policy), not a promised rate path or a forecast, and proposes an explicit 18-month horizon for returning to mandate-consistent outcomes plus two or three probability-weighted scenarios with the policy response under each. He frames this as a middle ground in the live FOMC debate after Warsh ended explicit forward guidance: a central bank should avoid both overpromising and 'exiting the conversation altogether,' since unexplained policy risks being read as discretion, which 'can be costly in terms of inflation.' Nothing here revises the hawkish stance of his September 21 Reuters interview (policy still accommodative, earlier and incremental firming, target restored in about a year and a half); the 18-month horizon echoes that interview.",
+  "key_quotes": [
+    {
+      "quote": "Note that I'm not talking about forward guidance of a specific policy path, but rather the framework for how and why policy is determined.",
+      "context": "Thesis of the lecture: communicate the reaction function, not the path.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I consider an 18-month horizon reasonable.",
+      "context": "Proposed horizon for achieving mandate-consistent inflation and employment.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "An unexplained policy risks being interpreted as discretion, which can be costly in terms of inflation.",
+      "context": "Why the Fed should not exit the conversation after dropping explicit guidance.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "fed_independence"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-09-29T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.011,
+    "hawk_hits": 2,
+    "dove_hits": 1,
+    "tokens": 2056
+  }
+}
