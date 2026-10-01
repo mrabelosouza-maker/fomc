@@ -1,0 +1,84 @@
+{
+  "speech_id": "jefferson-20261001-bf7d11",
+  "member_id": "jefferson",
+  "title": "Darden School (UVA): Upside Inflation Risks, Next Move Needs More Data",
+  "date": "2026-10-01",
+  "track": "membro",
+  "doc_type": "fala_publica",
+  "url": "https://www.federalreserve.gov/",
+  "source": "board",
+  "non_policy": false,
+  "summary": "In a full outlook speech at UVA's Darden School, Jefferson says inflation is too high, has exceeded 2% for more than five years, and that risks to his inflation forecast are tilted to the upside (energy, AI-driven demand), while growth and employment risks are roughly balanced with unemployment near maximum employment. He supported the September hike as a step to keep longer-term expectations anchored and deliver 2% in a timely manner, and argues the committee cannot look through the cascade of shocks one at a time. But he gives no further-tightening signal: future adjustments depend on trends in the data, he notes the further rise in yields since September, and says the committee's judgment 'may take more time'. Versus July, when he only floated reconsidering the stance if inflation did not cool soon, he has now endorsed the hike and moved to an explicit upside-risk framing, yet he positions himself as patient on the next move, well short of Barr's or Williams's call for more.",
+  "key_quotes": [
+    {
+      "quote": "While I view the risks to both economic activity and employment as roughly balanced at this point, I see upside risks to inflation.",
+      "context": "Opening summary of his outlook.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "I remain concerned about the risk of higher energy prices leading to a persistent rise in inflation more broadly.",
+      "context": "Inflation section, on energy as the main driver of headline.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "We do not have the luxury of considering each of these shocks in isolation.",
+      "context": "Monetary policy section, explaining why the cascade of shocks justified the September hike.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "My colleagues and I will need to come to our own judgment, which may take more time.",
+      "context": "After noting that yields across the term structure rose further since September; on the next policy move.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.0,
+    "mandate_weight": 2.0,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "dovish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-01T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.037,
+    "hawk_hits": 5,
+    "dove_hits": 4,
+    "tokens": 1645
+  }
+}
