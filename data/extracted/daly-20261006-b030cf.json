@@ -1,0 +1,82 @@
+{
+  "speech_id": "daly-20261006-b030cf",
+  "member_id": "daly",
+  "title": "Axios Interview: AI Chip Squeeze Less a One-Off; Further Hikes Hinge on Whether Shocks Fade",
+  "date": "2026-10-06",
+  "url": "https://www.axios.com/",
+  "source": "axios",
+  "non_policy": false,
+  "summary": "Daly's first read after the September hike (press coverage only, an Axios interview) and the clearest hawkish shift in her corpus: in Tokyo (Aug 5) she backed the July hold and saw 'good reasons' the supply shocks would not last; now she calls the September hike 'completely necessary' because 'inflation risks have gone up.' The new element is AI: drawing on Silicon Valley contacts (forward contracts for memory chips, products re-engineered to use fewer chips), she sees AI-driven chip pressure as 'less ... a one-off' with relief 'probably further out' than the one-to-three-year horizon over which the Fed normally looks through shocks, and a risk of spillover into autos and other goods. Further hikes are explicitly conditional: if tariffs, oil and AI behave as conventional temporary shocks 'we may not need more,' a scenario she still gives 'some probability,' but if they compound or last longer (e.g. a second round of tariffs) the period of pressure extends. She keeps a dual-mandate caveat (the FOMC is 'not going to lose track of the labor market') and notes tightening still works through the rate-sensitive economy even if hyperscalers are not very rate-sensitive. Net: from a patient hold to backing the hike with a conditional lean toward more, still short of the hawks who see policy 'out of position'; she is NOT a 2026 voter.",
+  "key_quotes": [
+    {
+      "quote": "It seemed completely necessary at this juncture to respond to the fact that inflation risks have gone up.",
+      "context": "On the September hike, which she was 'very supportive' of; in August she backed the hold",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "This is probably further out before we get relief.",
+      "context": "AI-driven chip/tech price pressure vs the one-to-three-year horizon over which the Fed usually looks through shocks",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "then we may not need more. And I still have some probability on that.",
+      "context": "If tariffs, oil and AI prove conventional temporary shocks; if they compound or last longer, more may be needed",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I do think tightening policy has an effect on the outlook for inflation",
+      "context": "Even though hyperscalers are not very rate-sensitive, other AI investors and the broader economy are",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "tariffs": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-06T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1245,
+    "hawk_hits": 4,
+    "dove_hits": 0,
+    "tokens": 1033
+  }
+}
