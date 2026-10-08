@@ -1,0 +1,82 @@
+{
+  "speech_id": "waller-20261008-dc774e",
+  "member_id": "waller",
+  "title": "Istanbul Economic Forum: SEP Signals More Hikes, Need Not Be Consecutive",
+  "date": "2026-10-08",
+  "url": "https://www.federalreserve.gov/newsevents/speeches.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller completes the turn he had left conditional on September 3: then he leaned toward holding on 'signs of disinflation' and said energy and tariffs were no longer a significant source of ongoing pressure; now he backs the September hike and, in his own voice, says 'I anticipate additional hikes' if the data come in as expected. He frames the hike as the culmination of a year of evidence rather than one hot CPI print, and reverses his supply-shock read: oil could stay high through 2027, the AI buildout is driving up high-tech consumer prices, and new tariffs threaten renewed pressure, so the policy setting held since December 2025 'would not be sufficient' to return inflation to 2 percent in a timely manner. The core worry is expectations after five and a half years above target; labor is solid and stable and activity strengthening, so he is not concerned that tightening causes a damaging slowdown, and 'policy will be focused on the inflation side of our mandate.' The communication section endorses the SEP as a 'signaling' device (16 of 18 dots see at least one more hike in 2026) and leaves timing flexible: hikes 'do not need to come at consecutive meetings' but should be in place within an acceptable period.",
+  "key_quotes": [
+    {
+      "quote": "If the economic data continue to come in as expected, I anticipate additional hikes to support a timelier return of inflation to our 2 percent goal.",
+      "context": "Closing statement of his own expected path after describing the SEP signaling role.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "For me, this led to the judgment that the policy setting that the FOMC maintained from December 2025 through September of this year would not be sufficient to return inflation to 2 percent in a timely manner.",
+      "context": "Explaining why he supported the September hike as the culmination of months of evidence.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "But I am concerned that the recent acceleration in inflation\u2014after what soon will be five and a half years of it above the FOMC's target\u2014will lead consumers, investors, and price-setting businesses to revise up their expectations for future inflation.",
+      "context": "The central reason for tightening: expectations risk after a prolonged overshoot.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "For at least the near term, policy will be focused on the inflation side of our mandate.",
+      "context": "After reading the September jobs report as solid and stable and core PCE at 3 percent.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 4,
+    "inflation_conviction": 4,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-08T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0222,
+    "hawk_hits": 4,
+    "dove_hits": 3,
+    "tokens": 2031
+  }
+}
