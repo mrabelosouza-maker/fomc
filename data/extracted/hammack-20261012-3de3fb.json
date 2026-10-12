@@ -1,0 +1,83 @@
+{
+  "speech_id": "hammack-20261012-3de3fb",
+  "member_id": "hammack",
+  "title": "Barron's Interview: Policy Must Get Restrictive, Prefers Smaller More Frequent Hikes",
+  "date": "2026-10-12",
+  "url": "https://www.barrons.com/",
+  "source": "barrons",
+  "non_policy": false,
+  "summary": "With the September hike behind the Fed, Hammack keeps pressing for more: policy still is not restrictive, 'more tightness is needed', and on the current stance inflation would take longer than acceptable to return to 2%. What is new versus August is the shape of the path rather than its direction: she now prefers 'smaller moves more frequently' so businesses and households can plan, but stresses that does not mean hiking every meeting and calls the timing of the next move 'a question mark', keeping an open mind for October. She concedes the sharp rise in yields has moved financial conditions 'closer to neutral', yet repeats that markets are a complement, not a substitute, for Fed action. Her inflation case has shifted toward expectations: firms are padding prices to protect margins, buyers now rank availability over price, and the biggest risk is an 'inflationary mindset' of which she already hears 'small pieces of evidence'. Demand is strong (record debt issuance, trillion-dollar IPOs, data-center boom), and the labor market does not feature in her argument.",
+  "key_quotes": [
+    {
+      "quote": "I think we need to get policy to be restrictive. So I think more tightness is needed in the economy. I personally prefer doing smaller moves more frequently because I think that helps businesses and households to plan and to see things coming.",
+      "context": "Answer to whether the Fed should hike again in October; preceded by 'When that next hike comes is a question mark'.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "And with the current policy stance, I think it's going to take us longer than what I would think was acceptable to bring it back down.",
+      "context": "Her forecast-based case for further tightening after repeated inflation-forecast misses.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Given the yield move we've seen over the past quarter, I think financial conditions now look to be closer to neutral given that sharp move.",
+      "context": "Acknowledges the bond-market tightening, then says policy still needs to be restrictive.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I think the biggest risk is this inflationary mindset.",
+      "context": "On inflation not returning to 2% until 2029 per the SEP; she has seen 'small pieces of evidence' of it in the district.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 4,
+    "mandate_weight": 4.5,
+    "inflation_conviction": 4.5,
+    "labor_concern": null,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "fed_independence",
+      "fiscal"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1323,
+    "hawk_hits": 5,
+    "dove_hits": 0,
+    "tokens": 1729
+  }
+}
