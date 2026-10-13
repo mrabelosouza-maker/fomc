@@ -1,4 +1,4 @@
 group,n,composite_hawk_dove,mandate_weight,inflation_conviction,labor_concern,policy_stance_read
-voters,12,2.825,3.176,3.893,0.805,1.684
+voters,12,2.825,3.176,3.893,0.777,1.624
 non_voters,7,2.743,3.433,4.0,1.0,2.5
-all,19,2.787,3.28,4.0,0.816,1.943
+all,19,2.787,3.28,4.0,0.794,1.943

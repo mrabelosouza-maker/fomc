@@ -1,0 +1,82 @@
+{
+  "speech_id": "williams-20261013-df8cab",
+  "member_id": "williams",
+  "title": "Bloomberg Interview: One More Hike, No Reason Seen for More in 2027",
+  "date": "2026-10-13",
+  "url": "https://www.bloomberg.com/",
+  "source": "bloomberg",
+  "non_policy": false,
+  "summary": "In a Bloomberg interview (press coverage only, so the read rests on a handful of quotes), Williams reiterates that one more hike this year may be appropriate but, for the first time, caps the cycle: he sees no reason at this time to believe the Fed would need to do more in 2027, leaning against futures pricing of further hikes. The emphasis shifts from the Sept. 29 Buffalo speech, where the balance of risks had moved toward price stability and inflation was 'job No. 1', toward disinflationary forces: inflation should slow 'quite a bit' toward 2% next year as tariff and energy effects fade, underlying inflation measures have come down, the labor market is not out of balance and the economy is 'not overheating overall'. He justifies the September hike by higher fuel costs (oil and refining spreads) and acknowledges AI-related demand outrunning supply for a while, but frames both as specific shocks rather than broad pressure. The hawkish lean is intact for one more move, but the terminal-rate signal is dovish relative to market pricing and to Hammack/Logan.",
+  "key_quotes": [
+    {
+      "quote": "I don't think at this time I have any reason to believe that we would need to do more",
+      "context": "Caps the cycle: no further hikes seen in 2027.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "I haven't changed my view that it may be appropriate to have one more rate hike",
+      "context": "Reiterates the one-further-hike path from Sept. 29.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "In fact, these measures of underlying inflation have come down.",
+      "context": "Underlying inflation cooling.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "This is not an economy that is overheating overall",
+      "context": "No broad excess demand beyond specific shocks; labor market not out of balance.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.0,
+    "mandate_weight": 2.5,
+    "inflation_conviction": 1.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1.0,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "patient"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-13T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.017,
+    "hawk_hits": 1,
+    "dove_hits": 2,
+    "tokens": 865
+  }
+}
