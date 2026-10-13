@@ -1,0 +1,84 @@
+{
+  "speech_id": "waller-20261013-37a024",
+  "member_id": "waller",
+  "title": "Bloomberg New Economy Forum: Higher Yields Doing Some of the Work",
+  "date": "2026-10-13",
+  "url": "https://www.bloomberg.com/",
+  "source": "bloomberg",
+  "non_policy": false,
+  "summary": "In a moderated conversation in New Delhi dominated by AI, fiscal risk and Fed independence, Waller does not repeat the explicit call he made in Istanbul on October 8 ('I anticipate additional hikes'). Asked directly whether the surge in long yields is enough or whether the Fed has more room to hike, he sidesteps the path and says the ten-year is set by global supply and demand, but that higher yields hit housing and autos and are 'doing a little bit of the work', a new argument that partially substitutes for policy-rate tightening. He keeps an inflation-side worry: the AI buildout is 'spreading out' inflation through demand for chips and related goods and could last 2 to 3 years, and 'we have to just decide how we want to respond to that', though he calls the effect narrow rather than broad-based and stresses that inflation expectations are well anchored, softening his Istanbul concern about expectations drifting up. The rest covers the fading Treasury convenience yield, fiscal dominance (not yet a US problem) and defending Fed independence; labor is not discussed. The score falls versus Istanbul because of the format and the financial-conditions offset, not because of an explicit retreat on hikes.",
+  "key_quotes": [
+    {
+      "quote": "So it's doing a little bit of the work.",
+      "context": "Answering whether higher long yields are enough or the Fed has more room to hike: higher yields tighten demand in housing and autos, a spillover that is not the Fed's intent.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "we're starting to see AI having a spreading out of inflation, because it's just increasing demand for everything else.",
+      "context": "Hyperscalers bidding up semiconductor prices; he sees the pressure lasting 2 to 3 years.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "And we have to just decide how we want to respond to that.",
+      "context": "After saying hyperscalers plan to keep spending trillions over three years, so the AI demand pressure may persist.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Inflation expectations are well anchored.",
+      "context": "Explaining that the rise in yields reflects real growth and fiscal concerns, not an inflation premium.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.0,
+    "mandate_weight": 3,
+    "inflation_conviction": 3,
+    "labor_concern": null,
+    "policy_stance_read": 2,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "fiscal",
+      "fed_independence",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "dovish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-13T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0771,
+    "hawk_hits": 5,
+    "dove_hits": 0,
+    "tokens": 4207
+  }
+}
