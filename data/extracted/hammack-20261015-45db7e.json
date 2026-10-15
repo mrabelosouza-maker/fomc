@@ -1,0 +1,71 @@
+{
+  "speech_id": "hammack-20261015-45db7e",
+  "member_id": "hammack",
+  "title": "Goldman Sachs Event: Inflationary Mindset Could Require Bigger Moves",
+  "date": "2026-10-15",
+  "url": "https://www.reuters.com/",
+  "source": "reuters",
+  "non_policy": false,
+  "summary": "In her last remarks before the October quiet period, Hammack turned the 'inflationary mindset' she flagged as a risk three days earlier into an explicit reaction-function warning: if expectations of persistent price pressure set in, monetary policy's job gets harder and the Fed 'might need to move even more' than otherwise. She also hardened her read of financial conditions, from 'closer to neutral' after the rise in yields to 'roughly neutral' with no restraint coming from them, as technology investment proceeds at full speed despite higher borrowing costs. She gave no firm guidance on the October meeting, so there is no explicit path beyond the conditional threat of larger moves. Press-only coverage with two quotes; the labor market does not appear.",
+  "key_quotes": [
+    {
+      "quote": "if you get this inflationary mindset, if you get these expectations that these price pressures become more and more persistent, it makes it much harder for monetary policy to do the work that we need to do, and we might need to move even more than if you don't have an inflationary mindset set in",
+      "context": "Goldman Sachs event in New York, on the risk of de-anchoring inflation expectations",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "I'm not feeling that there's restraint coming from financial conditions at this\u2026point in time",
+      "context": "On financial conditions, which she sees as roughly neutral amid full-speed technology investment despite rising borrowing costs",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 4.5,
+    "inflation_conviction": 4.5,
+    "labor_concern": null,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-15T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.1029,
+    "hawk_hits": 1,
+    "dove_hits": 2,
+    "tokens": 378
+  }
+}
