@@ -1,0 +1,82 @@
+{
+  "speech_id": "warsh-20261016-c01cd5",
+  "member_id": "warsh",
+  "title": "IMF Fall Meetings Bangkok (Georgieva fireside): World Conformed to Expectations, October and December Live",
+  "date": "2026-10-16",
+  "url": "https://www.youtube.com/watch?v=T20jWBJ66X0",
+  "source": "video transcript (YouTube livestream, local whisper transcription)",
+  "non_policy": false,
+  "summary": "Moderated conversation with IMF MD Kristalina Georgieva at the Fall Meetings in Bangkok; mostly institutional (AI, Fed culture and talent, task forces, legacy of predecessors), with one compact policy passage. Warsh says that since the September hike 'the world has broadly conformed to our expectations', restates that the Fed 'removed a dose of accommodation' (i.e., policy still not framed as restrictive), refuses to prejudge meetings and names October and December as the next 'crystallizing' decision points. The macro backdrop he paints is hawkish: a broadening US investment surge (not only AI) giving the economy 'plenty of tailwinds', AI hitting aggregate demand before supply, a global 'surge in prices' reported by every central banker he met, and an endorsement of the 'synchronous tightening' abroad ('no free riders'). Versus the September press conference (+4.5, pregou e entregou), nothing is walked back but nothing is escalated either: there is no explicit path, no new forward guidance and labor is not discussed, so the score falls on format (conversation, little policy content) rather than on a dovish shift. Read for October: keeps the next hike alive without committing to the date, consistent with the September SEP median of one more hike in 2026.",
+  "key_quotes": [
+    {
+      "quote": "The world has broadly conformed to our expectations.",
+      "context": "On developments since the September FOMC meeting",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "removed a dose of accommodation about a month ago.",
+      "context": "Describing the September hike; frames policy as still not restrictive",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I'll make some judgments at the October meeting and the December meeting",
+      "context": "Next decision points, no pre-commitment",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "plenty of tailwinds that are giving some strength and durability to this economy.",
+      "context": "Broadening US investment surge",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.0,
+    "mandate_weight": 3.5,
+    "inflation_conviction": 3.5,
+    "labor_concern": null,
+    "policy_stance_read": 1.0,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5[1m]",
+  "extracted_at": "2026-10-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0283,
+    "hawk_hits": 2,
+    "dove_hits": 0,
+    "tokens": 4982
+  }
+}
