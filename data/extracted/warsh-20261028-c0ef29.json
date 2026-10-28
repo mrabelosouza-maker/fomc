@@ -1,0 +1,82 @@
+{
+  "speech_id": "warsh-20261028-c0ef29",
+  "member_id": "warsh",
+  "title": "FOMC Press Conference",
+  "date": "2026-10-28",
+  "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20261028.pdf",
+  "source": "board",
+  "non_policy": false,
+  "summary": "ATENCAO METODOLOGICA: composite ancorado na ENTREGA, como na coletiva de 29/07 (decisao do usuario): havia alta na mesa (Cook e Hammack dissentiram por +25bp, placar 10-2, e o proprio Colby Smith lembrou que a maioria do comite esta 'on board' com alta em dezembro) e o Chair conduziu a manutencao em 3,75-4,00%. Na ancora de MENSAGEM esta coletiva ficaria em torno de +2.5. Fonte: opening statement oficial (PDF preliminar) + Q&A de legenda automatica. || Versus Bangkok (16/10, +3.0, 'outubro e dezembro seguem vivos'), outubro passou sem alta e o argumento organizador virou a transmissao: a alta de setembro ('a dose of accommodation') esta funcionando - as condicoes financeiras apertaram 'much as we would expect', os efeitos foram 'consistent with my expectations', 'That tells me that policy is working', e os sinais de inflation compensation e expectativas 'are going in the right way'. Na Q&A ele ainda tira o crescimento da conta da inflacao: produtividade mais alta, a maioria dos colegas nao ve a economia 'running too hot', e 'that doesn't tell me that economic growth is somehow causing inflation' - o oposto do 'plenty of tailwinds' de Bangkok. O que segura o vies de alta: inflacao ha quase 6 anos acima da meta, 'no soft inflation target', 'no ifs, ands or buts', energia e futuros de petroleo subindo de novo, e a admissao de que 'you haven't achieved price stability, you're right about that'. Dezembro fica aberto mas sem compromisso: 'not about some fixed individual date on a calendar', nenhum forward guidance, 'we might learn a lot' nas proximas seis semanas, e a reuniao foi 'a heck of a family fight'. Anuncia ainda reunioes so de estrategia, sem voto, a partir de 2027.",
+  "key_quotes": [
+    {
+      "quote": "Ensuring price stability, Colby, quashing inflation is not about some fixed individual date on a calendar.",
+      "context": "Primeira resposta, a 'por que nao subir hoje', com a maioria do comite vista a favor de alta em dezembro; ele troca o calendario pela 'new monetary medicine' e pelo periodo 'information rich' a frente.",
+      "dimension": "near_term_bias"
+    },
+    {
+      "quote": "That tells me that policy is working, and I think we can do that and make the economy more durable, have it last longer and still achieve stable prices.",
+      "context": "Resposta a Reuters; vem logo apos 'The dominant means in which this policy is going to be put into practice is we are tightening financial conditions. They've tightened a bit since we met last time.' E o argumento de FCI que sustenta a espera, como em julho.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "But that doesn't tell me that economic growth is somehow causing inflation and making our job harder, but we'll be continuing to look at those issues.",
+      "context": "Depois de atribuir o crescimento mais forte a produtividade e dizer que a maioria dos colegas nao ve a economia 'running too hot'; retira a demanda/IA do diagnostico de inflacao.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "But if the crux of your question is you haven't delivered yet, you haven't achieved price stability, you're right about that.",
+      "context": "Fecho da resposta a Colby Smith, logo apos 'I'm encouraged by the progress we've made in a short period of time'; o lado hawkish que impede ler a manutencao como fim do ciclo.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.0,
+    "mandate_weight": 4.0,
+    "inflation_conviction": 3.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 2.0,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "fed_independence"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "dovish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-28T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.1281,
+    "hawk_hits": 9,
+    "dove_hits": 0,
+    "tokens": 4401
+  }
+}
