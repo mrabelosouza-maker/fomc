@@ -1,0 +1,83 @@
+{
+  "speech_id": "logan-20261030-965574",
+  "member_id": "logan",
+  "title": "Davidson College: Skip Doesn't Change Destination, At Least Two More Hikes",
+  "date": "2026-10-30",
+  "url": "https://www.dallasfed.org/",
+  "source": "dallas",
+  "non_policy": false,
+  "summary": "In her first remarks after voting with the majority to skip a hike this week, Logan gives a short but complete policy section that pins down the destination: the funds rate is 'at least 50 basis points' below the level that would create modest restriction, and 'the FOMC needs to implement at least two more 25-basis-point rate increases' before pausing to reassess. Versus her July speech, which argued for a hike now, she has moved from timing to path: she accepts the skip and argues for gradualism given volatile markets (AI-investment news, geopolitics), but insists that 'skipping a meeting does not change the monetary policy destination'. The case is unchanged and broad-based: core PCE at 3.1 percent with broad price pressures beyond tariffs and energy, nearly six years above target ('This is unacceptable'), an economy at maximum employment with a labor market 'perhaps tightening a bit', strong demand and investment, and financial conditions that are a tailwind. She reads the rise in long-term yields as a signal that policy 'has work to do' (higher expected nominal growth and neutral rates) rather than as a headwind that substitutes for hikes.",
+  "key_quotes": [
+    {
+      "quote": "I currently estimate that the fed funds target range is at least 50 basis points\u2014half a percentage point\u2014below the level that would create some modest restriction and begin to bring the inflation trend back to target.",
+      "context": "Her read of the current stance: not restrictive, well short of where it needs to be.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "And skipping a meeting does not change the monetary policy destination.",
+      "context": "Accepts this week's skip as a pacing choice, not a change of path.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "It remains clear to me, given the current outlook, that the FOMC needs to implement at least two more 25-basis-point rate increases.",
+      "context": "Explicit path: at least two more hikes before pausing to reassess.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "The data show broad price pressures across many goods and services, not just those affected by temporary factors such as tariffs and the energy shock.",
+      "context": "Broadening argument; tariffs and energy treated as temporary, not the reason to act.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 4.0,
+    "mandate_weight": 4.5,
+    "inflation_conviction": 4.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 0.5,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star",
+      "financial_stability"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 3,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-30T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0676,
+    "hawk_hits": 4,
+    "dove_hits": 1,
+    "tokens": 1367
+  }
+}
