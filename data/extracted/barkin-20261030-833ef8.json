@@ -1,0 +1,81 @@
+{
+  "speech_id": "barkin-20261030-833ef8",
+  "member_id": "barkin",
+  "title": "SiriusXM Business Briefing: Direction Straightforward, Question Is Pace",
+  "date": "2026-10-30",
+  "url": "https://www.reuters.com/",
+  "source": "reuters",
+  "non_policy": false,
+  "summary": "In a short radio interview two days after the FOMC held, Barkin says that with inflation high, demand solid and unemployment relatively low, the 'direction of travel' for rates is 'pretty straightforward' (i.e., further hikes) and the only open question is pace, which the Committee has signaled will be gradual because it is 'not much behind the curve'. Versus his 22 September 'Why Hike?' speech, where he left further hikes as 'We'll see', he now treats more tightening as the base case rather than an open question. His case leans on the inflation psychology argument: district businesses report rising cost pressures (diesel, chips, skilled-labor wages) and a willingness to pass them on after four or five years of elevated inflation, and that 'lived experience' feeds future inflation unless the Fed acts. Coverage is a single Reuters piece with few direct quotes; the reporter's context on December pricing, the new statement language and equity markets is not attributed to him.",
+  "key_quotes": [
+    {
+      "quote": "Inflation's high, demand is solid, unemployment is relatively low. So I think the direction of travel is pretty straightforward,",
+      "context": "Answering whether the Fed will need to raise rates again; more hikes framed as the base case.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "The question, though, is pace ... We signaled a gradual approach. Gradual makes sense when you're not much behind the curve, where you want time to learn.",
+      "context": "Pace caveat: gradualism justified only because policy is not far behind; implicit condition for faster moves.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "There are a lot of cost pressures that are hitting American businesses,",
+      "context": "District contacts cite diesel fuel, computer chips and skilled-labor wages, plus willingness to pass costs on.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "That lived experience of inflation does affect future inflation, unless of course the Fed does something about it.",
+      "context": "Inflation-psychology argument after four or five years above target; the case for acting.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.5,
+    "mandate_weight": 4,
+    "inflation_conviction": 4.5,
+    "labor_concern": 0.5,
+    "policy_stance_read": 2.5,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-10-30T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0239,
+    "hawk_hits": 1,
+    "dove_hits": 1,
+    "tokens": 439
+  }
+}
