@@ -1,0 +1,69 @@
+{
+  "speech_id": "daly-20261106-1c5288",
+  "member_id": "daly",
+  "title": "CNBC Interview: Expects to Tighten Further, When and How Much Still Open",
+  "date": "2026-11-06",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-06/fed-s-daly-says-more-rate-increases-likely-needed-to-tame-prices",
+  "source": "bloomberg",
+  "non_policy": false,
+  "summary": "In a CNBC interview (press coverage only, a three-paragraph Bloomberg wire, so the read rests on two quotes), Daly says her expectation is that the Fed will have to tighten policy further to tame inflation, while exactly when and how much is still to be decided as data come in. She supported both the September hike and last week's hold amid uncertainty. Versus the Oct. 14 Reuters interview, where more adjustments were 'more likely than not' but there was no urgency for October, the message is essentially unchanged and slightly firmer in wording ('my expectation'), with the timing and size of the next moves still open; the coverage does not reveal her current read on inflation drivers, the labor market or the policy stance.",
+  "key_quotes": [
+    {
+      "quote": "My expectation is we're going to have to tighten policy further",
+      "context": "More hikes as her base case.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Exactly when and how much is still to be decided because we just have to take all the variables that are coming in.",
+      "context": "Timing and size open; data-dependent.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.0,
+    "mandate_weight": 3.0,
+    "inflation_conviction": 3.0,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": []
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-06T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.2095,
+    "hawk_hits": 3,
+    "dove_hits": 0,
+    "tokens": 205
+  }
+}
