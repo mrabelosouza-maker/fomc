@@ -1,0 +1,82 @@
+{
+  "speech_id": "hammack-20261105-6a140a",
+  "member_id": "hammack",
+  "title": "SNB and Its Watchers (Zurich): Policy Must Move to a Restrictive Stance via More Frequent Smaller Moves",
+  "date": "2026-11-05",
+  "url": "https://www.clevelandfed.org/collections/speeches/2026/sp-20261105-reserve-currencies-and-stablecoins",
+  "source": "cleveland",
+  "non_policy": false,
+  "summary": "In panel remarks on reserve currencies and stablecoins at the SNB and Its Watchers conference, a week after dissenting in favor of a hike, Hammack inserts a short but explicit policy section: inflation has moved in the wrong direction since March, has been above goal for nearly six years and the pressures look relatively broad based, reflecting both supply and demand. She expects that policy will need to move to a restrictive stance to bring inflation back to 2% in a timely manner, and prefers getting there through more frequent smaller adjustments, which would reduce the risk of policy falling behind and an inflationary mindset taking hold. Versus the Oct. 15 Goldman Sachs remarks, where the threat of larger moves was conditional on an inflationary mindset setting in and there was no explicit path, she now states an unconditional tightening path (the current stance is not yet restrictive) and a preferred cadence of frequent small hikes. The rest of the text is structural (dollar status, Fed independence, stablecoins and the GENIUS Act) and does not dilute the policy message; the labor market is mentioned only as part of the mandate.",
+  "key_quotes": [
+    {
+      "quote": "I expect that monetary policy will need to move to a restrictive stance to bring inflation back to 2 percent in a timely manner.",
+      "context": "Explicit tightening path; implies the current stance is not restrictive.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I prefer getting to that stance through more frequent smaller adjustments when possible, something which would be less disruptive to households, businesses, and financial markets.",
+      "context": "Preferred cadence: a sequence of small hikes rather than a pause.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Inflation has now been above our goal for nearly six years, and the pressures I\u2019m seeing appear to be relatively broad based, reflecting both supply and demand.",
+      "context": "Broadening of inflation pressures after headline PCE 3.6% and core 3.1%.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "This strategy would also reduce the risk of having policy fall behind where it needs to be and an inflationary mindset take hold.",
+      "context": "Behind-the-curve and expectations risk as the reason for frequent moves.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 4.0,
+    "mandate_weight": 4.5,
+    "inflation_conviction": 4.5,
+    "labor_concern": null,
+    "policy_stance_read": 1.0,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "fed_independence",
+      "dollar"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-06T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0328,
+    "hawk_hits": 3,
+    "dove_hits": 1,
+    "tokens": 2093
+  }
+}
