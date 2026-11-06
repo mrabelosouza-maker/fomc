@@ -1,0 +1,79 @@
+{
+  "speech_id": "williams-20261106-b20832",
+  "member_id": "williams",
+  "title": "ECB Frankfurt: Appropriate Time to Accumulate More Information",
+  "date": "2026-11-06",
+  "url": "https://www.bloomberg.com/",
+  "source": "bloomberg",
+  "non_policy": false,
+  "summary": "Speaking at an ECB event in Frankfurt (press coverage only, so the read rests on a handful of quotes), Williams endorses the October FOMC statement that this is an appropriate time to accumulate more information before determining the appropriate stance of policy for a timely return to 2%. He calls inflation 'absolutely too high' and says monetary policy has a critical role in keeping the unusual relative price shocks from turning into broader or more persistent inflation, but he balances that with reassurance: inflation expectations remain well anchored, wage growth is consistent with 2%, and other indicators are not signaling concern. Relative to the Oct. 13 Bloomberg interview, where he said one more hike this year may be appropriate, the reported remarks drop any explicit hike signal and frame the next step as wait-and-see, aligning him with the 10-2 hold and with Warsh's non-committal line rather than with the members pushing for further hikes. The economy's strong resilience to the shocks is noted but not used as an argument to act.",
+  "key_quotes": [
+    {
+      "quote": "Our FOMC statement last meeting, I think, captures correctly that this is an appropriate time to accumulate more information to help us determine what the appropriate stance of policy is",
+      "context": "Endorses the October hold and the wait-for-information framing; no explicit hike signal.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "does have a critical role in making sure that these relative price shocks don't translate into broader or more persistent inflation",
+      "context": "Monetary policy should not simply look through the supply shocks.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Inflation expectations remain well anchored. We're seeing wage growth be consistent with our 2% goal.",
+      "context": "Reassurance that second-round effects are not showing up.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "a very unusual set of relative price shocks affecting our economies, at the same time very strong resilience at least our economy through these shocks",
+      "context": "Supply shocks plus resilient activity, framed descriptively.",
+      "dimension": "mandate_weight"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 1.5,
+    "mandate_weight": 2.0,
+    "inflation_conviction": 2.0,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": []
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "dovish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "growth_demand": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 0,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-06T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.2163,
+    "hawk_hits": 3,
+    "dove_hits": 0,
+    "tokens": 433
+  }
+}
