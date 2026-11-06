@@ -1,0 +1,71 @@
+{
+  "speech_id": "musalem-20261106-3bd427",
+  "member_id": "musalem",
+  "title": "Greater St. Louis Inc.: Your Fed, Decentralized by Design",
+  "date": "2026-11-06",
+  "url": "https://www.stlouisfed.org/",
+  "source": "stlouis",
+  "non_policy": true,
+  "summary": "Institutional prepared remarks to the Greater St. Louis Inc. business community on the Fed's decentralized structure: the history of the regional Reserve banks and the FOMC, the role of district outreach and boards of directors in bringing Main Street views to policy and avoiding groupthink, the decentralized design as a cornerstone of monetary-policy independence, and the System's ongoing headcount reduction and consolidation of back-office functions. The text contains no read on the economic outlook, inflation, the labor market or the stance of policy; the only policy-adjacent content is the defense of independence from political influence. Musalem defers his views on the economy and monetary policy to the Q&A, which is not included, so this is classified as non-policy; his policy stance in the base remains the Oct. 30 Shadow Open Market Committee speech calling for further tightening soon.",
+  "key_quotes": [
+    {
+      "quote": "Research over time shows that countries have stronger economies and less inflation when they have central banks that set monetary policy independent of political influence.",
+      "context": "Defense of monetary-policy independence; the only policy-adjacent passage.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Now, I look forward to taking questions about our work and my perspectives on today\u2019s economy and monetary policy.",
+      "context": "Outlook and policy views left to the Q&A, not in the prepared text.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "fed_independence"
+    ]
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-06T00:00:00Z",
+  "rubric_version": "1.0",
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 0,
+      "push": "neutral"
+    }
+  },
+  "tone_score": {
+    "net_tone": 0.0,
+    "hawk_hits": 0,
+    "dove_hits": 0,
+    "tokens": 1880
+  }
+}
