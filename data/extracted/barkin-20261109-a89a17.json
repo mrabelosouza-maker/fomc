@@ -1,0 +1,82 @@
+{
+  "speech_id": "barkin-20261109-a89a17",
+  "member_id": "barkin",
+  "title": "Greater Greer Chamber of Commerce: The Rooms Driving the Economy",
+  "date": "2026-11-09",
+  "url": "https://www.richmondfed.org/",
+  "source": "richmond",
+  "non_policy": false,
+  "summary": "Barkin describes an economy kept remarkably stable by strong corporate earnings (investment and no layoffs), employed lower-income households still spending despite flat real incomes, and wealthy consumers buoyed by asset gains. The result is stubbornly elevated inflation: broad-based cost increases (energy, freight, insurance, tariffs) meet resilient demand, and firms say they are now passing on costs they had absorbed while expecting a short Middle East conflict, facing less price resistance than pre-pandemic. With demand healthy and inflation elevated, the 'direction' of policy is 'relatively straightforward' (further tightening) and the risk sits on the inflation side, but he gives more airtime than in his Nov. 5 CNBC remarks to downside demand risks around AI (under- or over-delivery hitting investment, asset-fueled spending or jobs), concluding it is 'wise to move policy with care'. Versus Nov. 5 the direction is unchanged, but the message is softer in form: no explicit stance read (near neutral) or 'more hikes' wording, and a clearer two-sided risk caveat.",
+  "key_quotes": [
+    {
+      "quote": "Today, with demand healthy and inflation stubbornly elevated, the appropriate direction of monetary policy is relatively straightforward.",
+      "context": "Highlights and conclusion; the direction is further tightening given demand and inflation.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Firms tell us this pressure continues and is leading them to also try to pass on increases that they\u2019ve absorbed to date.",
+      "context": "FOMC meeting room section, on why inflation is stubborn.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Either scenario would move attention to the maximum employment part of our mandate.",
+      "context": "AI under- or over-delivering could end the resilience and shift focus to employment.",
+      "dimension": "labor_concern"
+    },
+    {
+      "quote": "Because of that, it is wise to move policy with care.",
+      "context": "Closing line, after noting risks to the demand outlook are easy to envision.",
+      "dimension": "policy_stance_read"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.0,
+    "mandate_weight": 3.0,
+    "inflation_conviction": 4.0,
+    "labor_concern": 1.0,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "dovish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-09T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0509,
+    "hawk_hits": 1,
+    "dove_hits": 2,
+    "tokens": 1543
+  }
+}

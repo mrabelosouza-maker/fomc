@@ -1,0 +1,71 @@
+{
+  "speech_id": "goolsbee-20261109-fca444",
+  "member_id": "goolsbee",
+  "title": "Chicago Event (Bloomberg): Must Address Inflation Failure, AI Overheating",
+  "date": "2026-11-09",
+  "url": "https://www.bloomberg.com/",
+  "source": "bloomberg",
+  "non_policy": false,
+  "summary": "Press coverage only (a short Bloomberg piece with two direct quotes). Goolsbee says the Fed has to 'come to terms' with a 'cost side and inflation side failure in the mandate', pointing to a run-up in services prices not closely tied to energy or tariffs, i.e. broadening rather than a supply shock to look through. He now calls the AI data-center build-out 'old-fashioned demand overheating' (in September it was a risk over the next six months) and notes central banks typically respond to overheating 'aggressively'; with labor and growth stable, too-high inflation is the chief problem. Versus his Sept. 29 Q&A, where he called oil shocks a 'nightmare' with no obvious response and gave no policy path, the diagnosis has hardened on both fronts (overheating is here, inflation has broadened) and points to further tightening, though he still gives no explicit rate path.",
+  "key_quotes": [
+    {
+      "quote": "We've got to come to terms with this cost side and inflation side failure in the mandate",
+      "context": "Direct quote at a Chicago event, framing inflation as a failure on the price side of the mandate.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "And now this stuff with the AI data center build-out is, to my eye, starting to look more just like old-fashioned demand overheating",
+      "context": "Followed by the indirect remark that central banks typically respond to overheating in an 'aggressive' way.",
+      "dimension": "composite_hawk_dove"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.0,
+    "mandate_weight": 4.0,
+    "inflation_conviction": 4.0,
+    "labor_concern": 0.5,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 1,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 0,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-09T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.383,
+    "hawk_hits": 5,
+    "dove_hits": 0,
+    "tokens": 334
+  }
+}
