@@ -1,0 +1,81 @@
+{
+  "speech_id": "waller-20261110-e06237",
+  "member_id": "waller",
+  "title": "BoE Watchers Conference: December Hike, 50bp If CPI Hot",
+  "date": "2026-11-10",
+  "url": "https://www.federalreserve.gov/newsevents/speeches.htm",
+  "source": "board",
+  "non_policy": false,
+  "summary": "Waller drops the hedging of his New Delhi remarks (October 13), where he sidestepped the path, said higher long yields were 'doing a little bit of the work' and called AI-driven inflation narrow, and goes beyond his Istanbul call for 'additional hikes': he will support a 25 basis point hike in December even if October CPI improves, and says a 50 basis point move should be considered if core CPI comes in around 0.3 percent again, because 'hiking only 25 basis points would put our credibility at risk.' He explains his October hold as a signaling choice (markets had priced the promised tightening, so timing matters less than delivery) and calls September's inflation 'bad' with 'no silver lining,' stressing breadth in core goods and market-based services ex-housing rather than hard-to-measure prices. Energy is no longer something to look through: Fed staff work suggests pass-through to core may be larger and last well into 2027, Hormuz insurance costs and diesel constraints keep prices elevated, and ISM-based indexes point to more high-tech goods inflation from the AI buildout. Activity is strong (Q3 GDP 3.4 percent) and the labor market stable near maximum employment; a long section on 'low hire, low fire' dynamism, long-term and youth unemployment is framed as a longer-run productivity question, not a reason to delay tightening.",
+  "key_quotes": [
+    {
+      "quote": "While I am hoping for an improvement over September, even if this occurs, I would still support a 25 basis point increase in the FOMC's policy rate at our December meeting.",
+      "context": "Hours before October CPI; commits to a December hike regardless of the print.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "Hiking only 25 basis points would put our credibility at risk, a risk I am not eager to take.",
+      "context": "Closing line, after saying a 50bp hike should be considered if core CPI is again around 0.3 percent.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Both these measures are too high, and I am particularly concerned about the breadth of price increases.",
+      "context": "On September headline and core PCE; breadth now in core goods and market-based services ex-housing.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "What is important in the near term is that I see the labor market as stable and employment at a level close to the FOMC's maximum-employment goal.",
+      "context": "Setting aside the longer-run dynamism discussion before turning to inflation as 'the focus of my attention'.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 4.5,
+    "mandate_weight": 4.5,
+    "inflation_conviction": 4.5,
+    "labor_concern": 1,
+    "policy_stance_read": 1,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "urgent"
+    },
+    "theme_flags": [
+      "ai_productivity"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-10T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0085,
+    "hawk_hits": 6,
+    "dove_hits": 5,
+    "tokens": 3455
+  }
+}
