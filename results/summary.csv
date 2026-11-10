@@ -1,7 +1,7 @@
 member_id,name,title,bank,voter_2026,n_speeches,n_policy,n_current,first_date,last_date,composite,latest_composite,baseline_composite,delta,tone_mean,stale,insufficient,override,composite_hawk_dove,mandate_weight,inflation_conviction,labor_concern,policy_stance_read
 kashkari,Neel Kashkari,President,Minneapolis,True,5,5,1,2025-04-09,2026-08-05,4.5,4.5,1.25,3.25,0.0636,False,False,,4.5,4.0,4.0,0.5,0.5
 musalem,Alberto G. Musalem,President,St. Louis,False,13,11,2,2025-02-20,2026-11-06,4.5,4.5,1.85,2.65,-0.0391,False,False,,4.5,4.0,4.722,0.778,0.5
-logan,Lorie K. Logan,President,Dallas,True,12,7,2,2025-09-30,2026-10-30,4.176,4.0,2.917,1.083,-0.0529,False,False,,4.176,4.324,4.5,0.5,0.5
+logan,Lorie K. Logan,President,Dallas,True,13,8,3,2025-09-30,2026-11-10,4.308,4.5,3.071,1.429,-0.0426,False,False,,4.308,4.396,4.704,0.5,0.296
 hammack,Beth M. Hammack,President,Cleveland,True,16,15,5,2025-02-11,2026-11-05,3.818,4.0,2.143,1.857,0.0215,False,False,,3.818,4.354,4.5,0.5,0.91
 schmid,Jeffrey R. Schmid,President,Kansas City,False,12,12,2,2025-06-24,2026-08-04,3.527,4.0,2.909,1.091,0.0066,False,False,,3.527,3.527,4.264,0.736,0.5
 barr,Michael S. Barr,Governor,Board of Governors,True,9,4,2,2025-10-09,2026-09-29,3.5,3.5,1.0,2.5,-0.0571,False,False,,3.5,3.5,4.0,0.5,1.5
