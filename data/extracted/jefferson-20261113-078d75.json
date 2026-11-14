@@ -1,0 +1,84 @@
+{
+  "speech_id": "jefferson-20261113-078d75",
+  "member_id": "jefferson",
+  "title": "UC San Diego Economic Roundtable: Inflation Trajectory the More Important Signal",
+  "date": "2026-11-13",
+  "track": "membro",
+  "doc_type": "fala_publica",
+  "url": "https://www.federalreserve.gov/",
+  "source": "board",
+  "non_policy": false,
+  "summary": "A mostly structural speech on AI and productivity (adoption still early, aggregate productivity contribution limited so far) that closes with a full outlook and policy section. Jefferson says expectations of future AI gains are already lifting aggregate demand (wealth effects, data-center investment), putting upward pressure on resource utilization and the price level, and that if productivity growth rises permanently the neutral rate would likely rise, making any given policy rate more accommodative. On the outlook, growth is at potential, unemployment at 4.1% is consistent with maximum employment and risks to activity are balanced, while inflation remains notably above target, he remains concerned that energy prices lead to a persistent broader rise in inflation, and October data remain consistent with well above-target inflation. He voted to hold in October and now says the trajectory of inflation is 'the more important signal' for the stance, but gives no explicit call for another hike. Versus October 1 at Darden, the stance is essentially unchanged (inflation side of the mandate, data-dependent hold); what is new is a firmer statement that inflation dominates the policy signal and a sharper argument that AI pushes r* up, both modest hawkish nuances rather than a shift.",
+  "key_quotes": [
+    {
+      "quote": "Accordingly, I see the trajectory of inflation as providing the more important signal for determining the appropriate stance of monetary policy.",
+      "context": "Policy section, after noting he voted to hold in October and that activity and labor data have stayed solid while inflation shows persistent pressures.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "I remain concerned about the risk of higher energy prices leading to a persistent rise in inflation more broadly.",
+      "context": "Inflation outlook, after PCE at 3.6% and renewed strain on global energy supplies.",
+      "dimension": "inflation_conviction"
+    },
+    {
+      "quote": "Under these circumstances, to reconcile the increase in investment with reduced savings, the neutral rate would likely rise.",
+      "context": "On AI and r*: if productivity growth rises permanently; he adds that predicting r* is challenging given a noisy relationship.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "I expect the unemployment rate to stay around its current level in the near term\u2014a level I view as consistent with maximum employment.",
+      "context": "Labor-market outlook; conditions have stabilized, layoffs low, risks roughly balanced.",
+      "dimension": "labor_concern"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 2.5,
+    "mandate_weight": 3.0,
+    "inflation_conviction": 3.5,
+    "labor_concern": 1,
+    "policy_stance_read": 1.5,
+    "near_term_bias": {
+      "direction": "hold",
+      "pace": "data-dependent"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "hawkish"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 2,
+      "push": "hawkish"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-13T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": -0.0334,
+    "hawk_hits": 2,
+    "dove_hits": 4,
+    "tokens": 3583
+  }
+}
