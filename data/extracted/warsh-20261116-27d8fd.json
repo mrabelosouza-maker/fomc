@@ -1,0 +1,77 @@
+{
+  "speech_id": "warsh-20261116-27d8fd",
+  "member_id": "warsh",
+  "title": "Productivity and Jobs Task Force Conference (SF Fed): Opening Remarks on Super Intelligence",
+  "date": "2026-11-16",
+  "url": "https://www.federalreserve.gov/",
+  "source": "board",
+  "non_policy": true,
+  "summary": "Opening remarks to the Board/SF Fed Productivity and Jobs Task Force conference, devoted to 'super intelligence' as a general-purpose technology that could supercharge idea generation and lift trend growth (Romer, Bloom-Jones). The only macro read is that productivity growth 'in recent quarters... has been reasonably strong' but 'hasn't yet broken out definitively and structurally to the upside'; he then lays out three illustrative Board-staff scenarios (broadly shared gains near full employment; above-trend growth with labor displacement pushing unemployment above full employment; an SI disappointment with falling equity valuations and a slowdown), stressing they are 'not forecasts'. There is no mention of inflation, the current stance, the December meeting or the rate path, only that SI carries 'important implications for monetary policy down the road', so it is non-policy for reaction-function purposes. Versus the 28/10 press conference (+1.0 on delivery, ~+2.5 on message), nothing in the policy message was revised: the productivity optimism that took growth out of his inflation diagnosis reappears, but here as a structural, not a cyclical, argument.",
+  "key_quotes": [
+    {
+      "quote": "Productivity growth has fluctuated, and in recent quarters, it's been reasonably strong. But it hasn't yet broken out definitively and structurally to the upside.",
+      "context": "The only read on current macro data, inside the endogenous-growth discussion.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "Our responsibility is to recognize that the widespread adoption of this technology will have significant impact on the economy, with important implications for monetary policy down the road.",
+      "context": "The only reference to monetary policy; explicitly long-run, no stance or path signal.",
+      "dimension": "non_policy"
+    },
+    {
+      "quote": "These are illustrative scenarios, not forecasts.",
+      "context": "Framing of the three Board-staff SI scenarios (shared gains, labor displacement, SI disappointment).",
+      "dimension": "non_policy"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": null,
+    "mandate_weight": null,
+    "inflation_conviction": null,
+    "labor_concern": null,
+    "policy_stance_read": null,
+    "near_term_bias": {
+      "direction": "unclear",
+      "pace": "n/a"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "r_star"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "underlying_inflation": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "tariffs": {
+      "intensity": 0,
+      "push": "neutral"
+    },
+    "labor_market": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 1,
+      "push": "neutral"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0232,
+    "hawk_hits": 1,
+    "dove_hits": 0,
+    "tokens": 1859
+  }
+}
