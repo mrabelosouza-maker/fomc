@@ -1,0 +1,82 @@
+{
+  "speech_id": "williams-20261123-f93a06",
+  "member_id": "williams",
+  "title": "University of Mount Saint Vincent: Risk to Price Stability Dialed Up, Must Take Actions Over Time",
+  "date": "2026-11-23",
+  "url": "https://www.newyorkfed.org/",
+  "source": "newyorkfed",
+  "non_policy": false,
+  "summary": "Williams closes the wait-and-see window he endorsed on Nov. 6 in Frankfurt: after quoting the October statement on accumulating more information, he delivers the verdict that the data received since then show the economy has remained strong and inflation has continued to run too high, and concludes that 'we must take actions over time' to return inflation to 2 percent, with 'still work to do'. The balance of risks is stated outright, with the risk to maximum employment dialed down and the risk to price stability dialed up, high inflation 'proving persistent', growth trending up to about 2-3/4 percent and unemployment expected to edge down to about 4 percent. Supply-side risks to inflation are skewed to the upside and AI-related demand is clearly outpacing supply, and policy 'can and must' keep these shocks from broadening or eroding expectations. The hawkish turn is tempered by the same reassurance as in September: tariff effects have largely abated, housing services are decelerating, wages are not adding to inflation, expectations are well anchored, there is little evidence of significant spillover, and he still projects inflation just above 2 percent next year; he also stresses policy lags and not being overly focused on past inflation. Relative to Frankfurt the hike bias is back and in his own voice, and unlike the Oct. 13 interview the plural 'actions over time' no longer caps the cycle at one more move, though no timing is given.",
+  "key_quotes": [
+    {
+      "quote": "We must take actions over time that will ensure that we get inflation back to our 2 percent goal in a timely manner and on a sustained basis.",
+      "context": "Conclusion: his own policy prescription, plural actions, gradual pace, no timing.",
+      "dimension": "composite_hawk_dove"
+    },
+    {
+      "quote": "So, the risk to maximum employment is dialed down, but the risk to achieving price stability is dialed up.",
+      "context": "Balance of risks, stated right after noting that high inflation is proving persistent.",
+      "dimension": "mandate_weight"
+    },
+    {
+      "quote": "The data that we have received since then show that the economy has remained strong and that inflation has continued to run too high.",
+      "context": "Verdict on the information accumulated since the October hold, immediately after quoting the FOMC statement.",
+      "dimension": "policy_stance_read"
+    },
+    {
+      "quote": "Although the effects of tariffs, geopolitical conflicts, and the AI surge are showing up in prices of certain categories of goods, there is little evidence of these spilling over significantly into broader and more persistent inflation.",
+      "context": "The main dovish offset in his inflation assessment; softer wording than the Sept. 29 'have not seen evidence'.",
+      "dimension": "inflation_conviction"
+    }
+  ],
+  "llm_scores": {
+    "composite_hawk_dove": 3.0,
+    "mandate_weight": 3.5,
+    "inflation_conviction": 3.0,
+    "labor_concern": 0.5,
+    "policy_stance_read": 1.0,
+    "near_term_bias": {
+      "direction": "hike",
+      "pace": "gradual"
+    },
+    "theme_flags": [
+      "ai_productivity",
+      "tariffs"
+    ]
+  },
+  "drivers": {
+    "oil_war": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "underlying_inflation": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "tariffs": {
+      "intensity": 1,
+      "push": "dovish"
+    },
+    "labor_market": {
+      "intensity": 2,
+      "push": "neutral"
+    },
+    "growth_demand": {
+      "intensity": 3,
+      "push": "hawkish"
+    },
+    "other": {
+      "intensity": 1,
+      "push": "neutral"
+    }
+  },
+  "extractor_model": "claude-fable-5-2",
+  "extracted_at": "2026-11-23T00:00:00Z",
+  "rubric_version": "1.0",
+  "tone_score": {
+    "net_tone": 0.0904,
+    "hawk_hits": 4,
+    "dove_hits": 1,
+    "tokens": 1956
+  }
+}
